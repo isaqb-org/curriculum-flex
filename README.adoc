@@ -36,7 +36,7 @@ Create an issue, a merge- or pull-request
 --
 [source,shell]
 ----
-git clone git@github.com/username/repository.git --recursive
+git clone https://github.com/isaqb-org/curriculum-flex.git --recursive
 ----
 --
 2. Build it with gradle via `./gradlew buildDocs`.
