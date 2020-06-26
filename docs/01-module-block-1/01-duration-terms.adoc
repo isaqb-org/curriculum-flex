@@ -1,24 +1,43 @@
 // tag::DE[]
 |===
-| Dauer: XXX Min. | Übungszeit: XXX Min.
+| Dauer: 120 Min. | Übungszeit: 0 Min.
 |===
 
 === Begriffe und Konzepte
-* Begriff 1
-* Begriff 2
-* Begriff 3
-
+* Verfügbarkeit
+* Zuverlässigkeit
+* Time-to-Market
+* Flexibilität
+* Vorhersagbarkeit
+* Reproduzierbarkeit
+* Homogenisierung der Stages
+* Internet/Web-Scale
+* verteilte Systeme
+* Parallelisierbarkeit der Feature-Entwicklung
+* Evolution der Architektur (Build for Replacement)
+* Heterogenität
+* Automatisierbarkeit
 // end::DE[]
 
 // tag::EN[]
 |===
-| Duration: XXX min | Practice time: XXX min
+| Duration: 120 min | Practice time: 0 min
 |===
 
 === Terms and Principles
-* Term 1
-* Term 2
-* Term 3
+* Availability
+* Resilience
+* Time-to-Market
+* Flexibility
+* predictability
+* reproducibility
+* homogenization of stages
+* internet/web scale
+* distributed systems
+* parallelizability of feature development
+* evolution of architecture (build for replacement)
+* heterogenity
+* automation capability
 // end::EN[]
 
 
