@@ -4,22 +4,37 @@
 [[LZ-1-1]]
 ==== LZ 1-1: Dies ist das erste Lernziel, in Kategorie xy
 - Was sollen die Teilnehmer können?
-   * Fähigkeit 1
-   * Fähigkeit 2
-   * Fähigkeit 3
-   * etc.
+  * Architekturen können auf unterschiedliche Qualitätsziele hin optimiert werden. In diesem Modul lernen die Teilnehmer, wie sie flexible Architekturen erstellen, die schnelles Deployment und damit schnelles Feedback aus der Anwendung des Systems erlauben.
+  * Sie haben die Treiber für die Architektur-Typen verstanden, die in diesem Lehrplanmodul vermittelt werden, welche Konsequenzen die Treiber für die Architekturen haben und wie die Wechselwirkung der Architekturen mit Organisation, Prozessen und Technologien ist.
+  * Sie haben die Tradeoffs der vorgestellten Architektur-Typen (mindestens Microservices, Self Contained Systems und Deployment Monolithen) verstanden und können diese sowohl vermitteln als auch im Rahmen konkreter Projekte/Systementwicklungen anwenden, um angemessene Architekturentscheidungen zu treffen.
 
 - Was sollen die Teilnehmer verstehen?
-  * Aussage 1
-  * Behauptung 2
-  * Erfahrung 3
-  * Zusammenhang 4
-  * etc.
+  * Auf die Fähigkeit, neue Features schnell in Produktion bringen zu können, hat die Architektur entscheidenden Einfluss.
+  * Abhängigkeiten zwischen Komponenten, die von unterschiedlichen Entwicklungsteams verantwortet werden, beeinflussen die Dauer, bis Software in Produktion gebracht werden kann, weil sie die Kommunikationsaufwände erhöhen und sich Verzögerungen fortpflanzen.
+  * Die Automatisierung von Aktivitäten (wie z. B. Test- und Deployment-Prozesse) erhöht die Reproduzierbarkeit, Vorhersagbarkeit und Ergebnisqualität dieser Prozesse. Das kann zu einer Verbesserung des gesamten Entwicklungsprozesses führen.
+  * Die Vereinheitlichung der verschiedenen Umgebungen (z. B. Entwicklung, Test, QA, Produktion) reduziert das Risiko von spät entdeckten und (in anderen Umgebungen) nicht reproduzierbaren Fehlern aufgrund unterschiedlicher Konfigurationen.
+  * Die Vereinheitlichung und Automatisierung sind wesentliche Aspekte von Continuous Delivery.
+  * Continuous Integration ist eine Voraussetzung für Continuous Delivery.
+  * Eine geeignete Architektur ist die Voraussetzung für eine Parallelisierbarkeit der Entwicklung sowie die unabhängige Inbetriebnahme von eigenständigen Bausteinen. Das können, müssen aber nicht „Services“ sein.
+  * Einige änderungsszenarien lassen sich leichter in monolithischen Architekturen umsetzen. Andere änderungsszenarien lassen sich leichter in verteilten Service-Architekturen umsetzen. Beide Ansätze können kombiniert werden.
+  * Es gibt unterschiedliche Arten der Isolation mit unterschiedlichen Vorteilen. Beispielsweise kann der Ausfall auf eine Komponente begrenzt werden oder änderungen können auf eine Komponente begrenzt werden.
+  * Bestimmte Arten der Isolation sind zwischen Prozessen mit Remotekommunikation deutlich einfacher umzusetzen.
+  * Remotekommunikation hat aber Nachteile – z. B. viele neue Fehlerquellen.
+  // * Aussage 1
+  // * Behauptung 2
+  // * Erfahrung 3
+  // * Zusammenhang 4
+  // * etc.
 - Was sollen die Teilnehmer kennen?
-  * Zusammenhang Nr. 1
-  * Norm Nr. 2
-  * Buch Nr. 3
-  * etc.
+  * Gesetz von Conway
+  * Partitionierbarkeit als Qualitätsmerkmal
+  * Durchlaufzeiten durch die IT-Wertschöpfungskette als Wettbewerbsfaktor
+  * Aufbau einer Continuous-Delivery-Pipeline
+  * Die verschiedenen Test-Phasen in einer Continuous-Delivery-Pipeline// end::DE[]
+  // * Zusammenhang Nr. 1
+  // * Norm Nr. 2
+  // * Buch Nr. 3
+  // * etc.
 
 // end::DE[]
 

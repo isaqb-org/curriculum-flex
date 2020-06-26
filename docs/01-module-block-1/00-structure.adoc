@@ -4,11 +4,11 @@
 
 
 // tag::DE[]
-== Dies ist der Titel des ersten Moduls
+== Motivation
 // end::DE[]
 
 // tag::EN[]
-== This is the First Module's Title
+== Motivation
 // end::EN[]
 
 
