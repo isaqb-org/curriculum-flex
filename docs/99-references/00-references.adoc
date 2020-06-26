@@ -43,6 +43,7 @@ ATTENTION: labels have to be non-numeric.
 
 **H**
 
+<<<<<<< HEAD
 - [[[hargis,Hargis 2004]]] Hargis, Gretchen et al.: Quality Technical Information: A Handbook for Writers and Editors. Prentice Hall, IBM Press, 2004.
 
 **K**
@@ -50,7 +51,12 @@ ATTENTION: labels have to be non-numeric.
 - [[[kruchten,Kruchten 1995]]] Kruchten, P.: Architectural Blueprints – The 4-1 View Model of Architecture. IEEE Software November 1995; 12(6), p. 42-50.
 
 **S**
+=======
+- [[[humblecd,Humble, et al. 2010]]] Jez Humble, David Farley: Continuous Delivery: Reliable Software Releases through Build, Test, and Deployment Automation, Addison-Wesley, 2010, ISBN 978-0-32160-191-9
+- [[[humbleacd,Humble, et al. 2014]]] Jez Humble, Barry O'Reilly, Joanne Molesky: Lean Enterprise: Adopting Continuous Delivery, DevOps, and Lean Startup at Scale, O’Reilly 2014, ISBN 978-1-44936-842-5
+
+>>>>>>> 3f77c1f... Fixed README links and references
 
 **W**
 
-- [[[wolffcd,Wolff 2014]]]Eberhard Wolff: Continuous Delivery: Continuous Delivery: Der pragmatische Einstieg, dpunkt, 2014, ISBN 978-3-86490-208-6
+- [[[wolffcd,Wolff 2014]]] Eberhard Wolff: Continuous Delivery: Continuous Delivery: Der pragmatische Einstieg, dpunkt, 2014, ISBN 978-3-86490-208-6
