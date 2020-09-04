@@ -32,31 +32,35 @@ ATTENTION: labels have to be non-numeric.
 ====
 // end::REMARK[]
 
-**B**
 
-- [[[bachmann,Bachmann et al. 2000]]] Bachmann, F., L. Bass, et al.: Software Architecture Documentation in Practice. Software Engineering Institute, CMU/SEI-2000-SR-004.
-- [[[bass,Bass et al. 2003]]] Bass, L., Clements, P. und Kazman, R. (2003): Software Architecture in Practice. Addison-Wesley, Reading, Mass
+**E**
 
-**C**
-
-- [[[clements,Clements et al. 2003]]] Clements, P., F. Bachmann, L. Bass, D. Garlan, J. Ivers et al.: Documenting Software Architectures – Views and Beyond. Addison Wesley, 2003.
+- [[[evansddd,Eric Evans 2003]]] Eric Evans: Domain-Driven Design: Tackling Complexity in the Heart of Software, Addison- Wesley Professional, 2003
 
 **H**
 
-<<<<<<< HEAD
-- [[[hargis,Hargis 2004]]] Hargis, Gretchen et al.: Quality Technical Information: A Handbook for Writers and Editors. Prentice Hall, IBM Press, 2004.
-
-**K**
-
-- [[[kruchten,Kruchten 1995]]] Kruchten, P.: Architectural Blueprints – The 4-1 View Model of Architecture. IEEE Software November 1995; 12(6), p. 42-50.
-
-**S**
-=======
 - [[[humblecd,Humble, et al. 2010]]] Jez Humble, David Farley: Continuous Delivery: Reliable Software Releases through Build, Test, and Deployment Automation, Addison-Wesley, 2010, ISBN 978-0-32160-191-9
 - [[[humbleacd,Humble, et al. 2014]]] Jez Humble, Barry O'Reilly, Joanne Molesky: Lean Enterprise: Adopting Continuous Delivery, DevOps, and Lean Startup at Scale, O’Reilly 2014, ISBN 978-1-44936-842-5
 
->>>>>>> 3f77c1f... Fixed README links and references
+**L**
+
+- [[[fowler,Lewis, Fowler, et al. 2013]]] James Lewis, Martin Fowler, et al.: Microservices - http://martinfowler.com/articles/microservices.html, 2013
+
+**N**
+
+- [[[newman,Sam Newman 2015]]] Sam Newmann: Building Microservices: Designung Fine-Grained Systems, O'Reilly Media,
+2015
+
+**V**
+
+- [[vossencloud, Vossen, Haselmann, Hoeren 2012]]] Gottfried Vossen, Till Haselmann, Thomas Hoeren: Cloud-Computing für Unternehmen: Technische, wirtschaftliche, rechtliche und organisatorische Aspekte, dpunkt, 2012, ISBN 978-3- 89864-808-0
 
 **W**
 
 - [[[wolffcd,Wolff 2014]]] Eberhard Wolff: Continuous Delivery: Continuous Delivery: Der pragmatische Einstieg, dpunkt, 2014, ISBN 978-3-86490-208-6
+- [[[wolffms,Wolff 2015]]] Eberhard Wolff: Microservices - Grundlagen flexibler Software Architekturen, dpunkt, 2015
+- [[[wolfpaas, Wolff, Müller, Löwenstein 2013]]] Eberhard Wolff, Stephan Müller, Bernhard Löwenstein: PaaS - Die wichtigsten Java Clouds auf einen Blick, entwickler.press, 2013
+
+**1**
+
+- [[[twelvefactor,12 Factor App 2012]]] 12 Factor App, Guidelines for building apps on Heroku http://12factor.net/
