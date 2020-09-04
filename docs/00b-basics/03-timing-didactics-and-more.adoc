@@ -1,13 +1,7 @@
-// tag::REMARK[]
-[NOTE]
-====
-Bitte die **?** durch die Anzahl der Tage sowie die erreichbaren Punkte ersetzen.
-====
-// end::REMARK[]
-:recommended-duration-in-days: **?**
-:methodical-credits: **?**
-:technical-credits: **?**
-:communicative-credits: **?**
+:recommended-duration-in-days: **3**
+:methodical-credits: **10**
+:technical-credits: **20**
+:communicative-credits: **00**
 
 // tag::DE[]
 === Dauer, Didaktik und weitere Details
