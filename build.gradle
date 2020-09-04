@@ -22,7 +22,7 @@ ext {
 
   project.version = project.file("./document.version").text
   curriculumBaseName = "advanced-curriculum"
-  curriculumFileName = "advanced-curriculum"
+  curriculumFileName = "curriculum-template"
   addSuffixToCurriculum = { suffix ->
     for (extension in ["html", "pdf"]) {
       File source = new File("${buildDir}/${curriculumFileName}.${extension}")
