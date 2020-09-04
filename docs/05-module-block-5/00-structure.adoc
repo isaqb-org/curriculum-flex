@@ -3,11 +3,11 @@
 // ====================================================
 
 // tag::DE[]
-== Und so heißt Modul 5
+== Betrieb
 // end::DE[]
 
 // tag::EN[]
-== And This is Module no 5
+== Operations
 // end::EN[]
 
 include::01-duration-terms.adoc[{include_configuration}]

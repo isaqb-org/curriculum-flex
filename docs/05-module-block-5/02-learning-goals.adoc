@@ -6,21 +6,24 @@
 ==== LZ 5-1: Dies ist das erste Lernziel in Kapitel 5, lorem ipsum sit dolor
 
 - Was sollen die Teilnehmer können?
-   * Fähigkeit 1
-   * Fähigkeit 2
-   * Fähigkeit 3
-   * etc.
+   * Die Teilnehmer sollen ein Konzept grob skizzieren und verstehen können, auf dessen Basis ein System überwacht werden kann d. h. den aktuellen Status zu beurteilen, Fehler und Abwei- chungen vom normalen Betrieb möglichst zu vermeiden oder zumindest so früh wie möglich zu erkennen zu behandeln.
+  * Dabei können sie abhängig vom konkreten Projekt-Szenario den Fokus im Konzept auf Log- ging, Monitoring und die dazu notwendigen Daten legen.
+  * Die Teilnehmer sollen Architekturvorgaben so treffen können, dass der Einsatz geeigneter Werkzeuge bestmöglich unterstützt wird, dabei jedoch angemessen mit Systemressourcen umgegangen wird.
 - Was sollen die Teilnehmer verstehen?
-  * Aussage 1
-  * Behauptung 2
-  * Erfahrung 3
-  * Zusammenhang 4
-  * etc.
+  * Logging und Monitoring kann sowohl fachliche als auch technische Daten enthalten.
+  * Die richtige Auswahl von Daten ist zentral für ein zuverlässiges und sinnvolles Monitoring und
+Logging.
+  * Damit Systeme, insbesondere solche, die sich aus vielen einzelnen Teilsystemen zusammen- setzen, betreibbar sind, muss die Unterstützung des Betriebs mit hoher Priorität Bestandteil der Architekturkonzepte sein.
+  * Damit eine möglichst hohe Transparenz erreicht wird, müssen sehr viele Daten erfasst, aber auch zielgruppengerecht voraggregiert und auswertbar gemacht werden.
+  * Die Teilnehmer sollen verstehen, welche Informationen sie aus Log-Daten und welche sie (bes- ser) durch Instrumentierung des Codes mit Metrik-Sonden beziehen können.
+  * Die Teilnehmer sollen verstehen, wie eine typische zentralistische Logdaten-Verwaltung auf- gebaut ist und welche Auswirkungen sie auf die Architektur hat.
+  * Die Teilnehmer sollen verstehen, wie eine typische zentralistische Metriken-Pipeline aufgebaut ist (Erfassen, Sammeln & Samplen, Persistieren, Abfragen, Visualisieren) und welche Auswir- kungen sie auf die Architektur hat (Performance-Overhead, Speicherverbrauch,...).
+  * Die Teilnehmer sollen die unterschiedlichen Möglichkeiten von Logging, Monitoring und einer Operations DB (siehe M. Nygard, Release IT!) verstehen, was man wofür einsetzt und wie man diese Werkzeuge sinnvoll kombiniert.
 - Was sollen die Teilnehmer kennen?
-  * Zusammenhang Nr. 1
-  * Norm Nr. 2
-  * Buch Nr. 3
-  * etc.
+  * Werkzeuge für zentralistische Logdaten-Verwaltung
+  * Werkzeuge für zentralistische Metriken-Verarbeitung
+  * Unterscheidung zwischen Geschäfts-, Anwendungs- und Systemmetriken
+  * Bedeutung wichtiger, werkzeugunabhängiger System- und Anwendungsmetriken
 
 [[LZ-5-2]]
 ==== LZ 5-2: Hier ist ein zweites Lernziel in diesem Kapitel
