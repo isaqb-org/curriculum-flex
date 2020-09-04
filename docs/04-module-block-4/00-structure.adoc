@@ -3,11 +3,11 @@
 // ====================================================
 
 // tag::DE[]
-== Viertes Modul, das ist sein Titel
+== Installation und Roll Out
 // end::DE[]
 
 // tag::EN[]
-== Fourth Module, This is its Title
+== Installation and Roll Out
 // end::EN[]
 
 include::01-duration-terms.adoc[{include_configuration}]

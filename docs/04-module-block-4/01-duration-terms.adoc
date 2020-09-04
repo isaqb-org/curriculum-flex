@@ -1,17 +1,17 @@
 // tag::DE[]
 |===
-| Dauer: XXX Min. | Übungszeit: XXX Min.
+| Dauer: 90 Min. | Übungszeit: 30 Min.
 |===
 
 === Begriffe und Konzepte
-Begriff 1, Begriff 2, Begriff 3
+Moderner Betrieb, DevOps, Infrastructure as Code, Configuration Management.
 
 
 // end::DE[]
 
 // tag::EN[]
 |===
-| Duration: XXX min | Practice time: XXX min
+| Duration: 90 min | Practice time: 30 min
 |===
 
 === Terms and Principles

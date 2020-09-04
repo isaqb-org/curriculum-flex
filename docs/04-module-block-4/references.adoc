@@ -1,7 +1,6 @@
 === {references}
 
-<<kruchten>>
-
+<<vossencloud>>, <<wolfpaas>>, <<humblecd>>, <<wolffcd>>
 
 
 // tag::REMARK[]
