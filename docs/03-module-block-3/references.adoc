@@ -1,5 +1,10 @@
 === {references}
 
+Eric Evans: Domain-Driven Design: Tackling Complexity in the Heart of Software, Addison- Wesley, 2003, ISBN 978-0-32112-521-7
+· http://oauth.net/
+· Gregor Hohpe, Bobby Woolf: Enterprise Integration Patterns: Designing, Building, and De-
+ploying Messaging Solutions, Addison-Wesley, 2003, ISBN 978-0-32120-068-6
+
 <<hargis>>, <<starke>>
 
 
