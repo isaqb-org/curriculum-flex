@@ -21,7 +21,6 @@ ext {
   germanDate = new SimpleDateFormat("d. MMMM yyy", Locale.GERMANY).format(today)
 
   project.version = project.file("./document.version").text
-  curriculumBaseName = "advanced-curriculum"
   curriculumFileName = "curriculum-template"
   addSuffixToCurriculum = { suffix ->
     for (extension in ["html", "pdf"]) {
@@ -35,7 +34,7 @@ ext {
 
 class RenderCurriculumTask extends AsciidoctorTask {
   @Inject
-  RenderCurriculumTask(String curriculumBaseName, String curriculumFileName, String currentDate, String language, boolean withRemarks) {
+  RenderCurriculumTask(String curriculumFileName, String currentDate, String language, boolean withRemarks) {
     sourceDir = new File("./docs/")
     sources {
       include "index.adoc"
@@ -48,18 +47,18 @@ class RenderCurriculumTask extends AsciidoctorTask {
     def fileVersion = project.version.trim() + "-" + language
 
     attributes = [
-      'icons'            : 'font',
-      'revnumber'        : fileVersion,
-      'revdate'          : currentDate,
-      'document-version' : fileVersion + " (" + currentDate + ")",
-      'curriculumBaseName': curriculumBaseName,
-      'currentDate'      : currentDate,
-      'language'         : language,
-      'withRemarks'      : withRemarks,
-      'debug_adoc'       : false,
-      'pdf-stylesdir'    : '../pdf-theme/themes',
-      'pdf-fontsdir'     : '../pdf-theme/fonts',
-      'pdf-style'        : 'isaqb'
+      'icons'             : 'font',
+      'revnumber'         : fileVersion,
+      'revdate'           : currentDate,
+      'document-version'  : fileVersion + " (" + currentDate + ")",
+      'currentDate'       : currentDate,
+      'language'          : language,
+      'withRemarks'       : withRemarks,
+      'curriculumFileName': curriculumFileName,
+      'debug_adoc'        : false,
+      'pdf-stylesdir'     : '../pdf-theme/themes',
+      'pdf-fontsdir'      : '../pdf-theme/fonts',
+      'pdf-style'         : 'isaqb'
     ]
   }
 }
@@ -71,28 +70,28 @@ task buildDocs {
 }
 
 task renderNoRemarksDE(type: RenderCurriculumTask,
-    constructorArgs: [curriculumBaseName, curriculumFileName, germanDate, "DE", false]) {
+    constructorArgs: [curriculumFileName, germanDate, "DE", false]) {
   doLast {
     addSuffixToCurriculum("-de")
   }
 }
 
 task renderWithRemarksDE(type: RenderCurriculumTask,
-     constructorArgs: [curriculumBaseName, curriculumFileName, germanDate, "DE", true]) {
+     constructorArgs: [curriculumFileName, germanDate, "DE", true]) {
   doLast {
     addSuffixToCurriculum("-remarks-de")
   }
 }
 
 task renderNoRemarksEN(type: RenderCurriculumTask,
-    constructorArgs: [curriculumBaseName, curriculumFileName, englishDate, "EN", false]) {
+    constructorArgs: [curriculumFileName, englishDate, "EN", false]) {
   doLast {
     addSuffixToCurriculum("-en")
   }
 }
 
 task renderWithRemarksEN(type: RenderCurriculumTask,
-     constructorArgs: [curriculumBaseName, curriculumFileName, englishDate, "EN", true]) {
+     constructorArgs: [curriculumFileName, englishDate, "EN", true]) {
   doLast {
     addSuffixToCurriculum("-remarks-en")
   }
