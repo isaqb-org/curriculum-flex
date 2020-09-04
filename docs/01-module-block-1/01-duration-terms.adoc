@@ -4,19 +4,7 @@
 |===
 
 === Begriffe und Konzepte
-* Verfügbarkeit
-* Zuverlässigkeit
-* Time-to-Market
-* Flexibilität
-* Vorhersagbarkeit
-* Reproduzierbarkeit
-* Homogenisierung der Stages
-* Internet/Web-Scale
-* verteilte Systeme
-* Parallelisierbarkeit der Feature-Entwicklung
-* Evolution der Architektur (Build for Replacement)
-* Heterogenität
-* Automatisierbarkeit
+Verfügbarkeit, Zuverlässigkeit, Time-to-Market, Flexibilität, Vorhersagbarkeit, Reproduzierbarkeit, Ho- mogenisierung der Stages, Internet/Web-Scale, verteilte Systeme, Parallelisierbarkeit der Feature-Ent- wicklung, Evolution der Architektur (Build for Replacement), Heterogenität, Automatisierbarkeit.
 // end::DE[]
 
 // tag::EN[]
@@ -25,32 +13,5 @@
 |===
 
 === Terms and Principles
-* Availability
-* Resilience
-* Time-to-Market
-* Flexibility
-* predictability
-* reproducibility
-* homogenization of stages
-* internet/web scale
-* distributed systems
-* parallelizability of feature development
-* evolution of architecture (build for replacement)
-* heterogenity
-* automation capability
+Availability, Resilience, Time-to-Market, Flexibility, predictability, reproducibility, homogenization of stages, internet/web scale, distributed systems, parallelizability of feature development, evolution of architecture (build for replacement), heterogenity, automation capability.
 // end::EN[]
-
-
-// tag::REMARK[]
-[NOTE]
-====
-Überschrift in 00-structure.adoc ersetzen
-====
-// end::REMARK[]
-
-// tag::REMARK[]
-[NOTE]
-====
-Sinnvolle Zeiten für Dauer und Übungszeit eintragen, vernünftige Begriffe aufzählen.
-====
-// end::REMARK[]
