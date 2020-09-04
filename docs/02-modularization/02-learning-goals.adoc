@@ -2,28 +2,69 @@
 
 // tag::DE[]
 [[LZ-2-1]]
-==== LZ 2-1: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+==== LZ 2-1: Zerlegung in Bausteine
 
 - Was sollen die Teilnehmer können?
-   * Fähigkeit 1
-   * Fähigkeit 2
-   * Fähigkeit 3
-   * etc.
+  * Teilnehmer können für eine gegebene Aufgabenstellung eine Zerlegung in einzelne Bausteine entwerfen.
+  * Die Teilnehmer sollen die Kommunikationsstruktur der Organisation beim Festlegen der Modulgrenzen berücksichtigen (Gesetz von Conway).
+  * Die Teilnehmer können einen Plan zur Aufteilung eines Deployment-Monolithen in kleine Services aufstellen.
 - Was sollen die Teilnehmer verstehen?
-  * Aussage 1
-  * Behauptung 2
-  * Erfahrung 3
-  * Zusammenhang 4
-  * etc.
+  * Teilnehmer verstehen, dass jede Art von Bausteinen neben einer griffigen Bezeichnung eine Beschreibung benötigt,
+    * was Bausteine dieser Art ausmacht,
+    * wie ein solcher Baustein zur Laufzeit integriert wird,
+    * wie ein solcher Baustein (im Sinne des Build-Systems) gebaut wird,
+    * wie ein solcher Baustein deployt wird,
+    * wie ein solcher Baustein getestet wird,
+    * wie ein solcher Baustein skaliert wird.
+  * Unterschiedliche Grade an Vorgaben für die Entwicklung eines Bausteins können sinnvoll sein. Einige Vorgaben sollten besser übergeordnet allgemein für die Integration mit anderen Bau- steinen dieser Art gelten. Die übergreifenden Entscheidungen, die alle Systeme beeinflussen, können eine Makro-Architektur bilden - dazu zählen beispielsweise die Kommunikationspro- tokolle oder Betriebsstandards. Mikro-Architektur kann die Architektur eines einzelnen Systems sein. Es ist weitgehend unabhängig von anderen Systemen. Zu große Einschränkungen auf Ebene der Makro-Architektur führen dazu, dass die Architektur insgesamt auf weniger Probleme angewendet werden kann.
 - Was sollen die Teilnehmer kennen?
-  * Zusammenhang Nr. 1
-  * Norm Nr. 2
-  * Buch Nr. 3
-  * etc.
+  * Die Teilnehmer sollen das Gesetz von Conway kennen.
+
 
 [[LZ-2-2]]
-==== LZ 2-2: Hier ist ein zweites Lernziel in diesem Kapitel
-tbd.
+==== LZ 2-2: Modularisierungskkonzepte
+
+- Was sollen die Teilnehmer können?
+  * Die Teilnehmer sollen technische Modularisierungskonzepte projektspezifisch bewerten und auswählen können.
+  * Die Teilnehmer sollen die Beziehungen zwischen Modulen sowie zwischen Modulen und Sub-domänen veranschaulichen und analysieren können (Context Mapping).
+  * Die Teilnehmer können ein Konzept erarbeiten, um ein System aus Services aufzubauen.
+- Was sollen die Teilnehmer verstehen?
+  * Modularisierung hilft Ziele wie Parallelisierung der Entwicklung, unabhängiges Deployment/Austauschbarkeit zur Laufzeit, Rebuild/Reuse von Modulen und leichtere Verständlich- keit des Gesamtsystems zu erreichen.
+  * Daher ist beispielsweise Continuous Delivery und die Automatisierung von Test und Deployment ein wichtiger Einfluss auf die Modularisierung.
+  * Modularisierung bezeichnet Dekomposition eines Systems in kleinere Teile. Diese Teile nach der Dekomposition wieder zu integrieren, verursacht organisatorische und technische Auf- wände. Diese Aufwände müssen durch die Vorteile, die durch die Modularisierung erreicht werden, mehr als ausgeglichen werden.
+  * Je nach gewählter Modularisierungstechnologie besteht Kopplung auf unterschiedlichen Ebenen:
+    * Sourcecode (Modularisierung mit Dateien, Klassen, Packages, Namensräumen etc.) o Kompilat (Modularisierung mit JARs, Bibliotheken, DLLs etc.)
+    * Laufzeitumgebung (Betriebssystem, virtuelle Maschine oder Container)
+    * Netzwerkprotokoll (Verteilung auf verschiedene Prozesse)
+  * Eine Kopplung auf Ebene des Sourcecodes erfordert sehr enge Kooperation sowie gemeinsames SCM. Eine Kopplung auf Ebene des Kompilats bedeutet, dass die Bausteine in der Regel gemeinsam deployt werden müssen. Nur eine Verteilung auf unterschiedliche Anwendun- gen/Prozesse ist praktikabel im Hinblick auf ein unabhängiges Deployment.
+  * Teilnehmer verstehen, dass eine vollständige Isolation zwischen Bausteinen nur durch eine Trennung in allen Phasen (Entwicklung, Deployment und Laufzeit) gewährleistet werden kann. Ist das nicht der Fall, können unerwünschte Abhängigkeiten nicht ausgeschlossen wer- den. Gleichzeitig verstehen die Teilnehmer auch, dass es sinnvoll sein kann, aus Gründen wie effizienter Ressourcennutzung oder Komplexitätsreduktion auf eine vollständige Isolation zu verzichten.
+  * Teilnehmer verstehen, dass bei der Verteilung auf unterschiedliche Prozesse manche Abhängigkeiten nicht mehr in der Implementierung existieren, sondern erst zur Laufzeit entstehen. Dadurch steigen die Anforderungen an die Überwachung dieser Schnittstellen.
+  * Microservices sind unabhängige Deployment-Einheiten und damit auch unabhängige Prozesse, die ihre Funktionen über leichtgewichtige Protokolle exponieren, aber auch ein UI ha- ben können. Für die Implementierung jedes einzelnen Microservices können unterschiedliche Technologieentscheidungen getroffen werden.
+  * Ein Self-Contained System (SCS) stellt ein fachlich eigenständiges System dar. Es beinhaltet üblicherweise UI und Persistenz. Es kann aus mehreren Microservices bestehen. Fachlich deckt ein SCS meist einen Bounded Context ab.
+- Was sollen die Teilnehmer kennen?
+  * Die Teilnehmer sollen verschiedene technische Modularisierungsmöglichkeiten kennen: z. B. Dateien, JARs, OSGI Bundles, Prozesse, Microservices, SCS.
+  * Die Teilnehmer sollen verschiedene technische Modularisierungsmöglichkeiten kennen: Sourcecode-Dateien, Bibliotheken, Frameworks, Plugins, Anwendungen, Prozesse, Microservices, Self-Contained Systems.
+  * Die Teilnehmer sollen "The Twelve-Factor App" kennen.
+
+[[LZ-2-3]]
+==== LZ 2-3: Modularisierungsstrategien
+
+- Was sollen die Teilnehmer können?
+  * Die Teilnehmer können die Konsequenzen verschiedener Modularisierungsstrategien bewerten und den mit der Modularisierung verbundenen Aufwand dem zu erwartenden Nutzen gegenüberstellen.
+  * Die Teilnehmer können die Auswirkungen der Modularisierungsstrategie auf die Autonomie von Bausteinen zur Entwicklungszeit und zur Laufzeit beurteilen.
+  * Die Teilnehmer können eine geeignete Modularisierung und eine geeignete Granularität der Modularisierung wählen – abhängig von der Organisation und den Qualitätszielen.
+- Was sollen die Teilnehmer verstehen?
+  * Teilnehmer verstehen, dass eine Integrationsstrategie darüber entscheidet, ob eine Abhängigkeit
+    * erst zur Laufzeit entsteht,
+    * zur Entwicklungszeit entsteht oder
+    * beim Deployment entsteht.
+  * Der Modulschnitt kann entlang fachlicher oder technischer Grenzen erfolgen. In den meisten Fällen empfiehlt sich ein fachlicher Schnitt, da sich so fachliche Anforderungen klarer einem Modul zuordnen lassen und somit nicht mehrere Module für die Umsetzung einer fachlichen Anforderung angepasst werden müssen. Dabei kann jedes Modul sein eigenes Domänenmo- dell im Sinne eines Bounded Context und damit unterschiedliche Sichten auf ein Geschäfts- objekt mit eigenen Daten haben.
+  * Teilnehmer verstehen, dass zur Erreichung von höherer Autonomie der Entwicklungsteams ein Komponentenschnitt besser entlang fachlicher Grenzen anstatt entlang technischer Gren- zen erfolgt.
+  * Transaktionale Konsistenz lässt sich über Prozessgrenzen hinweg nur über zusätzliche Mechanismen erreichen. Wird ein System in mehrere Prozesse aufgeteilt, so stellt die Modulgrenze daher häufig auch die Grenze für transaktionale Konsistenz dar. Daher muss ein DDD-Aggre- gat in einem Modul verwaltet werden.
+  * Teilnehmer verstehen, welche Modularisierungskonzepte nicht nur für Transaktions-, sondern auch für Batch- und Datenfluss-orientierte Systeme genutzt werden können.
+- Was sollen die Teilnehmer kennen?
+  * Die Teilnehmer sollen folgende Begriffe aus dem Domain-Driven Design kennen: Aggregate Root, Context Mapping, Bounded Contexts und Beziehungen dazwischen (z. B. Anti-Corruption Layer).
+
 
 // end::DE[]
 
