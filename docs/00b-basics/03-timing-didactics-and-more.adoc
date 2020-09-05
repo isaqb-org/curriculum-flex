@@ -1,7 +1,7 @@
-:recommended-duration-in-days: **3**
-:methodical-credits: **10**
-:technical-credits: **20**
-:communicative-credits: **00**
+:recommended-duration-in-days: 3
+:methodical-credits: 10
+:technical-credits: 20
+:communicative-credits: 00
 
 // tag::DE[]
 === Dauer, Didaktik und weitere Details
@@ -15,9 +15,9 @@ Lizenzierte Schulungen zu {curriculum-short} tragen zur Zulassung zur abschließ
 
 [stripes=none, frame=none, grid=rows]
 |===
-| Methodische Kompetenz: | {methodical-credits} Punkte
-| Technische Kompetenz: | {technical-credits} Punkte
-| Kommunikative Kompetenz: | {communicative-credits} Punkte
+| Methodische Kompetenz: | **{methodical-credits}** Punkte
+| Technische Kompetenz: | **{technical-credits}** Punkte
+| Kommunikative Kompetenz: | **{communicative-credits}** Punkte
 |===
 
 // end::DE[]
@@ -34,9 +34,9 @@ Licensed training courses for the {curriculum-short} module contribute the follo
 
 [stripes=none, frame=none, grid=rows]
 |===
-| Methodical Competence: | {methodical-credits} Points
-| Technical Competence: | {technical-credits} Points
-| Communicative Competence: | {communicative-credits} Points
+| Methodical Competence: | **{methodical-credits}** Points
+| Technical Competence: | **{technical-credits}** Points
+| Communicative Competence: | **{communicative-credits}** Points
 |===
 
 // end::EN[]
