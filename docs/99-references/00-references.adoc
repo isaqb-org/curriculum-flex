@@ -33,23 +33,35 @@ ATTENTION: labels have to be non-numeric.
 // end::REMARK[]
 
 
+**B**
+
+- [[[brewer,Brewer 2000]]] Eric Brewer, Towards Robust Distributed Systems, PODC Keynote, July-19-2000
+
 **E**
 
 - [[[evansddd,Eric Evans 2003]]] Eric Evans: Domain-Driven Design: Tackling Complexity in the Heart of Software, Addison- Wesley Professional, 2003
 
 **H**
 
+- [[[hamilton,Hamilton 2007]]] James Hamilton, On Designing and Deploying Internet-Scale Services, 21st LISA Conference 2007
+- [[[hanmer,Hanmer 2007]]] Robert S. Hanmer, Patterns for Fault Tolerant Software, Wiley, 2007
 - [[[humblecd,Humble, et al. 2010]]] Jez Humble, David Farley: Continuous Delivery: Reliable Software Releases through Build, Test, and Deployment Automation, Addison-Wesley, 2010, ISBN 978-0-32160-191-9
 - [[[humbleacd,Humble, et al. 2014]]] Jez Humble, Barry O'Reilly, Joanne Molesky: Lean Enterprise: Adopting Continuous Delivery, DevOps, and Lean Startup at Scale, O’Reilly 2014, ISBN 978-1-44936-842-5
 
 **L**
 
 - [[[fowler,Lewis, Fowler, et al. 2013]]] James Lewis, Martin Fowler, et al.: Microservices - http://martinfowler.com/articles/microservices.html, 2013
+- [[[lamport,Lamport 1998]]] Leslie Lamport, The Part-Time Parliament, ACM Transactions on Computer Systems 16, 2 (May 1998), 133-169
 
 **N**
 
-- [[[newman,Sam Newman 2015]]] Sam Newmann: Building Microservices: Designung Fine-Grained Systems, O'Reilly Media,
-2015
+- [[[newman,Sam Newman 2015]]] Sam Newmann: Building Microservices: Designung Fine-Grained Systems, O'Reilly Media, 2015
+- [[[nygard,Nygard 2007]]] Michael T. Nygard, Release It!, Pragmatic Bookshelf, 2007
+
+**T**
+
+- [[[takada,Takada 2013]]] Mikito Takada, Distributed Systems for Fun and Profit, http://book.mixu.net/distsys/ (Guter Einstieg und Überblick)
+- [[[tanenbaum,Tanenbaum, van Steen 2006]]] Andrew Tanenbaum, Marten van Steen, Distributed Systems – Principles and Paradigms, Pren- tice Hall, 2nd Edition, 2006
 
 **V**
 

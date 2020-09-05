@@ -1,0 +1,47 @@
+=== {learning-goals}
+
+// tag::DE[]
+[[LZ-7-1]]
+==== LZ 7-1: Konsistenzmodelle
+
+- Was sollen die Teilnehmer können?
+  * Die Teilnehmer sollen verschiedene Konsistenzmodelle kennen. Die Tradeoffs der verschiedenen Konsistenzmodelle sollten sie grundlegend kennen.
+  * Abhängig von den Anforderungen und Rahmenbedingungen sollen sie entscheiden können, ob traditionelle Stabilitätsansätze hinreichend sind oder ob Resilient Software Design erforderlich ist.
+- Was sollen die Teilnehmer verstehen?
+  * Konsistenzmodelle
+    * Die Notwendigkeit für ACID Transaktionen ist wesentlich geringer, als häufig angenommen wird.
+    * Unterschiedliche Skalierungs-, Verteilungs- und Verfügbarkeitsanforderungen erfordern unterschiedliche Konsistenzmodelle.
+    * Das CAP-Theorem beschreibt ein Spektrum, in dem man abhängig von den gegebenen Anforderungen sehr feingranular ein geeignetes Konsistenzmodell wählen kann.
+    * BASE-Transaktionen garantieren Konsistenz, sie sind nur nicht unbedingt atomar und isoliert wie ACID-Transaktionen, weshalb vorrübergehend Inkonsistenzen sichtbar werden können.
+  * Resilience
+    * Traditionelle Stabilitätsansätze (Fehlervermeidungsstrategien) auf Infrastrukturebene sind für heutige verteilte, hochvernetzte Systemlandschaften in der Regel nicht mehr hinreichend.
+    * Es gibt keine Silver Bullet für Resilient Software Design, d. h. die relevanten Maßnah- men und eingesetzten Muster und Prinzipien hängen von den Anforderungen, den Rahmenbedingungen und den beteiligten Personen ab.
+- Was sollen die Teilnehmer kennen?
+  * Eigenschaften von und Unterschiede zwischen ACID- und BASE-Transaktionen
+  * Einige Produktbeispiele aus unterschiedlichen Kategorien (z. B. NoSQL, Konfigurati- onswerkzeuge, Service Discovery)
+  * CAP zur Beschreibung und Erklärung von Konsistenzmodellen
+
+[[LZ-7-2]]
+==== LZ 7-2: Resilience Patterns
+
+- Was sollen die Teilnehmer können?
+  * Abhängig von den Anforderungen und Rahmenbedingungen sollen sie entscheiden können, ob traditionelle Stabilitätsansätze hinreichend sind oder ob Resilient Software Design erforderlich ist.
+- Was sollen die Teilnehmer verstehen?
+  * Traditionelle Stabilitätsansätze (Fehlervermeidungsstrategien) auf Infrastrukturebene sind für heutige verteilte, hochvernetzte Systemlandschaften in der Regel nicht mehr hinreichend.
+  * Es gibt keine Silver Bullet für Resilient Software Design, d. h. die relevanten Maßnah- men und eingesetzten Muster und Prinzipien hängen von den Anforderungen, den Rahmenbedingungen und den beteiligten Personen ab.
+- Was sollen die Teilnehmer kennen?
+  * Die Formel für Verfügbarkeit und die unterschiedlichen Ansätze, die Verfügbarkeit zu maximieren (Maximierung von MTTF, Minimierung von MTTR)
+  * Isolation und Latenzüberwachung als sinnvolle Einstiegsprinzipien von Resilient Soft- ware Design
+  * Grundlegende Resilience-Muster wie Bulkhead, Circuit Breaker, Redundanz, Failover
+
+// end::DE[]
+
+// tag::EN[]
+[[LG-7-1]]
+==== LG 7-1: Consistency Models
+tbd.
+
+[[LG-7-2]]
+==== LG 7-2: Resilience Patterns
+tbd.
+// end::EN[]

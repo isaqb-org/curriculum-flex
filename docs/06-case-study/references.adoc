@@ -1,0 +1,12 @@
+=== {references}
+
+// tag::DE[]
+Keine. Schulungsanbieter sind für die Auswahl und Beschreibung von Beispielen verantwortlich.
+
+// end::DE[]
+
+// tag::EN[]
+
+None. Training providers are responsible for selecting and creating examples and exercises.
+
+// end::EN[]

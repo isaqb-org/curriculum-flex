@@ -1,0 +1,25 @@
+// tag::DE[]
+|===
+| Dauer: 120 Min. | Übungszeit: 0 Min.
+|===
+
+Der Ausblick stellt fortgeschrittene Themen dar, in die sich Teilnehmer vertiefen können. So erreichen sie ein tieferes Verständnis für die Herausforderungen bei der Umsetzung flexibler Systeme. Außerdem lernen sie weitere Einflussfaktoren auf die Auswahl von Technologien kennen.
+
+=== Begriffe und Konzepte
+
+- Konsistenzmodelle: ACID, BASE, Partitionierung, CAP
+- Resilience: Resilient Software Design, Stabilität, Verfügbarkeit, Graceful Degradation, Circuit Breaker, Bulkhead
+
+// end::DE[]
+
+// tag::EN[]
+|===
+| Duration: 120 min | Practice time: 0 min
+|===
+
+=== Terms and Principles
+
+- Consistency models: ACID, BASE, Partitioning, CAP
+- Resilience: Resilient Software Design, Stability, Availability, Graceful Degradation, Circuit Breaker, Bulkhead
+
+// end::EN[]
