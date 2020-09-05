@@ -32,7 +32,6 @@ ATTENTION: labels have to be non-numeric.
 ====
 // end::REMARK[]
 
-
 **B**
 
 - [[[brewer,Brewer 2000]]] Eric Brewer, Towards Robust Distributed Systems, PODC Keynote, July-19-2000
@@ -45,6 +44,7 @@ ATTENTION: labels have to be non-numeric.
 
 - [[[hamilton,Hamilton 2007]]] James Hamilton, On Designing and Deploying Internet-Scale Services, 21st LISA Conference 2007
 - [[[hanmer,Hanmer 2007]]] Robert S. Hanmer, Patterns for Fault Tolerant Software, Wiley, 2007
+- [[[hohpe,Hohpe, Woolf 2003]]] Gregor Hohpe, Bobby Woolf: Enterprise Integration Patterns: Designing, Building, and Deploying Messaging Solutions, Addison-Wesley, 2003, ISBN 978-0-32120-068-6
 - [[[humblecd,Humble, et al. 2010]]] Jez Humble, David Farley: Continuous Delivery: Reliable Software Releases through Build, Test, and Deployment Automation, Addison-Wesley, 2010, ISBN 978-0-32160-191-9
 - [[[humbleacd,Humble, et al. 2014]]] Jez Humble, Barry O'Reilly, Joanne Molesky: Lean Enterprise: Adopting Continuous Delivery, DevOps, and Lean Startup at Scale, O’Reilly 2014, ISBN 978-1-44936-842-5
 
@@ -57,6 +57,10 @@ ATTENTION: labels have to be non-numeric.
 
 - [[[newman,Sam Newman 2015]]] Sam Newmann: Building Microservices: Designung Fine-Grained Systems, O'Reilly Media, 2015
 - [[[nygard,Nygard 2007]]] Michael T. Nygard, Release It!, Pragmatic Bookshelf, 2007
+
+**O**
+
+- [[[oauth,Parecki et al. 2006]]] Aaron Parecki et al., Explaining OAuth 2.0 http://oauth.net/
 
 **T**
 
