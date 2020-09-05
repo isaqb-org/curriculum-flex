@@ -4,14 +4,15 @@
 [cols="<,>", options="header"]
 |===
 | Inhalt | Empfohlene Mindestdauer (min)
-| 1. Thema mit Einleitung | 180
-| 2. Thema über xz | 150
-| 3. Thema mit viel Theorie | 120
-| 4. Thema mit xy und Beispiel | 180
-| 5. Thema mit abc und d | 210
-| 6. Thema mit Abschlussbeispiel | 120
+| 1. Motivation | 120
+| 2. Modularisierung | 150
+| 3. Integration | 120
+| 4. Installation und Roll Out | 120
+| 5. Betrieb, Überwachung und Fehleranalyse | 120
+| 6. Case Study | 150
+| 7. Ausblick | 120
 | |
-| Summe | 960 (16h)
+| Summe | 900 (15h)
 
 |===
 
@@ -28,14 +29,15 @@ image:01-basics/zeitaufteilung.png[pdfwidth=75%, role="text-center"]
 |===
 | Content
 | Recommended minimum duration (minutes)
-| 1. Introduction | 180
-| 2. xz | 150
-| 3. Lots of theory | 120
-| 4. xy and example | 180
-| 5. abc und d | 210
-| 6. Final example | 120
+| 1. Motivation | 120
+| 2. Modularisation | 150
+| 3. Integration | 120
+| 4. Installation and Roll Out | 120
+| 5. Operations, Monitoring, and Failure Analysis | 120
+| 6. Case Study | 150
+| 7. Outlook | 120
 | |
-| Total | 960 (16h)
+| Total | 900 (15h)
 
 |===
 
