@@ -53,7 +53,7 @@ include::02-modularization/00-structure.adoc[{include_configuration}]
 include::03-integration/00-structure.adoc[{include_configuration}]
 
 <<<
-include::04-integration/00-structure.adoc[{include_configuration}]
+include::04-rollout/00-structure.adoc[{include_configuration}]
 
 <<<
 include::05-operations/00-structure.adoc[{include_configuration}]

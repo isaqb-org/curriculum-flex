@@ -69,7 +69,7 @@ ATTENTION: labels have to be non-numeric.
 
 **V**
 
-- [[vossencloud, Vossen, Haselmann, Hoeren 2012]]] Gottfried Vossen, Till Haselmann, Thomas Hoeren: Cloud-Computing für Unternehmen: Technische, wirtschaftliche, rechtliche und organisatorische Aspekte, dpunkt, 2012, ISBN 978-3- 89864-808-0
+- [[[vossencloud,Vossen, Haselmann, Hoeren 2012]]] Gottfried Vossen, Till Haselmann, Thomas Hoeren: Cloud-Computing für Unternehmen: Technische, wirtschaftliche, rechtliche und organisatorische Aspekte, dpunkt, 2012, ISBN 978-3- 89864-808-0
 
 **W**
 
