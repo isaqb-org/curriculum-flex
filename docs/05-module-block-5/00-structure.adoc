@@ -3,11 +3,11 @@
 // ====================================================
 
 // tag::DE[]
-== Betrieb
+== Betrieb, Überwachung und Fehleranalyse
 // end::DE[]
 
 // tag::EN[]
-== Operations
+== Operations, Monitoring, and Failure Analysis
 // end::EN[]
 
 include::01-duration-terms.adoc[{include_configuration}]
