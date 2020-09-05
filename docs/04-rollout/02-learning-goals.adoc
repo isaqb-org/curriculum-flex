@@ -2,13 +2,14 @@
 
 // tag::DE[]
 [[LZ-4-1]]
-==== LZ 4-1: Dies ist das erste Lernziel in Kapitel 4, das mit xyz
+==== LZ 4-1: Aspekte bei Rollout und Continuous Delivery
 
-- Was sollen die Teilnehmer können?
+.Was sollen die Teilnehmer können?
   * Die Teilnehmer sollen ein Konzept grob skizzieren und verstehen können, wie ein System möglichst einfach automatisiert deployt wird. Sie müssen zwischen den verschiedenen technologischen Ansätzen abwägen können.
   * Die Teilnehmer sollen Deployment-Automatisierung konzeptionieren und bewerten können. Beispielsweise müssen sie die Qualität und das Testen dieser Ansätze bewerten können. Sie müssen einen geeigneten Ansatz für ein Projekt-Szenario auswählen können.
   * Die Teilnehmer sollen auf Basis des DevOps-Organisationsmodells einen Team-Aufbau skizzieren können.
-- Was sollen die Teilnehmer verstehen?
+
+.Was sollen die Teilnehmer verstehen?
   * Basis für die Automatisierung eines Deployments sind Virtualisierung oder Cloud mit Infra- structure as a Service (IaaS). Eine leichtgewichtige Alternative sind Linux-Container, wie sie Docker umsetzt.
   * Ohne eine Deployment-Automatisierung ist das Deployment einer großen Anzahl von Servern und Services praktisch nicht möglich.
   * Moderne Deployment-Werkzeuge ermöglichen es, auf Rechnern Software automatisiert zu installieren. Neben der Anwendung selbst kann dabei auch die vollständige Infrastruktur au- tomatisiert aufgebaut werden. Dabei sind die Installationen idempotent, d. h. sie führen un- abhängig vom Ausgangszustand des Systems immer zum gleichen Ergebnis.
@@ -19,19 +20,14 @@
   * Die Umgebungen eines Entwicklers sollten idealerweise mit den Umgebungen in Produktion übereinstimmen. Mit modernen Werkzeugen ist es möglich, eine solche Umgebung auf Knopfdruck zu erzeugen und aktuell zu halten.
   * Die Komplexität des Deployments wird zu einem weiteren Qualitätsmerkmal des Systems und beeinflusst Architektur-Werkzeuge.
   * Durch DevOps wird der Aufbau der Teams anders. Es müssen neben Entwicklung auch Betrieb stärker betrachtet werden. Neben dem Provisioning hat das auch Auswirkungen auf Conti- nuous Delivery (siehe Kapitel „Continuous Delivery“).
-- Was sollen die Teilnehmer kennen?
+
+.Was sollen die Teilnehmer kennen?
   * Grundlegende Konzept von moderner Infrastruktur wie IaaS, PaaS und Virtualisierung
   * Konzepte von Deployment-Werkzeuge wie Chef, Puppet, Ansible oder Salt
   * Organisationsformen für DevOps
   * Konzept von Deployments mit Package-Managern oder Linux Containern
   * Verschiedene PaaS-Plattformen und ihre Konzepte
 
-[[LZ-4-2]]
-==== LZ 4-2: Hier ist ein zweites Lernziel in diesem Kapitel
-
-- Was sollen die Teilnehmer können?
-- Was sollen die Teilnehmer verstehen?
-- Was sollen die Teilnehmer kennen?
 
 
 // end::DE[]

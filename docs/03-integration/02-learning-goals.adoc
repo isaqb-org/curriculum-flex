@@ -11,13 +11,14 @@
 [[LZ-3-1]]
 ==== LZ 3-1: Dies ist das erste Lernziel in Kapitel 3, das mit xyz
 
-- Was sollen die Teilnehmer können?
+.Was sollen die Teilnehmer können?
   * Die Teilnehmer sollen eine Integrationsstrategie wählen, die auf das jeweilige Problem am besten passt. Das kann beispielsweise eine Frontend-Integration, eine Integration über RPC- Mechanismen, mit Message-orientierter Middleware, mit REST oder über die Replikation von Daten sein.
   * Die Teilnehmer sollen einen geeigneten Ansatz für das Umsetzen von Sicherheit (Autorisie- rung/Authentifizierung) in einem verteilten System konzeptionieren können.
   * Anhand dieser Ansätze sollen die Teilnehmer eine Makroarchitektur entwerfen können, die zumindest Kommunikation und Sicherheit abdeckt.
   * Für die Integration von Legacy-Systemen muss definiert werden, wie mit alten Datenmodellen umgegangen wird. Dazu kann der Ansatz des Strategic Designs mit wesentlichen Patterns wie beispielsweise Anti-Corruption Layer genutzt werden.
   * Die Teilnehmer können abhängig von den Qualitätszielen und dem Wissen des Teams eine geeignete Integration vorschlagen.
-- Was sollen die Teilnehmer verstehen?
+
+.Was sollen die Teilnehmer verstehen?
   * Die Teilnehmer sollen die Vor- und Nachteile verschiedener Integrationsmechanismen kennen. Dazu zählen Frontend-Integration mit Mash Ups, Integration auf dem Middle Tier und Integration über Datenbanken oder Datenbank-Replikation.
   * Die Teilnehmer sollen die Konsequenzen und Einschränkungen verstehen, die sich aus der Integration von Systemen über verschiedenen Technologien und Integrationsmuster z. B. in Bezug auf Sicherheit, Antwortzeit oder Latenz ergeben.
   * Die Teilnehmer sollen ein grundlegendes Verständnis für die Umsetzung von Integrationen mit Hilfe von Strategic Design aus dem Domain Driven Design und wesentliche Pattern kennen.
@@ -26,7 +27,8 @@
   * Eine Integration über Daten ermöglicht hohe Autonomie, die allerdings über die Notwendig- keit zur redundanten Datenhaltung und die damit notwendige Synchronisation erkauft wird. Es darf nicht angenommen werden, dass andere Systeme dieselben Schemata nutzen, weil das eine unabhängige Weiterentwicklung der Schemata verhindert. Daher muss für die Integration eine angemessene Transformation vorgesehen werden.
   * Bei einer Event-Driven Architecture (EDA) wird RPC vermieden oder reduziert, indem Domain Events publiziert werden. Domain Events beschreiben Zustandsänderungen. Interessierte Sys- teme können diese Nachrichten verarbeiten (Publish/Subscribe). Dieses Vorgehen hat Auswir- kungen darauf, wie der Zustand gespeichert wird. Während bei einer RPC-basierten Integration der Server die Daten speichern muss, liegt diese Verantwortung bei EDA beim Subscriber. Somit entstehen Replikate (dezentrale Datenhaltung). Die Subscriber fungieren dadurch als Cache für den Publisher. Es können weitere Subscriber hinzugefügt werden, ohne den Publi- sher zu beeinflussen (außer durch Polling). Monitoring der Event-Flüsse ist wichtig.
   * Domain Events können via Messaging publiziert werden. Dabei pusht der Publisher die Nach- richten in ein Messaging System. Alternativ können die Nachrichten auch beim Publisher ge- pollt werden (bspw. Atom/RSS). Beim Einsatz eines Messaging Systems können Subscriber die Nachrichten per Push oder Pull erhalten. Dies hat Auswirkungen auf den Umgang mit Back- pressure.
-- Was sollen die Teilnehmer kennen?
+
+.Was sollen die Teilnehmer kennen?
   * Typische verteilte Sicherheitsmechanismen wie OAuth oder Kerberos
   * Ansätze für die Front-End-Integration
   * Techniken für die Integration von Services: REST, RPC, Message-orientierte Middleware

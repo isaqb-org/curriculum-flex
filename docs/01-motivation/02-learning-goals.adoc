@@ -17,7 +17,7 @@ Sie haben die Tradeoffs der vorgestellten Architektur-Typen (mindestens Microser
 [[LZ-1-4]]
 ==== LZ 1-4: Verständnis für Rahmenbedingungen von verteilten Systemen
 
-Teilnehmer sollen Rahmenbedingungen von verteilten Systemen verstehen
+.Teilnehmer sollen Rahmenbedingungen von verteilten Systemen verstehen, wie folgende:
   * Auf die Fähigkeit, neue Features schnell in Produktion bringen zu können, hat die Architektur entscheidenden Einfluss.
   * Abhängigkeiten zwischen Komponenten, die von unterschiedlichen Entwicklungsteams verantwortet werden, beeinflussen die Dauer, bis Software in Produktion gebracht werden kann, weil sie die Kommunikationsaufwände erhöhen und sich Verzögerungen fortpflanzen.
   * Die Automatisierung von Aktivitäten (wie z. B. Test- und Deployment-Prozesse) erhöht die Reproduzierbarkeit, Vorhersagbarkeit und Ergebnisqualität dieser Prozesse. Das kann zu einer Verbesserung des gesamten Entwicklungsprozesses führen.
@@ -30,11 +30,6 @@ Teilnehmer sollen Rahmenbedingungen von verteilten Systemen verstehen
   * Bestimmte Arten der Isolation sind zwischen Prozessen mit Remotekommunikation deutlich einfacher umzusetzen.
   * Remotekommunikation hat aber Nachteile – z. B. viele neue Fehlerquellen.
 
-  // * Aussage 1
-  // * Behauptung 2
-  // * Erfahrung 3
-  // * Zusammenhang 4
-  // * etc.
 
 ==== LZ 1-5: Themen und Buzzwords einordnen
   * Gesetz von Conway
