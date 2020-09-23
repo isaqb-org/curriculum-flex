@@ -36,7 +36,8 @@
 * Daher ist beispielsweise Continuous Delivery und die Automatisierung von Test und Deployment ein wichtiger Einfluss auf die Modularisierung.
 * Modularisierung bezeichnet Dekomposition eines Systems in kleinere Teile. Diese Teile nach der Dekomposition wieder zu integrieren, verursacht organisatorische und technische Auf- wände. Diese Aufwände müssen durch die Vorteile, die durch die Modularisierung erreicht werden, mehr als ausgeglichen werden.
 * Je nach gewählter Modularisierungstechnologie besteht Kopplung auf unterschiedlichen Ebenen:
-** Sourcecode (Modularisierung mit Dateien, Klassen, Packages, Namensräumen etc.) o Kompilat (Modularisierung mit JARs, Bibliotheken, DLLs etc.)
+** Sourcecode (Modularisierung mit Dateien, Klassen, Packages, Namensräumen etc.)
+** Kompilat (Modularisierung mit JARs, Bibliotheken, DLLs etc.)
 ** Laufzeitumgebung (Betriebssystem, virtuelle Maschine oder Container)
 ** Netzwerkprotokoll (Verteilung auf verschiedene Prozesse)
 * Eine Kopplung auf Ebene des Sourcecodes erfordert sehr enge Kooperation sowie gemeinsames SCM. Eine Kopplung auf Ebene des Kompilats bedeutet, dass die Bausteine in der Regel gemeinsam deployt werden müssen. Nur eine Verteilung auf unterschiedliche Anwendun- gen/Prozesse ist praktikabel im Hinblick auf ein unabhängiges Deployment.
@@ -46,7 +47,7 @@
 * Ein Self-Contained System (SCS) stellt ein fachlich eigenständiges System dar. Es beinhaltet üblicherweise UI und Persistenz. Es kann aus mehreren Microservices bestehen. Fachlich deckt ein SCS meist einen Bounded Context ab.
 
 .Was sollen die Teilnehmer kennen?
-* Die Teilnehmer sollen verschiedene technische Modularisierungsmöglichkeiten kennen: z. B. Dateien, JARs, OSGI Bundles, Prozesse, Microservices, SCS.
+* Die Teilnehmer sollen verschiedene technische Modularisierungsmöglichkeiten kennen: z. B. Dateien, JARs, OSGi Bundles, Prozesse, Microservices, SCS.
 * Die Teilnehmer sollen verschiedene technische Modularisierungsmöglichkeiten kennen: Sourcecode-Dateien, Bibliotheken, Frameworks, Plugins, Anwendungen, Prozesse, Microservices, Self-Contained Systems.
 * Die Teilnehmer sollen "The Twelve-Factor App" kennen.
 
@@ -64,7 +65,7 @@
 ** zur Entwicklungszeit entsteht oder
 ** beim Deployment entsteht.
 * Der Modulschnitt kann entlang fachlicher oder technischer Grenzen erfolgen. In den meisten Fällen empfiehlt sich ein fachlicher Schnitt, da sich so fachliche Anforderungen klarer einem Modul zuordnen lassen und somit nicht mehrere Module für die Umsetzung einer fachlichen Anforderung angepasst werden müssen. Dabei kann jedes Modul sein eigenes Domänenmo- dell im Sinne eines Bounded Context und damit unterschiedliche Sichten auf ein Geschäfts- objekt mit eigenen Daten haben.
-* Teilnehmer verstehen, dass zur Erreichung von höherer Autonomie der Entwicklungsteams ein Komponentenschnitt besser entlang fachlicher Grenzen anstatt entlang technischer Gren- zen erfolgt.
+* Teilnehmer verstehen, dass zur Erreichung von höherer Autonomie der Entwicklungsteams ein Komponentenschnitt besser entlang fachlicher Grenzen anstatt entlang technischer Grenzen erfolgt.
 * Transaktionale Konsistenz lässt sich über Prozessgrenzen hinweg nur über zusätzliche Mechanismen erreichen. Wird ein System in mehrere Prozesse aufgeteilt, so stellt die Modulgrenze daher häufig auch die Grenze für transaktionale Konsistenz dar. Daher muss ein DDD-Aggre- gat in einem Modul verwaltet werden.
 * Teilnehmer verstehen, welche Modularisierungskonzepte nicht nur für Transaktions-, sondern auch für Batch- und Datenfluss-orientierte Systeme genutzt werden können.
 
