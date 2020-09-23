@@ -56,7 +56,7 @@ ATTENTION: labels have to be non-numeric.
 **N**
 
 - [[[newman,Sam Newman 2015]]] Sam Newmann: Building Microservices: Designung Fine-Grained Systems, O'Reilly Media, 2015
-- [[[nygard,Nygard 2007]]] Michael T. Nygard, Release It!, Pragmatic Bookshelf, 2007
+- [[[nygard,Nygard 2018]]] Michael T. Nygard, Release It!, 2. Auflage, Pragmatic Bookshelf, 2018
 
 **O**
 
