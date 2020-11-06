@@ -25,7 +25,7 @@ Sie haben die Tradeoffs der vorgestellten Architektur-Typen (mindestens Microser
   * Die Vereinheitlichung und Automatisierung sind wesentliche Aspekte von Continuous Delivery.
   * Continuous Integration ist eine Voraussetzung für Continuous Delivery.
   * Eine geeignete Architektur ist die Voraussetzung für eine Parallelisierbarkeit der Entwicklung sowie die unabhängige Inbetriebnahme von eigenständigen Bausteinen. Das können, müssen aber nicht „Services“ sein.
-  * Einige änderungsszenarien lassen sich leichter in monolithischen Architekturen umsetzen. Andere änderungsszenarien lassen sich leichter in verteilten Service-Architekturen umsetzen. Beide Ansätze können kombiniert werden.
+  * Einige Änderungsszenarien lassen sich leichter in monolithischen Architekturen umsetzen. Andere Änderungsszenarien lassen sich leichter in verteilten Service-Architekturen umsetzen. Beide Ansätze können kombiniert werden.
   * Es gibt unterschiedliche Arten der Isolation mit unterschiedlichen Vorteilen. Beispielsweise kann der Ausfall auf eine Komponente begrenzt werden oder änderungen können auf eine Komponente begrenzt werden.
   * Bestimmte Arten der Isolation sind zwischen Prozessen mit Remotekommunikation deutlich einfacher umzusetzen.
   * Remotekommunikation hat aber Nachteile – z. B. viele neue Fehlerquellen.
