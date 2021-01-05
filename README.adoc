@@ -1,4 +1,4 @@
-= Template for https://isaqb.org[iSAQB] Advanced Level Curricula
+= iSAQB Advanced Level curriculum for *FLEX: Flexible Architectures*
 
 :toc:
 :toc-placement!:
