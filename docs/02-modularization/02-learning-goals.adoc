@@ -24,7 +24,7 @@
 
 
 [[LZ-2-2]]
-==== LZ 2-2: Modularisierungskkonzepte
+==== LZ 2-2: Modularisierungskonzepte
 
 .Was sollen die Teilnehmer können?
 * Die Teilnehmer sollen technische Modularisierungskonzepte projektspezifisch bewerten und auswählen können.
