@@ -30,7 +30,7 @@ Sie haben die Tradeoffs der vorgestellten Architektur-Typen (mindestens Microser
   * Bestimmte Arten der Isolation sind zwischen Prozessen mit Remotekommunikation deutlich einfacher umzusetzen.
   * Remotekommunikation hat aber Nachteile – z. B. viele neue Fehlerquellen.
 
-
+[[LZ-1-5]]
 ==== LZ 1-5: Themen und Buzzwords einordnen
   * Gesetz von Conway
   * Partitionierbarkeit als Qualitätsmerkmal
