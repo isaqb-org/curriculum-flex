@@ -51,6 +51,9 @@ git clone https://github.com/isaqb-org/curriculum-flex.git --recursive
 ** the output formats called `backends` (pdf and/or html5);
 ** the document version.
 
+== Additional translations/languages
+include::docs-ext/EXTERNAL_DOCUMENTS_README.adoc[]
+
 [[copyrighted]]
 == Licensing and Copyright
 
