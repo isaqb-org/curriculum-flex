@@ -17,7 +17,7 @@
 ** wie ein solcher Baustein deployt wird,
 ** wie ein solcher Baustein getestet wird,
 ** wie ein solcher Baustein skaliert wird.
-* Unterschiedliche Grade an Vorgaben für die Entwicklung eines Bausteins können sinnvoll sein. Einige Vorgaben sollten besser übergeordnet allgemein für die Integration mit anderen Bau- steinen dieser Art gelten. Die übergreifenden Entscheidungen, die alle Systeme beeinflussen, können eine Makro-Architektur bilden - dazu zählen beispielsweise die Kommunikationspro- tokolle oder Betriebsstandards. Mikro-Architektur kann die Architektur eines einzelnen Systems sein. Es ist weitgehend unabhängig von anderen Systemen. Zu große Einschränkungen auf Ebene der Makro-Architektur führen dazu, dass die Architektur insgesamt auf weniger Probleme angewendet werden kann.
+* Unterschiedliche Grade an Vorgaben für die Entwicklung eines Bausteins können sinnvoll sein. Einige Vorgaben sollten besser übergeordnet allgemein für die Integration mit anderen Bausteinen dieser Art gelten. Die übergreifenden Entscheidungen, die alle Systeme beeinflussen, können eine Makro-Architektur bilden - dazu zählen beispielsweise die Kommunikationspro- tokolle oder Betriebsstandards. Mikro-Architektur kann die Architektur eines einzelnen Systems sein. Es ist weitgehend unabhängig von anderen Systemen. Zu große Einschränkungen auf Ebene der Makro-Architektur führen dazu, dass die Architektur insgesamt auf weniger Probleme angewendet werden kann.
 
 .Was sollen die Teilnehmer kennen?
 * Die Teilnehmer sollen das Gesetz von Conway kennen.
@@ -94,16 +94,16 @@
 ** how such a building block is deployed
 ** how such a building block is tested
 ** how such a building block is scaled
-* Different levels of specifications can be useful for the development
-  of a module. Some specifications should better be superior valid for
+* Different levels of standards can be useful for the development
+  of a module. Some standards should better be generally valid for
   the integration with other building blocks of this type, in
-  general. The overarching decisions that affect all sys-tems can form
+  general. The standards that affect all systems can form
   a macro architecture, including, for example, communications
-  proto-cols or operating standards. Micro architecture can be the
+  protocols or standards for operation. Micro architecture can be the
   architecture of a single system. It is largely independent of other
-  systems. Excessive limitations at the macro architecture level will
+  systems. Excessive standards at the macro architecture level will
   lead to an overall architecture that can be applied to fewer
-  problems
+  problems.
 
 .What should participants know?
 * The participants should know Conway’s law.
