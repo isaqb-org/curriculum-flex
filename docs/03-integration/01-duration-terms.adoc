@@ -10,10 +10,10 @@ Frontend Integration, Legacy Systeme, Authentifizierung, Autorisierung, (lose) K
 
 // tag::EN[]
 |===
-| Duration: 120 min | Practice time: 30 min
+| Duration: 90 min | Practice time: 30 min
 |===
 
 === Terms and Principles
-Term 1, Term 2, Term 3
+Frontend integration, legacy systems, authentication, authorisation, (loose) coupling, scala-bility, messaging patterns, domain events, decentralised data management.
 
 // end::EN[]

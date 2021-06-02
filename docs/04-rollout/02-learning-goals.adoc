@@ -34,13 +34,61 @@
 
 // tag::EN[]
 [[LG-4-1]]
-==== LG 4-1: TBD
-tbd.
+==== LG 4-1: Aspectrs for Rollout and Continuous Delivery
+.What shall participants be capable of?
+- The participants should be able to roughly sketch a concept and
+  understand how to automatically deploy a system as simple as
+  possible. They should be able to weigh between the different
+  technological approaches.
+- Participants should be able to design and evaluate deployment
+  automation. For ex-ample, they have to be able to assess the quality
+  and testing of these approaches. They have to be able to select an
+  appropriate approach for a project scenario.
+- The participants should be able to sketch a team structure based on
+  the DevOps or-ganisation model.
 
-[[LG-4-2]]
-==== LG 4-2: TBD
-tbd.
-// end::EN[]
+.What should participants understand?
+- The foundation for automating deployment is virtualisation or the
+  cloud with Infra-structure as a Service (IaaS). A lightweight
+  alternative are Linux containers as imple-mented by Docker.
+- Deployment of a large number of servers and services is virtually
+  impossible without a deployment automation.
+- Modern deployment tools allow to automatically install software on
+  computers. In addition to the application itself, the complete
+  infrastructure can also be created au-tomatically. In this case
+  installations are idempotent, which means that they always lead to
+  the same result regardless of the initial state of the system.
+- Immutable servers are never changed. If a new version of the
+  software has to be taken into operation, the server is rebuilt from
+  scratch. This can be simpler and more reliable than to rely on
+  idempotent tools.
+- PaaS (Platform as a Service) provides a complete platform where
+  applications can be deployed in. Since in this case the
+  infrastructure is not built up by oneself, the approach is simpler,
+  but also less flexible.
+- Concepts such as tests or code reviews are also indispensable for
+  deployment auto-mation. Infrastructure becomes code that must meet
+  the same requirements as pro-ductive code (Infrastructure as Code).
+- To support the deployment, the result of a build process can be
+  packages for an op-erating system or even images for virtual
+  machines.
+- The environments of a developer should ideally match the production
+  environments. With modern tools, it is possible to create and
+  maintain such an environment at the push of a button.
+- The complexity of the deployment becomes a further quality feature
+  of the system and affects architecture tools.
+- DevOps leads to a different team structure. Beside development, also
+  more attention has to be paid to operations. In addition to
+  provisioning, this also affects continuous delivery (see chapter
+  "Continuous Delivery").
+
+.What should participants know?
+- Basic concept of modern infrastructure such as IaaS, PaaS and
+  virtualisation
+- Concepts of deployment tools like Chef, Puppet, Ansible or Salt
+- Organisation forms for DevOps
+- Concepts of deployments with package managers or Linux containers
+- Various PaaS platforms and their concepts
 
 // tag::REMARK[]
 [NOTE]

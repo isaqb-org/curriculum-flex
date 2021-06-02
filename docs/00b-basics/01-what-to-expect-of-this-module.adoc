@@ -11,8 +11,14 @@ Am Ende des Moduls kennen die Teilnehmerinnen und Teilnehmer Grundlagen von Micr
 // tag::EN[]
 === What does the module “{curriculum-short}” convey?
 
-The module presents {curriculum-short} to the participants …
-At the end of the module, the participants know … and are able to …
+The module shows {curriculum-short} the participants how modern
+architecture approaches can be used to build very flexible systems.
+
+At the end of the module, the participants know the foundations of
+microservices and self-contained systems. They are able to to design
+systems based on these architecture concepts. They can come up with a
+sensible split of the business logic as well as concepts for
+continuous delivery and operations of these systems.
 // end::EN[]
 
 // tag::REMARK[]

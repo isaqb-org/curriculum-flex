@@ -77,12 +77,146 @@
 
 // tag::EN[]
 [[LG-2-1]]
-==== LG 2-1: TBD
-tbd.
+==== LG 2-1: Decomposition into Block
+.What shall participants be capable of?
+* Participants can design a decomposition into individual blocks for a
+  given problem.
+* The participants should consider the organisation's communication
+  structure when setting the module boundaries (Conway's law).
+* The participants can draw up a plan to divide a deployment monolith
+  into small ser-vices.
+	  
+.What should participants understand?
+* Participants understand that each type of building blocks requires a handy label, as well as a description,
+** what makes up this kind of building block
+** how such a building block is integrated at runtime
+** how such a building block is built (in the sense of the build system) 
+** how such a building block is deployed
+** how such a building block is tested
+** how such a building block is scaled
+* Different levels of specifications can be useful for the development
+  of a module. Some specifications should better be superior valid for
+  the integration with other building blocks of this type, in
+  general. The overarching decisions that affect all sys-tems can form
+  a macro architecture, including, for example, communications
+  proto-cols or operating standards. Micro architecture can be the
+  architecture of a single system. It is largely independent of other
+  systems. Excessive limitations at the macro architecture level will
+  lead to an overall architecture that can be applied to fewer
+  problems
+
+.What should participants know?
+* The participants should know Conway’s law.
 
 [[LG-2-2]]
-==== LG 2-2: TBD
-tbd.
+==== LG 2-2: Concepts for Modularization
+.What shall participants be capable of?
+- The participants should be able to evaluate and select technical
+  modularisation con-cepts in a project-specific manner.
+- The participants should be able to illustrate and analyse the
+  relationships between modules as well as between modules and
+  subdomains (context mapping).
+- Participants can develop a concept to build a system of services.
+
+.What should participants understand?
+- Modularisation helps to achieve goals such as parallelisation of
+  development, inde-pendent deployment / interchangeability at
+  runtime, rebuild / reuse of modules and easier understanding of the
+  overall system.
+- Therefore, techniques like continuous delivery and the automation of
+  test and de-ployment are important influences on the modularisation.
+- Modularisation means the decomposition of a system into smaller
+  parts. Re-integrating these parts after the decomposition causes
+  organisational and technical efforts. These efforts have to be
+  exceeded by the advantages achieved by the modularisation.
+- Depending on the chosen modularisation technology, there is coupling
+  on different levels:
+** Sourcecode (modularisation with files, classes, packages, namespaces etc.)
+** Built target (modularisation with JARs, libraries, DLLs, etc.)
+** Runtime environment (operating system, virtual machine or container)
+** Network protocol (distribution to different processes)
+- A coupling at the source code level requires very close cooperation
+  as well as com-mon SCM. A coupling at the level of the built target
+  means that the building blocks must usually be deployed
+  together. Only a distribution to different applications / pro-cesses
+  is feasible with regard to independent deployment.
+- Participants understand that a complete isolation between building
+  blocks can only be ensured by a separation in all phases
+  (development, deployment and runtime). If this is not the case,
+  undesirable dependencies cannot be excluded. At the same time, the
+  participants also understand that it can be useful to forego
+  complete isolation for reasons such as efficient resource usage or
+  complexity reduction.
+- Participants understand that, when distributing to different
+  processes, some de-pendencies no longer exist in the implementation,
+  but rather arise at runtime. This increases the requirements for
+  monitoring these interfaces.
+- Microservices are independent deployment units and therefore
+  independent pro-cesses that expose their functions through
+  lightweight protocols, but may also have a UI. Different technology
+  decisions can be made for the implementation of each in-dividual
+  microservice.
+- A Self-Contained System (SCS) is a functionally independent
+  system. It usually in-cludes UI and persistence. It may consist of
+  several Microservices. Usually a SCS co-vers a functional bounded
+  context.
+
+.What should participants know?
+- The participants should know various technical modularisation
+  options: e. g., files, JARs, OSGi bundles, processes, microservices,
+  SCS.
+- The participants should know various technical modularisation
+  options: e. g., source code files, libraries, frameworks, plugins,
+  applications, processes, microservices, SCS.
+- The participants should know "The Twelve-Factor App".
+
+
+
+[[LG-2-3]]
+==== LG 2-3: Strategies for Modularization
+.What shall participants be capable of?
+- Participants can evaluate the consequences of different
+  modularisation strategies and compare the efforts of the
+  modularisation with the expected benefits.
+- Participants can assess the impact of the modularisation strategy on
+  the autonomy of building blocks at development time and at run time.
+- The participants can choose a suitable modularisation as well as a
+  suitable granularity of the modularisation - depending on the
+  organisation and the quality goals.
+
+.What should participants understand?
+- Participants understand that an integration strategy decides whether
+  a dependency
+** emerges at runtime
+** emerges during development time, or
+** emerges at the deployment.
+- The module division can be done along functional or technical
+  boundaries. In most cases, a functional division is recommended,
+  because in this case functional requirements can be assigned more
+  clearly to a concrete module and therefore it is not necessary to
+  adapt several modules for the implementation of a single functional
+  requirement. Thereby, each module can have its own domain model in
+  the sense of a bounded context and thus different views on a
+  business object with its own data.
+- Participants understand that in order to achieve higher autonomy of
+  the development teams, it is better to divide a component along
+  functional boundaries rather than along technical boundaries.
+- Transactional consistency through process boundaries can only be
+  achieved via additional mechanisms. So, if a system is divided into
+  several processes, the module boundary often also represents the
+  limit for transactional consistency. Therefore, a DDD aggregate must
+  be managed in one module.
+- Participants understand which modularisation concepts can be used
+  not only for transactional but also for batch- and
+  data-flow-oriented systems.
+
+.What should participants know?
+- The participants should know the following terms from the
+  domain-driven design: Aggregate Root, Context Mapping, Bounded
+  Contexts and relationships between them (e. g., Anti-Corruption
+  Layer).
+
+
 // end::EN[]
 
 // tag::REMARK[]

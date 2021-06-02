@@ -44,12 +44,66 @@
 
 // tag::EN[]
 [[LG-5-1]]
-==== LG 5-1: TBD
-tbd.
+==== LG 5-1: Analyzing Error in Distributed Systems
+.What shall participants be capable of?
+  * The participants should be able to roughly sketch and understand a
+    concept that al-lows to monitor a system, that means assess the
+    status, avoid errors and deviations from the regular operation as
+    far as possible or at least detect and handle them as early as
+    possible.
+
+.What should participants understand?
+  * The appropriate selection of data is essential for reliable and
+    meaningful monitoring and logging.
+  * In order to achieve systems that are ready to operate, in
+    particular those composed of many individual subsystems, the
+    support of operations has to be an integral part of the
+    architecture concepts.
+  * In order to achieve the highest possible transparency, a great
+    deal of data has to be collected, but also be pre-aggregated and
+    made evaluable.
+  * The participants should understand which information can be
+    obtained from log da-ta and which may (better) be obtained by
+    instrumentation of the code with metric probes.
 
 [[LG-5-2]]
-==== LG 5-2: TBD
-tbd.
+==== LG 5-2: Difference between Metrics, Logs, and Traces
+.What should participants understand?
+  *	Logging and monitoring can include both functional as well as
+    technical data.
+  * Logs are events, metrics represent the state of a system at a
+    specific point in time
+  
+.What should participants know?
+  * Tools for centralised log data management
+  * Tools for centralised metrics processing
+  * Difference between business, application and system metrics
+  * The meaning of important, system-independent application and system metrics
+
+[[LG-5-3]] 
+==== LG 5-3: Different Operation Models
+.What shall participants be capable of?
+  * Deciding to use a centralized or decentralized operations model
+  depending on the context - like organization and skill sets.
+  * Depending on the project scenario, participants can focus on
+    concepts for logging, monitoring, and the needed data.
+  * Participants can define an architecture in way that the usage of
+    suitable tools is supported as good as possible but reasonable
+    system resources are used.
+
+.What should participants understand?
+  * The participants should understand how a typical centralised log
+	data administration is built and what impact it has on the
+	architecture.
+  * The participants should understand how a typical centralised
+	metrics pipeline is built (capture, collect & sample, persist,
+	query, visualise) and the impact it has on the ar-chitecture
+	(performance overhead, memory consumption, ...).
+  * The participants should understand the various options of logging,
+    monitoring and an Operations DB (see M. Nygard, Release IT!),
+    which to use wherefore and how to meaningfully combine these
+    tools.
+
 // end::EN[]
 
 // tag::REMARK[]

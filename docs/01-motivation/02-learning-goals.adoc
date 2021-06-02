@@ -42,8 +42,71 @@ Sie haben die Tradeoffs der vorgestellten Architektur-Typen (mindestens Microser
 
 // tag::EN[]
 [[LG-1-1]]
-==== LG 1-1: The is the first learning goal, in category xy
-tbd.
+==== LG 1-1: Quality Goal for Flexible Architectures
+Architectures can be optimised for different quality goals. In this
+module, partici-pants learn how to create flexible architectures that
+allow rapid deployment and thus rapid feedback from the application of
+the system.
+
+[[LG-1-2]]
+==== LG 1-2: Interplay Between Architecture Types and Organization
+They have understood the drivers for the architecture types taught in
+this curriculum module, the implications of these drivers for the
+architectures, and the interaction of the architectures with the
+organisation, processes, and technologies.
+
+[[LG-1-3]]
+==== LG 1-3: Community and Apply Trade-Offs between Architecture Types
+They have understood the trade-offs of the architecture types
+presented (at least Mi-croservices, Self-Contained Systems and
+Deployment Monoliths) and are able to communicate them as well as
+apply them in the context of concrete projects / sys-tem developments
+in order to make appropriate architectural decisions.
+
+[[LG-1-4]]
+==== LG 1-4: Understanding Fundamentals of Distributed Systems
+.Attendess should understand the fundamentals of distributed systems:
+* The architecture has crucial influence on the ability to quickly
+  bring new features in-to production.
+* Dependencies between components of different development teams
+  influence the duration until software can be put into production
+  because they increase the com-munication costs and delays are
+  propagated.
+* Automation of activities (such as test and deployment processes)
+  increases the re-producibility, predictability, and quality of
+  results of these processes. This can lead to an improvement of the
+  overall development process.
+* Unification of the different environments (e. g., development, test,
+  QA, production) reduces the risk of lately detected and (in other
+  environments) non-reproducible er-rors due to different
+  configurations.
+* Unification and automation are essential aspects of continuous
+  delivery.
+* Continuous integration is a prerequisite for continuous delivery.
+* A suitable architecture is the prerequisite for the parallelisation
+  of the development as well as the independent commissioning of
+  independent modules. This can, but do not have to be "services".
+* Some change scenarios are easier to implement in monolithic
+  architectures. Other change scenarios are easier to implement in
+  distributed service architectures. Both approaches can be combined.
+* There are different types of isolation with different advantages. A
+  failure, for exam-ple, can be limited to a single component or
+  changes can be limited to a single com-ponent.
+* Certain types of isolation are much easier to implement between
+  processes with re-mote communication.
+* Remote communication, however, has disadvantages - for example many
+  new sources of errors.
+
+
+[[LG-1-5]]
+==== LG 1-5: Understanding Buzzwords 
+* Conway’s law
+* Partitionability as a quality feature
+* Round trip times with the IT supply chain as a competitive factor
+* Building a continuous delivery pipeline
+* The different test phases of a continuous delivery pipeline
+
+
 // end::EN[]
 
 // tag::REMARK[]
