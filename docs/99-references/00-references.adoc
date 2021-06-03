@@ -56,7 +56,7 @@ ATTENTION: labels have to be non-numeric.
 **N**
 
 - [[[newman,Sam Newman 2015]]] Sam Newmann: Building Microservices: Designung Fine-Grained Systems, O'Reilly Media, 2015
-- [[[nygard,Nygard 2018]]] Michael T. Nygard, Release It!, 2. Auflage, Pragmatic Bookshelf, 2018
+- [[[nygard,Nygard 2018]]] Michael T. Nygard, Release It!, 2nd Edition, Pragmatic Bookshelf, 2018
 
 **O**
 
@@ -73,8 +73,10 @@ ATTENTION: labels have to be non-numeric.
 
 **W**
 
-- [[[wolffcd,Wolff 2016]]] Eberhard Wolff: Continuous Delivery: Continuous Delivery: Der pragmatische Einstieg, 2. Auflage, dpunkt, 2016, ISBN 978-3-86490-371-7
+- [[[wolffcd,Wolff 2016]]] Eberhard Wolff: Continuous Delivery: Der pragmatische Einstieg, 2. Auflage, dpunkt, 2016, ISBN 978-3-86490-371-7
+- [[[wolffcden,Wolff 2016]]] Eberhard Wolff: A Practical Guide to Continuous Delivery, Addison Wesley, 2018, ISBN 978-013469-147-3
 - [[[wolffms,Wolff 2015]]] Eberhard Wolff: Microservices - Grundlagen flexibler Software Architekturen, 2. Auflage, dpunkt, 2018, ISBN 978-3-86490-555-1
+- [[[wolffmsen,Wolff 2016]]] Eberhard Wolff: Microservices - Flexible Software Architecture, Addison Wesley, 2018, ISBN 978-013460-241-7
 - [[[wolfpaas, Wolff, Müller, Löwenstein 2013]]] Eberhard Wolff, Stephan Müller, Bernhard Löwenstein: PaaS - Die wichtigsten Java Clouds auf einen Blick, entwickler.press, 2013
 
 **1**
