@@ -17,7 +17,7 @@
 ** wie ein solcher Baustein deployt wird,
 ** wie ein solcher Baustein getestet wird,
 ** wie ein solcher Baustein skaliert wird.
-* Unterschiedliche Grade an Vorgaben für die Entwicklung eines Bausteins können sinnvoll sein. Einige Vorgaben sollten besser übergeordnet allgemein für die Integration mit anderen Bausteinen dieser Art gelten. Die übergreifenden Entscheidungen, die alle Systeme beeinflussen, können eine Makro-Architektur bilden - dazu zählen beispielsweise die Kommunikationspro- tokolle oder Betriebsstandards. Mikro-Architektur kann die Architektur eines einzelnen Systems sein. Es ist weitgehend unabhängig von anderen Systemen. Zu große Einschränkungen auf Ebene der Makro-Architektur führen dazu, dass die Architektur insgesamt auf weniger Probleme angewendet werden kann.
+* Unterschiedliche Grade an Vorgaben für die Entwicklung eines Bausteins können sinnvoll sein. Einige Vorgaben sollten besser übergeordnet allgemein für die Integration mit anderen Bausteinen dieser Art gelten. Die übergreifenden Entscheidungen, die alle Systeme beeinflussen, können eine Makro-Architektur bilden - dazu zählen beispielsweise die Kommunikationsprotokolle oder Betriebsstandards. Mikro-Architektur kann die Architektur eines einzelnen Systems sein. Es ist weitgehend unabhängig von anderen Systemen. Zu große Einschränkungen auf Ebene der Makro-Architektur führen dazu, dass die Architektur insgesamt auf weniger Probleme angewendet werden kann.
 
 .Was sollen die Teilnehmer kennen?
 * Die Teilnehmer sollen das Gesetz von Conway kennen.
@@ -28,22 +28,22 @@
 
 .Was sollen die Teilnehmer können?
 * Die Teilnehmer sollen technische Modularisierungskonzepte projektspezifisch bewerten und auswählen können.
-* Die Teilnehmer sollen die Beziehungen zwischen Modulen sowie zwischen Modulen und Sub-domänen veranschaulichen und analysieren können (Context Mapping).
+* Die Teilnehmer sollen die Beziehungen zwischen Modulen sowie zwischen Modulen und Subdomänen veranschaulichen und analysieren können (Context Mapping).
 * Die Teilnehmer können ein Konzept erarbeiten, um ein System aus Services aufzubauen.
 
 .Was sollen die Teilnehmer verstehen?
-* Modularisierung hilft Ziele wie Parallelisierung der Entwicklung, unabhängiges Deployment/Austauschbarkeit zur Laufzeit, Rebuild/Reuse von Modulen und leichtere Verständlich- keit des Gesamtsystems zu erreichen.
+* Modularisierung hilft Ziele wie Parallelisierung der Entwicklung, unabhängiges Deployment/Austauschbarkeit zur Laufzeit, Rebuild/Reuse von Modulen und leichtere Verständlichkeit des Gesamtsystems zu erreichen.
 * Daher ist beispielsweise Continuous Delivery und die Automatisierung von Test und Deployment ein wichtiger Einfluss auf die Modularisierung.
-* Modularisierung bezeichnet Dekomposition eines Systems in kleinere Teile. Diese Teile nach der Dekomposition wieder zu integrieren, verursacht organisatorische und technische Auf- wände. Diese Aufwände müssen durch die Vorteile, die durch die Modularisierung erreicht werden, mehr als ausgeglichen werden.
+* Modularisierung bezeichnet Dekomposition eines Systems in kleinere Teile. Diese Teile nach der Dekomposition wieder zu integrieren, verursacht organisatorische und technische Aufwände. Diese Aufwände müssen durch die Vorteile, die durch die Modularisierung erreicht werden, mehr als ausgeglichen werden.
 * Je nach gewählter Modularisierungstechnologie besteht Kopplung auf unterschiedlichen Ebenen:
 ** Sourcecode (Modularisierung mit Dateien, Klassen, Packages, Namensräumen etc.)
 ** Kompilat (Modularisierung mit JARs, Bibliotheken, DLLs etc.)
 ** Laufzeitumgebung (Betriebssystem, virtuelle Maschine oder Container)
 ** Netzwerkprotokoll (Verteilung auf verschiedene Prozesse)
-* Eine Kopplung auf Ebene des Sourcecodes erfordert sehr enge Kooperation sowie gemeinsames SCM. Eine Kopplung auf Ebene des Kompilats bedeutet, dass die Bausteine in der Regel gemeinsam deployt werden müssen. Nur eine Verteilung auf unterschiedliche Anwendun- gen/Prozesse ist praktikabel im Hinblick auf ein unabhängiges Deployment.
-* Teilnehmer verstehen, dass eine vollständige Isolation zwischen Bausteinen nur durch eine Trennung in allen Phasen (Entwicklung, Deployment und Laufzeit) gewährleistet werden kann. Ist das nicht der Fall, können unerwünschte Abhängigkeiten nicht ausgeschlossen wer- den. Gleichzeitig verstehen die Teilnehmer auch, dass es sinnvoll sein kann, aus Gründen wie effizienter Ressourcennutzung oder Komplexitätsreduktion auf eine vollständige Isolation zu verzichten.
+* Eine Kopplung auf Ebene des Sourcecodes erfordert sehr enge Kooperation sowie gemeinsames SCM. Eine Kopplung auf Ebene des Kompilats bedeutet, dass die Bausteine in der Regel gemeinsam deployt werden müssen. Nur eine Verteilung auf unterschiedliche Anwendungen / Prozesse ist praktikabel im Hinblick auf ein unabhängiges Deployment.
+* Teilnehmer verstehen, dass eine vollständige Isolation zwischen Bausteinen nur durch eine Trennung in allen Phasen (Entwicklung, Deployment und Laufzeit) gewährleistet werden kann. Ist das nicht der Fall, können unerwünschte Abhängigkeiten nicht ausgeschlossen werden. Gleichzeitig verstehen die Teilnehmer auch, dass es sinnvoll sein kann, aus Gründen wie effizienter Ressourcennutzung oder Komplexitätsreduktion auf eine vollständige Isolation zu verzichten.
 * Teilnehmer verstehen, dass bei der Verteilung auf unterschiedliche Prozesse manche Abhängigkeiten nicht mehr in der Implementierung existieren, sondern erst zur Laufzeit entstehen. Dadurch steigen die Anforderungen an die Überwachung dieser Schnittstellen.
-* Microservices sind unabhängige Deployment-Einheiten und damit auch unabhängige Prozesse, die ihre Funktionen über leichtgewichtige Protokolle exponieren, aber auch ein UI ha- ben können. Für die Implementierung jedes einzelnen Microservices können unterschiedliche Technologieentscheidungen getroffen werden.
+* Microservices sind unabhängige Deployment-Einheiten und damit auch unabhängige Prozesse, die ihre Funktionen über leichtgewichtige Protokolle exponieren, aber auch ein UI haben können. Für die Implementierung jedes einzelnen Microservices können unterschiedliche Technologieentscheidungen getroffen werden.
 * Ein Self-Contained System (SCS) stellt ein fachlich eigenständiges System dar. Es beinhaltet üblicherweise UI und Persistenz. Es kann aus mehreren Microservices bestehen. Fachlich deckt ein SCS meist einen Bounded Context ab.
 
 .Was sollen die Teilnehmer kennen?
@@ -64,9 +64,9 @@
 ** erst zur Laufzeit entsteht,
 ** zur Entwicklungszeit entsteht oder
 ** beim Deployment entsteht.
-* Der Modulschnitt kann entlang fachlicher oder technischer Grenzen erfolgen. In den meisten Fällen empfiehlt sich ein fachlicher Schnitt, da sich so fachliche Anforderungen klarer einem Modul zuordnen lassen und somit nicht mehrere Module für die Umsetzung einer fachlichen Anforderung angepasst werden müssen. Dabei kann jedes Modul sein eigenes Domänenmo- dell im Sinne eines Bounded Context und damit unterschiedliche Sichten auf ein Geschäfts- objekt mit eigenen Daten haben.
+* Der Modulschnitt kann entlang fachlicher oder technischer Grenzen erfolgen. In den meisten Fällen empfiehlt sich ein fachlicher Schnitt, da sich so fachliche Anforderungen klarer einem Modul zuordnen lassen und somit nicht mehrere Module für die Umsetzung einer fachlichen Anforderung angepasst werden müssen. Dabei kann jedes Modul sein eigenes Domänenmodell im Sinne eines Bounded Context und damit unterschiedliche Sichten auf ein Geschäftsbjekt mit eigenen Daten haben.
 * Teilnehmer verstehen, dass zur Erreichung von höherer Autonomie der Entwicklungsteams ein Komponentenschnitt besser entlang fachlicher Grenzen anstatt entlang technischer Grenzen erfolgt.
-* Transaktionale Konsistenz lässt sich über Prozessgrenzen hinweg nur über zusätzliche Mechanismen erreichen. Wird ein System in mehrere Prozesse aufgeteilt, so stellt die Modulgrenze daher häufig auch die Grenze für transaktionale Konsistenz dar. Daher muss ein DDD-Aggre- gat in einem Modul verwaltet werden.
+* Transaktionale Konsistenz lässt sich über Prozessgrenzen hinweg nur über zusätzliche Mechanismen erreichen. Wird ein System in mehrere Prozesse aufgeteilt, so stellt die Modulgrenze daher häufig auch die Grenze für transaktionale Konsistenz dar. Daher muss ein DDD-Aggregate in einem Modul verwaltet werden.
 * Teilnehmer verstehen, welche Modularisierungskonzepte nicht nur für Transaktions-, sondern auch für Batch- und Datenfluss-orientierte Systeme genutzt werden können.
 
 .Was sollen die Teilnehmer kennen?
@@ -84,7 +84,7 @@
 * The participants should consider the organisation's communication
   structure when setting the module boundaries (Conway's law).
 * The participants can draw up a plan to divide a deployment monolith
-  into small ser-vices.
+  into small services.
 	  
 .What should participants understand?
 * Participants understand that each type of building blocks requires a handy label, as well as a description,
@@ -112,7 +112,7 @@
 ==== LG 2-2: Concepts for Modularization
 .What shall participants be capable of?
 - The participants should be able to evaluate and select technical
-  modularisation con-cepts in a project-specific manner.
+  modularisation concepts in a project-specific manner.
 - The participants should be able to illustrate and analyse the
   relationships between modules as well as between modules and
   subdomains (context mapping).
@@ -120,13 +120,13 @@
 
 .What should participants understand?
 - Modularisation helps to achieve goals such as parallelisation of
-  development, inde-pendent deployment / interchangeability at
+  development, independent deployment / interchangeability at
   runtime, rebuild / reuse of modules and easier understanding of the
   overall system.
 - Therefore, techniques like continuous delivery and the automation of
-  test and de-ployment are important influences on the modularisation.
+  test and deployment are important influences on the modularisation.
 - Modularisation means the decomposition of a system into smaller
-  parts. Re-integrating these parts after the decomposition causes
+  parts. Reintegrating these parts after the decomposition causes
   organisational and technical efforts. These efforts have to be
   exceeded by the advantages achieved by the modularisation.
 - Depending on the chosen modularisation technology, there is coupling
@@ -136,9 +136,9 @@
 ** Runtime environment (operating system, virtual machine or container)
 ** Network protocol (distribution to different processes)
 - A coupling at the source code level requires very close cooperation
-  as well as com-mon SCM. A coupling at the level of the built target
+  as well as common SCM. A coupling at the level of the built target
   means that the building blocks must usually be deployed
-  together. Only a distribution to different applications / pro-cesses
+  together. Only a distribution to different applications / processes
   is feasible with regard to independent deployment.
 - Participants understand that a complete isolation between building
   blocks can only be ensured by a separation in all phases
@@ -148,17 +148,17 @@
   complete isolation for reasons such as efficient resource usage or
   complexity reduction.
 - Participants understand that, when distributing to different
-  processes, some de-pendencies no longer exist in the implementation,
+  processes, some dependencies no longer exist in the implementation,
   but rather arise at runtime. This increases the requirements for
   monitoring these interfaces.
 - Microservices are independent deployment units and therefore
-  independent pro-cesses that expose their functions through
+  independent processes that expose their functions through
   lightweight protocols, but may also have a UI. Different technology
-  decisions can be made for the implementation of each in-dividual
+  decisions can be made for the implementation of each individual
   microservice.
 - A Self-Contained System (SCS) is a functionally independent
-  system. It usually in-cludes UI and persistence. It may consist of
-  several Microservices. Usually a SCS co-vers a functional bounded
+  system. It usually includes UI and persistence. It may consist of
+  several Microservices. Usually a SCS covers a functional bounded
   context.
 
 .What should participants know?

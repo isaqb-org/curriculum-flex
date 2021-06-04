@@ -47,7 +47,7 @@
 ==== LG 5-1: Analyzing Error in Distributed Systems
 .What shall participants be capable of?
   * The participants should be able to roughly sketch and understand a
-    concept that al-lows to monitor a system, that means assess the
+    concept that allows to monitor a system, that means assess the
     status, avoid errors and deviations from the regular operation as
     far as possible or at least detect and handle them as early as
     possible.
@@ -60,10 +60,10 @@
     support of operations has to be an integral part of the
     architecture concepts.
   * In order to achieve the highest possible transparency, a great
-    deal of data has to be collected, but also be pre-aggregated and
+    deal of data has to be collected, but also be preaggregated and
     made evaluable.
   * The participants should understand which information can be
-    obtained from log da-ta and which may (better) be obtained by
+    obtained from log data and which may (better) be obtained by
     instrumentation of the code with metric probes.
 
 [[LG-5-2]]
@@ -97,7 +97,7 @@
 	architecture.
   * The participants should understand how a typical centralised
 	metrics pipeline is built (capture, collect & sample, persist,
-	query, visualise) and the impact it has on the ar-chitecture
+	query, visualise) and the impact it has on the architecture
 	(performance overhead, memory consumption, ...).
   * The participants should understand the various options of logging,
     monitoring and an Operations DB (see M. Nygard, Release IT!),

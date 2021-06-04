@@ -14,7 +14,7 @@
 
 - Was sollen die Teilnehmer kennen?
   * Eigenschaften von und Unterschiede zwischen ACID- und BASE-Transaktionen
-  * Einige Produktbeispiele aus unterschiedlichen Kategorien (z. B. NoSQL, Konfigurati- onswerkzeuge, Service Discovery)
+  * Einige Produktbeispiele aus unterschiedlichen Kategorien (z. B. NoSQL, Konfigurationswerkzeuge, Service Discovery)
   * CAP zur Beschreibung und Erklärung von Konsistenzmodellen
 
 [[LZ-7-2]]
@@ -24,10 +24,10 @@
   * Abhängig von den Anforderungen und Rahmenbedingungen sollen sie entscheiden können, ob traditionelle Stabilitätsansätze hinreichend sind oder ob Resilient Software Design erforderlich ist.
 - Was sollen die Teilnehmer verstehen?
   * Traditionelle Stabilitätsansätze (Fehlervermeidungsstrategien) auf Infrastrukturebene sind für heutige verteilte, hochvernetzte Systemlandschaften in der Regel nicht mehr hinreichend.
-  * Es gibt keine Silver Bullet für Resilient Software Design, d. h. die relevanten Maßnah- men und eingesetzten Muster und Prinzipien hängen von den Anforderungen, den Rahmenbedingungen und den beteiligten Personen ab.
+  * Es gibt keine Silver Bullet für Resilient Software Design, d. h. die relevanten Maßnahmen und eingesetzten Muster und Prinzipien hängen von den Anforderungen, den Rahmenbedingungen und den beteiligten Personen ab.
 - Was sollen die Teilnehmer kennen?
   * Die Formel für Verfügbarkeit und die unterschiedlichen Ansätze, die Verfügbarkeit zu maximieren (Maximierung von MTTF, Minimierung von MTTR)
-  * Isolation und Latenzüberwachung als sinnvolle Einstiegsprinzipien von Resilient Soft- ware Design
+  * Isolation und Latenzüberwachung als sinnvolle Einstiegsprinzipien von Resilient Software Design
   * Grundlegende Resilience-Muster wie Bulkhead, Circuit Breaker, Redundanz, Failover
 
 // end::DE[]
@@ -49,13 +49,13 @@
        selected very fine-grained.
   *	BASE transactions guarantee consistency, however, they may not be
        atomic and isolated as ACID transactions, which may lead to
-       temporary inconsisten-cies becoming visible.
+       temporary inconsistencies becoming visible.
 
 - What should participants know?
   * Characteristics of and differences between ACID and BASE
     transactions
   * Some product examples from different categories (e. g., NoSQL,
-    configura-tion tools, service discovery)
+    configuration tools, service discovery)
   * CAP for describing and explaining consistency models
 
 
@@ -63,12 +63,12 @@
 ==== LG 7-2: Resilience Patterns
 - What shall participants be capable of?
   * Depending on the requirements and general conditions, they should
-    be able to de-cide whether traditional stability approaches are
-    adequate or resilient software de-sign is required.
+    be able to decide whether traditional stability approaches are
+    adequate or resilient software design is required.
 - What should participants understand?
   * Traditional stability approaches (error avoidance strategies) on
     infrastructure levels are generally no longer sufficient for
-    today's distributed, highly net-worked system landscapes.
+    today's distributed, highly networked system landscapes.
   * There is no Silver Bullet for Resilient Software Design, i. e.,
     the relevant measures and applied patterns and principles depend
     on the requirements, the general conditions and the persons

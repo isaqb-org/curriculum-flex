@@ -47,7 +47,7 @@
 ==== LG 3-1: Integration Technologies
 - The participants should choose an integration strategy that best
   suits the particular problem. This can be, for example, front-end
-  integration, integration via RPC mech-anisms, message-oriented
+  integration, integration via RPC mechanisms, message-oriented
   middleware, REST, or replication of data.
 - The participants can propose a suitable integration depending on the
   quality goals and the knowledge of the team.
@@ -61,21 +61,21 @@
   response time, or latency.
 - RPC means mechanisms for synchronously calling functionality in
   another process over computer boundaries. This results in coupling
-  in many respects (time, data for-mat, API). This coupling has a
+  in many respects (time, data format, API). This coupling has a
   negative effect on the availability and response times of the
   system. REST makes guidelines that can reduce this coupling
   (Hypermedia, standardised API). However basically, the temporal
   coupling remains.
 - With integrating through messaging, systems communicate through the
-  asynchro-nous exchange of messages. The systems are thus decoupled
+  asynchronous exchange of messages. The systems are thus decoupled
   in time. Technically, this is achieved by means of indirection via a
   middleware. Messages can optionally be persisted, filtered,
   transformed, etc. There are different messaging patterns like
   Request / Reply, Publish / Subscribe or Broadcast.
 - An integration via data enables high autonomy, nevertheless it is
-  bought by the ne-cessity for redundant data storage and the
+  bought by the necessity for redundant data storage and the
   necessary synchronisation. It must not be assumed that other systems
-  use the same schemes, because this prevents an inde-pendent
+  use the same schemes, because this prevents an independent
   development of the schemata. Therefore, an adequate transformation
   has to be provided for the integration.
 - Participants should know approaches for front-end integration.
@@ -106,13 +106,13 @@
 ==== LG 3-4: Strategic Design
 - For the integration of legacy systems, it has to be defined how to
   handle old data models. For this purpose, the approach of strategic
-  design can be used with essen-tial patterns such as anti-corruption
+  design can be used with essential patterns such as anti-corruption
   layers.
 - Participants should have a basic understanding of the implementation
   of integrations using Strategic Design from Domain Driven Design and
   know fundamental patterns.
 - In an event-driven architecture (EDA), RPC is avoided or reduced by
-  publishing do-main events. Domain events describe state
+  publishing domain events. Domain events describe state
   changes. Interested systems can process these messages (Publish /
   Subscribe). This procedure affects how the state is stored. While,
   in an RPC-based integration the server has to store the data, with
@@ -123,7 +123,7 @@
   the event flows is important.
 - Domain events can be published via messaging. The publisher pushes
   the messages into a messaging system. Alternatively, the messages
-  can be polled from the pub-lisher (e. g., Atom / RSS). When using a
+  can be polled from the publisher (e. g., Atom / RSS). When using a
   messaging system, subscribers can receive the messages by push or
   pull. This has implications for dealing with backpressure.
 - Challenges of the usage of shared data
