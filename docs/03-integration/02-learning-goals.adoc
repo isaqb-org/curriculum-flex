@@ -53,7 +53,7 @@
   quality goals and the knowledge of the team.
 - The participants should know the benefits and drawbacks of different
   integration mechanisms. These include front-end integration with
-  Mash Ups, Middle Tier integration, and integration through
+  mash ups, middle tier integration, and integration through
   databases or database replication.
 - Participants should understand the implications and limitations that
   arise from the integration of systems across different technologies
@@ -64,14 +64,14 @@
   in many respects (time, data format, API). This coupling has a
   negative effect on the availability and response times of the
   system. REST makes guidelines that can reduce this coupling
-  (Hypermedia, standardised API). However basically, the temporal
+  (hypermedia, standardised API). However basically, the temporal
   coupling remains.
 - With integrating through messaging, systems communicate through the
   asynchronous exchange of messages. The systems are thus decoupled
   in time. Technically, this is achieved by means of indirection via a
   middleware. Messages can optionally be persisted, filtered,
   transformed, etc. There are different messaging patterns like
-  Request / Reply, Publish / Subscribe or Broadcast.
+  request / reply, publish / subscribe or broadcast.
 - An integration via data enables high autonomy, nevertheless it is
   bought by the necessity for redundant data storage and the
   necessary synchronisation. It must not be assumed that other systems
@@ -79,13 +79,13 @@
   development of the schemata. Therefore, an adequate transformation
   has to be provided for the integration.
 - Participants should know approaches for front-end integration.
-- Participants should know Technologies for the integration of
+- Participants should know technologies for the integration of
   services: REST, RPC, message-oriented middleware.
-- Participants should know Challenges of the usage of shared data.
-- Participants should know Database replication mechanisms using ETL
+- Participants should know challenges of the usage of shared data.
+- Participants should know database replication mechanisms using ETL
   tools or other approaches.
-- Participants should know Messaging Patterns (Request / Reply,
-  Publish / Subscribe, etc.).
+- Participants should know messaging patterns (request / reply,
+  publish / subscribe, etc.).
 - Participants should know Messaging systems (RabbitMQ, Kafka etc.),
   protocols (AMQP, MQTT, STOMP etc.) and APIs (JMS).
   
@@ -93,7 +93,7 @@
 [[LG-3-2]]
 ==== LG 3-2: Security
 - Participants should be able to design a suitable approach for
-  implementing security (authorisation / authentication) in a
+  implementing security (authorization / authentication) in a
   distributed system.
 - Typical distributed security mechanisms such as OAuth or Kerberos
 
@@ -109,15 +109,15 @@
   design can be used with essential patterns such as anti-corruption
   layers.
 - Participants should have a basic understanding of the implementation
-  of integrations using Strategic Design from Domain Driven Design and
+  of integrations using strategic design from domain-driven design and
   know fundamental patterns.
 - In an event-driven architecture (EDA), RPC is avoided or reduced by
   publishing domain events. Domain events describe state
-  changes. Interested systems can process these messages (Publish /
-  Subscribe). This procedure affects how the state is stored. While,
+  changes. Interested systems can process these messages (publish /
+  subscribe). This procedure affects how the state is stored. While,
   in an RPC-based integration the server has to store the data, with
   EDA this is the responsibility of the subscriber. Thus, replicas
-  arise (decentralised data storage). Thereby, the subscribers act as
+  arise (decentralized data storage). Thereby, the subscribers act as
   a cache for the publisher. Additional subscribers can be added
   without affecting the publisher (except by polling). Monitoring of
   the event flows is important.

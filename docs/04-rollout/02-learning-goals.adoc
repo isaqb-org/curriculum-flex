@@ -48,7 +48,7 @@
   the DevOps organisation model.
 
 .What should participants understand?
-- The foundation for automating deployment is virtualisation or the
+- The foundation for automating deployment is virtualization or the
   cloud with Infrastructure as a Service (IaaS). A lightweight
   alternative are Linux containers as implemented by Docker.
 - Deployment of a large number of servers and services is virtually
@@ -62,13 +62,13 @@
   software has to be taken into operation, the server is rebuilt from
   scratch. This can be simpler and more reliable than to rely on
   idempotent tools.
-- PaaS (Platform as a Service) provides a complete platform where
+- PaaS (platform as a service) provides a complete platform where
   applications can be deployed in. Since in this case the
   infrastructure is not built up by oneself, the approach is simpler,
   but also less flexible.
 - Concepts such as tests or code reviews are also indispensable for
   deployment automation. Infrastructure becomes code that must meet
-  the same requirements as productive code (Infrastructure as Code).
+  the same requirements as productive code (infrastructure as code).
 - To support the deployment, the result of a build process can be
   packages for an operating system or even images for virtual
   machines.
@@ -84,7 +84,7 @@
 
 .What should participants know?
 - Basic concept of modern infrastructure such as IaaS, PaaS and
-  virtualisation
+  virtualization
 - Concepts of deployment tools like Chef, Puppet, Ansible or Salt
 - Organisation forms for DevOps
 - Concepts of deployments with package managers or Linux containers

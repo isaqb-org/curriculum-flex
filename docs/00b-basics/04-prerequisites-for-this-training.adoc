@@ -29,7 +29,7 @@ Participants **should** have the following prerequisite knowledge:
   etc., as taught in the CPSA-F (Foundation Level).
 - Experience with implementation and architecture in agile projects.
 - Experiences from the development and architecture of classical
-  systems with the typ-ical challenges.
+  systems with the typical challenges.
 
 Knowledge in the following areas may be **helpful** for understanding
 some concepts:
@@ -37,8 +37,8 @@ some concepts:
   * Problems and challenges in the implementation of distributed systems
   * Typical distributed algorithms
   * Internet protocols
-- Knowledge about modularisations
-  * Functional modularisation
+- Knowledge about modularizations
+  * Functional modularization
   * Technical implementations like packages or libraries
 - Classical operation and deployment processes
 // end::EN[]

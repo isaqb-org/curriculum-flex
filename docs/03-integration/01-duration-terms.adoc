@@ -14,6 +14,6 @@ Frontend Integration, Legacy Systeme, Authentifizierung, Autorisierung, (lose) K
 |===
 
 === Terms and Principles
-Frontend integration, legacy systems, authentication, authorisation, (loose) coupling, scala-bility, messaging patterns, domain events, decentralised data management.
+Frontend integration, legacy systems, authentication, authorization, (loose) coupling, scalability, messaging patterns, domain events, decentralized data management.
 
 // end::EN[]

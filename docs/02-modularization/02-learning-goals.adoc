@@ -88,12 +88,12 @@
 	  
 .What should participants understand?
 * Participants understand that each type of building blocks requires a handy label, as well as a description,
-** what makes up this kind of building block
-** how such a building block is integrated at runtime
-** how such a building block is built (in the sense of the build system) 
-** how such a building block is deployed
-** how such a building block is tested
-** how such a building block is scaled
+** What makes up this kind of building block
+** How such a building block is integrated at runtime
+** How such a building block is built (in the sense of the build system) 
+** How such a building block is deployed
+** How such a building block is tested
+** How such a building block is scaled
 * Different levels of standards can be useful for the development
   of a module. Some standards should better be generally valid for
   the integration with other building blocks of this type, in
@@ -112,27 +112,27 @@
 ==== LG 2-2: Concepts for Modularization
 .What shall participants be capable of?
 - The participants should be able to evaluate and select technical
-  modularisation concepts in a project-specific manner.
+  modularization concepts in a project-specific manner.
 - The participants should be able to illustrate and analyse the
   relationships between modules as well as between modules and
   subdomains (context mapping).
 - Participants can develop a concept to build a system of services.
 
 .What should participants understand?
-- Modularisation helps to achieve goals such as parallelisation of
+- Modularization helps to achieve goals such as parallelisation of
   development, independent deployment / interchangeability at
   runtime, rebuild / reuse of modules and easier understanding of the
   overall system.
 - Therefore, techniques like continuous delivery and the automation of
-  test and deployment are important influences on the modularisation.
-- Modularisation means the decomposition of a system into smaller
+  test and deployment are important influences on the modularization.
+- Modularization means the decomposition of a system into smaller
   parts. Reintegrating these parts after the decomposition causes
   organisational and technical efforts. These efforts have to be
-  exceeded by the advantages achieved by the modularisation.
-- Depending on the chosen modularisation technology, there is coupling
+  exceeded by the advantages achieved by the modularization.
+- Depending on the chosen modularization technology, there is coupling
   on different levels:
-** Sourcecode (modularisation with files, classes, packages, namespaces etc.)
-** Built target (modularisation with JARs, libraries, DLLs, etc.)
+** Sourcecode (modularization with files, classes, packages, namespaces etc.)
+** Built target (modularization with JARs, libraries, DLLs, etc.)
 ** Runtime environment (operating system, virtual machine or container)
 ** Network protocol (distribution to different processes)
 - A coupling at the source code level requires very close cooperation
@@ -142,7 +142,7 @@
   is feasible with regard to independent deployment.
 - Participants understand that a complete isolation between building
   blocks can only be ensured by a separation in all phases
-  (development, deployment and runtime). If this is not the case,
+  (development, deployment, and runtime). If this is not the case,
   undesirable dependencies cannot be excluded. At the same time, the
   participants also understand that it can be useful to forego
   complete isolation for reasons such as efficient resource usage or
@@ -156,16 +156,16 @@
   lightweight protocols, but may also have a UI. Different technology
   decisions can be made for the implementation of each individual
   microservice.
-- A Self-Contained System (SCS) is a functionally independent
+- A self-contained system (SCS) is a functionally independent
   system. It usually includes UI and persistence. It may consist of
-  several Microservices. Usually a SCS covers a functional bounded
+  several microservices. Usually a SCS covers a functional bounded
   context.
 
 .What should participants know?
-- The participants should know various technical modularisation
+- The participants should know various technical modularization
   options: e. g., files, JARs, OSGi bundles, processes, microservices,
   SCS.
-- The participants should know various technical modularisation
+- The participants should know various technical modularization
   options: e. g., source code files, libraries, frameworks, plugins,
   applications, processes, microservices, SCS.
 - The participants should know "The Twelve-Factor App".
@@ -176,12 +176,12 @@
 ==== LG 2-3: Strategies for Modularization
 .What shall participants be capable of?
 - Participants can evaluate the consequences of different
-  modularisation strategies and compare the efforts of the
-  modularisation with the expected benefits.
-- Participants can assess the impact of the modularisation strategy on
+  modularization strategies and compare the efforts of the
+  modularization with the expected benefits.
+- Participants can assess the impact of the modularization strategy on
   the autonomy of building blocks at development time and at run time.
-- The participants can choose a suitable modularisation as well as a
-  suitable granularity of the modularisation - depending on the
+- The participants can choose a suitable modularization as well as a
+  suitable granularity of the modularization - depending on the
   organisation and the quality goals.
 
 .What should participants understand?
@@ -206,15 +206,15 @@
   several processes, the module boundary often also represents the
   limit for transactional consistency. Therefore, a DDD aggregate must
   be managed in one module.
-- Participants understand which modularisation concepts can be used
+- Participants understand which modularization concepts can be used
   not only for transactional but also for batch- and
   data-flow-oriented systems.
 
 .What should participants know?
 - The participants should know the following terms from the
-  domain-driven design: Aggregate Root, Context Mapping, Bounded
-  Contexts and relationships between them (e. g., Anti-Corruption
-  Layer).
+  domain-driven design: Aggregate root, context mapping, bounded
+  contexts, and relationships between them (e. g., anti-corruption
+  layer).
 
 
 // end::EN[]

@@ -75,8 +75,8 @@
     specific point in time
   
 .What should participants know?
-  * Tools for centralised log data management
-  * Tools for centralised metrics processing
+  * Tools for centralized log data management
+  * Tools for centralized metrics processing
   * Difference between business, application and system metrics
   * The meaning of important, system-independent application and system metrics
 
@@ -84,7 +84,7 @@
 ==== LG 5-3: Different Operation Models
 .What shall participants be capable of?
   * Deciding to use a centralized or decentralized operations model
-  depending on the context -- like organization and skill sets.
+	depending on the context -- like organization and skill sets.
   * Depending on the project scenario, participants can focus on
     concepts for logging, monitoring, and the needed data.
   * Participants can define an architecture in way that the usage of
@@ -92,12 +92,12 @@
     system resources are used.
 
 .What should participants understand?
-  * The participants should understand how a typical centralised log
-	data administration is built and what impact it has on the
+  * The participants should understand how a typical centralized log
+    data administration is built and what impact it has on the
 	architecture.
-  * The participants should understand how a typical centralised
+  * The participants should understand how a typical centralized
 	metrics pipeline is built (capture, collect & sample, persist,
-	query, visualise) and the impact it has on the architecture
+	query, visualize) and the impact it has on the architecture
 	(performance overhead, memory consumption, ...).
   * The participants should understand the various options of logging,
     monitoring and an Operations DB (see M. Nygard, Release IT!),

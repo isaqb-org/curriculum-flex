@@ -26,7 +26,7 @@
 | Content
 | Recommended minimum duration (minutes)
 | 1. Motivation | 120
-| 2. Modularisation | 150
+| 2. Modularization | 150
 | 3. Integration | 120
 | 4. Installation and Roll Out | 120
 | 5. Operations, Monitoring, and Failure Analysis | 120

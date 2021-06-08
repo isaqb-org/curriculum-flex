@@ -44,10 +44,10 @@
     assumed.
   * Different scaling, distribution, and availability requirements
     require different consistency models.
-  *	The CAP theorem describes a spectrum in which, depending on the
+  * The CAP theorem describes a spectrum in which, depending on the
     given requirements, a suitable consistency model can be selected
     very fine-grained.
-  *	BASE transactions guarantee consistency, however, they may not be
+  * BASE transactions guarantee consistency, however, they may not be
     atomic and isolated as ACID transactions, which may lead to
     temporary inconsistencies becoming visible.
 
@@ -69,7 +69,7 @@
   * Traditional stability approaches (error avoidance strategies) on
     infrastructure levels are generally no longer sufficient for
     today's distributed, highly networked system landscapes.
-  * There is no Silver Bullet for Resilient Software Design, i. e.,
+  * There is no silver bullet for resilient software design, i. e.,
     the relevant measures and applied patterns and principles depend
     on the requirements, the general conditions and the persons
     involved.

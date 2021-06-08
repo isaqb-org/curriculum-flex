@@ -18,6 +18,6 @@ Die Case Study führt keine neuen Begriffe, Prinzipien und Konzepte ein.
 During a curriculum-compliant training a case study has to be used to explain and practice the curriculum's concepts.
 
 === Terms and Principles
-The Case Study does not introduce new terms, principles, or concepts
+The case study does not introduce new terms, principles, or concepts.
 
 // end::EN[]

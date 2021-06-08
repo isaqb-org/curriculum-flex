@@ -19,7 +19,7 @@ Der Ausblick stellt fortgeschrittene Themen dar, in die sich Teilnehmer vertiefe
 
 === Terms and Principles
 
-- Consistency models: ACID, BASE, Partitioning, CAP
-- Resilience: Resilient Software Design, Stability, Availability, Graceful Degradation, Circuit Breaker, Bulkhead
+- Consistency models: ACID, BASE, partitioning, CAP
+- Resilience: Resilient software design, stability, availability, graceful degradation, circuit breaker, bulkhead
 
 // end::EN[]

@@ -14,7 +14,7 @@ Monitoring, Operations, Logging, Tracing, Metrics, Alerting.
 |===
 
 === Terms and Principles
-Monitoring, Operations, Logging, Tracing, Metrics.
+Monitoring, operations, logging, tracing, metrics.
 
 // end::EN[]
 

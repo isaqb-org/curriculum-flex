@@ -20,10 +20,10 @@
 
 === Terms and Principles
 - Motivation for decompositioning into smaller systems
-- Different kinds of modularisation, coupling
+- Different kinds of modularization, coupling
 - System limits as a way of isolation
 - Hierarchical structure
-- Application, Self-Contained System, Microservice
-- Domain-Driven Design Concepts and "Strategic Design", Bounded Contexts
+- Application, self-contained system, microservice
+- Domain-driven design concepts and "strategic design", bounded contexts
 
 // end::EN[]

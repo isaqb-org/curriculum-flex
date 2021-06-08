@@ -43,7 +43,7 @@ Sie haben die Tradeoffs der vorgestellten Architektur-Typen (mindestens Microser
 // tag::EN[]
 [[LG-1-1]]
 ==== LG 1-1: Quality Goals for Flexible Architectures
-Architectures can be optimised for different quality goals. In this
+Architectures can be optimized for different quality goals. In this
 module, participants learn how to create flexible architectures that
 allow rapid deployment and thus rapid feedback from the application of
 the system.
@@ -58,8 +58,8 @@ organisation, processes, and technologies.
 [[LG-1-3]]
 ==== LG 1-3: Community and Apply Trade-Offs between Architecture Types
 They have understood the trade-offs of the architecture types
-presented (at least microservices, Self-Contained Systems and
-Deployment Monoliths) and are able to communicate them as well as
+presented (at least microservices, self-contained systems and
+deployment monoliths) and are able to communicate them as well as
 apply them in the context of concrete projects / system developments
 in order to make appropriate architectural decisions.
 

@@ -15,7 +15,7 @@ Moderner Betrieb, DevOps, Infrastructure as Code, Configuration Management.
 |===
 
 === Terms and Principles
-Modern operations, DevOps, Infrastructure as Code, Configuration Management.
+Modern operations, DevOps, infrastructure as code, configuration management.
 // end::EN[]
 
 // tag::REMARK[]
