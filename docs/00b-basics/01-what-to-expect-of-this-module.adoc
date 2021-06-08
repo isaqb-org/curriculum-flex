@@ -11,7 +11,7 @@ Am Ende des Moduls kennen die Teilnehmerinnen und Teilnehmer Grundlagen von Micr
 // tag::EN[]
 === What does the module “{curriculum-short}” convey?
 
-The module shows {curriculum-short} the participants how modern
+The module {curriculum-short} shows the participants how modern
 architecture approaches can be used to build very flexible systems.
 
 At the end of the module, the participants know the foundations of

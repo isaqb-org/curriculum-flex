@@ -33,7 +33,7 @@ Sie haben die Tradeoffs der vorgestellten Architektur-Typen (mindestens Microser
 [[LZ-1-5]]
 ==== LZ 1-5: Themen und Buzzwords einordnen
   * Gesetz von Conway
-  * Starke Isolation gegen Ausfälle, bei Deployments usw  als Qualitätsmerkmal
+  * Microservices sind voneinander bezüglich Ausfälle, Deployments isoliert. Das kann ein gewünschtes Qualitätsmerkmal sein.
   * Durchlaufzeiten durch die IT-Wertschöpfungskette als Wettbewerbsfaktor
   * Aufbau einer Continuous-Delivery-Pipeline
   * Die verschiedenen Test-Phasen in einer Continuous-Delivery-Pipeline
@@ -42,7 +42,7 @@ Sie haben die Tradeoffs der vorgestellten Architektur-Typen (mindestens Microser
 
 // tag::EN[]
 [[LG-1-1]]
-==== LG 1-1: Quality Goal for Flexible Architectures
+==== LG 1-1: Quality Goals for Flexible Architectures
 Architectures can be optimised for different quality goals. In this
 module, participants learn how to create flexible architectures that
 allow rapid deployment and thus rapid feedback from the application of

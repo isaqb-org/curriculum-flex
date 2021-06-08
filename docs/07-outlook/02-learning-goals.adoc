@@ -40,16 +40,16 @@
     should basically know the trade-offs of the different consistency
     models.
 - What should participants understand?
-  *	The need for ACID transactions is much lower than is often
-       assumed.
-  *	Different scaling, distribution, and availability requirements
-       require different consistency models.
+  * The need for ACID transactions is much lower than is often
+    assumed.
+  * Different scaling, distribution, and availability requirements
+    require different consistency models.
   *	The CAP theorem describes a spectrum in which, depending on the
-       given requirements, a suitable consistency model can be
-       selected very fine-grained.
+    given requirements, a suitable consistency model can be selected
+    very fine-grained.
   *	BASE transactions guarantee consistency, however, they may not be
-       atomic and isolated as ACID transactions, which may lead to
-       temporary inconsistencies becoming visible.
+    atomic and isolated as ACID transactions, which may lead to
+    temporary inconsistencies becoming visible.
 
 - What should participants know?
   * Characteristics of and differences between ACID and BASE
