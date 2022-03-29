@@ -3,18 +3,50 @@
 
 [cols="<,>", options="header"]
 |===
-| Inhalt | Empfohlene Mindestdauer (min)
-| 1. Motivation | 120
-| 2. Modularisierung | 240
-| 3. Integration | 150
-| 4. Installation und Roll Out | 150
-| 5. Betrieb, Überwachung und Fehleranalyse | 150
-| 6. Case Study | 150
-| 7. Ausblick | 120
-| |
-| Summe | 1080 (18h)
+| Inhalt 
+| Empfohlene Mindestdauer (min) 
+| Übungszeit (Minuten)
 
+| 1. Motivation 
+| 120 
+| 
+
+| 2. Modularisierung 
+| 180 
+| 60
+
+| 3. Integration 
+| 120 
+| 30
+
+| 4. Installation und Roll Out 
+| 120 
+| 30
+
+| 5. Betrieb, Überwachung und Fehleranalyse 
+| 120 
+| 30
+
+| 6. Case Study 
+| 60 
+| 90
+
+| 7. Ausblick 
+| 120 
+| 
+
+| 
+| 
+| 
+
+| Summe 
+| 840 (14 Std) 
+| 240 (4 Std) 
 |===
+
+In diesem Kontext stellt „Dauer" die Unterrichtszeit ohne Übungszeit dar.
+Die Zeitaufteilung zwischen Theorie und Übungen ist lediglich eine Empfehlung.
+Die Ausgestaltung der Beispiele und Übungen sind in diesem Lehrplan nicht vorgegeben.
 
 // end::DE[]
 
@@ -24,28 +56,51 @@
 [cols="<,>", options="header"]
 |===
 | Content
-| Recommended minimum duration (minutes)
-| 1. Motivation | 120
-| 2. Modularisation | 150
-| 3. Integration | 120
-| 4. Installation and Roll Out | 120
-| 5. Operations, Monitoring, and Failure Analysis | 120
-| 6. Case Study | 150
-| 7. Outlook | 120
-| |
-| Total | 900 (15h)
+| Recommended duration (minutes)
+| Exercise time (minutes)
 
+| 1. Motivation 
+| 120
+| 
+
+| 2. Modularisation 
+| 120
+| 30
+
+| 3. Integration 
+| 120
+| 30
+
+| 4. Installation and Roll Out 
+| 120
+| 30
+
+| 5. Operations, Monitoring, and Failure Analysis 
+| 120
+| 30
+
+| 6. Case Study 
+| 60
+| 90
+
+| 7. Outlook 
+| 120
+| 
+
+| 
+|
+| 
+
+| Total 
+| 840 (14h)
+| 240 (4h)
 |===
 
+
+In this context, "duration" refers to teaching time without exercises.
+The time breakdown between theory and exercises is only a recommendation.
+The design of the examples and exercises aren't specified in this curriculum
 // end::EN[]
 
 // tag::REMARK[]
-[NOTE]
-====
-Bitte die oben angegebene Tabelle entsprechend anpassen.
-
-= = =
-
-Please adjust the table above according to your curriculum.
-====
 // end::REMARK[]
