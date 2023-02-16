@@ -29,7 +29,9 @@ This repository contains the iSAQB Advanced Level curriculum for *FLEX
 toc::[]
 
 == How to Contribute or Participate
-Create an issue, a merge- or pull-request
+Create an issue, a merge- or pull-request.
+
+*An update of the FLEX curriculum is due! You can contribute suggestions for addition or removal by https://github.com/isaqb-org/curriculum-flex/issues/new/choose?label=curriculum-update[creating an issue]*
 
 == How to Build the Curriculum
 
