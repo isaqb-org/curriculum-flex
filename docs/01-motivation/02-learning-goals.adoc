@@ -3,8 +3,18 @@
 // tag::DE[]
 [[LZ-1-1]]
 ==== LZ 1-1: Qualitätsziele von flexiblen Architekturen
-Architekturen können auf unterschiedliche Qualitätsziele hin optimiert werden.
-In diesem Modul lernen die Teilnehmer, wie sie flexible Architekturen erstellen, die schnelles Deployment und damit schnelles Feedback aus der Anwendung des Systems erlauben.
+
+Architekturen können auf unterschiedliche Qualitätsziele hin optimiert
+werden.
+
+In diesem Modul lernen die Teilnehmer, wie sie Architekturen
+erstellen, die schnelles Deployment und damit schnelles Feedback aus
+der Anwendung des Systems erlauben.  Solche Architekturen unterstützen
+die Entwickler:innen dabei, effizient funktionale Angemessenheit zu
+erreichen und die Usability zu verbessern.  Außerdem fördern sie die
+Modularität und können dazu dienen, hohe Zuverlässigkeit zu erreichen
+und einzelne Komponenten isoliert zu ersetzen, was der Flexibilität
+dient.
 
 [[LZ-1-2]]
 ==== LZ 1-2: Wechselwirkung von Architektur-Typen und Organisation
