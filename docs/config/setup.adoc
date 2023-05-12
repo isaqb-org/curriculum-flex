@@ -2,7 +2,7 @@
 :icons: font
 :sectnumlevels: 2
 :imagesdir: images
-:chapter-label: 
+:chapter-label:
 
 // ":language:" denotes the language or the target document.
 // currently only DE and EN are supported
@@ -10,7 +10,7 @@
 
 // ":include_configuration:" always consists of the language, optionally
 // additional markers might be configured here!
-:include_configuration: tags=**;{language}!*
+:include_configuration: tags=**;{language};!*
 
 :curriculum-short: FLEX
 
