@@ -59,4 +59,4 @@ include::docs-ext/EXTERNAL_DOCUMENTS_README.adoc[]
 [[copyrighted]]
 == Licensing and Copyright
 
-include::LICENSE.adoc[]
+include::license-copyright/LICENSE.adoc[]
