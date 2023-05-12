@@ -102,5 +102,3 @@ The time breakdown between theory and exercises is only a recommendation.
 The design of the examples and exercises aren't specified in this curriculum
 // end::EN[]
 
-// tag::REMARK[]
-// end::REMARK[]
