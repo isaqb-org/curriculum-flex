@@ -43,7 +43,7 @@ Sie haben die Tradeoffs der vorgestellten Architektur-Typen (mindestens Microser
 [[LZ-1-5]]
 ==== LZ 1-5: Themen und Buzzwords einordnen
   * Gesetz von Conway
-  * Partitionierbarkeit als Qualitätsmerkmal
+  * Partitionstoleranz als Qualitätsmerkmal
   * Durchlaufzeiten durch die IT-Wertschöpfungskette als Wettbewerbsfaktor
   * Aufbau einer Continuous-Delivery-Pipeline
   * Die verschiedenen Test-Phasen in einer Continuous-Delivery-Pipeline
