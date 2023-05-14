@@ -44,6 +44,11 @@ Sie haben die Kompromisse der vorgestellten Architektur-Typen (mindestens Micros
   * Einige Änderungsszenarien lassen sich leichter in monolithischen Architekturen umsetzen. Andere Änderungsszenarien lassen sich leichter in verteilten Service-Architekturen umsetzen. Beide Ansätze können kombiniert werden.
   * Es gibt unterschiedliche Arten der Isolation mit jeweils unterschiedlichen Vorteilen. Beispielsweise kann der Ausfall auf eine Komponente begrenzt werden oder Änderungen können auf eine Komponente begrenzt werden.
   * Bestimmte Arten der Isolation sind zwischen Prozessen mit Remotekommunikation deutlich einfacher umzusetzen.
+  * Eine geeignete Architektur kann Komponenten dahingehend
+    voneinander isolieren, dass ein Ausfall auf eine Komponente
+    begrenzt wird.
+  * Eine solche Architektur ist durch Prozesse mit
+    Remotekommunikation deutlich einfacher umzusetzen.
   * Remotekommunikation hat aber Nachteile – z. B. viele neue Fehlerquellen.
 
 [[LZ-1-5]]
@@ -122,6 +127,10 @@ in order to make appropriate architectural decisions.
     component or changes can be limited to a single component.
   * Certain types of isolation are much easier to implement between
     processes with remote communication.
+  * A suitable architecture can isolate components from each other
+    such that a failure is restricted to a single component.
+  * Such an architecture is easier to implement via processes with
+    remote communication.
   * Remote communication, however, has disadvantages - for example
     many new sources of errors.
 
