@@ -41,7 +41,6 @@
 .Was sollen die Teilnehmer verstehen?
   * Die Teilnehmer sollen verstehen, wie eine typische zentralistische Logdaten-Verwaltung aufgebaut ist und welche Auswirkungen sie auf die Architektur hat.
   * Die Teilnehmer sollen verstehen, wie eine typische zentralistische Metriken-Pipeline aufgebaut ist (Erfassen, Sammeln & Samplen, Persistieren, Abfragen, Visualisieren) und welche Auswirkungen sie auf die Architektur hat (Performance-Overhead, Speicherverbrauch,...).
-  * Die Teilnehmer sollen die unterschiedlichen Möglichkeiten von Logging, Monitoring und einer Operations DB (siehe M. Nygard, Release IT!) verstehen, was man wofür einsetzt und wie man diese Werkzeuge sinnvoll kombiniert.
 
 // end::DE[]
 
