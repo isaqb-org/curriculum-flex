@@ -19,7 +19,11 @@
   * Um das Deployment zu unterstützen, kann das Ergebnis eines Build-Prozesses Packages für ein Betriebssystem oder gar Images für virtuelle Maschinen sein.
   * Die Umgebungen eines Entwicklers sollten idealerweise mit den Umgebungen in Produktion übereinstimmen. Mit modernen Werkzeugen ist es möglich, eine solche Umgebung auf Knopfdruck zu erzeugen und aktuell zu halten.
   * Die Komplexität des Deployments wird zu einem weiteren Qualitätsmerkmal des Systems und beeinflusst Architektur-Werkzeuge.
-  * Durch DevOps wird der Aufbau der Teams anders. Es müssen neben Entwicklung auch Betrieb stärker betrachtet werden. Neben dem Provisioning hat das auch Auswirkungen auf Conti- nuous Delivery (siehe Kapitel „Continuous Delivery“).
+  * Bei DevOps sind Entwicklung und Betrieb in einem Team integriert.
+    Deshalb muss der Betrieb bei der Entwicklung bereits
+    berücksichtigt werden.  Neben dem Provisioning hat das auch
+    Auswirkungen auf Continuous Delivery (siehe Kapitel „Continuous
+    Delivery“).
 
 .Was sollen die Teilnehmer kennen?
   * Grundlegende Konzept von moderner Infrastruktur wie IaaS, PaaS und Virtualisierung
