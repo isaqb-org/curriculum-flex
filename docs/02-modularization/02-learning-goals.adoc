@@ -47,8 +47,12 @@
 * Ein Self-Contained System (SCS) stellt ein fachlich eigenständiges System dar. Es beinhaltet üblicherweise UI und Persistenz. Es kann aus mehreren Microservices bestehen. Fachlich deckt ein SCS meist einen Bounded Context ab.
 
 .Was sollen die Teilnehmer kennen?
-* Die Teilnehmer sollen verschiedene technische Modularisierungsmöglichkeiten kennen: z. B. Dateien, JARs, OSGi Bundles, Prozesse, Microservices, SCS.
-* Die Teilnehmer sollen verschiedene technische Modularisierungsmöglichkeiten kennen: Sourcecode-Dateien, Bibliotheken, Frameworks, Plugins, Anwendungen, Prozesse, Microservices, Self-Contained Systems.
+* Die Teilnehmer sollen verschiedene technische Mechanismen kennen, um
+  ein System zur Entwicklungszeit aufzuteilen: Sourcecode-Dateien, JARs,
+  OSGi-Bundles, Module der Programmiersprache.
+* Die Teilnehmer sollen verschiedene Möglichkeiten kennen, ein System
+  zur Laufzeit aufzuteilen: Prozesse, Microservices, Self-Contained
+  Systems.
 * Die Teilnehmer sollen "The Twelve-Factor App" kennen.
 
 [[LZ-2-3]]
