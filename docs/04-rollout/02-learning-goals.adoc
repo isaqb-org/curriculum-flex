@@ -10,7 +10,13 @@
   * Die Teilnehmer sollen auf Basis des DevOps-Organisationsmodells einen Team-Aufbau skizzieren können.
 
 .Was sollen die Teilnehmer verstehen?
-  * Basis für die Automatisierung eines Deployments sind Virtualisierung oder Cloud mit Infra- structure as a Service (IaaS). Eine leichtgewichtige Alternative sind Linux-Container, wie sie Docker umsetzt.
+  * Mögliche Basis für die Automatisierung eines Deployments ist
+  die Packaging-Infrastruktur des Betriebssystems,
+  Virtualisierung oder eine Cloud mit Infrastructure as a Service
+  (IaaS) oder PaaS.
+  * Container und reproduzierbare Deployment-Infrastruktur wie Nix
+    können dabei helfen, in der Entwicklungsumgebung und in Produktion
+    gleiche Umgebungen herzustellen.
   * Ohne eine Deployment-Automatisierung ist das Deployment einer großen Anzahl von Servern und Services praktisch nicht möglich.
   * Moderne Deployment-Werkzeuge ermöglichen es, auf Rechnern Software automatisiert zu installieren. Neben der Anwendung selbst kann dabei auch die vollständige Infrastruktur au- tomatisiert aufgebaut werden. Dabei sind die Installationen idempotent, d. h. sie führen un- abhängig vom Ausgangszustand des Systems immer zum gleichen Ergebnis.
   * Immutable Server werden grundsätzlich nie geändert. Muss eine neue Version der Software in Betrieb genommen werden, wird der Server komplett neu aufgebaut. Das kann einfacher und zuverlässiger sein, als sich auf idempotente Werkzeuge zu verlassen.
@@ -26,8 +32,11 @@
     Delivery“).
 
 .Was sollen die Teilnehmer kennen?
-  * Grundlegende Konzept von moderner Infrastruktur wie IaaS, PaaS und Virtualisierung
-  * Konzepte von Deployment-Werkzeuge wie Chef, Puppet, Ansible oder Salt
+  * Grundlegende Konzept von moderner Infrastruktur wie IaaS
+    (virtuelle Maschinen auf Abruf), PaaS (Deployment-Umgebung auf
+    Abruf) und Virtualisierung
+  * Konzepte von Deployment-Werkzeuge wie Chef, Puppet, Ansible, Salt
+    oder Nix
   * Organisationsformen für DevOps
   * Konzept von Deployments mit Package-Managern oder Linux Containern
   * Verschiedene PaaS-Plattformen und ihre Konzepte
