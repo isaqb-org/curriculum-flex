@@ -40,6 +40,12 @@ This section contains references that are cited in the curriculum.
 
 - [[[oauth,Parecki et al. 2006]]] Aaron Parecki et al., Explaining OAuth 2.0 http://oauth.net/
 
+**P**
+
+- [[[parnas,Parnas 1972]]] David Parnas, On the Criteria To Be Used
+  in Decomposing Systems into Modules.  Communications of the ACM
+  15(12):1053--1058, 1972.
+
 **T**
 
 - [[[takada,Takada 2013]]] Mikito Takada, Distributed Systems for Fun and Profit, http://book.mixu.net/distsys/ (Guter Einstieg und Überblick)

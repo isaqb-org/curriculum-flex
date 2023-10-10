@@ -70,6 +70,8 @@
 * Teilnehmer verstehen, welche Modularisierungskonzepte nicht nur für Transaktions-, sondern auch für Batch- und Datenfluss-orientierte Systeme genutzt werden können.
 
 .Was sollen die Teilnehmer kennen?
+* Die Teilnehmer kennen die Modularisierungsstrategien "Bounded
+  Context", "Customer Journey" und "Information Hiding" <<parnas>>.
 * Die Teilnehmer sollen folgende Begriffe aus dem Domain-Driven Design kennen: Aggregate Root, Context Mapping, Bounded Contexts und Beziehungen dazwischen (z. B. Anti-Corruption Layer).
 
 
