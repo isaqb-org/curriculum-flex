@@ -33,7 +33,8 @@
 
 .Was sollen die Teilnehmer verstehen?
 * Modularisierung hilft Ziele wie Parallelisierung der Entwicklung, unabhängiges Deployment/Austauschbarkeit zur Laufzeit, Rebuild/Reuse von Modulen und leichtere Verständlich- keit des Gesamtsystems zu erreichen.
-* Daher ist beispielsweise Continuous Delivery und die Automatisierung von Test und Deployment ein wichtiger Einfluss auf die Modularisierung.
+* Daher ist beispielsweise Modularisierung ein wichtiger Einfluss auf
+  Continuous Delivery und die Automatisierung von Test und Deployment.
 * Modularisierung bezeichnet Dekomposition eines Systems in kleinere Teile. Diese Teile nach der Dekomposition wieder zu integrieren, verursacht organisatorische und technische Auf- wände. Diese Aufwände müssen durch die Vorteile, die durch die Modularisierung erreicht werden, mehr als ausgeglichen werden.
 * Je nach gewählter Modularisierungstechnologie besteht Kopplung auf unterschiedlichen Ebenen:
 ** Sourcecode (Modularisierung mit Dateien, Klassen, Packages, Namensräumen etc.)
