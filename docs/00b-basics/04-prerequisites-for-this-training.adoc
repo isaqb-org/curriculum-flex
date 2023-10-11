@@ -3,7 +3,7 @@
 
 Teilnehmerinnen und Teilnehmer **sollten** folgende Kenntnisse und/oder Erfahrung mitbringen:
 
-- Grundlagen der Beschreibung von Architekturen mit Hilfe verschiedener Sichten, übergreifender Konzepte, Entwurfsentscheidungen, Randbedingungen etc., wie es im CPSA- F (Foundation Level) vermittelt wird.
+- Grundlagen der Beschreibung von Architekturen mithilfe verschiedener Sichten, übergreifender Konzepte, Entwurfsentscheidungen, Randbedingungen etc., wie es im CPSA-F (Foundation Level) vermittelt wird.
 - Erfahrung mit der Implementierung und Architektur in agilen Projekten.
 - Erfahrungen aus der Entwicklung und Architektur klassischer Systeme mit den typischen
 Herausforderungen.
@@ -11,11 +11,12 @@ Herausforderungen.
 **Hilfreich** für das Verständnis einiger Konzepte sind darüber hinaus:
 
 - Verteilte Systeme
-  * Probleme und Herausforderungen bei der Implementerung verteilter Systeme o Typische verteilte Algorithmen
+  * Probleme und Herausforderungen bei der Implementierung verteilter Systeme
+  * Typische verteilte Algorithmen
   * Internet-Protokolle
 - Kenntnisse über Modularisierungen
   * Fachliche Modularisierung
-  * Technische Umsetzungen wie Pakete oder Bibiliotheken
+  * Technische Umsetzungen wie Pakete oder Bibliotheken
 - Klassische Betriebs- und Deployment-Prozesse
 // end::DE[]
 

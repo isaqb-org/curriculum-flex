@@ -18,16 +18,16 @@ dient.
 
 [[LZ-1-2]]
 ==== LZ 1-2: Wechselwirkung von Architektur-Typen und Organisation
-Sie haben die Treiber für die Architektur-Typen verstanden, die in diesem Lehrplanmodul vermittelt werden, welche Konsequenzen die Treiber für die Architekturen haben und wie die Wechselwirkung der Architekturen mit Organisation, Prozessen und Technologien ist.
+Sie haben die Treiber für die Architektur-Typen verstanden, die in diesem Lehrplanmodul vermittelt werden, welche Konsequenzen diese Treiber für die Architekturen haben und wie die Wechselwirkung der Architekturen mit Organisation, Prozessen und Technologien aussehen.
 
 [[LZ-1-3]]
-==== LZ 1-3: Tradeoffs der vorgestellten Architektur-Typen vermitteln und adaptieren
-Sie haben die Tradeoffs der vorgestellten Architektur-Typen (mindestens Microservices, Self Contained Systems und Deployment Monolithen) verstanden und können diese sowohl vermitteln als auch im Rahmen konkreter Projekte/Systementwicklungen anwenden, um angemessene Architekturentscheidungen zu treffen.
+==== LZ 1-3: Kompromisse der vorgestellten Architektur-Typen vermitteln und adaptieren
+Sie haben die Kompromisse der vorgestellten Architektur-Typen (mindestens Microservices, Self Contained Systems und Deployment Monolithen) verstanden und können diese sowohl vermitteln als auch im Rahmen konkreter Projekte/Systementwicklungen anwenden, um angemessene Architekturentscheidungen zu treffen.
 
 [[LZ-1-4]]
 ==== LZ 1-4: Verständnis für Rahmenbedingungen von verteilten Systemen
 
-.Teilnehmer sollen Rahmenbedingungen von verteilten Systemen verstehen, wie folgende:
+.Teilnehmer sollen Rahmenbedingungen von verteilten Systemen verstehen, wie z.B. folgende:
   * Auf die Fähigkeit, neue Features schnell in Produktion bringen zu können, hat die Architektur entscheidenden Einfluss.
   * Abhängigkeiten zwischen Komponenten, die von unterschiedlichen Entwicklungsteams verantwortet werden, beeinflussen die Dauer, bis Software in Produktion gebracht werden kann, weil sie die Kommunikationsaufwände erhöhen und sich Verzögerungen fortpflanzen.
   * Die Automatisierung von Aktivitäten (wie z. B. Test- und Deployment-Prozesse) erhöht die Reproduzierbarkeit, Vorhersagbarkeit und Ergebnisqualität dieser Prozesse. Das kann zu einer Verbesserung des gesamten Entwicklungsprozesses führen.
@@ -36,7 +36,7 @@ Sie haben die Tradeoffs der vorgestellten Architektur-Typen (mindestens Microser
   * Continuous Integration ist eine Voraussetzung für Continuous Delivery.
   * Eine geeignete Architektur ist die Voraussetzung für eine Parallelisierbarkeit der Entwicklung sowie die unabhängige Inbetriebnahme von eigenständigen Bausteinen. Das können, müssen aber nicht „Services“ sein.
   * Einige Änderungsszenarien lassen sich leichter in monolithischen Architekturen umsetzen. Andere Änderungsszenarien lassen sich leichter in verteilten Service-Architekturen umsetzen. Beide Ansätze können kombiniert werden.
-  * Es gibt unterschiedliche Arten der Isolation mit unterschiedlichen Vorteilen. Beispielsweise kann der Ausfall auf eine Komponente begrenzt werden oder änderungen können auf eine Komponente begrenzt werden.
+  * Es gibt unterschiedliche Arten der Isolation mit jeweils unterschiedlichen Vorteilen. Beispielsweise kann der Ausfall auf eine Komponente begrenzt werden oder Änderungen können auf eine Komponente begrenzt werden.
   * Bestimmte Arten der Isolation sind zwischen Prozessen mit Remotekommunikation deutlich einfacher umzusetzen.
   * Remotekommunikation hat aber Nachteile – z. B. viele neue Fehlerquellen.
 

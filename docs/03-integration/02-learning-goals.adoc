@@ -4,7 +4,7 @@
 [[LZ-3-1]]
 ==== LZ 3-1: Strategic Design
 
-1. Die Teilnehmer sollen ein grundlegendes Verständnis für die Umsetzung von Integrationen mit Hilfe von Strategic Design aus dem Domain Driven Design und den wesentliche Pattern (bspw. Customer/Supplier) anwenden können. Ziel ist, dass die Teilnehmer die Auswirkungen von Beziehungen zwischen Systemen anhand einer Context Map darstellen und SOLL/IST-Vergleiche erstellen können, die als Entscheidungskriterien für Team-Setup und Organisations-Architektur nutzbar sind.
+1. Die Teilnehmer sollen ein grundlegendes Verständnis für die Umsetzung von Integrationen mithilfe von Strategic Design aus dem Domain Driven Design und den wesentliche Pattern (bspw. Customer/Supplier) anwenden können. Ziel ist, dass die Teilnehmer die Auswirkungen von Beziehungen zwischen Systemen anhand einer Context Map darstellen und SOLL/IST-Vergleiche erstellen können, die als Entscheidungskriterien für Team-Setup und Organisations-Architektur nutzbar sind.
 2. Für die Integration von Legacy-Systemen muss definiert werden, wie mit alten Datenmodellen umgegangen wird. Dazu kann der Ansatz des Strategic Designs mit wesentlichen Patterns wie beispielsweise Anti-Corruption Layer genutzt werden.
 
 
@@ -19,17 +19,17 @@
 . RPC bezeichnet Mechanismen, um Funktionalität in einem anderen Prozess über Rechnergrenzen hinweg synchron aufzurufen. Dadurch entsteht Kopplung in vielerlei Hinsicht (zeitlich, Datenformat, API). Diese Kopplung hat negative Auswirkungen auf Verfügbarkeit und Antwortzeiten des Systems. REST macht Vorgaben, die diese Kopplung reduzieren können (Hypermedia, standardisierte API). Die zeitliche Kopplung bleibt jedoch grundsätzlich bestehen.
 . Bei der Integration mittels Messaging kommunizieren Systeme durch den asynchronen Austausch von Nachrichten. Die Systeme werden somit zeitlich entkoppelt. Technisch wird dies mittels Indirektion über eine Middleware erreicht. Nachrichten können optional persistiert, gefiltert, transformiert etc. werden. Es gibt verschiedene Messaging Patterns wie Request/Reply, Publish/Subscribe oder Broadcast.
 . Eine Integration über Daten ermöglicht hohe Autonomie, die allerdings über die Notwendigkeit zur redundanten Datenhaltung und die damit notwendige Synchronisation erkauft wird. Es darf nicht angenommen werden, dass andere Systeme dieselben Schemata nutzen, weil das eine unabhängige Weiterentwicklung der Schemata verhindert. Daher muss für die Integration eine angemessene Transformation vorgesehen werden.
-. Die Teilnehmer sollen verschiedene Ansätze für die Front-End-Integration sowie deren Vor- und Nachteile und Anwendbarkeit abhängig von Kontextkriterien benennen können.
+. Die Teilnehmer sollen verschiedene Ansätze für die Frontend-Integration sowie deren Vor- und Nachteile und Anwendbarkeit abhängig von Kontextkriterien benennen können.
 . Die Teilnehmer sollen Techniken für die Integration von Services: REST, RPC, Message-orientierte Middleware kennen.
 . Die Teilnehmer sollen Datenbank-Replikationsmechanismen mit ETL-Tools oder anderen Ansätzen kennen.
 . Die Teilnehmer sollen Messaging Patterns (Request/Reply, Publish/Subscribe etc.) kennen.
-. Die Teilnehmer sollen Messaging Systeme (RabbitMQ, Kafka etc.), Protokolle (AMQP, MQTT, STOMP etc.) und APIs (JMS) kennen.
+. Die Teilnehmer sollen Messaging Systeme (RabbitMQ, Kafka, etc.), Protokolle (AMQP, MQTT, STOMP, etc.) und APIs (JMS) kennen.
 
 [[LZ-3-3]]
 ==== LZ 3-3: Makroarchitektur erläutern und Kriterien aufstellen können
 
 . Anhand dieser Ansätze sollen die Teilnehmer eine Makroarchitektur entwerfen können, die zumindest Kommunikation und Sicherheit abdeckt.
-. Die Teilnehmer können klare Kriterien benennen anhand derer Entwickler selbständig herausfinden, ob eine (Architektur-)Entscheidung ein Micro- oder eine Macro-Architecture Entscheidung ist resp. ob sie die Entscheidung allein treffen können oder team-externe Stakeholder in den Entscheidungsprozess einbeziehen müssen
+. Die Teilnehmer können klare Kriterien benennen anhand derer Entwickler selbständig herausfinden, ob eine (Architektur-)Entscheidung ein Mikro- oder eine Makroarchitektur Entscheidung ist resp. ob sie die Entscheidung allein treffen können oder team-externe Stakeholder in den Entscheidungsprozess einbeziehen müssen
 
 
 [[LZ-3-4]]

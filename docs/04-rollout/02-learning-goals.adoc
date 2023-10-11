@@ -10,19 +10,19 @@
   * Die Teilnehmer sollen auf Basis des DevOps-Organisationsmodells einen Team-Aufbau skizzieren können.
 
 .Was sollen die Teilnehmer verstehen?
-  * Basis für die Automatisierung eines Deployments sind Virtualisierung oder Cloud mit Infra- structure as a Service (IaaS). Eine leichtgewichtige Alternative sind Linux-Container, wie sie Docker umsetzt.
+  * Basis für die Automatisierung eines Deployments sind Virtualisierung oder Cloud mit Infrastructure as a Service (IaaS). Eine leichtgewichtige Alternative sind Linux-Container, wie sie Docker umsetzt.
   * Ohne eine Deployment-Automatisierung ist das Deployment einer großen Anzahl von Servern und Services praktisch nicht möglich.
-  * Moderne Deployment-Werkzeuge ermöglichen es, auf Rechnern Software automatisiert zu installieren. Neben der Anwendung selbst kann dabei auch die vollständige Infrastruktur au- tomatisiert aufgebaut werden. Dabei sind die Installationen idempotent, d. h. sie führen un- abhängig vom Ausgangszustand des Systems immer zum gleichen Ergebnis.
+  * Moderne Deployment-Werkzeuge ermöglichen es, auf Rechnern Software automatisiert zu installieren. Neben der Anwendung selbst kann dabei auch die vollständige Infrastruktur automatisiert aufgebaut werden. Dabei sind die Installationen idempotent, d. h. sie führen unabhängig vom Ausgangszustand des Systems immer zum gleichen Ergebnis.
   * Immutable Server werden grundsätzlich nie geändert. Muss eine neue Version der Software in Betrieb genommen werden, wird der Server komplett neu aufgebaut. Das kann einfacher und zuverlässiger sein, als sich auf idempotente Werkzeuge zu verlassen.
   * PaaS (Platform as a Service) stellt eine vollständige Plattform bereit, in die Anwendungen deployt werden können. Da in diesem Fall die Infrastruktur nicht selber aufgebaut wird, ist der Ansatz einfacher, aber auch weniger flexibel.
-  * Konzepte wie Tests oder Code Reviews sind auch für die Deployment-Automatisierung unab- dingbar. Infrastruktur wird zu Code, der denselben Anforderungen wie produktiver Code ge- recht werden muss (Infrastructure as Code).
+  * Konzepte wie Tests oder Code Reviews sind auch für die Deployment-Automatisierung unabdingbar. Infrastruktur wird zu Code, der denselben Anforderungen wie produktiver Code gerecht werden muss (Infrastructure as Code).
   * Um das Deployment zu unterstützen, kann das Ergebnis eines Build-Prozesses Packages für ein Betriebssystem oder gar Images für virtuelle Maschinen sein.
   * Die Umgebungen eines Entwicklers sollten idealerweise mit den Umgebungen in Produktion übereinstimmen. Mit modernen Werkzeugen ist es möglich, eine solche Umgebung auf Knopfdruck zu erzeugen und aktuell zu halten.
   * Die Komplexität des Deployments wird zu einem weiteren Qualitätsmerkmal des Systems und beeinflusst Architektur-Werkzeuge.
-  * Durch DevOps wird der Aufbau der Teams anders. Es müssen neben Entwicklung auch Betrieb stärker betrachtet werden. Neben dem Provisioning hat das auch Auswirkungen auf Conti- nuous Delivery (siehe Kapitel „Continuous Delivery“).
+  * Durch DevOps ändert sich die Anforderung an das Team. Es muss neben Entwicklung auch der Betrieb stärker betrachtet werden. Neben dem Provisioning hat das auch Auswirkungen auf Continuous Delivery (siehe Kapitel „Continuous Delivery“).
 
 .Was sollen die Teilnehmer kennen?
-  * Grundlegende Konzept von moderner Infrastruktur wie IaaS, PaaS und Virtualisierung
+  * Grundlegendes Konzept von moderner Infrastruktur wie IaaS, PaaS und Virtualisierung
   * Konzepte von Deployment-Werkzeuge wie Chef, Puppet, Ansible oder Salt
   * Organisationsformen für DevOps
   * Konzept von Deployments mit Package-Managern oder Linux Containern
