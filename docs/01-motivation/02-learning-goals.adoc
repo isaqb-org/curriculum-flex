@@ -18,7 +18,12 @@ dient.
 
 [[LZ-1-2]]
 ==== LZ 1-2: Wechselwirkung von Architektur-Typen und Organisation
-Sie haben die Treiber für die Architektur-Typen verstanden, die in diesem Lehrplanmodul vermittelt werden, welche Konsequenzen die Treiber für die Architekturen haben und wie die Wechselwirkung der Architekturen mit Organisation, Prozessen und Technologien ist.
+Sie haben die Treiber für die Architektur-Typen verstanden, die in
+diesem Lehrplanmodul vermittelt werden - also das Bedürfnis, Features
+schnell in Produktion zu bringen und Time-to-Market zu verkürzen.  Sie
+haben außerdem verstanden, welche Konsequenzen die Treiber für die
+Architekturen haben und wie die Wechselwirkung der Architekturen mit
+Organisation, Prozessen und Technologien ist.
 
 [[LZ-1-3]]
 ==== LZ 1-3: Tradeoffs der vorgestellten Architektur-Typen vermitteln und adaptieren
