@@ -36,8 +36,11 @@ Sie haben die Tradeoffs der vorgestellten Architektur-Typen (mindestens Microser
   * Continuous Integration ist eine Voraussetzung für Continuous Delivery.
   * Eine geeignete Architektur ist die Voraussetzung für eine Parallelisierbarkeit der Entwicklung sowie die unabhängige Inbetriebnahme von eigenständigen Bausteinen. Das können, müssen aber nicht „Services“ sein.
   * Einige Änderungsszenarien lassen sich leichter in monolithischen Architekturen umsetzen. Andere Änderungsszenarien lassen sich leichter in verteilten Service-Architekturen umsetzen. Beide Ansätze können kombiniert werden.
-  * Es gibt unterschiedliche Arten der Isolation mit unterschiedlichen Vorteilen. Beispielsweise kann der Ausfall auf eine Komponente begrenzt werden oder änderungen können auf eine Komponente begrenzt werden.
-  * Bestimmte Arten der Isolation sind zwischen Prozessen mit Remotekommunikation deutlich einfacher umzusetzen.
+  * Eine geeignete Architektur kann Komponenten dahingehend
+    voneinander isolieren, dass ein Ausfall auf eine Komponente
+    begrenzt wird.
+  * Eine solche Architektur ist durch Prozessen mit
+    Remotekommunikation deutlich einfacher umzusetzen.
   * Remotekommunikation hat aber Nachteile – z. B. viele neue Fehlerquellen.
 
 [[LZ-1-5]]
