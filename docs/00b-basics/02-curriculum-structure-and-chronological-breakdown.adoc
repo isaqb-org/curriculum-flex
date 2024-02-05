@@ -1,7 +1,7 @@
 // tag::DE[]
 === Struktur des Lehrplans und empfohlene zeitliche Aufteilung
 
-[cols="<,>", options="header"]
+[cols="<,>,>", options="header"]
 |===
 | Inhalt 
 | Empfohlene Mindestdauer (min) 

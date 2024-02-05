@@ -6,7 +6,7 @@
 ==== LZ 5-1: Fehleranalyse in verteilten Systemen
 
 .Was sollen die Teilnehmer können?
-  * Die Teilnehmer sollen ein Konzept grob skizzieren und verstehen können, auf dessen Basis ein System überwacht werden kann d. h. den aktuellen Status zu beurteilen, Fehler und Abweichungen vom normalen Betrieb möglichst zu vermeiden oder zumindest so früh wie möglich zu erkennen zu behandeln.
+  * Die Teilnehmer sollen ein Konzept grob skizzieren und verstehen können, auf dessen Basis ein System überwacht werden kann, d.h. den aktuellen Status zu beurteilen, Fehler und Abweichungen vom normalen Betrieb möglichst zu vermeiden oder zumindest so früh wie möglich zu erkennen zu behandeln.
 
 .Was sollen die Teilnehmer verstehen?
   * Die richtige Auswahl von Daten ist zentral für ein zuverlässiges und sinnvolles Monitoring und Logging.
