@@ -19,6 +19,12 @@
 |===
 
 === Terms and Principles
-Term 1, Term 2, Term 3
+
+- Motivation for decompositioning into smaller systems Different kinds of modularisation, coupling
+- System limits as a way of isolation
+- Hierarchical structure
+- Application, Self-Contained System, Microservice
+- Domain-Driven Design Concepts and "Strategic Design", Bounded Contexts
+
 
 // end::EN[]

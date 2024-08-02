@@ -43,7 +43,7 @@ This section contains references that are cited in the curriculum.
 **T**
 
 - [[[takada,Takada 2013]]] Mikito Takada, Distributed Systems for Fun and Profit, http://book.mixu.net/distsys/ (Guter Einstieg und Überblick)
-- [[[tanenbaum,Tanenbaum, van Steen 2006]]] Andrew Tanenbaum, Marten van Steen, Distributed Systems – Principles and Paradigms, Pren- tice Hall, 2nd Edition, 2006
+- [[[tanenbaum,Tanenbaum, van Steen 2006]]] Andrew Tanenbaum, Marten van Steen, Distributed Systems – Principles and Paradigms, Prentice Hall, 2nd Edition, 2006
 
 **V**
 

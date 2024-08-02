@@ -23,18 +23,26 @@ Herausforderungen.
 // tag::EN[]
 === Prerequisites
 
-TODO
-Participants **should** have the following prerequisite knowledge:
+Participants **should** have the following knowledge and / or
+experience:
 
-- Prerequisite 1
-- Prerequisite 2, etc.
+- Fundamentals of the description of architectures using various
+  views, comprehen- sive concepts, design decisions, boundary conditions
+  etc., as taught in the CPSA-F (Foundation Level).
+- Experience with implementation and architecture in agile projects.
+- Experiences from the development and architecture of classical systems with the
+  typical challenges.
 
-Knowledge in the following areas may be **helpful** for understanding some concepts:
+**Useful** for understanding some concepts are also:
 
-- Area 1:
-  * Knowledge 1
-  * Experience 2
-  * Knowledge 3
-  * Experience 4
-  * Understanding 5
+- Distributed systems
+  * Problems and challenges in the implementation of distributed
+    systems
+  * Typical distributed algorithms
+  * Internet protocols
+
+- Knowledge about modularisations
+  * Functional modularisation
+  * Technical implementations like packages or libraries
+- Classical operation and deployment processes
 // end::EN[]
