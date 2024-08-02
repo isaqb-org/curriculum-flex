@@ -81,7 +81,12 @@
   maintain such an environment at the push of a button.
 * The complexity of the deployment becomes a further quality feature
   of the system and affects architecture tools.
-* DevOps leads to a different team structure. Beside development, also
+* With DevOps, development and operations are integrated in a single
+  team.  Consequently, operations must be considered already during
+  development.  This affects provisioning but also continuous
+  delivery (see chapter "Continuous Delivery").
+
+DevOps leads to a different team structure. Beside development, also
   more attention has to be paid to operations. In addition to
   provisioning, this also affects continuous delivery (see chapter
   "Continuous Delivery").
