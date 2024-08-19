@@ -33,7 +33,7 @@ This section contains references that are cited in the curriculum.
 
 **N**
 
-- [[[newman,Sam Newman 2015]]] Sam Newmann: Building Microservices: Designung Fine-Grained Systems, O'Reilly Media, 2015
+- [[[newman,Sam Newman 2021]]] Sam Newman: Building Microservices: Designing Fine-Grained Systems, O'Reilly Media, 2nd ed. edition, 2021, ISBN 978-1-49203-402-5
 - [[[nygard,Nygard 2018]]] Michael T. Nygard, Release It!, 2. Auflage, Pragmatic Bookshelf, 2018
 
 **O**
@@ -51,8 +51,8 @@ This section contains references that are cited in the curriculum.
 
 **W**
 
-- [[[wolffcd,Wolff 2016]]] Eberhard Wolff: Continuous Delivery: Continuous Delivery: Der pragmatische Einstieg, 2. Auflage, dpunkt, 2016, ISBN 978-3-86490-371-7
-- [[[wolffms,Wolff 2015]]] Eberhard Wolff: Microservices - Grundlagen flexibler Software Architekturen, 2. Auflage, dpunkt, 2018, ISBN 978-3-86490-555-1
+- [[[wolffcd,Wolff 2016]]] Eberhard Wolff: Continuous Delivery: Der pragmatische Einstieg, 2. Auflage, dpunkt, 2016, ISBN 978-3-86490-371-7
+- [[[wolffms,Wolff 2018]]] Eberhard Wolff: Microservices - Grundlagen flexibler Software Architekturen, 2. Auflage, dpunkt, 2018, ISBN 978-3-86490-555-1
 - [[[wolfpaas, Wolff, Müller, Löwenstein 2013]]] Eberhard Wolff, Stephan Müller, Bernhard Löwenstein: PaaS - Die wichtigsten Java Clouds auf einen Blick, entwickler.press, 2013
 
 **1**

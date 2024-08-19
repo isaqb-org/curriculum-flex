@@ -89,7 +89,7 @@
   in many respects (time, data format, API). This coupling has a
   negative effect on the availability and response times of the
   system. REST makes guidelines that can reduce this coupling
-  (Hypermedia, standardised API). However basically, the temporal
+  (Hypermedia, standardised API). However, basically, the temporal
   coupling remains.
 
 . With integrating through messaging, systems communicate through the
@@ -117,7 +117,7 @@
   ETL tools or other approaches
 
 . The participants should know messaging Patterns (Request / Reply,
-  Publish / Subscribe, etc.).
+  Publish / Subscribe, etc.)
 
 . The participants should know messaging systems (RabbitMQ, Kafka
   etc.), protocols (AMQP, MQTT, STOMP etc.) and APIs (JMS).
@@ -150,7 +150,7 @@
 
 . Domain events can be published via messaging. The publisher pushes
   the messages into a messaging system. Alternatively, the messages
-  can be polled from the publisher (e. g., Atom / RSS). When using a
+  can be polled from the publisher (e.g., Atom / RSS). When using a
   messaging system, subscribers can receive the messages by push or
   pull. This has implications for dealing with backpressure.
 

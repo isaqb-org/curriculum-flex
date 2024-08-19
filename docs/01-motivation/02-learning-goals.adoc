@@ -27,7 +27,7 @@ Sie haben die Kompromisse der vorgestellten Architektur-Typen (mindestens Micros
 [[LZ-1-4]]
 ==== LZ 1-4: Verständnis für Rahmenbedingungen von verteilten Systemen
 
-.Teilnehmer sollen Rahmenbedingungen von verteilten Systemen verstehen, wie z.B. folgende:
+.Teilnehmer sollen Rahmenbedingungen von verteilten Systemen verstehen, wie z. B. folgende:
   * Auf die Fähigkeit, neue Features schnell in Produktion bringen zu können, hat die Architektur entscheidenden Einfluss.
   * Abhängigkeiten zwischen Komponenten, die von unterschiedlichen Entwicklungsteams verantwortet werden, beeinflussen die Dauer, bis Software in Produktion gebracht werden kann, weil sie die Kommunikationsaufwände erhöhen und sich Verzögerungen fortpflanzen.
   * Die Automatisierung von Aktivitäten (wie z. B. Test- und Deployment-Prozesse) erhöht die Reproduzierbarkeit, Vorhersagbarkeit und Ergebnisqualität dieser Prozesse. Das kann zu einer Verbesserung des gesamten Entwicklungsprozesses führen.
@@ -94,15 +94,16 @@ in order to make appropriate architectural decisions.
     increases the reproducibility, predictability, and quality of
     results of these processes. This can lead to an improvement of the
     overall development process.
-  * Unification of the different environments (e. g., development,
+  * Unification of the different environments (e.g., development,
     test, QA, production) reduces the risk of lately detected and (in
     other environments) non-reproducible errors due to different
     configurations.
   * Unification and automation are essential aspects of continuous
-    delivery. Continuous integration is a prerequisite for continuous
+    delivery.
+  * Continuous integration is a prerequisite for continuous
     delivery.
   * A suitable architecture is the prerequisite for the
-    parallelisation of the development as well as the independent
+    parallelization of the development as well as the independent
     commissioning of independent modules. This can, but do not have to
     be "services".
   * Some change scenarios are easier to implement in monolithic
@@ -123,7 +124,7 @@ in order to make appropriate architectural decisions.
   * Conway’s law
   * Partitionability as a quality feature
   * Round trip times with the IT supply chain as a competitive factor
-    Building a continuous delivery pipeline
+  * Building a continuous delivery pipeline
   * The different test phases of a continuous delivery pipeline
 
 // end::EN[]

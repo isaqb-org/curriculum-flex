@@ -20,7 +20,8 @@
 
 === Terms and Principles
 
-- Motivation for decompositioning into smaller systems Different kinds of modularisation, coupling
+- Motivation for decompositioning into smaller systems
+- Different kinds of modularisation, coupling
 - System limits as a way of isolation
 - Hierarchical structure
 - Application, Self-Contained System, Microservice

@@ -93,7 +93,8 @@
 * Participants understand that each type of building blocks requires a handy label, as well as a description,
 ** what makes up this kind of building block
 ** how such a building block is integrated at runtime
-** how such a building block is built (in the sense of the build system) o how such a building block is deployed
+** how such a building block is built (in the sense of the build system)
+** how such a building block is deployed
 ** how such a building block is tested
 ** how such a building block is scaled
 * Different levels of specifications can be useful for the development
@@ -125,7 +126,7 @@
 
 .What should participants understand?
 
-* Modularisation helps to achieve goals such as parallelisation of
+* Modularisation helps to achieve goals such as parallelization of
   development, independent deployment / interchangeability at runtime,
   rebuild / reuse of modules and easier understanding of the overall
   system.
@@ -171,10 +172,10 @@
 
 .What should participants know?
 * The participants should know various technical modularisation
-  options: e. g., source code files, libraries, frameworks, plugins,
+  options: e.g., source code files, libraries, frameworks, plugins,
   applications, processes, Microservices, SCS.
 * The participants should know various technical modularisation
-  options: e. g., source files, libraries, frameworks, plugins,
+  options: e.g., source files, libraries, frameworks, plugins,
   applications, processes, microservices, self-contained systems
 * The participants should know "The Twelve-Factor App". 
 
@@ -184,11 +185,11 @@
 .What shall participants be capable of?
 
 * Participants can evaluate the consequences of different
-   modularisation strategies and compare the efforts of the
-   modularisation with the expected benefits.
- * Participants can assess the impact of the modularisation strategy
-   on the autonomy of building blocks at development time and at run
-   time.
+  modularisation strategies and compare the efforts of the
+  modularisation with the expected benefits.
+* Participants can assess the impact of the modularisation strategy
+  on the autonomy of building blocks at development time and at run
+  time.
 * The participants can choose a suitable modularisation as well as a
   suitable granularity of the modularisation - depending on the
   organisation and the quality goals.
@@ -203,7 +204,7 @@
 * The module division can be done along functional or technical
   boundaries. In most cases, a functional division is recommended,
   because in this case functional requirements can be assigned more
-  clearly to a concrete module and therefore it is not necessary to
+  clearly to a concrete module, and therefore it is not necessary to
   adapt several modules for the implementation of a single functional
   requirement. Thereby, each module can have its own domain model in
   the sense of a bounded context and thus different views on a
@@ -225,7 +226,7 @@
 
 * The participants should know the following terms from the
   domain-driven design: Aggregate Root, Context Mapping, Bounded
-  Contexts and relationships between them (e. g., Anti-Corruption
+  Contexts and relationships between them (e.g., Anti-Corruption
   Layer).
 
 
