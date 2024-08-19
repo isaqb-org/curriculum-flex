@@ -17,6 +17,12 @@ Der Ausblick stellt fortgeschrittene Themen dar, in die sich Teilnehmer vertiefe
 | Duration: 120 min | Practice time: 0 min
 |===
 
+The lookout presents advanced topics that participants may dive
+into. So, they gain a deeper understanding of the challenges of
+implementing flexible systems. In addition, they learn other factors
+influencing the choice of technologies.
+
+
 === Terms and Principles
 
 - Consistency models: ACID, BASE, Partitioning, CAP
