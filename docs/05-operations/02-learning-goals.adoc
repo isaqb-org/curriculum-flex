@@ -9,6 +9,9 @@
   * Die Teilnehmer sollen ein Konzept grob skizzieren und verstehen können, auf dessen Basis ein System überwacht werden kann, d.h. den aktuellen Status zu beurteilen, Fehler und Abweichungen vom normalen Betrieb möglichst zu vermeiden oder zumindest so früh wie möglich zu erkennen und zu behandeln.
 
 .Was sollen die Teilnehmer verstehen?
+  * Die Teilnehmer sollten die Unterschiede zwischen Logging,
+    Monitoring und Metrik-Sammlung verstehen und die damit
+    einhergenden Unterschiede bei den verwendeten Merkzeugen.
   * Die richtige Auswahl von Daten ist zentral für ein zuverlässiges und sinnvolles Monitoring und Logging.
   * Damit Systeme, insbesondere solche, die sich aus vielen einzelnen Teilsystemen zusammensetzen, betreibbar sind, muss die Unterstützung des Betriebs mit hoher Priorität Bestandteil der Architekturkonzepte sein.
   * Damit eine möglichst hohe Transparenz erreicht wird, müssen sehr viele Daten erfasst, aber auch zielgruppengerecht voraggregiert und auswertbar gemacht werden.
@@ -37,8 +40,7 @@
 
 .Was sollen die Teilnehmer verstehen?
   * Die Teilnehmer sollen verstehen, wie eine typische zentralistische Logdaten-Verwaltung aufgebaut ist und welche Auswirkungen sie auf die Architektur hat.
-  * Die Teilnehmer sollen verstehen, wie eine typische zentralistische Metriken-Pipeline aufgebaut ist (Erfassen, Sammeln & Samplen, Persistieren, Abfragen, Visualisieren) und welche Auswirkungen sie auf die Architektur hat (Performance-Overhead, Speicherverbrauch, ...).
-  * Die Teilnehmer sollen die unterschiedlichen Möglichkeiten von Logging, Monitoring und einer Operations DB (siehe <<nygard>>) verstehen, was man wofür einsetzt und wie man diese Werkzeuge sinnvoll kombiniert.
+  * Die Teilnehmer sollen verstehen, wie eine typische zentralistische Metriken-Pipeline aufgebaut ist (Erfassen, Sammeln & Samplen, Persistieren, Abfragen, Visualisieren) und welche Auswirkungen sie auf die Architektur hat (Performance-Overhead, Speicherverbrauch,...).
 
 // end::DE[]
 
