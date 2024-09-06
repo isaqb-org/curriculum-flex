@@ -7,15 +7,16 @@
 - Was sollen die Teilnehmer können?
   * Die Teilnehmer sollen verschiedene Konsistenzmodelle kennen. Die Tradeoffs der verschiedenen Konsistenzmodelle sollten sie grundlegend kennen.
   * Abhängig von den Anforderungen und Rahmenbedingungen sollen sie entscheiden können, ob traditionelle Stabilitätsansätze hinreichend sind oder ob Resilient Software Design erforderlich ist.
+
 - Was sollen die Teilnehmer verstehen?
   * Die Notwendigkeit für ACID Transaktionen ist wesentlich geringer, als häufig angenommen wird.
   * Unterschiedliche Skalierungs-, Verteilungs- und Verfügbarkeitsanforderungen erfordern unterschiedliche Konsistenzmodelle.
   * Das CAP-Theorem beschreibt ein Spektrum, in dem man abhängig von den gegebenen Anforderungen sehr feingranular ein geeignetes Konsistenzmodell wählen kann.
-  * BASE-Transaktionen garantieren Konsistenz, sie sind nur nicht unbedingt atomar und isoliert wie ACID-Transaktionen, weshalb vorrübergehend Inkonsistenzen sichtbar werden können.
+  * BASE-Transaktionen garantieren Konsistenz, sie sind nur nicht unbedingt atomar und isoliert wie ACID-Transaktionen, weshalb vorübergehend Inkonsistenzen sichtbar werden können.
 
 - Was sollen die Teilnehmer kennen?
   * Eigenschaften von und Unterschiede zwischen ACID- und BASE-Transaktionen
-  * Einige Produktbeispiele aus unterschiedlichen Kategorien (z. B. NoSQL, Konfigurati- onswerkzeuge, Service Discovery)
+  * Einige Produktbeispiele aus unterschiedlichen Kategorien (z. B. NoSQL, Konfigurationswerkzeuge, Service Discovery)
   * CAP zur Beschreibung und Erklärung von Konsistenzmodellen
 
 [[LZ-7-2]]
@@ -25,9 +26,9 @@
   * Abhängig von den Anforderungen und Rahmenbedingungen sollen sie entscheiden können, ob traditionelle Stabilitätsansätze hinreichend sind oder ob Resilient Software Design erforderlich ist.
 - Was sollen die Teilnehmer verstehen?
   * Traditionelle Stabilitätsansätze (Fehlervermeidungsstrategien) auf Infrastrukturebene sind für heutige verteilte, hochvernetzte Systemlandschaften in der Regel nicht mehr hinreichend.
-  * Es gibt keine Silver Bullet für Resilient Software Design, d. h. die relevanten Maßnah- men und eingesetzten Muster und Prinzipien hängen von den Anforderungen, den Rahmenbedingungen und den beteiligten Personen ab.
+  * Es gibt keine Silver Bullet für Resilient Software Design, d. h. die relevanten Maßnahmen und eingesetzten Muster und Prinzipien hängen von den Anforderungen, den Rahmenbedingungen und den beteiligten Personen ab.
 - Was sollen die Teilnehmer kennen?
-  * Die Formel für Verfügbarkeit und die unterschiedlichen Ansätze, die Verfügbarkeit zu maximieren (Maximierung von MTTF, Minimierung von MTTR)
+  * Die Formel für Verfügbarkeit und die unterschiedlichen Ansätze, die Verfügbarkeit zu maximieren (Maximierung von MTBF, Minimierung von MTTR)
   * Isolation und Latenzüberwachung als sinnvolle Einstiegsprinzipien von Resilient Soft- ware Design
   * Grundlegende Resilience-Muster wie Bulkhead, Circuit Breaker, Redundanz, Failover
 
@@ -36,9 +37,52 @@
 // tag::EN[]
 [[LG-7-1]]
 ==== LG 7-1: Consistency Models
-tbd.
+.What shall participants be capable of?
+* The participants should know various consistency models. They should
+  basically know the trade-offs of the different consistency models.
+* Depending on the requirements and general conditions, they should be
+  able to decide whether traditional stability approaches are adequate
+  or resilient software design is required.
+
+.What should participants understand?
+* The need for ACID transactions is much lower than is often assumed.
+* Different scaling, distribution, and availability requirements require different
+  consistency models.
+* The CAP theorem describes a spectrum in which, depending on the given
+  requirements, a suitable consistency model can be selected very fine-grained.
+* BASE transactions guarantee consistency, however, they may not be
+  atomic and isolated as ACID transactions, which may lead to
+  temporary inconsistencies becoming visible.
+
+.What should participants know?
+* Characteristics of and differences between ACID and BASE transactions
+* Some product examples from different categories (e. g., NoSQL,
+  configuration tools, service discovery)
+* CAP for describing and explaining consistency models
 
 [[LG-7-2]]
 ==== LG 7-2: Resilience Patterns
-tbd.
+.What shall participants be capable of?
+* They should be able to decide, depending on requirements and
+  constraints, if traditional resilience approaches are sufficient or
+  if resilient software design is required.
+
+.What shall participants understand?
+* Traditional stability approaches (error avoidance strategies) on
+  infrastructure levels are generally no longer sufficient for today's
+  distributed, highly networked system landscapes.
+* There is no Silver Bullet for Resilient Software Design, i. e., the
+  relevant measures and applied patterns and principles depend on the
+  requirements, the general conditions and the persons involved.
+
+.What shall participants know?
+* The formula for availability and the different approaches to
+  maximise availability (maximising MTTF, minimising MTTR)
+* Isolation and latency monitoring as useful starting principles of
+  Resilient Software Design
+* Basic Resilience patterns such as bulkhead, circuit breaker,
+  redundancy, failover
+
 // end::EN[]
+
+
