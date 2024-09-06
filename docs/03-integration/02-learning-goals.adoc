@@ -20,8 +20,23 @@
 ** zur Entwicklungszeit entsteht oder
 ** beim Deployment entsteht.
 . Die Teilnehmer sollen die Konsequenzen und Einschränkungen verstehen, die sich aus der Integration von Systemen über verschiedenen Technologien und Integrationsmuster z. B. in Bezug auf Sicherheit, Antwortzeit oder Latenz ergeben.
-. RPC bezeichnet Mechanismen, um Funktionalität in einem anderen Prozess über Rechnergrenzen hinweg synchron aufzurufen. Dadurch entsteht Kopplung in vielerlei Hinsicht (zeitlich, Datenformat, API). Diese Kopplung hat negative Auswirkungen auf Verfügbarkeit und Antwortzeiten des Systems. REST macht Vorgaben, die diese Kopplung reduzieren können (Hypermedia, standardisierte API). Die zeitliche Kopplung bleibt jedoch grundsätzlich bestehen.
-. Bei der Integration mittels Messaging kommunizieren Systeme durch den asynchronen Austausch von Nachrichten. Die Systeme werden somit zeitlich entkoppelt. Technisch wird dies mittels Indirektion über eine Middleware erreicht. Nachrichten können optional persistiert, gefiltert, transformiert etc. werden. Es gibt verschiedene Messaging Patterns wie Request/Reply, Publish/Subscribe oder Broadcast.
+. Die Teilnehmer sollten verstehen, dass Messaging Kopplung an das
+Datenformat oder an eine API bedingt.  REST macht Vorgaben, die diese
+Kopplung reduzieren können (Hypermedia, standardisierte API).
+. Die Teilnehmer sollten verstehen, dass synchrone Kommunikation, zum
+Beispiel durch RPC, zeitliche Kopplung bedingt. Asynchrone
+Kommunikation ermöglicht, diese Kopplung aufzuweichen und erlaubt
+unter Umständen, dass ein System Fortschritt macht, ohne dass die
+Antworten auf alle Anfragen schon vorliegen. Entkopplung lässt sich
+außerdem durch selektive Kommunikation erreichen.
+. Die Teilnehmer verstehen, dass bei der Verwendung von Messaging
+gegenüber dem Aufruf lokaler Funktionen Verfügbarkeit und
+Antwortzeiten des Systems beeinträchtigt werden können.
+. Die Teilnehmer wissen, dass es für Messaging Middleware gibt, die
+bestimmte Aufgaben erleichtert. Nachrichten können optional
+persistiert, gefiltert, transformiert etc. werden. Es gibt
+verschiedene Messaging-Patterns wie Request/Reply, Publish/Subscribe
+oder Broadcast.
 . Eine Integration über Daten ermöglicht hohe Autonomie, die allerdings über die Notwendigkeit zur redundanten Datenhaltung und die damit notwendige Synchronisation erkauft wird. Es darf nicht angenommen werden, dass andere Systeme dieselben Schemata nutzen, weil das eine unabhängige Weiterentwicklung der Schemata verhindert. Daher muss für die Integration eine angemessene Transformation vorgesehen werden.
 . Die Teilnehmer sollen verschiedene Ansätze für die Frontend-Integration sowie deren Vor- und Nachteile und Anwendbarkeit abhängig von Kontextkriterien benennen können.
 . Die Teilnehmer sollen Techniken für die Integration von Services: REST, RPC, Message-orientierte Middleware kennen.
