@@ -1,7 +1,7 @@
 // tag::DE[]
 === Struktur des Lehrplans und empfohlene zeitliche Aufteilung
 
-[cols="<,>", options="header"]
+[cols="<,>,>", options="header"]
 |===
 | Inhalt 
 | Empfohlene Mindestdauer (min) 
@@ -53,7 +53,7 @@ Die Ausgestaltung der Beispiele und Übungen sind in diesem Lehrplan nicht vorge
 // tag::EN[]
 === Curriculum Structure and Recommended Durations
 
-[cols="<,>", options="header"]
+[cols="<,>,>", options="header"]
 |===
 | Content
 | Recommended duration (minutes)

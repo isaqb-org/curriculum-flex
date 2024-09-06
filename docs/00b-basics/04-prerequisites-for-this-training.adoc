@@ -3,7 +3,7 @@
 
 Teilnehmerinnen und Teilnehmer **sollten** folgende Kenntnisse und/oder Erfahrung mitbringen:
 
-- Grundlagen der Beschreibung von Architekturen mit Hilfe verschiedener Sichten, übergreifender Konzepte, Entwurfsentscheidungen, Randbedingungen etc., wie es im CPSA- F (Foundation Level) vermittelt wird.
+- Grundlagen der Beschreibung von Architekturen mithilfe verschiedener Sichten, übergreifender Konzepte, Entwurfsentscheidungen, Randbedingungen etc., wie es im CPSA-F (Foundation Level) vermittelt wird.
 - Erfahrung mit der Implementierung und Architektur in agilen Projekten.
 - Erfahrungen aus der Entwicklung und Architektur klassischer Systeme mit den typischen
 Herausforderungen.
@@ -11,29 +11,38 @@ Herausforderungen.
 **Hilfreich** für das Verständnis einiger Konzepte sind darüber hinaus:
 
 - Verteilte Systeme
-  * Probleme und Herausforderungen bei der Implementerung verteilter Systeme o Typische verteilte Algorithmen
+  * Probleme und Herausforderungen bei der Implementierung verteilter Systeme
+  * Typische verteilte Algorithmen
   * Internet-Protokolle
 - Kenntnisse über Modularisierungen
   * Fachliche Modularisierung
-  * Technische Umsetzungen wie Pakete oder Bibiliotheken
+  * Technische Umsetzungen wie Pakete oder Bibliotheken
 - Klassische Betriebs- und Deployment-Prozesse
 // end::DE[]
 
 // tag::EN[]
 === Prerequisites
 
-TODO
-Participants **should** have the following prerequisite knowledge:
+Participants **should** have the following knowledge and / or
+experience:
 
-- Prerequisite 1
-- Prerequisite 2, etc.
+- Fundamentals of the description of architectures using various
+  views, comprehen- sive concepts, design decisions, boundary conditions
+  etc., as taught in the CPSA-F (Foundation Level).
+- Experience with implementation and architecture in agile projects.
+- Experiences from the development and architecture of classical systems with the
+  typical challenges.
 
-Knowledge in the following areas may be **helpful** for understanding some concepts:
+**Useful** for understanding some concepts are also:
 
-- Area 1:
-  * Knowledge 1
-  * Experience 2
-  * Knowledge 3
-  * Experience 4
-  * Understanding 5
+- Distributed systems
+  * Problems and challenges in the implementation of distributed
+    systems
+  * Typical distributed algorithms
+  * Internet protocols
+
+- Knowledge about modularisations
+  * Functional modularisation
+  * Technical implementations like packages or libraries
+- Classical operation and deployment processes
 // end::EN[]
