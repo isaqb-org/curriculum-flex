@@ -6,7 +6,7 @@
 ==== LZ 5-1: Fehleranalyse in verteilten Systemen
 
 .Was sollen die Teilnehmer können?
-  * Die Teilnehmer sollen ein Konzept grob skizzieren und verstehen können, auf dessen Basis ein System überwacht werden kann d. h. den aktuellen Status zu beurteilen, Fehler und Abweichungen vom normalen Betrieb möglichst zu vermeiden oder zumindest so früh wie möglich zu erkennen zu behandeln.
+  * Die Teilnehmer sollen ein Konzept grob skizzieren und verstehen können, auf dessen Basis ein System überwacht werden kann, d.h. den aktuellen Status zu beurteilen, Fehler und Abweichungen vom normalen Betrieb möglichst zu vermeiden oder zumindest so früh wie möglich zu erkennen und zu behandeln.
 
 .Was sollen die Teilnehmer verstehen?
   * Die Teilnehmer sollten die Unterschiede zwischen Logging,
@@ -46,12 +46,66 @@
 
 // tag::EN[]
 [[LG-5-1]]
-==== LG 5-1: TBD
-tbd.
+==== LG 5-1: Fault analysis in distributed systems
+
+.What shall participants be capable of?
+* The participants should be able to roughly sketch and understand a
+  concept that allows to monitor a system, that means assess the
+  status, avoid errors and deviations from the regular operation as
+  far as possible or at least detect and handle them as early as
+  possible.
+
+.What should participants understand?
+* The appropriate selection of data is essential for reliable and
+  meaningful monitoring and logging.
+* In order to achieve systems that are ready to operate, in particular
+  those composed of many individual subsystems, the support of
+  operations has to be an integral part of the architecture concepts.
+* In order to achieve the highest possible transparency, a great deal
+  of data has to be collected, but also be pre-aggregated and made
+  evaluable.
+* The participants should understand which information can be obtained
+  from log data and which may (better) be obtained by instrumentation
+  of the code with metric probes.
 
 [[LG-5-2]]
-==== LG 5-2: TBD
-tbd.
+==== LG 5-2: Difference between metrics, logs, and traces
+
+.What should participants understand?
+* Logging and monitoring can include both functional and
+  technical data.
+* Logs are events, a metric is a state at a specific time
+
+.What should participants know?
+* Tools for centralised log data management
+* Tools for centralised metrics processing
+* Difference between business, application and system metrics
+* The meaning of important, system-independent application and system
+  metrics
+
+[[LG-5-3]]
+==== LG 5-3: Different models of operations
+
+.What shall participants be capable of?
+* According to context - such as organisation und skill set - decide
+  on centralised or decentralised operation.
+* In the concept, they may focus on logging, monitoring and the data
+  that is required for that purpose, depending on the specific project
+  scenario
+* Participants should be able to meet architecture requirements in a
+  way that supports the usage of appropriate tools, while reasonably
+  dealing with system resources.
+
+.What should participants understand?
+* The participants should understand how a typical centralised log
+  data administration is built and what impact it has on the
+  architecture.
+* The participants should understand how a typical centralised metrics
+  pipeline is built (capture, collect & sample, persist, query,
+  visualise) and the impact it has on the architecture (performance
+  overhead, memory consumption, ...).
+* The participants should understand the various options of logging,
+  monitoring and an Operations DB (see <<nygard>>), which
+  to use wherefore and how to meaningfully combine these tools.
+
 // end::EN[]
-
-

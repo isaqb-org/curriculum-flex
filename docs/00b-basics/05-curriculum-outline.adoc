@@ -3,7 +3,7 @@
 
 Die einzelnen Abschnitte des Lehrplans sind gemäß folgender Gliederung beschrieben:
 
-- **Begriffe/Konzepte**: Wesentliche Kernbegriffe dieses Themas.
+- **Begriffe/Konzepte**: wesentliche Kernbegriffe dieses Themas.
 - **Unterrichts-/Übungszeit**: Legt die Unterrichts- und Übungszeit fest, die für dieses Thema bzw. dessen Übung in einer akkreditierten Schulung mindestens aufgewendet werden muss.
 - **Lernziele**: Beschreibt die zu vermittelnden Inhalte inklusive ihrer Kernbegriffe und -konzepte.
 

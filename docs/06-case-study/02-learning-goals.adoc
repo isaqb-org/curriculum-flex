@@ -7,5 +7,5 @@ Die Case Study soll keine neuen Lernziele vermitteln, sondern die Themen durch p
 // end::DE[]
 
 // tag::EN[]
-The Case Study shall not introduce additional learning goals, but intesify the topics via practically relevant exercises.
+The Case Study shall not introduce additional learning goals, but intensify the topics via practically relevant exercises.
 // end::EN[]

@@ -1,38 +1,34 @@
 // tag::DE[]
 === Struktur des Lehrplans und empfohlene zeitliche Aufteilung
 
-[cols="<,>", options="header"]
+[cols="<,>,>", options="header"]
 |===
 | Inhalt 
 | Empfohlene Mindestdauer (min) 
 | Übungszeit (Minuten)
 
 | 1. Motivation 
-| 120 
+| 30 
 | 
 
 | 2. Modularisierung 
 | 180 
-| 60
+| 75
 
 | 3. Integration 
-| 120 
-| 30
+| 210 
+| 90
 
 | 4. Installation und Roll Out 
 | 120 
 | 30
 
 | 5. Betrieb, Überwachung und Fehleranalyse 
-| 120 
-| 30
+| 150 
+| 45
 
-| 6. Case Study 
-| 60 
-| 90
-
-| 7. Ausblick 
-| 120 
+| 6. Ausblick 
+| 90 
 | 
 
 | 
@@ -40,7 +36,7 @@
 | 
 
 | Summe 
-| 840 (14 Std) 
+| 780 (13 Std) 
 | 240 (4 Std) 
 |===
 
@@ -53,38 +49,34 @@ Die Ausgestaltung der Beispiele und Übungen sind in diesem Lehrplan nicht vorge
 // tag::EN[]
 === Curriculum Structure and Recommended Durations
 
-[cols="<,>", options="header"]
+[cols="<,>,>", options="header"]
 |===
 | Content
 | Recommended duration (minutes)
 | Exercise time (minutes)
 
 | 1. Motivation 
-| 120
+| 30
 | 
 
 | 2. Modularisation 
-| 120
-| 30
+| 180
+| 75
 
 | 3. Integration 
-| 120
-| 30
+| 210
+| 90
 
 | 4. Installation and Roll Out 
 | 120
 | 30
 
 | 5. Operations, Monitoring, and Failure Analysis 
-| 120
-| 30
+| 150
+| 45
 
-| 6. Case Study 
-| 60
+| 6. Outlook 
 | 90
-
-| 7. Outlook 
-| 120
 | 
 
 | 
@@ -92,7 +84,7 @@ Die Ausgestaltung der Beispiele und Übungen sind in diesem Lehrplan nicht vorge
 | 
 
 | Total 
-| 840 (14h)
+| 780 (13h)
 | 240 (4h)
 |===
 
