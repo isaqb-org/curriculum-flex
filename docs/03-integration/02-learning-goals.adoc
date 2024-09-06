@@ -15,6 +15,10 @@
 . Die Teilnehmer sollen die Vor- und Nachteile verschiedener Integrationsmechanismen kennen. Dazu zählen Frontend-Integration mit Mash Ups, Integration auf dem Middle Tier und Integration über Datenbanken oder Datenbank-Replikation.
 . Die Teilnehmer können abhängig von den Qualitätszielen und dem Wissen des Teams eine geeignete Integration vorschlagen.
 . Die Teilnehmer sollen eine Integrationsstrategie wählen, die auf das jeweilige Problem am besten passt. Das kann beispielsweise eine Frontend-Integration, eine Integration über RPC-Mechanismen, mit Message-orientierter Middleware, mit REST oder über die Replikation von Daten sein.
+. Teilnehmer verstehen, dass eine Integrationsstrategie darüber entscheidet, ob eine Abhängigkeit
+** erst zur Laufzeit entsteht,
+** zur Entwicklungszeit entsteht oder
+** beim Deployment entsteht.
 . Die Teilnehmer sollen die Konsequenzen und Einschränkungen verstehen, die sich aus der Integration von Systemen über verschiedenen Technologien und Integrationsmuster z. B. in Bezug auf Sicherheit, Antwortzeit oder Latenz ergeben.
 . RPC bezeichnet Mechanismen, um Funktionalität in einem anderen Prozess über Rechnergrenzen hinweg synchron aufzurufen. Dadurch entsteht Kopplung in vielerlei Hinsicht (zeitlich, Datenformat, API). Diese Kopplung hat negative Auswirkungen auf Verfügbarkeit und Antwortzeiten des Systems. REST macht Vorgaben, die diese Kopplung reduzieren können (Hypermedia, standardisierte API). Die zeitliche Kopplung bleibt jedoch grundsätzlich bestehen.
 . Bei der Integration mittels Messaging kommunizieren Systeme durch den asynchronen Austausch von Nachrichten. Die Systeme werden somit zeitlich entkoppelt. Technisch wird dies mittels Indirektion über eine Middleware erreicht. Nachrichten können optional persistiert, gefiltert, transformiert etc. werden. Es gibt verschiedene Messaging Patterns wie Request/Reply, Publish/Subscribe oder Broadcast.
