@@ -108,13 +108,17 @@ oder Broadcast.
   and integration patterns, relating to, for example, security,
   response time, or latency.
 
-. RPC means mechanisms for synchronously calling functionality in
-  another process over computer boundaries. This results in coupling
-  in many respects (time, data format, API). This coupling has a
-  negative effect on the availability and response times of the
-  system. REST makes guidelines that can reduce this coupling
-  (Hypermedia, standardised API). However, basically, the temporal
-  coupling remains.
+. The participants should understand that messaging implies coupling
+  through the data format or an API.  REST contains conventions that
+  can reduce this coupling (hypermedia, standardised API).
+
+. The participants should understand that that synchronous
+  communication, for example through RPC, implies temporal coupling.
+  Asynchronous communication enables loosening this coupling and may
+  enable the system to continue to process a request or a
+  computation, even though the requests asynchronously sent to
+  backend systems have not been answered yet.  Decoupling can also be
+  achieved through selective communication.
 
 . With integrating through messaging, systems communicate through the
   asynchronous exchange of messages. The systems are thus decoupled in
