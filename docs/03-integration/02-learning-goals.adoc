@@ -98,6 +98,12 @@ oder Broadcast.
   integration, integration via RPC mechanisms, message-oriented
   middleware, REST, or replication of data.
 
+. Participants understand that an integration strategy determines
+  whether a dependency
+** forms only at runtime,
+** forms at development time, or
+** forms during deployment.
+
 . Participants should understand the implications and limitations that
   arise from the integration of systems across different technologies
   and integration patterns, relating to, for example, security,
