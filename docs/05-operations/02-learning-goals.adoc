@@ -108,8 +108,4 @@
   pipeline is built (capture, collect & sample, persist, query,
   visualise) and the impact it has on the architecture (performance
   overhead, memory consumption, ...).
-* The participants should understand the various options of logging,
-  monitoring and an Operations DB (see <<nygard>>), which
-  to use wherefore and how to meaningfully combine these tools.
-
 // end::EN[]
