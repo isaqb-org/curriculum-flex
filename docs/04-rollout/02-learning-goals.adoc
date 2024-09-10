@@ -10,7 +10,13 @@
   * Die Teilnehmer sollen auf Basis des DevOps-Organisationsmodells einen Team-Aufbau skizzieren können.
 
 .Was sollen die Teilnehmer verstehen?
-  * Basis für die Automatisierung eines Deployments sind Virtualisierung oder Cloud mit Infrastructure as a Service (IaaS). Eine leichtgewichtige Alternative sind Linux-Container, wie sie Docker umsetzt.
+  * Mögliche Basis für die Automatisierung eines Deployments ist
+    der Package-Manager des Betriebssystems,
+    Virtualisierung oder eine Cloud mit Infrastructure as a Service
+    (IaaS), Container-as-a-Service (CaaS) oder Platform-as-a-Service (PaaS).
+  * Container und reproduzierbare Deployment-Infrastruktur wie Nix
+    können dabei helfen, in Entwicklung und in Produktion
+    gleiche Umgebungen herzustellen.
   * Ohne eine Deployment-Automatisierung ist das Deployment einer großen Anzahl von Servern und Services praktisch nicht möglich.
   * Moderne Deployment-Werkzeuge ermöglichen es, auf Rechnern Software automatisiert zu installieren. Neben der Anwendung selbst kann dabei auch die vollständige Infrastruktur automatisiert aufgebaut werden. Dabei sind die Installationen idempotent, d. h. sie führen unabhängig vom Ausgangszustand des Systems immer zum gleichen Ergebnis.
   * Immutable Server werden grundsätzlich nie geändert. Muss eine neue Version der Software in Betrieb genommen werden, wird der Server komplett neu aufgebaut. Das kann einfacher und zuverlässiger sein, als sich auf idempotente Werkzeuge zu verlassen.
@@ -26,9 +32,12 @@
     Delivery“).
 
 .Was sollen die Teilnehmer kennen?
-  * Grundlegendes Konzept von moderner Infrastruktur wie IaaS, PaaS und Virtualisierung
-  * Konzepte von Deployment-Werkzeuge wie Chef, Puppet, Ansible oder Salt
-  * Organisationsformen für DevOps
+  * Grundlegendes Konzept von moderner, vergänglicher Infrastruktur
+    wie IaaS (virtuelle Maschinen auf Abruf) und PaaS
+    (Deployment-Umgebung auf Abruf)
+  * Konzepte von Deployment-Werkzeugen wie Chef, Puppet, Ansible oder Salt
+  * Organisationsformen für DevOps und deren Wechselwirkung mit
+    Modularisierung, Schnittstellen und Conway's Law
   * Konzept von Deployments mit Package-Managern oder Linux Containern
   * Verschiedene PaaS-Plattformen und ihre Konzepte
 
@@ -51,10 +60,13 @@
   the DevOps organisation model.
 
 .What should participants understand?
-* The foundation for automating deployment is virtualization or the
-  cloud with Infrastructure as a Service (IaaS). A lightweight
-  alternative are Linux containers as implemented by Docker.
-
+* The foundation for automating deployment is the package manager of
+  the operating system, virtualization, or a cloud with
+  Infrastructure as a Service (IaaS), Container-as-a-Service (CaaS),
+  or Platform-as-a-Service (PaaS).
+* Containers and reproducible deployment infrastructure such as Nix
+  can help provide the same environment for development and in
+  production.
 * Deployment of a large number of servers and services is virtually
   impossible without a deployment automation.
 * Modern deployment tools allow to automatically install software on
@@ -87,11 +99,14 @@
   delivery (see chapter "Continuous Delivery").
 
 .What should participants know?
-* Basic concept of modern infrastructure such as IaaS, PaaS and
-  virtualization concepts of deployment tools like Chef, Puppet,
-  Ansible or Salt Organisation forms for DevOps
+* Basic concept of modern, transient infrastructure such as IaaS
+  (virtual machines on demand), PaaS (deployment environment on demand)
+* Concepts of deployment tools like Chef, Puppet,
+  Ansible or Salt
+* Organisation forms for DevOps and their interplay with
+  modularisation, interfaces, and Conway's Law
 * Concepts of deployments with package managers or Linux containers
-  Various PaaS platforms and their concepts
+* Various PaaS platforms and their concepts
 
 // end::EN[]
 
