@@ -11,7 +11,8 @@
 .Was sollen die Teilnehmer verstehen?
   * Die Teilnehmer sollten die Unterschiede zwischen Logging,
     Monitoring und Metrik-Sammlung verstehen und die damit
-    einhergenden Unterschiede bei den verwendeten Merkzeugen.
+    einhergenden Unterschiede bei den für diese Aufgaben verwendeten
+    Merkzeugen.
   * Die richtige Auswahl von Daten ist zentral für ein zuverlässiges und sinnvolles Monitoring und Logging.
   * Damit Systeme, insbesondere solche, die sich aus vielen einzelnen Teilsystemen zusammensetzen, betreibbar sind, muss die Unterstützung des Betriebs mit hoher Priorität Bestandteil der Architekturkonzepte sein.
   * Damit eine möglichst hohe Transparenz erreicht wird, müssen sehr viele Daten erfasst, aber auch zielgruppengerecht voraggregiert und auswertbar gemacht werden.
@@ -56,6 +57,9 @@
   possible.
 
 .What should participants understand?
+* The participants should understand the difference between logging,
+  monitoring, and metrics collections, as well as the ensuing
+  differences between the tools for these tasks.
 * The appropriate selection of data is essential for reliable and
   meaningful monitoring and logging.
 * In order to achieve systems that are ready to operate, in particular
@@ -104,8 +108,4 @@
   pipeline is built (capture, collect & sample, persist, query,
   visualise) and the impact it has on the architecture (performance
   overhead, memory consumption, ...).
-* The participants should understand the various options of logging,
-  monitoring and an Operations DB (see <<nygard>>), which
-  to use wherefore and how to meaningfully combine these tools.
-
 // end::EN[]
