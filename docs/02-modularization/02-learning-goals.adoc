@@ -173,12 +173,11 @@
   context.
 
 .What should participants know?
-* The participants should know various technical modularisation
-  options: e.g., source code files, libraries, frameworks, plugins,
-  applications, processes, Microservices, SCS.
-* The participants should know various technical modularisation
-  options: e.g., source files, libraries, frameworks, plugins,
-  applications, processes, microservices, self-contained systems
+* The participants should know various technical mechanisms to subdivide a
+  system at development time: source code files, JARs, OSGi bundles,
+  modules of the programming language
+* The participants should know various means of subdividing a system
+  at run time: processes, microservices, self-contained systems.
 * The participants should know "The Twelve-Factor App". 
 
 [[LG-2-3]]
