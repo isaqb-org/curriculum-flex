@@ -225,7 +225,8 @@
   data-flow-oriented systems.
 
 .What should participants know?
-
+* The participants know the modularisation strategies "bounded
+  context", "customer journey", and "information hiding" <<parnas>>.
 * The participants should know the following terms from the
   domain-driven design: Aggregate Root, Context Mapping, Bounded
   Contexts and relationships between them (e.g., Anti-Corruption
