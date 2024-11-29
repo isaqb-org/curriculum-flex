@@ -1,0 +1,112 @@
+=== {learning-goals}
+
+// tag::DE[]
+[[LZ-5-1]]
+==== LZ 5-1: Außerhalb des eigenen Einflussbereiches getroffene Makroarchitekturentscheidungen identifizieren
+
+- Makroarchitekturentscheidungen wie Kommunikationsprotokolle, Betriebsstandards und Plattformvorgaben analysieren und deren Auswirkungen auf Deployment- und Runtime-Methoden bewerten.
+- Die Abgrenzung zwischen Makro- und Mikroarchitektur verstehen, um potenzielle Einschränkungen und Möglichkeiten bei Deployment-Strategien zu identifizieren.
+- Die Bedeutung von zentralen Plattformstandards für die Vereinheitlichung und Effizienz von Deployments erkennen.
+
+[[LZ-5-2]]
+==== LZ 5-2: Voraussetzungen und Auswirkungen für Continuous Deployment benennen
+
+- Anforderungen an eine CI/CD-Pipeline erklären, einschließlich Automatisierungsgrad, Tests und Infrastrukturintegration.
+- Die Rolle von DevOps in Continuous Deployment verstehen und organisatorische Implikationen erkennen.
+- Unterschiede zwischen traditionellen und modernen Deployment-Ansätzen, wie Immutable Infrastructure oder Infrastructure as Code, evaluieren.
+- Risiken und Vorteile von Continuous Deployment, einschließlich Zero Downtime, im Kontext verschiedener Projekte abwägen.
+
+[[LZ-5-3]]
+==== LZ 5-3: (OPTIONAL) Unterschiede von IaaS, PaaS, CaaS, FaaS erklären und auswählen
+
+- Die technischen Eigenschaften und Anwendungsbereiche der verschiedenen Plattformansätze (IaaS, PaaS, CaaS, FaaS) erläutern.
+- Kriterien für die Auswahl des passenden Plattformansatzes in Abhängigkeit von Projektanforderungen wie Skalierbarkeit, Flexibilität und Kosten aufstellen.
+- Auswirkungen der Plattformwahl auf die Deployment-Strategie analysieren und Entscheidungen zu Containerisierung (z. B. Docker, Kubernetes) oder serverlosen Ansätzen treffen.
+
+[[LZ-5-4]]
+==== LZ 5-4: Zero Downtime Methodiken und ihre Auswirkungen benennen und auswählen
+
+- Verschiedene Zero-Downtime-Strategien (Blue-Green-Deployment, Canary Releases, Rolling Updates) erläutern und deren Vor- und Nachteile analysieren.
+- Die Rolle von Immutable Infrastructure und Automatisierung für Zero Downtime erklären.
+- Herausforderungen und Architekturanforderungen für Zero-Downtime-Deployments evaluieren.
+
+[[LZ-5-5]]
+==== LZ 5-5: Unterschiede zwischen Continuous Integration, Continuous Deployment und Continuous Delivery erklären
+- Die Bedeutung von Continuous Integration (CI) als Grundlage für Continuous Deployment und Delivery erläutern.
+- Unterschiede in Zielsetzung und Automatisierungsgrad zwischen den drei Konzepten analysieren.
+- Abhängigkeiten von Architekturentscheidungen auf den Einsatz von CI/CD-Pipelines beschreiben.
+
+[[LZ-5-6]]
+==== LZ 5-6: (OPTIONAL) Deployment-spezifische Sicherheitsanforderungen benennen
+
+- Anforderungen an den Schutz von Secrets (z. B. API-Keys, Zertifikate) und Sicherheitsrichtlinien im Deployment-Prozess erklären.
+- Konzepte wie Zugriffskontrollen, Verschlüsselung und Compliance-Anforderungen in Deployment-Strategien integrieren.
+- Werkzeuge zur Verwaltung sicherheitsrelevanter Informationen (Secret Store) einsetzen und bewerten.
+
+[[LZ-5-7]]
+==== LZ 5-7: (OPTIONAL) Die Rolle von Observability im Deployment-Prozess erklären
+- Anforderungen an ein Monitoring-System und dessen Bedeutung für den Deployment-Erfolg erläutern.
+- Die Rolle von zentralisierten Logging- und Metriksystemen (z. B. Elastic Stack, Prometheus, Grafana) erklären.
+- Strategien entwickeln, um potenzielle Probleme im Deployment-Prozess frühzeitig zu erkennen und zu adressieren.
+
+[[LZ-5-8]]
+==== LZ 5-8: (OPTIONAL) Kosten- und Ressourceneffizienz im Deployment optimieren
+- Methoden zur Kostenoptimierung im Deployment evaluieren (z. B. Reserved Instances, Spot Instances, Serverless).
+- Auswirkungen der Wahl von Cloud- und Virtualisierungsstrategien auf die Betriebskosten und Ressourcennutzung analysieren.
+- Deployment-Methoden entwickeln, die Skalierbarkeit und Effizienz maximieren.
+- Negative Auswirkungen von Kostenoptimierung auf Flexibilität, Reaktionsfähigkeit und Geschwindigkeit im Deployment Prozess erklären
+
+// end::DE[]
+
+// tag::EN[]
+[[LG-5-1]]
+==== LG 5-1: Identify Macro-architectural Decisions Beyond Your Sphere of Influence
+- Analyze macro-architectural decisions such as communication protocols, operational standards, and platform requirements, evaluating their impact on deployment and runtime methods
+- Understand the distinction between macro and micro architecture to identify potential constraints and opportunities in deployment strategies
+- Recognize the importance of central platform standards for deployment uniformity and efficiency
+
+[[LG-5-2]]
+==== LG 5-2: Specify prerequisites and implications for Continuous Deployment
+- Utilize quality goals to explain CI/CD pipeline requirements, including automation levels, testing, and infrastructure integration
+- Understand DevOps' role in Continuous Deployment and recognize organizational implications
+- Evaluate differences between traditional and modern deployment approaches, such as Immutable Infrastructure or Infrastructure as Code
+- Assess risks and benefits of Continuous Deployment, including zero downtime, in various project contexts
+
+[[LG-5-3]]
+==== LG 5-3: (OPTIONAL) Explain and select differences between IaaS, PaaS, CaaS, and FaaS
+- Describe technical characteristics and application areas of different platform approaches (IaaS, PaaS, CaaS, FaaS)
+- Establish criteria for selecting appropriate platform approaches based on project requirements like scalability, flexibility, and costs
+- Analyze platform choice impacts on deployment strategy and make decisions regarding containerization (e.g., Docker, Kubernetes) or serverless approaches
+
+[[LG-5-4]]
+==== LG 5-4: Identify and select Zero Downtime methodologies and their implications
+- Explain various zero-downtime strategies (Blue-Green Deployment, Canary Releases, Rolling Updates) and analyze their pros and cons
+- Explain the role of Immutable Infrastructure and automation for zero downtime
+- Evaluate challenges and architectural requirements for zero-downtime deployments
+
+[[LG-5-5]]
+==== LG 5-5: Explain differences between Continuous Integration, Continuous Deployment, and Continuous Delivery
+- Explain the significance of Continuous Integration (CI) as a foundation for Continuous Deployment and Delivery
+- Analyze differences in objectives and automation levels between the three concepts
+- Describe how architectural decisions influence CI/CD pipeline implementation
+
+[[LG-5-6]]
+==== LG 5-6: (OPTIONAL) Specify deployment-specific security requirements
+- Explain requirements for protecting secrets (e.g., API keys, certificates) and security policies in the deployment process
+- Integrate concepts like access controls, encryption, and compliance requirements into deployment strategies
+- Implement and evaluate tools for managing security-relevant information
+
+[[LG-5-7]]
+==== LG 5-7: (OPTIONAL) Explain the role of observability in the Deployment Process
+- Explain monitoring system requirements and their importance for deployment success
+- Explain the role of centralized logging and metrics systems (e.g., Elastic Stack, Prometheus, Grafana)
+- Develop strategies to identify and address potential problems in the deployment process early
+
+[[LG-5-8]]
+==== LG 5-8: (OPTIONAL) Shop options to optimize cost and resource efficiency in the deployment process
+- Evaluate methods for cost optimization in deployment and runtime (e.g., Reserved Instances, Spot Instances, Serverless)
+- Analyze how cloud and virtualization strategy choices impact operational costs and resource utilization
+- Develop deployment methods that maximize scalability and efficiency
+- Explain negative impact of cost optimization to flexibility and speed in the deployment process
+
+// end::EN[]
