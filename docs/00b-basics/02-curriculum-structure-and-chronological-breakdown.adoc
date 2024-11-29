@@ -7,37 +7,37 @@
 | Empfohlene Mindestdauer (min) 
 | Übungszeit (Minuten)
 
-| 1. Motivation 
-| 30 
-| 
-
-| 2. Modularisierung 
-| 180 
-| 75
-
-| 3. Integration 
-| 210 
+| 1. Warum flexible Systeme einsetzen
 | 90
-
-| 4. Installation und Roll Out 
-| 120 
 | 30
 
-| 5. Betrieb, Überwachung und Fehleranalyse 
-| 150 
-| 45
+| 2. Modularisierung von Systemen in Teilsysteme
+| 180 
+| 60
 
-| 6. Ausblick 
-| 90 
-| 
+| 3. Softwaremodule und der Bezug zu Organisationsstrukturen
+| 120
+| 60
+
+| 4. Integrationsmethoden & Protokolle
+| 120 
+| 60
+
+| 5. Installation und Laufzeitumgebungen/Plattformen
+| 120
+| 90
+
+| 6. Betriebsmodelle
+| 90
+| 60
 
 | 
 | 
 | 
 
 | Summe 
-| 780 (13 Std) 
-| 240 (4 Std) 
+| 720 (12 Std)
+| 360 (6 Std)
 |===
 
 In diesem Kontext stellt „Dauer" die Unterrichtszeit ohne Übungszeit dar.
@@ -55,37 +55,37 @@ Die Ausgestaltung der Beispiele und Übungen sind in diesem Lehrplan nicht vorge
 | Recommended duration (minutes)
 | Exercise time (minutes)
 
-| 1. Motivation 
+| 1. Why approach Flexible Systems
+| 90
 | 30
-| 
 
-| 2. Modularisation 
+| 2. Modularization of Systems of Systems
 | 180
-| 75
+| 60
 
-| 3. Integration 
-| 210
-| 90
-
-| 4. Installation and Roll Out 
+| 3. Software Modules and the Organisation
 | 120
-| 30
+| 60
 
-| 5. Operations, Monitoring, and Failure Analysis 
-| 150
-| 45
+| 4. Integration Methods & Protocols
+| 120
+| 60
 
-| 6. Outlook 
+| 5. Deployment & Runtime/Platform Methods
+| 120
 | 90
-| 
+
+| 6. Service Operation Models
+| 90
+| 60
 
 | 
 |
 | 
 
 | Total 
-| 780 (13h)
-| 240 (4h)
+| 720 (12h)
+| 360 (6h)
 |===
 
 

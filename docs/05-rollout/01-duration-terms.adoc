@@ -1,6 +1,6 @@
 // tag::DE[]
 |===
-| Dauer: 90 Min. | Übungszeit: 30 Min.
+| Dauer: 120 Min. | Übungszeit: 90 Min.
 |===
 
 === Begriffe und Konzepte
@@ -11,7 +11,7 @@ Moderner Betrieb, DevOps, Infrastructure as Code, Configuration Management.
 
 // tag::EN[]
 |===
-| Duration: 90 min | Practice time: 30 min
+| Duration: 120 min | Practice time: 90 min
 |===
 
 === Terms and Principles
