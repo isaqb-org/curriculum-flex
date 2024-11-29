@@ -3,11 +3,11 @@
 // ====================================================
 
 // tag::DE[]
-== Installation und Roll Out
+== Installation und Laufzeitumgebungen/Plattformen
 // end::DE[]
 
 // tag::EN[]
-== Installation and Roll Out
+== Deployment & Runtime/Platform Methods
 // end::EN[]
 
 include::01-duration-terms.adoc[{include_configuration}]
