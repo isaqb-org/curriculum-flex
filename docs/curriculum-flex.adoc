@@ -47,7 +47,7 @@ include::01-motivation/00-structure.adoc[{include_configuration}]
 include::02-modularization/00-structure.adoc[{include_configuration}]
 
 <<<
-include::03-integration/00-structure.adoc[{include_configuration}]
+include::03-modules-organization/00-structure.adoc[{include_configuration}]
 
 <<<
 include::04-rollout/00-structure.adoc[{include_configuration}]

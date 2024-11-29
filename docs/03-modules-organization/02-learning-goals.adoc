@@ -1,0 +1,34 @@
+=== {learning-goals}
+
+
+// tag::DE[]
+[[LZ-3-1]]
+==== LZ 3-1: Conway's Law anhand von Beispielen erklären
+
+Die Teilnehmenden sollen das Prinzip von Conway's Law verstehen und anhand praktischer Beispiele verdeutlichen können, wie die Kommunikationsstrukturen einer Organisation die Softwarearchitektur prägen. Ziel ist es, die Auswirkungen dieser Wechselwirkungen bewusst zu machen und für Architekturentscheidungen zu nutzen.
+
+[[LZ-3-2]]
+==== LZ 3-2: Context Maps für Stakeholder Management nutzen
+
+Die Teilnehmenden lernen, Domain-Driven Design (DDD) Context Maps einzusetzen, um den aktuellen Zustand (AS-IS) und einen gewünschten zukünftigen Zustand (TO-BE) einer Systemlandschaft darzustellen. Dabei wird auch das Einbinden von Stakeholdern in den Veränderungsprozess thematisiert. Ziel ist es, Context Maps als Kommunikations- und Planungswerkzeug zu verstehen und anzuwenden.
+
+
+[[LZ-3-3]]
+==== LZ 3-3: Wechselwirkungen zwischen Organisation und Software Systemen erklären und analysieren
+
+Die Teilnehmenden sollen die bidirektionalen Einflüsse zwischen Organisationsstrukturen und Softwarearchitekturen verstehen und analysieren können. Dabei wird der Fokus darauf gelegt, wie organisatorische Änderungen Software beeinflussen und umgekehrt, um eine bessere Abstimmung zwischen beiden Welten zu erreichen.
+
+[[LZ-3-4]]
+==== LZ 3-4: Begriffe wie Teamorganisation und sozio-technische Architekturen einordnen
+
+Die Teilnehmenden sollen Begriffe wie Team-Organisation, sozio-technische Architekturen und ähnliche Konzepte einordnen und deren Bedeutung im Kontext moderner Softwareentwicklung erklären können. Ziel ist es, ein Verständnis für die Verknüpfung technischer und sozialer Aspekte bei der Architekturgestaltung zu entwickeln.
+
+// end::DE[]
+
+// tag::EN[]
+[[LG-3-1]]
+==== LG 3-1: Explain Conway's Law using examples
+
+// end::EN[]
+
+
