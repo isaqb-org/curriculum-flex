@@ -56,9 +56,6 @@ include::04-rollout/00-structure.adoc[{include_configuration}]
 include::05-operations/00-structure.adoc[{include_configuration}]
 
 <<<
-include::06-case-study/00-structure.adoc[{include_configuration}]
-
-<<<
 include::07-outlook/00-structure.adoc[{include_configuration}]
 
 <<<

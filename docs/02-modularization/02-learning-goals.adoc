@@ -79,7 +79,6 @@ Modularisierungsstrategien sind Herangehensweisen, um ein System in unabhängige
 [[LG-2-1]]
 ==== LG 2-1: Decomposing into building blocks based on the requirements
 
-
 // end::EN[]
 
 
