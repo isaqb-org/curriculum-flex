@@ -41,7 +41,7 @@
 
 - Anforderungen an den Schutz von Secrets (z. B. API-Keys, Zertifikate) und Sicherheitsrichtlinien im Deployment-Prozess erklären.
 - Konzepte wie Zugriffskontrollen, Verschlüsselung und Compliance-Anforderungen in Deployment-Strategien integrieren.
-- Werkzeuge zur Verwaltung sicherheitsrelevanter Informationen (z. B. HashiCorp Vault) einsetzen und bewerten.
+- Werkzeuge zur Verwaltung sicherheitsrelevanter Informationen (Secret Store) einsetzen und bewerten.
 
 [[LZ-5-7]]
 ==== LZ 5-7: (OPTIONAL) Die Rolle von Observability im Deployment-Prozess erklären
