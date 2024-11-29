@@ -5,72 +5,43 @@
 [[LZ-2-1]]
 ==== LZ 2-1: Dekomposition in Bausteine anhand der Anforderungen entwerfen
 
-Die Teilnehmer können für eine gegebene Aufgabenstellung eine Zerlegung in einzelne Bausteine entwerfen. Dabei sollen sie die Kommunikationsstruktur der Organisation beim Festlegen der Modulgrenzen berücksichtigen (Gesetz von Conway kennen). Sie sind auch in der Lage, einen Plan zur Aufteilung eines Deployment-Monolithen in kleine Services aufzustellen.
-
-Es können unterschiedliche Grade an Vorgaben (Rahmenbedingungen) für die Entwicklung eines Bausteins sinnvoll sein. Einige Vorgaben sollten übergeordnet für die Integration mit anderen Bausteinen dieser Art gelten. Die übergreifenden Entscheidungen, die alle Systeme beeinflussen, können eine Makro-Architektur bilden. Dazu zählen beispielsweise die Kommunikationsprotokolle oder Betriebsstandards. Die Mikro-Architektur beschreibt die Architektur eines einzelnen Systems, das weitgehend unabhängig von anderen Systemen sein sollte und den daran arbeitenden Team bestimmte Freiheiten lässt. Zu große Einschränkungen auf Ebene der Makro-Architektur führen dazu, dass die Architektur insgesamt auf weniger Probleme angewendet werden kann.
+* Zerlegungsansätze: Erstellung einer Systemzerlegung in Bausteine unter Berücksichtigung fachlicher und technischer Anforderungen.
+* Strategic Design: Einsatz von Domain-Driven Design (DDD) zur Definition von Modulgrenzen anhand fachlicher Domänen (z. B. Bounded Contexts).
+* Hierarchische Strukturen: Berücksichtigung der Hierarchie von Modulen bei der Zerlegung, z. B. Subdomänen und Kontext-Mapping.
 
 [[LZ-2-2]]
 ==== LZ 2-2: Unterschiedliche Arten von Bausteinen beschreiben und begründen
 
-Die Teilnehmenden sollen verschiedene Arten von Bausteinen (z. B. Module, Komponenten, Microservices) kennen, beschreiben und deren Einsatz in der Softwarearchitektur begründen können. Dabei berücksichtigen sie insbesondere, wie die Kommunikations- und Teamstrukturen der Organisation (gemäß Conway’s Law) die Zerlegung des Systems beeinflussen. Ziel ist es, ein Verständnis für die Wechselwirkungen zwischen technischer Architektur und organisatorischen Gegebenheiten zu entwickeln und dieses Wissen in Architekturentscheidungen anzuwenden.
-
-Die Teilnehmer verstehen, dass jede Art von Bausteinen neben einer klaren Bezeichnung eine Beschreibung mit folgendem Inhalt benötigt:
-
-* was macht Bausteine dieser Art aus
-* wie wird ein solcher Baustein zur Laufzeit integriert
-* wie wird ein solcher Baustein (im Sinne des Build-Systems) gebaut
-* wie wird ein solcher Baustein deployt
-* wie wird ein solcher Baustein getestet
-* wie wird ein solcher Baustein skaliert
-
+* Arten von Modulen: Definition und Eigenschaften verschiedener Bausteine, wie Microservices, Self-Contained Systems und Deployment-Monolithen.
+* Lebenszyklus von Modulen: Beschreibung, wie ein Baustein erstellt, integriert, getestet, deployt und skaliert wird.
+* Isolationsebenen: Unterschiede zwischen modularer Isolation im Code, in der Laufzeitumgebung und bei Netzwerkschnittstellen.
 
 [[LZ-2-3]]
-==== LZ 2-3: Modularisierungkonzepte bewerten und auswählen
+==== LZ 2-3: Kommunikationsstruktur der Organisation bei Zerlegung berücksichtigen
 
-Die Teilnehmer können technische Modularisierungskonzepte projektspezifisch bewerten und auswählen. Sie können die Beziehungen zwischen Modulen sowie zwischen Modulen und Subdomänen veranschaulichen sowie analysieren (z. B. durch Context Mapping) und ein Konzept erarbeiten, um ein System aus Services aufzubauen.
-
-Die Teilnehmer verstehen die Ziele von Modularisierung, wie:
-
-* Parallelisierung der Entwicklung
-* unabhängiges Deployment
-* Austauschbarkeit zur Laufzeit
-* Rebuild/Reuse von Modulen
-* leichtere Verständlichkeit des Gesamtsystems
-
-Die Teilnehmer wissen, dass Continuous Delivery und die Automatisierung von Tests sowie Deployment einen wichtigen Einfluss auf die Modularisierung haben. Sie verstehen, dass durch die Zerlegung des Systems entstandenen kleineren Teile wieder integriert werden müssen, wobei organisatorische und technische Aufwände entstehen. Diese Aufwände müssen durch die Vorteile, die durch die Modularisierung erreicht werden, mehr als ausgeglichen werden.
-
-Die Teilnehmer verstehen, dass je nach gewählter Modularisierungstechnologie, Kopplung auf unterschiedlichen Ebenen entstehen kann:
-
-* im Sourcecode - Modularisierung mit Dateien, Klassen, Packages, Namensräumen, etc.
-* im Kompilat - Modularisierung mit JARs, Bibliotheken, DLLs, etc.
-* in der Laufzeitumgebung - Modularisierung über das Betriebssystem, virtuelle Maschinen oder Container
-* über das Netzwerkprotokoll - Verteilung auf verschiedene Prozesse
-
-Den Teilnehmern ist klar, dass eine Kopplung auf Ebene des Sourcecodes eine sehr enge Kooperation sowie ein gemeinsames SCM (Source Code Management = Quellcodeverwaltung) benötigt. Eine Kopplung auf Ebene des Kompilats bedeutet hingegen, dass die Bausteine in der Regel gemeinsam deployt werden müssen. Dementsprechend ist nur die Verteilung auf unterschiedliche Anwendungen/Prozesse praktikabel im Hinblick auf ein unabhängiges Deployment.
-
-Teilnehmer verstehen, dass eine vollständige Isolation zwischen Bausteinen nur durch eine Trennung in allen Phasen (Entwicklung, Deployment und Laufzeit) gewährleistet werden kann. Ist das nicht der Fall, können unerwünschte Abhängigkeiten nicht ausgeschlossen werden. Gleichzeitig verstehen die Teilnehmer auch, dass aus bestimmten Gründen (wie effizienter Ressourcennutzung oder Reduktion der Komplexität) ggf. wiederum auf eine vollständige Isolation verzichtet werden darf.
-
-Teilnehmer kennen die Konsequenzen, die durch die Zerlegung in verteilte Systeme entstehen können:
-
-* bei der Verteilung auf unterschiedliche Prozesse entstehen einige Abhängigkeiten erst zur Laufzeit (nicht mehr nur in der Implementierung). Dadurch steigen die Anforderungen an die Überwachung dieser Schnittstellen.
-* da z. B. Microservices unabhängige Deployment-Einheiten und damit auch unabhängige Prozesse sind sowie ihre Funktionen über leichtgewichtige Protokolle exponieren, aber auch ein UI haben können, dürfen für die Implementierung jedes einzelnen Microservices unterschiedliche Technologieentscheidungen getroffen werden.
-* ein Self-Contained System (SCS) wiederum stellt ein fachlich eigenständiges System dar. Es beinhaltet üblicherweise UI sowie Persistenz und dürfte aus mehreren Microservices bestehen. Fachlich deckt ein SCS meist einen Bounded Context ab.
-
-Die Teilnehmer sollen verschiedene technische Mechanismen kennen, um ein System zur Entwicklungszeit aufzuteilen: Sourcecode-Dateien, JARs,  OSGi-Bundles, Module der Programmiersprache. Und die Teilnehmer sollen verschiedene Möglichkeiten kennen, ein System zur Laufzeit aufzuteilen: Prozesse, Microservices, Self-Contained Systems.
+* Conway’s Law: Bedeutung und Auswirkungen der Kommunikationsstruktur der Organisation auf die Wahl und Gestaltung von Modulgrenzen.
+* Autonomie und Zusammenarbeit: Sicherstellung der Entwicklungsautonomie durch modulare Schnitte entlang fachlicher Grenzen.
 
 [[LZ-2-4]]
-==== LZ 2-4: Modularisierungsstrategien bewerten
+==== LZ 2-4: Modularisierungskonzepte bewerten und auswählen
 
-Die Teilnehmer sollen verschiedene Modularisierungsstrategien analysieren und deren Vor- und Nachteile anhand von Aufwand und Nutzen kritisch bewerten können. Sie lernen, die Auswirkungen von Modularisierungsentscheidungen auf Wartbarkeit, Flexibilität, Performance und andere Qualitätsattribute abzuschätzen. Ziel ist es, fundierte Entscheidungen zu treffen, die sowohl den technischen als auch den organisatorischen Anforderungen gerecht werden.
+* Technische Modularisierung: Bewertung von Konzepten wie Dateien, Bibliotheken, Prozesse, Microservices oder Self-Contained Systems.
+* Integration und Kopplung: Analyse von Kopplungsebenen (Sourcecode, Kompilate, Netzwerkprotokoll) und deren Auswirkungen.
+* Qualitätsziele: Auswahl einer Modularisierung passend zu Anforderungen wie Parallelisierung der Entwicklung oder unabhängiges Deployment.
 
-Modularisierungsstrategien sind Herangehensweisen, um ein System in unabhängige, überschaubare und wiederverwendbare Bausteine zu zerlegen. Ziel ist es, die Komplexität zu reduzieren. Beispiele für Modularisierungsstrategien sind:
+[[LZ-2-5]]
+==== LZ 2-5: Modularisierungsstrategien bewerten
 
-* funktionale Zerlegung in fachliche Teile, z. B. mit Domain-getriebener Modularisierung (DDD: Domain-Driven Design) basierend auf fachlichen Domänen oder Subdomänen, oft dargestellt als Bounded Contexts
-* Schichtenarchitektur - Modularisierung in horizontale Schichten
-* technologiegetriebene Modularisierung, z. B. spezifische Plattformen für Web oder Mobile
-* team-getriebene Modularisierung (Conway's Law), angelehnt an der Kommunikationsstruktur der Organisation
-* qualitätsattribut-getriebene Modularisierung, die spezifische Qualitätsattribute adressiert, z. B. Performance, Sicherheit oder Wiederverwendbarkeit
-* datengesteuerte Modularisierung nach Datenstrukturen oder Datenflüssen
+* Strategien und Konsequenzen: Bewertung der Auswirkungen verschiedener Modularisierungsansätze, z. B. Monolith vs. verteilte Module.
+* Technologieabhängigkeit: Wie Modularisierungstechnologien (z. B. Container oder Laufzeitumgebungen) Strategien beeinflussen.
+* Aufwands-Nutzen-Abgleich: Abwägung organisatorischer und technischer Aufwände gegen die erwarteten Vorteile.
+
+[[LZ-2-6]]
+==== LZ 2-6: Aufwand und Nutzen von Modularisierungsstrategien gegenüberstellen
+
+* Integration vs. Dezentralisierung: Identifikation von organisatorischen und technischen Aufwänden  für die Integration modularer Systeme.
+* Erwartete Vorteile: Bewertung des Nutzens, wie etwa unabhängiges Deployment, Parallelisierung und verbesserte Verständlichkeit.
+* Modulgrenzen und Komplexität: Analyse, wie die Wahl der Modulgrenzen die Komplexität und den Entwicklungsaufwand beeinflusst.
 
 // end::DE[]
 
