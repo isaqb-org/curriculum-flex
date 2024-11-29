@@ -48,7 +48,39 @@
 // tag::EN[]
 
 [[LG-2-1]]
-==== LG 2-1: Decomposing into building blocks based on the requirements
+==== LG 2-1: Designing decomposition into components based on requirements
+* Decomposition approaches: Creating a system decomposition into components while considering functional and technical requirements.
+* Strategic Design: Using Domain-Driven Design (DDD) to define module boundaries based on business domains (e.g., Bounded Contexts).
+* Hierarchical structures: Considering the hierarchy of modules in the decomposition, such as subdomains and context mapping.
+
+[[LG-2-2]]
+==== LG 2-2: Describing and justifying different types of components
+* Types of modules: Defining and identifying characteristics of different components, such as microservices, self-contained systems, and deployment monoliths.
+* Lifecycle of components: Explaining how a component is created, integrated, tested, deployed, and scaled.
+* Levels of isolation: Differentiating modular isolation in code, runtime environments, and network interfaces.
+
+[[LG-2-3]]
+==== LG 2-3: Considering the communication structure of the organization during decomposition
+* Conway’s Law: Understanding the importance and impact of the organization’s communication structure on the choice and design of module boundaries.
+* Autonomy and collaboration: Ensuring development autonomy by aligning modular cuts with business boundaries.
+
+[[LG-2-4]]
+==== LG 2-4: Evaluating and selecting modularization concepts
+* Technical modularization: Assessing concepts such as files, libraries, processes, microservices, or self-contained systems.
+* Integration and coupling: Analyzing levels of coupling (source code, compile-time, network protocols) and their implications.
+* Quality goals: Choosing modularization approaches suitable for requirements like development parallelization or independent deployment.
+
+[[LG-2-5]]
+==== LG 2-5: Assessing modularization strategies
+* Strategies and consequences: Evaluating the impact of different modularization approaches, e.g., monolith vs. distributed modules.
+* Technology dependency: How modularization technologies (e.g., containers or runtime environments) influence strategies.
+* Effort-benefit trade-offs: Weighing organizational and technical efforts against expected benefits.
+
+[[LG-2-6]]
+==== LG 2-6: Contrasting the costs and benefits of modularization strategies
+* Integration vs. decentralization: Identifying organizational and technical costs for integrating modular systems.
+* Expected benefits: Assessing advantages such as independent deployment, parallelization, and improved system comprehensibility.
+* Module boundaries and complexity: Analyzing how module boundary choices affect complexity and development effort.
 
 // end::EN[]
 
