@@ -1,0 +1,79 @@
+=== {learning-goals}
+
+// tag::DE[]
+[[LZ-4-1]]
+==== LZ 4-1: Integrationsstrategien gegenüberstellen (am Beispiel von DDD Strategic Design)
+
+* Verstehen von Strategic Design aus dem Domain-Driven Design (DDD) für die Integration (z. B. Anti-Corruption Layer, Shared Kernel, Bounded Context).
+* Bewertung der Vor- und Nachteile von Integrationsansätzen wie REST, Messaging oder Datenbankintegration anhand spezifischer Qualitätsziele.
+* Einsatz von Frontend-Integration und Middleware für Legacy-Systeme.
+* Praktische Anwendung: Integration alter Datenmodelle durch Transformation und Mapping.
+
+[[LZ-4-2]]
+==== LZ 4-2: Konsistenzmodelle erklären und auswählen (CAP Theorem)
+
+* Erklärung des CAP-Theorems: Abwägung zwischen Konsistenz, Verfügbarkeit und Partitionstoleranz.
+* Vergleich von ACID- und BASE-Modellen: Einsatzmöglichkeiten in verteilten Systemen.
+* Praxisbeispiel: Wahl eines geeigneten Konsistenzmodells basierend auf Systemanforderungen wie Latenz und Skalierbarkeit.
+
+[[LZ-4-3]]
+==== LZ 4-3: Resilience Patterns benennen
+
+* Messaging Patterns: Request/Reply, Publish/Subscribe und deren Resilience-Eigenschaften.
+* Resilience-Strategien für dezentrale Datenhaltung und redundante Architektur.
+* Nutzung von Mechanismen wie Circuit Breaker, Graceful Degradation und Bulkhead zur Sicherstellung der Verfügbarkeit.
+
+[[LZ-4-4]]
+==== LZ 4-4: Sicherheitsauswirkungen von Integrationsmethoden kennen und berücksichtigen
+
+* Vergleich von Authentifizierungs- und Autorisierungsmechanismen (z. B. OAuth, Kerberos).
+* Auswirkungen von synchroner (z. B. RPC) vs. asynchroner Integration (z. B. Messaging) auf Sicherheit und Datenintegrität.
+* Implementierung sicherer Schnittstellen und Makroarchitektur für verteilte Systeme.
+
+[[LZ-4-5]]
+==== LZ 4-5: (OPTIONAL) Event-getriebene Architekturen kennen und entwerfen
+
+* Einführung in Event-Driven Architectures (EDA): Publizieren von Domain Events zur Entkopplung von Systemen.
+* Entwurf einer EDA mit Messaging-Systemen wie RabbitMQ oder Kafka.
+* Herausforderungen und Lösungen bei Backpressure und dezentraler Datenhaltung.
+
+// end::DE[]
+
+// tag::EN[]
+
+[[LG-4-1]]
+==== LG 4-1: Compare Integration Strategies (using DDD Strategic Design as an example)
+
+* Understand Strategic Design from Domain-Driven Design (DDD) for integration (e.g., Anti-Corruption Layer, Shared Kernel, Bounded Context).
+* Evaluate the pros and cons of integration approaches like REST, Messaging, or Database Integration based on specific quality goals.
+* Utilize Frontend Integration and Middleware for legacy systems.
+Practical application: Integrate old data models through transformation and mapping.
+
+[[LG-4-2]]
+==== LG 4-2: Explain and Select Consistency Models (CAP Theorem)
+
+* Explain the CAP Theorem: Trade-offs between Consistency, Availability, and Partition Tolerance.
+* Compare ACID and BASE models: Use cases in distributed systems.
+* Practical example: Choosing an appropriate consistency model based on system requirements like latency and scalability.
+
+[[LG-4-3]]
+==== LG 4-3: Identify Resilience Patterns
+* Messaging Patterns: Request/Reply, Publish/Subscribe, and their resilience properties.
+* Resilience Strategies for decentralized data storage and redundant architectures.
+* Use mechanisms like Circuit Breaker, Graceful Degradation, and Bulkhead to ensure availability.
+
+[[LG-4-4]]
+==== LG 4-4: Understand and Consider Security Impacts of Integration Methods
+
+* Compare Authentication and Authorization mechanisms (e.g., OAuth, Kerberos).
+* Explore the security and data integrity implications of synchronous (e.g., RPC) vs. asynchronous integration (e.g., Messaging).
+* Implement secure interfaces and macro-architectures for distributed systems.
+
+[[LG-4-5]]
+==== LG 4-5: (OPTIONAL) Understand and Design Event-Driven Architectures
+
+* Introduction to Event-Driven Architectures (EDA): Publishing Domain Events to decouple systems.
+* Design an EDA using messaging systems like RabbitMQ or Kafka.
+* Address challenges and solutions for Backpressure and decentralized data storage.
+
+// end::EN[]
