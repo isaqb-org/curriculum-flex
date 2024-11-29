@@ -1,6 +1,5 @@
 === {learning-goals}
 
-
 // tag::DE[]
 [[LZ-6-1]]
 === LZ 6-1: Unterschiedliche Betriebsmodelle und ihre Auswirkungen erklären und auswählen
@@ -21,8 +20,8 @@
 
 * Definition und Bedeutung von Observability:
   ** Abgrenzung zu Monitoring und Erklärung der Schlüsselaspekte von Observability.
-  ** Die Rolle von Logs, Metriken und Traces bei der Fehlersuche und Systemüberwachung und -verständnis.
-  ** Die Teilnehmer sollten die Unterschiede zwischen Logging, Monitoring und Metrik-Sammlung verstehen und die damit einhergehenden Unterschiede bei den für diese Aufgaben verwendeten Werkzeugen.
+  ** Die Rolle von Logs, Metriken und Traces bei der Fehlersuche und Systemüberwachung/-verständnis.
+  ** Die Teilnehmer sollten die Unterschiede zwischen Logging, Monitoring und Metrik-Sammlung verstehen sowie die damit einhergehenden Unterschiede bei den für diese Aufgaben verwendeten Werkzeugen.
 
 * Einsatz von Logs, Metriken und Traces:
   ** Beispiele für typische Anwendungsfälle
@@ -51,7 +50,7 @@
   ** Einsatz von verteiltem Tracing (z. B. OpenTelemetry, Jaeger) zur Visualisierung von Request-Flows.
   ** Logging- und Monitoring-Strategien für dezentrale Systeme.
   ** Bedeutung zentralisierter Datenplattformen (z. B. Log-Aggregation) für die Fehlerdiagnose.
-  ** Die Teilnehmer sollen Architekturvorgaben so treffen können, dass der Einsatz geeigneter Werkzeuge bestmöglich unterstützt wird, dabei jedoch angemessen mit Systemressourcen umgegangen wird.
+  ** Die Teilnehmer sollen Architekturvorgaben so treffen können, dass der Einsatz geeigneter Werkzeuge bestmöglich unterstützt, dabei jedoch angemessen mit Systemressourcen umgegangen wird.
   ** Dabei können sie abhängig vom konkreten Projekt-Szenario den Fokus im Konzept auf Logging, Monitoring und die dazu notwendigen Daten legen.
 
 * Architekturmuster zur Unterstützung der Fehleranalyse:
@@ -73,7 +72,7 @@
   ** Automatisierte Überwachungs- und Berichtsmechanismen für SLO-Tracking.
 
 [[LZ-6-5]]
-==== LZ 6-5: (OPTIONAL) Wie Architektur das Incident Management und schnelle MTTR unterstützen kann
+==== LZ 6-5: (OPTIONAL) Mit Architektur das Incident Management und schnelle MTTR unterstützen
 
 * Architekturentscheidungen zur Reduzierung der MTTR:
   ** Einsatz von Self-Healing-Mechanismen und automatisierter Wiederherstellung.
@@ -84,11 +83,11 @@
   ** Einfluss von Deployments und Rollbacks auf die Reaktionszeiten bei Incidents.
 
 [[LZ-6-6]]
-==== LZ 6-6: (OPTIONAL) Beitrag von Architektur zu Disaster Recovery und Business Continuity Management
+==== LZ 6-6: (OPTIONAL) Durch Architektur zu Disaster Recovery und Business Continuity Management beitragen
 
 * Disaster Recovery Strategien:
   ** Einsatz von Backup- und Wiederherstellungsmechanismen (Snapshots, Datenbank-Replikation).
-  ** Anforderungen an Architekturen für Recovery-Ziele (RTO/RPO).
+  ** Anforderungen an Architekturen für Recovery-Ziele, wie RTO (Recovery Time Objective) und RPO (Recovery Point Objective).
 
 * Business Continuity Management (BCM) für Architekten:
   ** Architekturelle Unterstützung für hohe Verfügbarkeit und Ausfallsicherheit.
@@ -100,7 +99,7 @@
 [[LZ-6-7]]
 ==== LZ 6-7: (OPTIONAL) Chaos Engineering anhand von Qualitätszielen designen und durchführen
 
-* Grundlagen des Chaos Engineering: Zielsetzung und Prinzipien (z. B. "Testing in Production" zur Erhöhung der Resilienz).
+* Grundlagen des Chaos Engineering: Zielsetzung und Prinzipien (z. B. "Testen in Produktion" zur Erhöhung der Resilienz).
 
 * Design von Chaos-Experimenten:
   ** Ableitung von Experimenten aus Qualitätszielen wie Verfügbarkeit und Fehlertoleranz.
@@ -184,7 +183,7 @@
   ** Automated monitoring and reporting mechanisms for SLO tracking.
 
 [[LG-6-5]]
-==== LG 6-5: (OPTIONAL) How architecture can support incident management and fast MTTR
+==== LG 6-5: (OPTIONAL) Architecture can support incident management and fast MTTR
 
 * Architectural decisions to reduce MTTR:
   ** Use of self-healing mechanisms and automated recovery.
@@ -199,7 +198,7 @@
 
 * Disaster recovery strategies:
   ** Use of backup and recovery mechanisms (snapshots, database replication).
-  ** Requirements for architectures to meet recovery goals (RTO/RPO).
+  ** Requirements for architectures to meet recovery goals like RTO (Recovery Time Objective) and RPO (Recovery Point Objective).
 
 * Business Continuity Management (BCM) for architects:
   ** Architectural support for high availability and failover capabilities.
