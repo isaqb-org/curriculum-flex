@@ -39,7 +39,7 @@
 * Auswirkungen von synchroner (z. B. RPC) vs. asynchroner Integration (z. B. Messaging) auf Sicherheit und Datenintegrität.
 * Implementierung sicherer Schnittstellen und Makroarchitektur für verteilte Systeme.
 
-[[LZ-4-5]]
+[[LZ-4-6]]
 ==== LZ 4-5: (OPTIONAL) Event-getriebene Architekturen kennen und entwerfen
 
 * Einführung in Event-Driven Architectures (EDA): Publizieren von Domain Events zur Entkopplung von Systemen.
