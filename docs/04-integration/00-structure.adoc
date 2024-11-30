@@ -3,11 +3,11 @@
 // ====================================================
 
 // tag::DE[]
-== Integration
+== Integrationsmethoden & Protokolle
 // end::DE[]
 
 // tag::EN[]
-== Integration
+== Integration methods & protocols
 // end::EN[]
 
 include::01-duration-terms.adoc[{include_configuration}]

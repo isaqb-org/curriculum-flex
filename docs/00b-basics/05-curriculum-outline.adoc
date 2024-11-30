@@ -8,6 +8,16 @@ Die einzelnen Abschnitte des Lehrplans sind gemäß folgender Gliederung beschri
 - **Lernziele**: Beschreibt die zu vermittelnden Inhalte inklusive ihrer Kernbegriffe und -konzepte.
 
 Dieser Abschnitt skizziert damit auch die zu erwerbenden Kenntnisse in entsprechenden Schulungen.
+
+.Der Aufbau der Kapitel folgt einer klaren Progression:
+
+- Erst das große Bild verstehen
+- Dann die Voraussetzungen kennen
+- Die organisatorischen Aspekte durchdringen
+- Die konkreten Architekturentscheidungen vorbereiten und bewerten
+- Die langfristigen Ziele im Blick haben
+- Und schließlich: Entscheidungen fundiert rechtfertigen können
+
 // end::DE[]
 
 // tag::EN[]

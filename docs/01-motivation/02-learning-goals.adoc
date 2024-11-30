@@ -1,138 +1,141 @@
 === {learning-goals}
 
 // tag::DE[]
+
 [[LZ-1-1]]
-==== LZ 1-1: Qualitätsziele von flexiblen Architekturen
+==== LZ 1-1: Themen und Buzzwords einordnen
 
-Architekturen können auf unterschiedliche Qualitätsziele hin optimiert
-werden.
-
-In diesem Modul lernen die Teilnehmer, wie sie Architekturen
-erstellen, die schnelles Deployment und damit schnelles Feedback aus
-der Anwendung des Systems erlauben.  Solche Architekturen unterstützen
-die Entwickler:innen dabei, effizient funktionale Angemessenheit zu
-erreichen und die Usability zu verbessern.  Außerdem fördern sie die
-Modularität und können dazu dienen, hohe Zuverlässigkeit zu erreichen
-und einzelne Komponenten isoliert zu ersetzen, was der Flexibilität
-dient.
+- Erklären, wie sich Architekturstile wie Microservices, Self-Contained Systems, Modulithen und Monolithen unterscheiden
+- Die Rolle von DevOps und Continuous Delivery im Kontext flexibler Architekturen verstehen
+- Den Zusammenhang zwischen Cloud Computing und flexiblen Architekturen erkennen
+- Aktuelle Architektur-Trends anhand gegebener Qualitätsziele einschätzen und bewerten
 
 [[LZ-1-2]]
-==== LZ 1-2: Wechselwirkung von Architektur-Typen und Organisation
-Sie haben die Treiber für die Architektur-Typen verstanden, die in
-diesem Lehrplanmodul vermittelt werden - also das Bedürfnis, Features
-schnell in Produktion zu bringen und Time-to-Market zu verkürzen.  Sie
-haben außerdem verstanden, welche Konsequenzen die Treiber für die
-Architekturen haben und wie die Wechselwirkung der Architekturen mit
-Organisation, Prozessen und Technologien ist.
+==== LZ 1-2: Voraussetzungen für verteilte Systeme verstehen und analysieren
 
+- Die wichtigsten technischen Voraussetzungen für verteilte Systeme identifizieren
+- Die Bedeutung von Architektur für schnelle Auslieferung von Features erkennen
+- Verstehen, wie Team-Abhängigkeiten die Entwicklungsgeschwindigkeit beeinflussen
+- Erkennen, welche Team-Skills für verteilte Systeme benötigt werden
+- Die Rolle einheitlicher Entwicklungsumgebungen für Fehlerreduktion und -reproduzierbarkeit verstehen
+- Die Beziehung zwischen CI, CD und Architektur erkennen
+- Verstehen, warum Automatisierung, Wiederholbarkeit und Resilienz für verteilte Systeme wichtig ist
+- Die Vorteile verschiedener Isolationsarten (Devtime, Runtime, Deployment, Team) bewerten
 
 [[LZ-1-3]]
-==== LZ 1-3: Kompromisse der vorgestellten Architektur-Typen vermitteln und adaptieren
-Sie haben die Kompromisse der vorgestellten Architektur-Typen (mindestens Microservices, Self Contained Systems und Deployment Monolithen) verstanden und können diese sowohl vermitteln als auch im Rahmen konkreter Projekte/Systementwicklungen anwenden, um angemessene Architekturentscheidungen zu treffen.
+==== LZ 1-3: Wechselwirkung von Architekturtypen und Organisation analysieren und benennen
+
+- Erklären, wie Beziehungen zwischen Teams und Organisationseinheiten die Architektur von Systemen und damit Aspekte wie Abstimmungsaufwände und Time-to-Market beeinflussen
+- Erkennen, wie Conway's Law die Entwicklungsgeschwindigkeit beeinflusst
+- Den Zusammenhang zwischen Teamgrenzen und Systemgrenzen analysieren und erklären
+- Die Balance zwischen technischer und organisatorischer Struktur erklären
+- Unterschiede von Buildtime- und Runtime-Abhängigkeiten für Softwareentwicklungsprozesse erklären
+- Die Parallelisierbarkeit von Softwareentwicklungsaufgaben als Architekturziel verstehen
 
 [[LZ-1-4]]
-==== LZ 1-4: Verständnis für Rahmenbedingungen von verteilten Systemen
+==== LZ 1-4: Kompromisse der vorgestellten Architekturtypen vermitteln und adaptieren
 
-.Teilnehmer sollen Rahmenbedingungen von verteilten Systemen verstehen, wie z. B. folgende:
-  * Auf die Fähigkeit, neue Features schnell in Produktion bringen zu können, hat die Architektur entscheidenden Einfluss.
-  * Abhängigkeiten zwischen Komponenten, die von unterschiedlichen Entwicklungsteams verantwortet werden, beeinflussen die Dauer, bis Software in Produktion gebracht werden kann, weil sie die Kommunikationsaufwände erhöhen und sich Verzögerungen fortpflanzen.
-  * Die Automatisierung von Aktivitäten (wie z. B. Test- und Deployment-Prozesse) erhöht die Reproduzierbarkeit, Vorhersagbarkeit und Ergebnisqualität dieser Prozesse. Das kann zu einer Verbesserung des gesamten Entwicklungsprozesses führen.
-  * Die Vereinheitlichung der verschiedenen Umgebungen (z. B. Entwicklung, Test, QA, Produktion) reduziert das Risiko von spät entdeckten und (in anderen Umgebungen) nicht reproduzierbaren Fehlern aufgrund unterschiedlicher Konfigurationen.
-  * Die Vereinheitlichung und Automatisierung sind wesentliche Aspekte von Continuous Delivery.
-  * Continuous Integration ist eine Voraussetzung für Continuous Delivery.
-  * Eine geeignete Architektur ist die Voraussetzung für eine Parallelisierbarkeit der Entwicklung sowie die unabhängige Inbetriebnahme von eigenständigen Bausteinen. Das können, müssen aber nicht „Services“ sein.
-  * Einige Änderungsszenarien lassen sich leichter in monolithischen Architekturen umsetzen. Andere Änderungsszenarien lassen sich leichter in verteilten Service-Architekturen umsetzen. Beide Ansätze können kombiniert werden.
-  * Es gibt unterschiedliche Arten der Isolation mit jeweils unterschiedlichen Vorteilen. Beispielsweise kann der Ausfall auf eine Komponente begrenzt werden oder Änderungen können auf eine Komponente begrenzt werden.
-  * Bestimmte Arten der Isolation sind zwischen Prozessen mit Remotekommunikation deutlich einfacher umzusetzen.
-  * Remotekommunikation hat aber Nachteile – z. B. viele neue Fehlerquellen.
+- Die Vor- und Nachteile verschiedener Architekturstile abwägen
+- Wissen, wie man Architekturentscheidungen dem Business-Kontext anpasst
+- Vor- und Nachteile von Remotekommunikation verstehen und als Entscheidungskriterium für oder gegen Verteilung nutzen
+- Die verschiedenen Isolationsarten kennen um die passende Balance zwischen Isolation und Komplexität finden
+- Verstehen, wann die Kombination verschiedener Architekturstile sinnvoll ist
+- Die Kosten von Verteilung und Service-Kommunikation realistisch einschätzen
+
 
 [[LZ-1-5]]
-==== LZ 1-5: Themen und Buzzwords einordnen
-  * Gesetz von Conway
-  * Partitionierbarkeit als Qualitätsmerkmal
-  * Durchlaufzeiten durch die IT-Wertschöpfungskette als Wettbewerbsfaktor
-  * Aufbau einer Continuous-Delivery-Pipeline
-  * Die verschiedenen Test-Phasen in einer Continuous-Delivery-Pipeline
+==== LZ 1-5: Langfristige Qualitätsziele von flexiblen Architekturen benennen
+
+- Zentrale Qualitätsmerkmale flexibler Architekturen kennen
+- Verstehen, warum Flexibilität und schnelles Feedback strategische Ziele sind
+- Erklären, dass die Balance zwischen kurzfristiger und langfristiger Optimierung nicht in jedem Fall ausgewogen ist
+- Methoden zur Messbarkeit von Qualitätszielen erarbeiten
+- Langfristige Ziele in schrittweise Verbesserungen herunterbrechen und Zusammenhänge darstellen
+- Die Rolle von Reproduzierbarkeit und Vorhersagbarkeit verstehen
+- Automatisierbarkeit als Qualitätsziel erkennen
+
+[[LZ-1-6]]
+==== LZ 1-6: Typische Architekturentscheidungen von flexiblen Architekturen erklären und begründen
+
+- Architekturentscheidungen durch Businessziele und Qualitätsszenarien begründen
+- Die Notwendigkeit bestimmter Architekturmuster erklären
+- Kosten von Architekturentscheidungen transparent machen
+- Den Wert von architektonischer Flexibilität vermitteln
+- Entscheidungen für oder gegen Remotekommunikation begründen
+- Die Wahl von Isolationsgrenzen rechtfertigen
 
 // end::DE[]
 
 // tag::EN[]
+.Chapter Structure: A Clear Learning Progression
+
+- First, understand the big picture
+- Then, grasp the prerequisites
+- Master the organizational aspects
+- Prepare and evaluate concrete architectural decisions
+- Keep long-term goals in focus
+- Finally, justify decisions with solid reasoning
+
 [[LG-1-1]]
-==== LG 1-1: Quality goals of flexible architectures
+==== LG 1-1: Classify Key Topics and Industry Buzzwords
 
-Architectures can be optimised to meet different quality goals.
-
-In this module participants learn how to develop architectures that
-allow fast deployment and fast feedback from using the system.  Such
-architectures support developers in achieving functional suitability
-efficiently and improve usability.  They also foster modularity and
-can serve to achieve high reliability und replace individual
-components in isolation, which serves flexibility.
+- Explain the differences between architectural styles like microservices, self-contained systems, moduliths, and monoliths
+- Understand the role of DevOps and Continuous Delivery in flexible architectures
+- Recognize the relationship between cloud computing and flexible architectures
+- Evaluate current architectural trends based on specific quality goals
 
 [[LG-1-2]]
-==== LG 1-2: Interaction of architecture types and organisation
-They have understood the drivers for the architecture types taught in
-this curriculum module - the desire to bring feature to production fast 
-and reduce the Time-to-Market. They understood the implications of these drivers for the
-architectures, and the interaction of the architectures with the
-organisation, processes, and technologies.
+==== LG 1-2: Understand and Analyze Prerequisites for Distributed Systems
+
+- Identify key technical requirements for distributed systems
+- Recognize how architecture influences rapid feature delivery
+- Understand how team dependencies affect development velocity
+- Identify essential team skills required for distributed systems
+- Understand the role of uniform development environments in error reduction and reproducibility
+- Recognize the relationship between CI, CD, and architecture
+- Understand why automation, repeatability, and resilience are crucial for distributed systems
+- Evaluate benefits of different isolation types (devtime, runtime, deployment, team)
 
 [[LG-1-3]]
-==== LG 1-3: Communicating and adapting compromises of the presented architecture types
+==== LG 1-3: Analyze and Define the Interplay Between Architecture Types and Organization
 
-They have understood the trade-offs of the architecture types
-presented (at least Microservices, Self-Contained Systems and
-Deployment Monoliths) and are able to communicate them as well as
-apply them in the context of concrete projects / system developments
-in order to make appropriate architectural decisions.
+- Explain how relationships between teams and organizational units influence system architecture, affecting coordination overhead and time-to-market
+- Recognize how Conway's Law impacts development speed
+- Analyze and explain the correlation between team boundaries and system boundaries
+- Explain the balance between technical and organizational structure
+- Explain differences between buildtime and runtime dependencies in software development processes
+- Understand parallel software development capability as an architectural goal
 
 [[LG-1-4]]
-==== LG 1-4: Understanding the constraints of distributed systems
+==== LG 1-4: Communicate and Adapt Trade-offs of Presented Architecture Types
 
-.Participants understand the constraints of distributed systems, such as the following:
-
-  * The architecture has crucial influence on the ability to quickly
-    bring new features into production.
-  * Dependencies between components of different development teams
-    influence the duration until software can be put into production
-    because they increase the communication costs and delays are
-    propagated.
-  * Automation of activities (such as test and deployment processes)
-    increases the reproducibility, predictability, and quality of
-    results of these processes. This can lead to an improvement of the
-    overall development process.
-  * Unification of the different environments (e.g., development,
-    test, QA, production) reduces the risk of lately detected and (in
-    other environments) non-reproducible errors due to different
-    configurations.
-  * Unification and automation are essential aspects of continuous
-    delivery.
-  * Continuous integration is a prerequisite for continuous
-    delivery.
-  * A suitable architecture is the prerequisite for the
-    parallelization of the development as well as the independent
-    commissioning of independent modules. This can, but do not have to
-    be "services".
-  * Some change scenarios are easier to implement in monolithic
-    architectures. Other change scenarios are easier to implement in
-    distributed service architectures. Both approaches can be
-    combined.
-  * There are different types of isolation with different
-    advantages. A failure, for example, can be limited to a single
-    component or changes can be limited to a single component.
-  * Certain types of isolation are much easier to implement between
-    processes with remote communication.
-  * Remote communication, however, has disadvantages - for example
-    many new sources of errors.
+- Weigh advantages and disadvantages of different architectural styles
+- Know how to adapt architectural decisions to business context
+- Understand and use remote communication pros and cons as decision criteria for or against distribution
+- Know different isolation types to find the right balance between isolation and complexity
+- Understand when combining different architectural styles makes sense
+- Realistically assess costs of distribution and service communication
 
 [[LG-1-5]]
-==== LG 1-5: Contextualizing topics and buzzwords
+==== LG 1-5: Define Long-term Quality Goals of Flexible Architectures
 
-  * Conway’s law
-  * Partitionability as a quality feature
-  * Round trip times with the IT supply chain as a competitive factor
-  * Building a continuous delivery pipeline
-  * The different test phases of a continuous delivery pipeline
+- Know core quality characteristics of flexible architectures
+- Understand why flexibility and rapid feedback are strategic goals
+- Explain why the balance between short-term and long-term optimization isn't always 50:50
+- Develop methods to measure quality goals
+- Break down long-term goals into incremental improvements and show relationships
+- Understand the role of reproducibility and predictability
+- Recognize automation capability as a quality goal
+
+[[LG-1-6]]
+==== LG 1-6: Explain and justify Typical Architectural Decisions in Flexible Architectures
+
+- Justify architectural decisions through business goals and quality scenarios
+- Explain the necessity of specific architectural patterns
+- Make architectural decision costs transparent
+- Communicate the value of architectural flexibility
+- Justify decisions for or against remote communication
+- Justify the choice of isolation boundaries
 
 // end::EN[]
 

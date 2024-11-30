@@ -1,0 +1,223 @@
+=== {learning-goals}
+
+// tag::DE[]
+[[LZ-6-1]]
+==== LZ 6-1: Unterschiedliche Betriebsmodelle und ihre Auswirkungen erklären und auswählen
+
+* Operations Team vs. You Build It, You Run It:
+  ** Vergleich zentralisierter Betriebsmodelle (dediziertes Operations-Team) mit dezentralisierten Ansätzen wie DevOps und "You Build It, You Run It".
+  ** Auswirkungen der Betriebsmodelle auf Verantwortlichkeiten, Kommunikationswege und Problemlösungszeiten.
+  ** Die Rolle von DevOps-Praktiken bei der Integration von Betrieb und Entwicklung.
+  ** Anhand des Kontextes - wie Organisation und Skillset - für einen zentralen oder dezentralen Anwendungsbetrieb entscheiden.
+
+* MTBF (Mean Time Between Failures) vs. MTTR (Mean Time to Repair):
+  ** Bedeutung der beiden Metriken und deren Auswirkung auf Betriebsmodelle und -kultur.
+  ** (OPTIONAL) Strategien zur Optimierung von MTBF und MTTR im Kontext der gewählten Architektur und ihre Auswirkungen auf Continuous Deployment.
+  ** Zusammenhang zwischen Betriebsmodellen und Qualitätskriterien wie Änderungsfähigkeit, Zuverlässigkeit und Fehlertoleranz.
+
+[[LZ-6-2]]
+==== LZ 6-2: Observability – Unterschiede von Metriken, Logs und Traces verstehen und richtig einsetzen
+
+* Definition und Bedeutung von Observability:
+  ** Abgrenzung zu Monitoring und Erklärung der Schlüsselaspekte von Observability.
+  ** Die Rolle von Logs, Metriken und Traces bei der Fehlersuche und Systemüberwachung/-verständnis.
+  ** Die Teilnehmer sollten die Unterschiede zwischen Logging, Monitoring und Metrik-Sammlung verstehen sowie die damit einhergehenden Unterschiede bei den für diese Aufgaben verwendeten Werkzeugen.
+
+* Einsatz von Logs, Metriken und Traces:
+  ** Beispiele für typische Anwendungsfälle
+  ** Werkzeuge und Technologien für Observability (z. B. Elastic Stack, Prometheus, Jaeger).
+  ** Logs sind Events, Metriken sind Zustände zu einem bestimmten Zeitpunkt.
+  ** Monitoring kann sowohl fachliche als auch technische Daten enthalten.
+  ** Die richtige Auswahl von Daten ist zentral für ein zuverlässiges Verständnis des Runtime-Verhaltens des gebauten Systems.
+  ** Die Teilnehmer sollen verstehen, welche Informationen sie aus Traces, welche aus Log-Daten und welche sie (besser) durch Instrumentierung des Codes mit Metrik-Sonden beziehen können.
+
+* Architekturelle Unterstützung für Observability:
+  ** Architekturentscheidungen, die die Integration und Nutzung von Observability-Tools erleichtern.
+  ** Unterstützung des Betriebs als Bestandteil der Architekturkonzepte
+  ** zentralistische Logdaten-Verwaltung und Alternativen sowie deren Auswirkungen auf die Architektur (Performance-Overhead, Speicherverbrauch, Latenzen, Locking vs. Log-Verlust).
+  ** Aufbau von typischen Metrik-Architekturen (Erfassen, Sammeln & Samplen, Persistieren, Abfragen, Visualisieren)
+  ** Unterscheidung zwischen Geschäfts-, Anwendungs- und Systemmetriken.
+  ** Bedeutung wichtiger, werkzeugunabhängiger System- und Anwendungsmetriken.
+
+[[LZ-6-3]]
+==== LZ 6-3: Fehleranalyse in verteilten Systemen erleichtern
+
+* Herausforderungen in verteilten Systemen:
+  ** Typische Probleme wie Netzwerklatenzen, Partial Failures und inkonsistente Zustände.
+  ** Komplexität der Fehleranalyse durch asynchrone Kommunikation und dezentrale Datenhaltung.
+
+* Werkzeuge und Strategien zur Fehleranalyse:
+  ** Einsatz von verteiltem Tracing (z. B. OpenTelemetry, Jaeger) zur Visualisierung von Request-Flows.
+  ** Logging- und Monitoring-Strategien für dezentrale Systeme.
+  ** Bedeutung zentralisierter Datenplattformen (z. B. Log-Aggregation) für die Fehlerdiagnose.
+  ** Die Teilnehmer sollen Architekturvorgaben so treffen können, dass der Einsatz geeigneter Werkzeuge bestmöglich unterstützt, dabei jedoch angemessen mit Systemressourcen umgegangen wird.
+  ** Dabei können sie abhängig vom konkreten Projekt-Szenario den Fokus im Konzept auf Logging, Monitoring und die dazu notwendigen Daten legen.
+
+* Architekturmuster zur Unterstützung der Fehleranalyse:
+  ** Patterns wie Circuit Breaker, Retry-Mechanismen und Bulkhead zur Fehlerisolation.
+  ** Architekturentscheidungen für transparente Fehlermeldung und Fehlerweitergabe.
+
+[[LZ-6-4]]
+==== LZ 6-4: (OPTIONAL) Service Level Objectives (SLOs) aus Qualitätszielen ableiten
+
+* Definition und Bedeutung von SLOs:
+  ** Unterschied zwischen SLOs, SLAs (Service Level Agreements) und SLIs (Service Level Indicators).
+  ** Ableitung von SLOs aus Qualitätszenarien, nichtfunktionalen Anforderungen und Geschäftsanforderungen.
+
+* Architekturelle Unterstützung für SLOs:
+  ** Einfluss von Architekturentscheidungen auf die Einhaltung von SLOs (z. B. Skalierbarkeit, Redundanz).
+  ** Beispiele für typische SLOs wie Verfügbarkeit, Antwortzeit und Fehlerrate.
+
+* Werkzeuge zur Überwachung und Messung von SLOs:
+  ** Automatisierte Überwachungs- und Berichtsmechanismen für SLO-Tracking.
+
+[[LZ-6-5]]
+==== LZ 6-5: (OPTIONAL) Mit Architektur das Incident Management und schnelle MTTR unterstützen
+
+* Architekturentscheidungen zur Reduzierung der MTTR:
+  ** Einsatz von Self-Healing-Mechanismen und automatisierter Wiederherstellung.
+  ** Unterstützung durch observability-fokussierte Architekturentscheidungen.
+
+* Incident Management und Resilienz:
+  ** Architekturmuster wie Circuit Breaker, Fallback-Strategien und Rate Limiting zur Minimierung von Ausfällen.
+  ** Einfluss von Deployments und Rollbacks auf die Reaktionszeiten bei Incidents.
+
+[[LZ-6-6]]
+==== LZ 6-6: (OPTIONAL) Durch Architektur zu Disaster Recovery und Business Continuity Management beitragen
+
+* Disaster Recovery Strategien:
+  ** Einsatz von Backup- und Wiederherstellungsmechanismen (Snapshots, Datenbank-Replikation).
+  ** Anforderungen an Architekturen für Recovery-Ziele, wie RTO (Recovery Time Objective) und RPO (Recovery Point Objective).
+
+* Business Continuity Management (BCM) für Architekten:
+  ** Architekturelle Unterstützung für hohe Verfügbarkeit und Ausfallsicherheit.
+  ** Technologien wie Multi-Region-Deployments, Failover-Strategien und Geo-Redundanz.
+
+* Testen von Disaster-Recovery-Strategien:
+  ** Implementierung und Validierung von Recovery-Plänen durch Simulationen und Probeläufe.
+
+[[LZ-6-7]]
+==== LZ 6-7: (OPTIONAL) Chaos Engineering anhand von Qualitätszielen designen und durchführen
+
+* Grundlagen des Chaos Engineering: Zielsetzung und Prinzipien (z. B. "Testen in Produktion" zur Erhöhung der Resilienz).
+
+* Design von Chaos-Experimenten:
+  ** Ableitung von Experimenten aus Qualitätszielen wie Verfügbarkeit und Fehlertoleranz.
+  ** Identifikation von Schwachstellen und deren Validierung durch gezielte Störungen.
+
+* Architekturunterstützung für Chaos Engineering:
+  ** Einsatz von resilienzfördernden Mustern wie Circuit Breaker und Fallback-Mechanismen.
+  ** Integration von Chaos-Testing-Werkzeugen (z. B. Gremlin, Chaos Monkey) in die CI/CD-Pipeline.
+
+// end::DE[]
+
+// tag::EN[]
+[[LG-6-1]]
+=== LG 6-1: Explain and choose different operational models and their impacts
+
+* Operations Team vs. You Build It, You Run It:
+  ** Compare centralized operational models (dedicated operations team) with decentralized approaches like DevOps and "You Build It, You Run It."
+  ** Impact of operational models on responsibilities, communication paths, and problem-solving times.
+  ** The role of DevOps practices in integrating operations and development.
+  ** Decide on centralized or decentralized application operations based on the context - such as organization and skillset.
+
+* MTBF (Mean Time Between Failures) vs. MTTR (Mean Time to Repair):
+  ** Importance of both metrics and their impact on operational models and culture.
+  ** (OPTIONAL) Strategies for optimizing MTBF and MTTR in the context of the chosen architecture and their effects on continuous deployment.
+  ** Relationship between operational models and quality criteria like changeability, reliability, and fault tolerance.
+
+[[LG-6-2]]
+==== LG 6-2: Understand and properly use observability - differences between metrics, logs, and traces
+
+* Definition and importance of observability:
+  ** Distinction from monitoring and explanation of the key aspects of observability.
+  ** The role of logs, metrics, and traces in troubleshooting and system monitoring and understanding.
+  ** Participants should understand the differences between logging, monitoring, and metrics collection, and the associated differences in tools used for these tasks.
+
+* Use of logs, metrics, and traces:
+  ** Examples of typical use cases.
+  ** Tools and technologies for observability (e.g., Elastic Stack, Prometheus, Jaeger).
+  ** Logs are events, metrics are states at a specific point in time.
+  ** Monitoring can include both business-related and technical data.
+  ** The right selection of data is crucial for a reliable understanding of the runtime behavior of the system.
+  ** Participants should understand which information to obtain from traces, which from log data, and which to derive (preferably) through code instrumentation with metric probes.
+
+* Architectural support for observability:
+  ** Architectural decisions that facilitate the integration and use of observability tools.
+  ** Supporting operations as part of architectural concepts.
+  ** Centralized log management and alternatives, as well as their impact on architecture (performance overhead, memory consumption, latency, locking vs. log loss).
+  ** Structure of typical metric architectures (collection, sampling, persistence, querying, visualization).
+  ** Differentiation between business, application, and system metrics.
+  ** Importance of key system and application metrics independent of specific tools.
+
+[[LG-6-3]]
+==== LG 6-3: Facilitate troubleshooting in distributed systems
+
+* Challenges in distributed systems:
+  ** Typical issues like network latencies, partial failures, and inconsistent states.
+  ** Complexity of troubleshooting due to asynchronous communication and decentralized data storage.
+
+* Tools and strategies for troubleshooting:
+  ** Use of distributed tracing (e.g., OpenTelemetry, Jaeger) to visualize request flows.
+  ** Logging and monitoring strategies for distributed systems.
+  ** Importance of centralized data platforms (e.g., log aggregation) for troubleshooting.
+  ** Participants should be able to make architectural decisions that best support the use of appropriate tools while considering efficient use of system resources.
+  ** Depending on the specific project scenario, they can focus on logging, monitoring, and the necessary data.
+
+* Architectural patterns to support troubleshooting:
+  ** Patterns like Circuit Breaker, Retry mechanisms, and Bulkhead for fault isolation.
+  ** Architectural decisions for transparent error reporting and propagation.
+
+[[LG-6-4]]
+==== LG 6-4: (OPTIONAL) Derive Service Level Objectives (SLOs) from quality goals
+
+* Definition and importance of SLOs:
+  ** Difference between SLOs, SLAs (Service Level Agreements), and SLIs (Service Level Indicators).
+  ** Deriving SLOs from quality scenarios, non-functional requirements, and business requirements.
+
+* Architectural support for SLOs:
+  ** Influence of architectural decisions on meeting SLOs (e.g., scalability, redundancy).
+  ** Examples of typical SLOs such as availability, response time, and error rate.
+
+* Tools for monitoring and measuring SLOs:
+  ** Automated monitoring and reporting mechanisms for SLO tracking.
+
+[[LG-6-5]]
+==== LG 6-5: (OPTIONAL) Architecture can support incident management and fast MTTR
+
+* Architectural decisions to reduce MTTR:
+  ** Use of self-healing mechanisms and automated recovery.
+  ** Support through observability-focused architectural decisions.
+
+* Incident management and resilience:
+  ** Architectural patterns like Circuit Breaker, fallback strategies, and rate limiting to minimize failures.
+  ** Influence of deployments and rollbacks on response times during incidents.
+
+[[LG-6-6]]
+==== LG 6-6: (OPTIONAL) Contribution of architecture to disaster recovery and business continuity management
+
+* Disaster recovery strategies:
+  ** Use of backup and recovery mechanisms (snapshots, database replication).
+  ** Requirements for architectures to meet recovery goals like RTO (Recovery Time Objective) and RPO (Recovery Point Objective).
+
+* Business Continuity Management (BCM) for architects:
+  ** Architectural support for high availability and failover capabilities.
+  ** Technologies such as multi-region deployments, failover strategies, and geo-redundancy.
+
+* Testing disaster recovery strategies:
+  ** Implementation and validation of recovery plans through simulations and drills.
+
+[[LG-6-7]]
+==== LG 6-7: (OPTIONAL) Design and conduct chaos engineering based on quality goals
+
+* Basics of chaos engineering: objectives and principles (e.g., "testing in production" to increase resilience).
+
+* Designing chaos experiments:
+  ** Deriving experiments from quality goals like availability and fault tolerance.
+  ** Identifying weaknesses and validating them through targeted disruptions.
+
+* Architectural support for chaos engineering:
+  ** Use of resilience-enhancing patterns like Circuit Breaker and fallback mechanisms.
+  ** Integration of chaos testing tools (e.g., Gremlin, Chaos Monkey) into the CI/CD pipeline.
+
+// end::EN[]
