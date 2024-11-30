@@ -40,7 +40,7 @@
 * Implementierung sicherer Schnittstellen und Makroarchitektur für verteilte Systeme.
 
 [[LZ-4-6]]
-==== LZ 4-5: (OPTIONAL) Event-getriebene Architekturen kennen und entwerfen
+==== LZ 4-6: (OPTIONAL) Event-getriebene Architekturen kennen und entwerfen
 
 * Einführung in Event-Driven Architectures (EDA): Publizieren von Domain Events zur Entkopplung von Systemen.
 * Entwurf einer EDA mit Messaging-Systemen wie RabbitMQ oder Kafka.
