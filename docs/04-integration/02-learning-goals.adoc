@@ -9,7 +9,7 @@
 * Anhand der Qualitätsziele begründen welche Patterns aus dem Strategic Design für eine Integration/Schnittstelle verwendet werden können und welche Patterns nicht 
 * Bewertung der Vor- und Nachteile von Integrationsansätzen wie REST, Messaging oder Datenbankintegration anhand spezifischer Qualitätsziele.
 * (OPTIONAL) Frontend-Integration (Links, Client-Side Includes, Microfrontends, etc.) und Middleware für Legacy-Systeme sowie deren Auswirkungen vergleichen
-* Praktische Anwendung: Integration alter Datenmodelle durch Transformation und Mapping.
+* (OPTIONAL) Praktische Anwendung in brow-field Szenarien: Integration von Legacy-Datenmodellen durch Transformation und Mapping.
 
 [[LZ-4-2]]
 ==== LZ 4-2: Konsistenzmodelle erklären und auswählen (CAP Theorem)
