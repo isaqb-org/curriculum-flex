@@ -15,7 +15,11 @@
 ==== LZ 4-2: Konsistenzmodelle erklären und auswählen (CAP Theorem)
 
 * Erklärung des CAP-Theorems: Abwägung zwischen Konsistenz, Verfügbarkeit und Partitionstoleranz.
-* Vergleich von ACID- und BASE-Modellen: Einsatzmöglichkeiten in verteilten Systemen.
+* Notwendigkeit von Partitionstoleranz verstehen
+* Vergleich von ACID- und BASE-Modellen: Garantien, Verluste und Tradeoffs sowie daraus resultierende Einsatzmöglichkeiten in verteilten Systemen verstehen
+* Unterschied zwischen "Consistency" bei ACID und BASE anhand praktischer Beispiele erklären 
+* (OPTIONAL) Praxisbeispiel zu ACID-Transaktionen und BASE-Transaktionen in verteilten Systemen
+* CP- vs. AP-Systemdesign anhand von Qualitätszielen begründen
 * Praxisbeispiel: Wahl eines geeigneten Konsistenzmodells basierend auf Systemanforderungen wie Latenz und Skalierbarkeit.
 
 [[LZ-4-3]]
