@@ -26,7 +26,7 @@
 * Praxisbeispiel: Wahl eines geeigneten Konsistenzmodells basierend auf Systemanforderungen wie Latenz und Skalierbarkeit.
 
 [[LZ-4-3]]
-==== LZ 4-3: Resilience Patterns benennen
+==== LZ 4-4: Resilience Patterns benennen
 
 * Messaging Patterns: Request/Reply, Publish/Subscribe und deren Resilience-Eigenschaften.
 * Resilience-Strategien für dezentrale Datenhaltung und redundante Architektur.
