@@ -8,7 +8,7 @@
 * Modulgrenzen eines Systems anhand von "Bounded Context" darstellen, beschreiben und SOLL/IST-Vergleiche anstellen
 * Anhand der Qualitätsziele begründen welche Patterns aus dem Strategic Design für eine Integration/Schnittstelle verwendet werden können und welche Patterns nicht 
 * Bewertung der Vor- und Nachteile von Integrationsansätzen wie REST, Messaging oder Datenbankintegration anhand spezifischer Qualitätsziele.
-* Einsatz von Frontend-Integration und Middleware für Legacy-Systeme.
+* (OPTIONAL) Frontend-Integration (Links, Client-Side Includes, Microfrontends, etc.) und Middleware für Legacy-Systeme sowie deren Auswirkungen vergleichen
 * Praktische Anwendung: Integration alter Datenmodelle durch Transformation und Mapping.
 
 [[LZ-4-2]]
