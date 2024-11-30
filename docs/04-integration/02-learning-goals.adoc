@@ -4,7 +4,9 @@
 [[LZ-4-1]]
 ==== LZ 4-1: Integrationsstrategien gegenüberstellen (am Beispiel von DDD Strategic Design)
 
-* Verstehen von Strategic Design aus dem Domain-Driven Design (DDD) für die Integration (z. B. Anti-Corruption Layer, Shared Kernel, Bounded Context).
+* Strategic Design aus dem Domain-Driven Design (DDD) und dessen Beziehungspatterns (z. B. Anti-Corruption Layer, Shared Kernel, Customer/Supplier) verstehen und erklären
+* Modulgrenzen eines Systems anhand von "Bounded Context" darstellen, beschreiben und SOLL/IST-Vergleiche anstellen
+* Anhand der Qualitätsziele begründen welche Patterns aus dem Strategic Design für eine Integration/Schnittstelle verwendet werden können und welche Patterns nicht 
 * Bewertung der Vor- und Nachteile von Integrationsansätzen wie REST, Messaging oder Datenbankintegration anhand spezifischer Qualitätsziele.
 * Einsatz von Frontend-Integration und Middleware für Legacy-Systeme.
 * Praktische Anwendung: Integration alter Datenmodelle durch Transformation und Mapping.
