@@ -7,7 +7,10 @@
 * Strategic Design aus dem Domain-Driven Design (DDD) und dessen Beziehungspatterns (z. B. Anti-Corruption Layer, Shared Kernel, Customer/Supplier) verstehen und erklären
 * Modulgrenzen eines Systems anhand von "Bounded Context" darstellen, beschreiben und SOLL/IST-Vergleiche anstellen
 * Anhand der Qualitätsziele begründen welche Patterns aus dem Strategic Design für eine Integration/Schnittstelle verwendet werden können und welche Patterns nicht 
-* Bewertung der Vor- und Nachteile von Integrationsansätzen wie REST, Messaging oder Datenbankintegration anhand spezifischer Qualitätsziele.
+[[LZ-4-2]]
+ ==== LZ 4-2: Technische Integrationsmechanismen auswählen und begründen
+ 
+ * Bewertung der Vor- und Nachteile von technischen Integrationsmechanismen wie Frontend-Integration, Middle-Tier Integration (REST, RPC, Messaging) oder Datenbankintegration anhand spezifischer Qualitätsziele des System und notwendiger Erfahrung/Skills der betreuenden Entwicklungsteams.
 * (OPTIONAL) Frontend-Integration (Links, Client-Side Includes, Microfrontends, etc.) und Middleware für Legacy-Systeme sowie deren Auswirkungen vergleichen
 * (OPTIONAL) Praktische Anwendung in brow-field Szenarien: Integration von Legacy-Datenmodellen durch Transformation und Mapping.
 
