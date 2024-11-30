@@ -32,7 +32,7 @@
 * Resilience-Strategien für dezentrale Datenhaltung und redundante Architektur.
 * Nutzung von Mechanismen wie Circuit Breaker, Graceful Degradation und Bulkhead zur Sicherstellung der Verfügbarkeit.
 
-[[LZ-4-4]]
+[[LZ-4-5]]
 ==== LZ 4-4: Sicherheitsauswirkungen von Integrationsmethoden kennen und berücksichtigen
 
 * Vergleich von Authentifizierungs- und Autorisierungsmechanismen (z. B. OAuth, Kerberos).
