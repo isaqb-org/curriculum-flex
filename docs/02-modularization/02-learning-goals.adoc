@@ -21,7 +21,7 @@
 ==== LZ 2-3: Kommunikationsstruktur der Organisation bei Zerlegung berücksichtigen
 
 * Conway’s Law: Bedeutung und Auswirkungen der Kommunikationsstruktur der Organisation auf die Wahl und Gestaltung von Modulgrenzen.
-* Autonomie und Zusammenarbeit: Sicherstellung der Entwicklungsautonomie durch Reduzierung der Abstimmungsaufwände zwischen Teams
+* Autonomie und Zusammenarbeit: Sicherstellung der Entwicklungsautonomie durch Reduzierung der Abstimmungsaufwände zwischen Teams  (bspw. durch explizite Wahl von DDD Patterns und Vereinfachung der Schnittstellen)
 * Fachliche Kohäsion: Ausrichtung der Modul-Schnitte auf fachliche Themengebiete und wertschöpfende, erwünschte Team-Beziehungen (da sich diese Beziehungen in Schnittstellen und Abhängigkeiten in den Systemen dieser Teams wiederfinden werden).
 
 [[LZ-2-4]]
