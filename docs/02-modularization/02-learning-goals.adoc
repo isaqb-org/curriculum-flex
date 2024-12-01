@@ -65,7 +65,7 @@
 [[LG-2-3]]
 ==== LG 2-3: Considering the communication structure of the organization during decomposition
 * Conway’s Law: Understanding the importance and impact of the organization’s communication structure on the choice and design of module boundaries.
-* Autonomy and collaboration: Ensuring development autonomy by reducing the coordination effort between teams.
+* Autonomy and collaboration: Ensuring development autonomy by reducing the coordination effort between teams (e.g. by explicitly choosing matching DDD patterns and simplifying interfaces).
 * Domain cohesion: Aligning module boundaries with business domains and fostering value-adding, desirable team relationships (as these relationships will manifest in the interfaces and dependencies within the teams' systems).
 
 [[LG-2-4]]
