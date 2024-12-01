@@ -1,6 +1,6 @@
 // tag::DE[]
 |===
-| Dauer: 90 Min. | Übungszeit: 30 Min.
+| Dauer: {duration-chapter1-content} Min. | Übungszeit: {duration-chapter1-practice} Min.
 |===
 
 === Begriffe und Konzepte
@@ -9,7 +9,7 @@ Verfügbarkeit, Zuverlässigkeit, Time-to-Market, Flexibilität, Vorhersagbarkei
 
 // tag::EN[]
 |===
-| Duration: 90 min | Practice time: 30 min
+| Duration: {duration-chapter1-content} min | Practice time: {duration-chapter1-practice} min
 |===
 
 === Terms and Principles

@@ -8,40 +8,40 @@
 | Übungszeit (Minuten)
 
 | 1. Warum flexible Systeme einsetzen
-| 90
-| 30
+| {duration-chapter1-content}
+| {duration-chapter1-practice}
 
 | 2. Modularisierung von Systemen in Teilsysteme
-| 180 
-| 60
+| {duration-chapter2-content}
+| {duration-chapter2-practice}
 
 | 3. Softwaremodule und der Bezug zu Organisationsstrukturen
-| 120
-| 60
+| {duration-chapter3-content}
+| {duration-chapter3-practice}
 
 | 4. Integrationsmethoden & Protokolle
-| 120 
-| 60
+| {duration-chapter4-content}
+| {duration-chapter4-practice}
 
-| 5. Installation und Laufzeitumgebungen/Plattformen
-| 120
-| 90
+| 5. Installation und Laufzeitumgebungen/ Plattformen
+| {duration-chapter5-content}
+| {duration-chapter5-practice}
 
 | 6. Betriebsmodelle
-| 90
-| 60
+| {duration-chapter6-content}
+| {duration-chapter6-practice}
 
 | 
 | 
 | 
 
 | Summe 
-| 720 (12 Std)
-| 360 (6 Std)
+| {duration-total-content}
+| {duration-total-practice}
 |===
 
-In diesem Kontext stellt „Dauer" die Unterrichtszeit ohne Übungszeit dar.
-Die Zeitaufteilung zwischen Theorie und Übungen ist lediglich eine Empfehlung.
+In diesem Kontext stellt Mindestdauer" die Unterrichtszeit ohne Übungszeit dar, die ohne die als OPTIONAL markierten Inhalte auf die jeweilige Lernziele verwendet werden sollte. 
+Die Zeitaufteilung zwischen Theorie und Übungen ist lediglich eine Empfehlung. 
 Die Ausgestaltung der Beispiele und Übungen sind in diesem Lehrplan nicht vorgegeben.
 
 // end::DE[]
@@ -56,36 +56,36 @@ Die Ausgestaltung der Beispiele und Übungen sind in diesem Lehrplan nicht vorge
 | Exercise time (minutes)
 
 | 1. Why approach Flexible Systems
-| 90
-| 30
+| {duration-chapter1-content}
+| {duration-chapter1-practice}
 
 | 2. Modularization of Systems of Systems
-| 180
-| 60
+| {duration-chapter2-content}
+| {duration-chapter2-practice}
 
 | 3. Software Modules and the Organisation
-| 120
-| 60
+| {duration-chapter3-content}
+| {duration-chapter3-practice}
 
 | 4. Integration Methods & Protocols
-| 120
-| 60
+| {duration-chapter4-content}
+| {duration-chapter4-practice}
 
-| 5. Deployment & Runtime/Platform Methods
-| 120
-| 90
+| 5. Deployment & Runtime/ Platform Methods
+| {duration-chapter5-content}
+| {duration-chapter5-practice}
 
 | 6. Service Operation Models
-| 90
-| 60
+| {duration-chapter6-content}
+| {duration-chapter6-practice}
 
 | 
 |
 | 
 
 | Total 
-| 720 (12h)
-| 360 (6h)
+| {duration-total-content}
+| {duration-total-practice}
 |===
 
 

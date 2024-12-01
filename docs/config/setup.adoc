@@ -13,6 +13,20 @@
 :include_configuration: tags=**;{language};!*
 
 :curriculum-short: FLEX
+:duration-chapter1-content: 60
+:duration-chapter1-practice: 30
+:duration-chapter2-content: 120
+:duration-chapter2-practice: 60
+:duration-chapter3-content: 90
+:duration-chapter3-practice: 60
+:duration-chapter4-content: 150
+:duration-chapter4-practice: 60
+:duration-chapter5-content: 90
+:duration-chapter5-practice: 90
+:duration-chapter6-content: 90
+:duration-chapter6-practice: 60
+:duration-total-content: 600 (10h)
+:duration-total-practice: 360 (6h)
 
 ifeval::["{language}" == "DE"]
 :curriculum-name: Flexible Architekturmodelle - Microservices und Self-Contained Systems
