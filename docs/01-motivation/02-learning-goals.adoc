@@ -23,17 +23,7 @@
 - Die Vorteile verschiedener Isolationsarten (Devtime, Runtime, Deployment, Team) bewerten
 
 [[LZ-1-3]]
-==== LZ 1-3: Wechselwirkung von Architekturtypen und Organisation analysieren und benennen
-
-- Erklären, wie Beziehungen zwischen Teams und Organisationseinheiten die Architektur von Systemen und damit Aspekte wie Abstimmungsaufwände und Time-to-Market beeinflussen
-- Erkennen, wie Conway's Law die Entwicklungsgeschwindigkeit beeinflusst
-- Den Zusammenhang zwischen Teamgrenzen und Systemgrenzen analysieren und erklären
-- Die Balance zwischen technischer und organisatorischer Struktur erklären
-- Unterschiede von Buildtime- und Runtime-Abhängigkeiten für Softwareentwicklungsprozesse erklären
-- Die Parallelisierbarkeit von Softwareentwicklungsaufgaben als Architekturziel verstehen
-
-[[LZ-1-4]]
-==== LZ 1-4: Kompromisse der vorgestellten Architekturtypen vermitteln und adaptieren
+==== LZ 1-3: Kompromisse der vorgestellten Architekturtypen vermitteln und adaptieren
 
 - Die Vor- und Nachteile verschiedener Architekturstile abwägen
 - Wissen, wie man Architekturentscheidungen dem Business-Kontext anpasst
@@ -43,8 +33,8 @@
 - Die Kosten von Verteilung und Service-Kommunikation realistisch einschätzen
 
 
-[[LZ-1-5]]
-==== LZ 1-5: Langfristige Qualitätsziele von flexiblen Architekturen benennen
+[[LZ-1-4]]
+==== LZ 1-4: Langfristige Qualitätsziele von flexiblen Architekturen benennen
 
 - Zentrale Qualitätsmerkmale flexibler Architekturen kennen
 - Verstehen, warum Flexibilität und schnelles Feedback strategische Ziele sind
@@ -54,8 +44,8 @@
 - Die Rolle von Reproduzierbarkeit und Vorhersagbarkeit verstehen
 - Automatisierbarkeit als Qualitätsziel erkennen
 
-[[LZ-1-6]]
-==== LZ 1-6: Typische Architekturentscheidungen von flexiblen Architekturen erklären und begründen
+[[LZ-1-5]]
+==== LZ 1-5: Typische Architekturentscheidungen von flexiblen Architekturen erklären und begründen
 
 - Architekturentscheidungen durch Businessziele und Qualitätsszenarien begründen
 - Die Notwendigkeit bestimmter Architekturmuster erklären
@@ -97,17 +87,7 @@
 - Evaluate benefits of different isolation types (devtime, runtime, deployment, team)
 
 [[LG-1-3]]
-==== LG 1-3: Analyze and Define the Interplay Between Architecture Types and Organization
-
-- Explain how relationships between teams and organizational units influence system architecture, affecting coordination overhead and time-to-market
-- Recognize how Conway's Law impacts development speed
-- Analyze and explain the correlation between team boundaries and system boundaries
-- Explain the balance between technical and organizational structure
-- Explain differences between buildtime and runtime dependencies in software development processes
-- Understand parallel software development capability as an architectural goal
-
-[[LG-1-4]]
-==== LG 1-4: Communicate and Adapt Trade-offs of Presented Architecture Types
+==== LG 1-3: Communicate and Adapt Trade-offs of Presented Architecture Types
 
 - Weigh advantages and disadvantages of different architectural styles
 - Know how to adapt architectural decisions to business context
@@ -116,8 +96,8 @@
 - Understand when combining different architectural styles makes sense
 - Realistically assess costs of distribution and service communication
 
-[[LG-1-5]]
-==== LG 1-5: Define Long-term Quality Goals of Flexible Architectures
+[[LG-1-4]]
+==== LG 1-4: Define Long-term Quality Goals of Flexible Architectures
 
 - Know core quality characteristics of flexible architectures
 - Understand why flexibility and rapid feedback are strategic goals
@@ -127,8 +107,8 @@
 - Understand the role of reproducibility and predictability
 - Recognize automation capability as a quality goal
 
-[[LG-1-6]]
-==== LG 1-6: Explain and justify Typical Architectural Decisions in Flexible Architectures
+[[LG-1-5]]
+==== LG 1-5: Explain and justify Typical Architectural Decisions in Flexible Architectures
 
 - Justify architectural decisions through business goals and quality scenarios
 - Explain the necessity of specific architectural patterns
