@@ -1,6 +1,5 @@
 === {learning-goals}
 
-
 // tag::DE[]
 [[LZ-3-1]]
 ==== LZ 3-1: Wechselwirkung von Architekturtypen und Organisation analysieren und benennen
@@ -49,7 +48,7 @@
 * Explain how relationships between teams or organizational units influence the architecture of systems, impacting coordination efforts and time-to-market
 * Recognize how Conway's Law affects the development speed and adaptability of systems
 * Analyze and explain the relationship between team boundaries and system boundaries
-* (OPTIONAL) Explain the balance between technical and organizational * structure
+* (OPTIONAL) Explain the balance between technical and organizational structure
 * Explain the differences between build-time and runtime dependencies for software development processes
 * Understand the parallelizability of software development tasks as an architectural goal
 * (OPTIONAL) Describe how organizational changes affect software and vice versa, enabling informed decisions for organizational and software architecture
@@ -64,7 +63,6 @@
 ==== LG 3-3: Use context maps for stakeholder management
 
 * Use context maps from Domain-Driven Design (DDD) to represent the  current state (AS-IS) and a desired future state (TO-BE) of a system landscape.
-
 * (OPTIONAL) Understand and apply context maps as a communication and planning tool depending on the target audience (developers vs. management).
 
 [[LG-3-4]]
