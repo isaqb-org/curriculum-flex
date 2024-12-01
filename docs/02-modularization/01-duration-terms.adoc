@@ -1,9 +1,10 @@
 // tag::DE[]
 |===
-| Dauer: 120 Min. | Übungszeit: 30 Min.
+| Dauer: {duration-chapter2-content} Min. | Übungszeit: {duration-chapter2-practice} Min.
 |===
 
 === Begriffe und Konzepte
+
 - Motivation für die Dekomposition in kleinere Systeme
 - Unterschiedliche Arten von Modularisierung, Kopplung
 - Systemgrenzen als Mittel für Isolation
@@ -15,7 +16,7 @@
 
 // tag::EN[]
 |===
-| Duration: 120 min | Practice time: 30 min
+| Duration: {duration-chapter2-content} min | Practice time: {duration-chapter2-practice} min
 |===
 
 === Terms and Principles

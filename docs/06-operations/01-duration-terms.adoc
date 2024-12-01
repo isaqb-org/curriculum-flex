@@ -1,6 +1,6 @@
 // tag::DE[]
 |===
-| Dauer: 90 Min. | Übungszeit: 30 Min.
+| Dauer: {duration-chapter6-content} Min. | Übungszeit: {duration-chapter6-practice} Min.
 |===
 
 === Begriffe und Konzepte
@@ -10,7 +10,7 @@ Monitoring, Operations, Logging, Tracing, Metrics, Alerting.
 
 // tag::EN[]
 |===
-| Duration: 90 min | Practice time: 30 min
+| Duration: {duration-chapter6-content} min | Practice time: {duration-chapter6-practice} min
 |===
 
 === Terms and Principles

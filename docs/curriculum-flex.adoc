@@ -46,5 +46,4 @@ include::04-integration/00-structure.adoc[{include_configuration}]
 include::05-rollout/00-structure.adoc[{include_configuration}]
 
 include::06-operations/00-structure.adoc[{include_configuration}]
-
 include::99-references/00-references.adoc[{include_configuration}]

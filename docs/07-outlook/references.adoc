@@ -1,5 +1,0 @@
-=== {references}
-
-<<tanenbaum>>, <<lamport>>, <<brewer>>, <<takada>>, <<nygard>>, <<hanmer>>, <<hamilton>>
-
-

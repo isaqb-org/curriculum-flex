@@ -4,11 +4,11 @@
 
 
 // tag::DE[]
-== Motivation
+== Warum flexible Systeme einsetzen
 // end::DE[]
 
 // tag::EN[]
-== Motivation
+== Why approach Flexible Systems
 // end::EN[]
 
 

@@ -7,41 +7,41 @@
 | Empfohlene Mindestdauer (min) 
 | Übungszeit (Minuten)
 
-| 1. Motivation 
-| 30 
-| 
+| 1. Warum flexible Systeme einsetzen
+| {duration-chapter1-content}
+| {duration-chapter1-practice}
 
-| 2. Modularisierung 
-| 180 
-| 75
+| 2. Modularisierung von Systemen in Teilsysteme
+| {duration-chapter2-content}
+| {duration-chapter2-practice}
 
-| 3. Integration 
-| 210 
-| 90
+| 3. Softwaremodule und der Bezug zu Organisationsstrukturen
+| {duration-chapter3-content}
+| {duration-chapter3-practice}
 
-| 4. Installation und Roll Out 
-| 120 
-| 30
+| 4. Integrationsmethoden & Protokolle
+| {duration-chapter4-content}
+| {duration-chapter4-practice}
 
-| 5. Betrieb, Überwachung und Fehleranalyse 
-| 150 
-| 45
+| 5. Installation und Laufzeitumgebungen/ Plattformen
+| {duration-chapter5-content}
+| {duration-chapter5-practice}
 
-| 6. Ausblick 
-| 90 
-| 
+| 6. Betriebsmodelle
+| {duration-chapter6-content}
+| {duration-chapter6-practice}
 
 | 
 | 
 | 
 
 | Summe 
-| 780 (13 Std) 
-| 240 (4 Std) 
+| {duration-total-content}
+| {duration-total-practice}
 |===
 
-In diesem Kontext stellt „Dauer" die Unterrichtszeit ohne Übungszeit dar.
-Die Zeitaufteilung zwischen Theorie und Übungen ist lediglich eine Empfehlung.
+In diesem Kontext stellt Mindestdauer" die Unterrichtszeit ohne Übungszeit dar, die ohne die als OPTIONAL markierten Inhalte auf die jeweilige Lernziele verwendet werden sollte. 
+Die Zeitaufteilung zwischen Theorie und Übungen ist lediglich eine Empfehlung. 
 Die Ausgestaltung der Beispiele und Übungen sind in diesem Lehrplan nicht vorgegeben.
 
 // end::DE[]
@@ -55,37 +55,37 @@ Die Ausgestaltung der Beispiele und Übungen sind in diesem Lehrplan nicht vorge
 | Recommended duration (minutes)
 | Exercise time (minutes)
 
-| 1. Motivation 
-| 30
-| 
+| 1. Why approach Flexible Systems
+| {duration-chapter1-content}
+| {duration-chapter1-practice}
 
-| 2. Modularisation 
-| 180
-| 75
+| 2. Modularization of Systems of Systems
+| {duration-chapter2-content}
+| {duration-chapter2-practice}
 
-| 3. Integration 
-| 210
-| 90
+| 3. Software Modules and the Organisation
+| {duration-chapter3-content}
+| {duration-chapter3-practice}
 
-| 4. Installation and Roll Out 
-| 120
-| 30
+| 4. Integration Methods & Protocols
+| {duration-chapter4-content}
+| {duration-chapter4-practice}
 
-| 5. Operations, Monitoring, and Failure Analysis 
-| 150
-| 45
+| 5. Deployment & Runtime/ Platform Methods
+| {duration-chapter5-content}
+| {duration-chapter5-practice}
 
-| 6. Outlook 
-| 90
-| 
+| 6. Service Operation Models
+| {duration-chapter6-content}
+| {duration-chapter6-practice}
 
 | 
 |
 | 
 
 | Total 
-| 780 (13h)
-| 240 (4h)
+| {duration-total-content}
+| {duration-total-practice}
 |===
 
 

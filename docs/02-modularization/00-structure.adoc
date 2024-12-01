@@ -3,11 +3,11 @@
 // ====================================================
 
 // tag::DE[]
-== Modularisierung
+== Modularisierung von Systemen in Teilsysteme
 // end::DE[]
 
 // tag::EN[]
-== Modularization
+== Modularization of Systems of Systems
 // end::EN[]
 
 include::01-duration-terms.adoc[{include_configuration}]
