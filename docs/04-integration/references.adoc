@@ -1,6 +1,6 @@
 === {references}
 
-<<evansddd>>, <<oauth>>, <<hohpe>>
+<<evansddd>>, <<oauth>>, <<hohpe>>, <<tanenbaum>>, <<lamport>>, <<brewer>>, <<takada>>, <<nygard>>, <<hanmer>>, <<hamilton>>
 
 
 

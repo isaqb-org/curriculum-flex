@@ -12,11 +12,12 @@ This section contains references that are cited in the curriculum.
 
 **B**
 
+- [[[baxtersommerville,Baxter, Sommerville 2011]]] Gordon Baxter, Ian Sommerville: Sociotechnical Systems Design: Evolving Theory and Practice, 2011, https://academic.oup.com/iwc/article/23/1/4/693091
 - [[[brewer,Brewer 2000]]] Eric Brewer, Towards Robust Distributed Systems, PODC Keynote, July-19-2000
 
 **C**
 
-- [[conway, Conway 1968]] Melvin E. Conway, How Do Committees Invent?, Datamation, 1968, https://en.wikipedia.org/wiki/Conway's_law
+- [[[conway,Conway 1968]]] Melvin E. Conway, How Do Committees Invent?, Datamation, 1968, https://en.wikipedia.org/wiki/Conway%27s_law
 
 **E**
 
@@ -50,9 +51,6 @@ This section contains references that are cited in the curriculum.
   in Decomposing Systems into Modules.  Communications of the ACM
   15(12):1053--1058, 1972.
 
-**S**
-
-- [[[sommerville, Baxter, Sommerville 2011]]], Gordon Baxter, Ian Sommerville: Sociotechnical Systems Design: Evolving Theory and Practice, 2011, https://academic.oup.com/iwc/article/23/1/4/693091
 **T**
 
 - [[[takada,Takada 2013]]] Mikito Takada, Distributed Systems for Fun and Profit, http://book.mixu.net/distsys/ (Guter Einstieg und Überblick)
