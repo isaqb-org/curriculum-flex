@@ -40,7 +40,8 @@
 | {duration-total-practice}
 |===
 
-In diesem Kontext stellt Mindestdauer" die Unterrichtszeit ohne Übungszeit dar, die ohne die als OPTIONAL markierten Inhalte auf die jeweilige Lernziele verwendet werden sollte. 
+In diesem Kontext stellt "Mindestdauer" die Unterrichtszeit ohne Übungszeit dar. 
+Die als OPTIONAL markierten Inhalte und Lernziele kann jeder Trainer hinzunehmen oder weglassen, sollte dies aber in der Trainingsbeschreibung den Teilnehmern vorzeitig bekannt machen. 
 Die Zeitaufteilung zwischen Theorie und Übungen ist lediglich eine Empfehlung. 
 Die Ausgestaltung der Beispiele und Übungen sind in diesem Lehrplan nicht vorgegeben.
 
@@ -89,7 +90,8 @@ Die Ausgestaltung der Beispiele und Übungen sind in diesem Lehrplan nicht vorge
 |===
 
 
-In this context, "duration" refers to teaching time without exercises.
+In this context, "minimum duration" refers to teaching time without exercises.
+The OPTIONAL content and learning objectives can be added or omitted by any trainer, but should be communicated to the participants in advance.
 The time breakdown between theory and exercises is only a recommendation.
 The design of the examples and exercises aren't specified in this curriculum
 // end::EN[]
