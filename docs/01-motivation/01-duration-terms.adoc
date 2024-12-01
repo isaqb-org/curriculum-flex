@@ -4,7 +4,7 @@
 |===
 
 === Begriffe und Konzepte
-Verfügbarkeit, Zuverlässigkeit, Time-to-Market, Flexibilität, Vorhersagbarkeit, Reproduzierbarkeit, Homogenisierung der Stages, Internet/Web-Scale, verteilte Systeme, Parallelisierbarkeit der Feature-Entwicklung, Evolution der Architektur (Build for Replacement), Heterogenität, Automatisierbarkeit.
+Verfügbarkeit, Zuverlässigkeit, Time-to-Market, Flexibilität, Vorhersagbarkeit, Reproduzierbarkeit, Internet/Web-Scale, verteilte Systeme, Parallelisierbarkeit der Feature-Entwicklung, Evolution der Architektur (Build for Replacement), Heterogenität, Automatisierbarkeit.
 // end::DE[]
 
 // tag::EN[]
@@ -13,5 +13,5 @@ Verfügbarkeit, Zuverlässigkeit, Time-to-Market, Flexibilität, Vorhersagbarkei
 |===
 
 === Terms and Principles
-Availability, resilience, time-to-market, flexibility, predictability, reproducibility, homogenization of stages, internet/web scale, distributed systems, parallelizing feature development, evolution of architecture (build for replacement), heterogenity, automation.
+Availability, resilience, time-to-market, flexibility, predictability, reproducibility, internet/web scale, distributed systems, parallelizing feature development, evolution of architecture (build for replacement), heterogenity, automation.
 // end::EN[]

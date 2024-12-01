@@ -4,7 +4,7 @@
 |===
 
 === Begriffe und Konzepte
-Moderner Betrieb, DevOps, Infrastructure as Code, Configuration Management.
+Continuous Deployment, DevOps, Platform Engineering, Infrastructure as Code, Konfigurationsmanagement, Kosteneffizienz, Zero-Downtime Deployments.
 
 
 // end::DE[]
@@ -15,7 +15,7 @@ Moderner Betrieb, DevOps, Infrastructure as Code, Configuration Management.
 |===
 
 === Terms and Principles
-Modern operations, DevOps, Infrastructure as Code, Configuration Management.
+Continuous Deployment, DevOps, Platform Engineering, Infrastructure as Code, Configuration Management, cost efficiency, zero downtime deployments.
 // end::EN[]
 
 

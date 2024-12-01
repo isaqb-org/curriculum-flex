@@ -4,7 +4,7 @@
 |===
 
 === Begriffe und Konzepte
-Monitoring, Operations, Logging, Tracing, Metrics, Alerting.
+Observability, Monitoring, Betriebsmodelle, MTBF vs. MTTR, Logging, Tracing, Metrics, Alerting, Service Level Objectives, Chaos Engineering.
 
 // end::DE[]
 
@@ -14,7 +14,7 @@ Monitoring, Operations, Logging, Tracing, Metrics, Alerting.
 |===
 
 === Terms and Principles
-Monitoring, Operations, Logging, Tracing, Metrics, Alerting.
+Observability, Monitoring, Operation Models, MTBF vs. MTTR, Logging, Tracing, Metrics, Alerting, Service Level Objectives, Chaos Engineering.
 
 // end::EN[]
 

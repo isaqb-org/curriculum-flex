@@ -4,6 +4,7 @@
 |===
 
 === Begriffe und Konzepte
+Conway's Law, Kommunikationsstrukturen, Context Mapping, Strategic Design, Stakeholder Management, Team Topologies, Sozio-technische Architektur, Teamautonomie, Team- und Systemgrenzen, Makro- und Mikroarchitektur-Entscheidungen.
 
 // end::DE[]
 
@@ -13,5 +14,5 @@
 |===
 
 === Terms and Principles
-
+Conway's Law, Communication structures, Context Mapping, strategic design, stakeholder management, Team Topologies, socio-technical Architectures, teamautonomy, Team and system boundaries, Macro- vs. Micro architecture decisons.
 // end::EN[]
