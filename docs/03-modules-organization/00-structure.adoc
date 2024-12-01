@@ -3,11 +3,11 @@
 // ====================================================
 
 // tag::DE[]
-== Integration
+== Softwaremodule und der Bezug zu Organisationsstrukturen
 // end::DE[]
 
 // tag::EN[]
-== Integration
+== Software Modules and the Organization
 // end::EN[]
 
 include::01-duration-terms.adoc[{include_configuration}]

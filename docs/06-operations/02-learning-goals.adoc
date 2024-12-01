@@ -2,7 +2,7 @@
 
 // tag::DE[]
 [[LZ-6-1]]
-=== LZ 6-1: Unterschiedliche Betriebsmodelle und ihre Auswirkungen erklären und auswählen
+==== LZ 6-1: Unterschiedliche Betriebsmodelle und ihre Auswirkungen erklären und auswählen
 
 * Operations Team vs. You Build It, You Run It:
   ** Vergleich zentralisierter Betriebsmodelle (dediziertes Operations-Team) mit dezentralisierten Ansätzen wie DevOps und "You Build It, You Run It".

@@ -1,6 +1,0 @@
-=== {references}
-
-<<evansddd>>, <<oauth>>, <<hohpe>>
-
-
-
