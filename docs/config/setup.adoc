@@ -29,11 +29,11 @@
 :duration-total-practice: 360 (6h)
 
 ifeval::["{language}" == "DE"]
-:curriculum-name: Flexible Architekturmodelle - Microservices und Self-Contained Systems
+:curriculum-name: Flexible Architekturmodelle - Modularisierung, Integration und Betrieb von modernen Softwaresystemen
 :curriculum-header-title: iSAQB-Curriculum für Advanced Level: {curriculum-short}
 endif::[]
 
 ifeval::["{language}" == "EN"]
-:curriculum-name: Flexible Architecture Models - Microservices and Self-Contained Systems
+:curriculum-name: Flexible Architecture Models - Modularization, Integration and Operation of Modern Software Systems
 :curriculum-header-title: iSAQB curriculum for Advanced Level: {curriculum-short}
 endif::[]
