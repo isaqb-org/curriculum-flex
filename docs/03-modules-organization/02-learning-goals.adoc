@@ -3,32 +3,82 @@
 
 // tag::DE[]
 [[LZ-3-1]]
-==== LZ 3-1: Conway's Law anhand von Beispielen erklären
+==== LZ 3-1: Wechselwirkung von Architekturtypen und Organisation analysieren und benennen
 
-Die Teilnehmenden sollen das Prinzip von Conway's Law verstehen und anhand praktischer Beispiele verdeutlichen können, wie die Kommunikationsstrukturen einer Organisation die Softwarearchitektur prägen. Ziel ist es, die Auswirkungen dieser Wechselwirkungen bewusst zu machen und für Architekturentscheidungen zu nutzen.
+- Erklären, wie Beziehungen zwischen Teams bzw. Organisationseinheiten die Architektur von Systemen beeinflussen und damit Auswirkungen auf Abstimmungsaufwände und Time-to-Market haben
+- Erkennen, wie Conway's Law die Entwicklungsgeschwindigkeit und Änderungsfähigkeit von Systemen beeinflusst
+- Den Zusammenhang zwischen Teamgrenzen und Systemgrenzen analysieren und erklären
+- (OPTIONAL) Die Balance zwischen technischer und organisatorischer Struktur erklären
+- Unterschiede von Buildtime- und Runtime-Abhängigkeiten für Softwareentwicklungsprozesse erklären
+- Die Parallelisierbarkeit von Softwareentwicklungsaufgaben als Architekturziel verstehen
+- (OPTIONAL) Darstellen wie organisatorische Änderungen die Software beeinflussen und umgekehrt, um bewusste Entscheidungen für Organisations- und Softwarearchitektur treffen zu können.
 
 [[LZ-3-2]]
-==== LZ 3-2: Context Maps für Stakeholder Management nutzen
+==== LZ 3-2: Kommunikationsstruktur der Organisation bei Zerlegung berücksichtigen
 
-Die Teilnehmenden lernen, Domain-Driven Design (DDD) Context Maps einzusetzen, um den aktuellen Zustand (AS-IS) und einen gewünschten zukünftigen Zustand (TO-BE) einer Systemlandschaft darzustellen. Dabei wird auch das Einbinden von Stakeholdern in den Veränderungsprozess thematisiert. Ziel ist es, Context Maps als Kommunikations- und Planungswerkzeug zu verstehen und anzuwenden.
-
+* Conway’s Law: Bedeutung verstehen und Auswirkungen der Kommunikationsstruktur der Organisation auf die Wahl und Gestaltung von Modulgrenzen.
+* Autonomie und Zusammenarbeit: Sicherstellung der Entwicklungsautonomie durch modulare Schnitte entlang fachlicher Grenzen.
 
 [[LZ-3-3]]
-==== LZ 3-3: Wechselwirkungen zwischen Organisation und Software Systemen erklären und analysieren
+==== LZ 3-3: Context Maps für Stakeholder Management nutzen
 
-Die Teilnehmenden sollen die bidirektionalen Einflüsse zwischen Organisationsstrukturen und Softwarearchitekturen verstehen und analysieren können. Dabei wird der Fokus darauf gelegt, wie organisatorische Änderungen Software beeinflussen und umgekehrt, um eine bessere Abstimmung zwischen beiden Welten zu erreichen.
+* Context Maps aus Domain-Driven Design (DDD) einsetzen, um den aktuellen IST-Zustand und einen gewünschten zukünftigen SOLL-Zustand einer Systemlandschaft darzustellen. 
+* (OPTIONAL) Context Maps zielgruppenabhängig (Entwickler vs. Management) als Kommunikations- und Planungswerkzeug verstehen und anwenden.
 
 [[LZ-3-4]]
-==== LZ 3-4: Begriffe wie Teamorganisation und sozio-technische Architekturen einordnen
+==== LZ 3-4: (OPTIONAL) Begriffe wie Teamorganisation und sozio-technische Architekturen sicher verwenden
 
-Die Teilnehmenden sollen Begriffe wie Team-Organisation, sozio-technische Architekturen und ähnliche Konzepte einordnen und deren Bedeutung im Kontext moderner Softwareentwicklung erklären können. Ziel ist es, ein Verständnis für die Verknüpfung technischer und sozialer Aspekte bei der Architekturgestaltung zu entwickeln.
+* Begriffe wie Team-Organisation, sozio-technische Architekturen und ähnliche Konzepte einordnen.
+* Bedeutung im Kontext moderner Softwareentwicklung erklären.
+* Verständnis für die Verknüpfung technischer und sozialer Aspekte bei der Architekturgestaltung zu entwickeln.
+
+[[LZ-3-5]]
+==== LZ 3-5: Außerhalb des eigenen Einflussbereiches getroffene Makroarchitekturentscheidungen identifizieren
+
+- Unterschied zwischen Mikro- und Makroarchitektur verstehen, um potenzielle Einschränkungen und Abstimmungsaufwände zu identifizieren und proaktiv zu adressieren.
+- Die Abgrenzung zwischen Makro- und Mikroarchitektur verstehen, um potenzielle Einschränkungen und Möglichkeiten bei Deployment-Strategien zu identifizieren.
+- Makroarchitekturentscheidungen wie Kommunikationsprotokolle, Betriebsstandards und Plattformvorgaben analysieren und deren Auswirkungen auf Deployment- und Runtime-Methoden bewerten.
+- Die Bedeutung von zentralen Plattformstandards für die Effizienz von Kommunikation und Deployments/Softwarelieferungen erkennen.
 
 // end::DE[]
 
 // tag::EN[]
 [[LG-3-1]]
-==== LG 3-1: Explain Conway's Law using examples
+==== LG 3-1: Analyze and name the interaction between architecture types and organization
 
+* Explain how relationships between teams or organizational units influence the architecture of systems, impacting coordination efforts and time-to-market
+* Recognize how Conway's Law affects the development speed and adaptability of systems
+* Analyze and explain the relationship between team boundaries and system boundaries
+* (OPTIONAL) Explain the balance between technical and organizational * structure
+* Explain the differences between build-time and runtime dependencies for software development processes
+* Understand the parallelizability of software development tasks as an architectural goal
+* (OPTIONAL) Describe how organizational changes affect software and vice versa, enabling informed decisions for organizational and software architecture
+
+[[LG-3-2]]
+==== LG 3-2: Consider the organization's communication structure when decomposing
+
+* Conway's Law: Understand the significance and impact of the organization's communication structure on the choice and design of module boundaries.
+* Autonomy and Collaboration: Ensure development autonomy through modular cuts along business boundaries.
+
+[[LG-3-3]]
+==== LG 3-3: Use context maps for stakeholder management
+
+* Use context maps from Domain-Driven Design (DDD) to represent the  current state (AS-IS) and a desired future state (TO-BE) of a system landscape.
+
+* (OPTIONAL) Understand and apply context maps as a communication and planning tool depending on the target audience (developers vs. management).
+
+[[LG-3-4]]
+==== LG 3-4: (OPTIONAL) Use terms like team organization and socio-technical architectures confidently
+
+* Classify terms such as team organization, socio-technical architectures, and similar concepts.
+* Explain their meaning in the context of modern software development.
+* Develop an understanding of the link between technical and social aspects in architecture design.
+
+[[LG-3-5]]
+==== LG 3-5: Identify macro-architecture decisions made outside your sphere of influence
+
+* Understand the difference between micro and macro architecture to identify and proactively address potential constraints and coordination efforts.
+* Understand the distinction between macro and micro architecture to identify potential limitations and opportunities in deployment strategies.
+* Analyze macro-architecture decisions such as communication protocols, operational standards, and platform requirements, and evaluate their impact on deployment and runtime methods.
+* Recognize the importance of central platform standards for the efficiency of communication and deployments/software deliveries.
 // end::EN[]
-
-

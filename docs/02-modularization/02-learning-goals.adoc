@@ -17,27 +17,21 @@
 * Isolationsebenen: Unterschiede zwischen modularer Isolation im Code, in der Laufzeitumgebung und bei Netzwerkschnittstellen.
 
 [[LZ-2-3]]
-==== LZ 2-3: Kommunikationsstruktur der Organisation bei Zerlegung berücksichtigen
-
-* Conway’s Law: Bedeutung und Auswirkungen der Kommunikationsstruktur der Organisation auf die Wahl und Gestaltung von Modulgrenzen.
-* Autonomie und Zusammenarbeit: Sicherstellung der Entwicklungsautonomie durch modulare Schnitte entlang fachlicher Grenzen.
-
-[[LZ-2-4]]
-==== LZ 2-4: Modularisierungskonzepte bewerten und auswählen
+==== LZ 2-3: Modularisierungskonzepte bewerten und auswählen
 
 * Technische Modularisierung: Bewertung von Konzepten wie Dateien, Bibliotheken, Prozesse, Microservices oder Self-Contained Systems.
 * Integration und Kopplung: Analyse von Kopplungsebenen (Sourcecode, Kompilate, Netzwerkprotokoll) und deren Auswirkungen.
 * Qualitätsziele: Auswahl einer Modularisierung passend zu Anforderungen wie Parallelisierung der Entwicklung oder unabhängiges Deployment.
 
-[[LZ-2-5]]
-==== LZ 2-5: Modularisierungsstrategien bewerten
+[[LZ-2-4]]
+==== LZ 2-4: Modularisierungsstrategien bewerten
 
 * Strategien und Konsequenzen: Bewertung der Auswirkungen verschiedener Modularisierungsansätze, z. B. Monolith vs. verteilte Module.
 * Technologieabhängigkeit: Wie Modularisierungstechnologien (z. B. Container oder Laufzeitumgebungen) Strategien beeinflussen.
 * Aufwands-Nutzen-Abgleich: Abwägung organisatorischer und technischer Aufwände gegen die erwarteten Vorteile.
 
-[[LZ-2-6]]
-==== LZ 2-6: Aufwand und Nutzen von Modularisierungsstrategien gegenüberstellen
+[[LZ-2-5]]
+==== LZ 2-5: Aufwand und Nutzen von Modularisierungsstrategien gegenüberstellen
 
 * Integration vs. Dezentralisierung: Identifikation von organisatorischen und technischen Aufwänden  für die Integration modularer Systeme.
 * Erwartete Vorteile: Bewertung des Nutzens, wie etwa unabhängiges Deployment, Parallelisierung und verbesserte Verständlichkeit.
@@ -60,24 +54,19 @@
 * Levels of isolation: Differentiating modular isolation in code, runtime environments, and network interfaces.
 
 [[LG-2-3]]
-==== LG 2-3: Considering the communication structure of the organization during decomposition
-* Conway’s Law: Understanding the importance and impact of the organization’s communication structure on the choice and design of module boundaries.
-* Autonomy and collaboration: Ensuring development autonomy by aligning modular cuts with business boundaries.
-
-[[LG-2-4]]
-==== LG 2-4: Evaluating and selecting modularization concepts
+==== LG 2-3: Evaluating and selecting modularization concepts
 * Technical modularization: Assessing concepts such as files, libraries, processes, microservices, or self-contained systems.
 * Integration and coupling: Analyzing levels of coupling (source code, compile-time, network protocols) and their implications.
 * Quality goals: Choosing modularization approaches suitable for requirements like development parallelization or independent deployment.
 
-[[LG-2-5]]
-==== LG 2-5: Assessing modularization strategies
+[[LG-2-4]]
+==== LG 2-4: Assessing modularization strategies
 * Strategies and consequences: Evaluating the impact of different modularization approaches, e.g., monolith vs. distributed modules.
 * Technology dependency: How modularization technologies (e.g., containers or runtime environments) influence strategies.
 * Effort-benefit trade-offs: Weighing organizational and technical efforts against expected benefits.
 
-[[LG-2-6]]
-==== LG 2-6: Contrasting the costs and benefits of modularization strategies
+[[LG-2-5]]
+==== LG 2-5: Contrasting the costs and benefits of modularization strategies
 * Integration vs. decentralization: Identifying organizational and technical costs for integrating modular systems.
 * Expected benefits: Assessing advantages such as independent deployment, parallelization, and improved system comprehensibility.
 * Module boundaries and complexity: Analyzing how module boundary choices affect complexity and development effort.
