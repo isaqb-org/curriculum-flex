@@ -54,7 +54,7 @@
 * Decomposition approaches: Creating a system decomposition into components while considering functional and technical requirements.
 * Strategic Design: Using Domain-Driven Design (DDD) to define module boundaries based on business domains (e.g., Bounded Contexts).
 * Hierarchical structures: Considering the hierarchy of modules during decomposition, such as subdomains and context mapping.
-* Naming with clear semantics: Components require a designation and a description that leave no ambiguity about their purpose and function.
+* Naming with clear semantics: Components require a name and a description that leave no ambiguity about their purpose and function.
 
 [[LG-2-2]]
 ==== LG 2-2: Describing and justifying different types of components
