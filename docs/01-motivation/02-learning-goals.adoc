@@ -5,7 +5,7 @@
 [[LZ-1-1]]
 ==== LZ 1-1: Themen und Buzzwords einordnen
 
-- Erklären, wie sich Architekturstile wie Microservices, Self-Contained Systems, Modulithen und Monolithen unterscheiden
+- Erklären, wie sich Architekturstile wie Microservices, Self-contained Systems, Modulithen und Monolithen unterscheiden
 - Die Rolle von DevOps und Continuous Delivery im Kontext flexibler Architekturen verstehen
 - Den Zusammenhang zwischen Cloud Computing und flexiblen Architekturen erkennen
 - Aktuelle Architektur-Trends anhand gegebener Qualitätsziele einschätzen und bewerten

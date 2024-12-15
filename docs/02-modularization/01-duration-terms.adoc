@@ -9,7 +9,7 @@
 - Unterschiedliche Arten von Modularisierung, Kopplung
 - Systemgrenzen als Mittel für Isolation
 - Hierarchische Struktur
-- Anwendung, Applikation, Self-Contained System, Microservice
+- Anwendung, Applikation, Self-contained System, Microservice
 - Domain-Driven Design-Konzepte und „Strategic Design“, Bounded Contexts
 
 // end::DE[]
@@ -25,7 +25,7 @@
 - Different kinds of modularisation, coupling
 - System limits as a way of isolation
 - Hierarchical structure
-- Application, Self-Contained System, Microservice
+- Application, Self-contained System, Microservice
 - Domain-Driven Design Concepts and "Strategic Design", Bounded Contexts
 
 

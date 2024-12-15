@@ -13,14 +13,14 @@
 [[LZ-2-2]]
 ==== LZ 2-2: Unterschiedliche Arten von Bausteinen beschreiben und begründen
 
-* Arten von Modulen: Definition und Eigenschaften verschiedener Bausteine, wie Microservices, Self-Contained Systems und Deployment-Monolithen.
+* Arten von Modulen: Definition und Eigenschaften verschiedener Bausteine, wie Microservices, Self-contained Systems und Deployment-Monolithen.
 * Lebenszyklus von Modulen: Beschreibung, wie ein Baustein erstellt, integriert, getestet, deployt und skaliert wird.
 * Isolationsebenen: Unterschiede zwischen modularer Isolation im Code, in der Laufzeitumgebung und bei Netzwerkschnittstellen.
 
 [[LZ-2-3]]
 ==== LZ 2-3: Modularisierungskonzepte bewerten und auswählen
 
-* Technische Modularisierung: Bewertung von Konzepten wie Dateien, Bibliotheken, Prozesse, Microservices oder Self-Contained Systems.
+* Technische Modularisierung: Bewertung von Konzepten wie Dateien, Bibliotheken, Prozesse, Microservices oder Self-contained Systems.
 * Integration und Kopplung: Analyse von Kopplungsebenen (Sourcecode, Kompilate, Netzwerkprotokoll) und deren Auswirkungen.
 * Qualitätsziele berücksichtigen: Auswahl von Modularisierungskonzepten anhand von Anforderungen wie "Parallelisierbarkeit der Entwicklung" oder "unabhängiges Deployment von Modulen".
 
@@ -79,7 +79,7 @@
 
 
 
-· 
+·
 
 
 
