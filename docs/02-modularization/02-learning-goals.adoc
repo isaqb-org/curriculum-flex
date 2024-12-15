@@ -8,7 +8,7 @@
 * Zerlegungsansätze: Erstellung einer Systemzerlegung in Bausteine unter Berücksichtigung fachlicher und technischer Anforderungen.
 * Strategic Design: Einsatz von Domain-Driven Design (DDD) zur Definition von Modulgrenzen anhand fachlicher Domänen (z. B. Bounded Contexts).
 * Hierarchische Strukturen: Berücksichtigung der Hierarchie von Modulen bei der Zerlegung, z. B. Subdomänen und Context-Mapping.
-* Benamung mit eindeutiger Semantik: Bausteine benötigen eine Bezeichnung und eine Beschreibung, die keinen Zweifel an ihrem Sinn und Funktion lassen
+* Namen mit eindeutiger Semantik: Bausteine benötigen eine Bezeichnung und eine Beschreibung, die keinen Zweifel an ihrem Sinn und Funktion lassen
 
 [[LZ-2-2]]
 ==== LZ 2-2: Unterschiedliche Arten von Bausteinen beschreiben und begründen
