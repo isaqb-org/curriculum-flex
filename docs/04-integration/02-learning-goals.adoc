@@ -11,8 +11,8 @@
 [[LZ-4-2]]
 ==== LZ 4-2: Technische Integrationsmechanismen auswählen und begründen
 
-* Bewertung der Vor- und Nachteile von technischen Integrationsmechanismen wie Frontend-Integration, Middle-Tier Integration (REST, RPC, Messaging) oder Datenbankintegration anhand spezifischer Qualitätsziele des System und notwendiger Erfahrung/Skills der betreuenden Entwicklungsteams.
-* [OPTIONAL] Frontend-Integration (Links, Client-Side Includes, Microfrontends, etc.) und Middleware für Legacy-Systeme sowie deren Auswirkungen vergleichen.
+* Bewertung der Vor- und Nachteile von technischen Integrationsmechanismen wie Frontend-Integration, Middle-Tier-Integration (REST, RPC, Messaging) oder Datenbankintegration anhand spezifischer Qualitätsziele des System und notwendiger Erfahrung/Skills der betreuenden Entwicklungsteams.
+* [OPTIONAL] Frontend-Integration (Links, Client-Side Includes, Micro-Frontends, etc.) und Middleware für Legacy-Systeme sowie deren Auswirkungen vergleichen.
 * [OPTIONAL] Praktische Anwendung in brow-field Szenarien: Integration von Legacy-Datenmodellen durch Transformation und Mapping.
 
 [[LZ-4-3]]
@@ -64,7 +64,7 @@
 ==== LG 4-2: Select and Justify Technical Integration Mechanisms
 
 * Evaluate the advantages and disadvantages of technical integration mechanisms such as frontend integration, middle-tier integration (REST, RPC, Messaging), or database integration based on specific quality goals of the system and the required experience/skills of the development teams.
-* (Optional) Compare frontend integration (e.g., links, client-side includes, microfrontends) and middleware for legacy systems and their impacts.
+* (Optional) Compare frontend integration (e.g., links, client-side includes, micro frontends) and middleware for legacy systems and their impacts.
 * (Optional) Practical application in brownfield scenarios: integration of legacy data models through transformation and mapping.
 
 [[LG-4-3]]
