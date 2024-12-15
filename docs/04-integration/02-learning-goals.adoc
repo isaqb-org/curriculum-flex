@@ -10,10 +10,10 @@
 
 [[LZ-4-2]]
 ==== LZ 4-2: Technische Integrationsmechanismen auswählen und begründen
- 
-* Bewertung der Vor- und Nachteile von technischen Integrationsmechanismen wie Frontend-Integration, Middle-Tier Integration (REST, RPC, Messaging) oder Datenbankintegration anhand spezifischer Qualitätsziele des System und notwendiger Erfahrung/Skills der betreuenden Entwicklungsteams.
-* (OPTIONAL) Frontend-Integration (Links, Client-Side Includes, Microfrontends, etc.) und Middleware für Legacy-Systeme sowie deren Auswirkungen vergleichen.
-* (OPTIONAL) Praktische Anwendung in brow-field Szenarien: Integration von Legacy-Datenmodellen durch Transformation und Mapping.
+
+* Bewertung der Vor- und Nachteile von technischen Integrationsmechanismen wie Frontend-Integration, Middle-Tier-Integration (REST, RPC, Messaging) oder Datenbankintegration anhand spezifischer Qualitätsziele des System und notwendiger Erfahrung/Skills der betreuenden Entwicklungsteams.
+* [OPTIONAL] Frontend-Integration (Links, Client-Side Includes, Micro-Frontends, etc.) und Middleware für Legacy-Systeme sowie deren Auswirkungen vergleichen.
+* [OPTIONAL] Praktische Anwendung in brow-field Szenarien: Integration von Legacy-Datenmodellen durch Transformation und Mapping.
 
 [[LZ-4-3]]
 ==== LZ 4-3: Konsistenzmodelle erklären und auswählen (CAP Theorem)
@@ -22,28 +22,28 @@
 * Notwendigkeit von Partitionstoleranz verstehen.
 * Vergleich von ACID- und BASE-Modellen: Garantien, Verluste und Tradeoffs sowie daraus resultierende Einsatzmöglichkeiten in verteilten Systemen verstehen.
 * Unterschied zwischen "Consistency" bei ACID und BASE anhand praktischer Beispiele erklären.
-* (OPTIONAL) Praxisbeispiel zu ACID-Transaktionen und BASE-Transaktionen in verteilten Systemen.
+* [OPTIONAL] Praxisbeispiel zu ACID-Transaktionen und BASE-Transaktionen in verteilten Systemen.
 * CP- vs. AP-Systemdesign anhand von Qualitätszielen begründen.
-* (OPTIONAL) Praxisbeispiel: Wahl eines geeigneten Konsistenzmodells basierend auf Systemanforderungen wie Latenz und Skalierbarkeit.
-* (OPTIONAL) Produktbeispiele aus unterschiedlichen Kategorien (z. B. NoSQL, Konfigurationswerkzeuge, Service Discovery) kennen.
+* [OPTIONAL] Praxisbeispiel: Wahl eines geeigneten Konsistenzmodells basierend auf Systemanforderungen wie Latenz und Skalierbarkeit.
+* [OPTIONAL] Produktbeispiele aus unterschiedlichen Kategorien (z. B. NoSQL, Konfigurationswerkzeuge, Service Discovery) kennen.
 
 [[LZ-4-4]]
 ==== LZ 4-4: Resilience Patterns benennen
 
-* (OPTIONAL) Messaging Patterns: Request/Reply, Publish/Subscribe und deren Resilience-Eigenschaften.
+* [OPTIONAL] Messaging Patterns: Request/Reply, Publish/Subscribe und deren Resilience-Eigenschaften.
 * Resilience-Strategien für dezentrale Datenhaltung und redundante Architektur.
 * Unterschiede zwischen High-Availability und Resilience verstehen und Praxisbeispiele nennen
-* (OPTIONAL) Nutzung von Mechanismen wie Circuit Breaker, Bulkhead und Graceful Degradation zur Sicherstellung der Verfügbarkeit in Szenarien, wo Systemteile unterschiedliche Verfügbarkeitsanforderungen haben.
+* [OPTIONAL] Nutzung von Mechanismen wie Circuit Breaker, Bulkhead und Graceful Degradation zur Sicherstellung der Verfügbarkeit in Szenarien, wo Systemteile unterschiedliche Verfügbarkeitsanforderungen haben.
 
 [[LZ-4-5]]
 ==== LZ 4-5: Sicherheitsauswirkungen von Integrationsmethoden kennen und berücksichtigen
 
-* (OPTIONAL) Vergleich von Authentifizierungs- und Autorisierungsmechanismen (z. B. OAuth, Kerberos).
+* [OPTIONAL] Vergleich von Authentifizierungs- und Autorisierungsmechanismen (z. B. OAuth, Kerberos).
 * Auswirkungen von synchroner (z. B. RPC) vs. asynchroner Integration (z. B. Messaging) auf Sicherheit und Datenintegrität.
 * Implementierung sicherer Schnittstellen und Makroarchitektur für verteilte Systeme.
 
 [[LZ-4-6]]
-==== LZ 4-6: (OPTIONAL) Event-getriebene Architekturen kennen und entwerfen
+==== LZ 4-6: [OPTIONAL] Event-getriebene Architekturen kennen und entwerfen
 
 * Einführung in Event-Driven Architectures (EDA): Publizieren von Domain Events zur Entkopplung von Systemen.
 * Entwurf einer EDA mit Messaging-Systemen wie RabbitMQ oder Kafka.
@@ -56,50 +56,50 @@
 [[LG-4-1]]
 ==== LG 4-1: Compare Integration Strategies (Using the Example of DDD Strategic Design)
 
-* Understand and explain Strategic Design from Domain-Driven Design (DDD) and its relationship patterns (e.g., Anti-Corruption Layer, Shared Kernel, Customer/Supplier).  
-* Represent and describe the module boundaries of a system using "Bounded Context" and perform AS-IS/TO-BE comparisons.  
-* Justify which patterns from Strategic Design can or cannot be used for an integration/interface based on quality goals.  
+* Understand and explain Strategic Design from Domain-Driven Design (DDD) and its relationship patterns (e.g., Anti-Corruption Layer, Shared Kernel, Customer/Supplier).
+* Represent and describe the module boundaries of a system using "Bounded Context" and perform AS-IS/TO-BE comparisons.
+* Justify which patterns from Strategic Design can or cannot be used for an integration/interface based on quality goals.
 
 [[LG-4-2]]
 ==== LG 4-2: Select and Justify Technical Integration Mechanisms
 
-* Evaluate the advantages and disadvantages of technical integration mechanisms such as frontend integration, middle-tier integration (REST, RPC, Messaging), or database integration based on specific quality goals of the system and the required experience/skills of the development teams.  
-* (Optional) Compare frontend integration (e.g., links, client-side includes, microfrontends) and middleware for legacy systems and their impacts.  
-* (Optional) Practical application in brownfield scenarios: integration of legacy data models through transformation and mapping.  
+* Evaluate the advantages and disadvantages of technical integration mechanisms such as frontend integration, middle-tier integration (REST, RPC, Messaging), or database integration based on specific quality goals of the system and the required experience/skills of the development teams.
+* (Optional) Compare frontend integration (e.g., links, client-side includes, micro frontends) and middleware for legacy systems and their impacts.
+* (Optional) Practical application in brownfield scenarios: integration of legacy data models through transformation and mapping.
 
 [[LG-4-3]]
 ==== LG 4-3: Explain and Select Consistency Models (CAP Theorem)
 
-* Explain the CAP theorem: trade-offs between consistency, availability, and partition tolerance.  
-* Understand the necessity of partition tolerance.  
-* Compare ACID and BASE models: guarantees, compromises, and trade-offs, as well as their resulting applicability in distributed systems.  
-* Explain the difference between "consistency" in ACID and BASE using practical examples.  
-* (Optional) Provide practical examples of ACID and BASE transactions in distributed systems.  
-* Justify CP vs. AP system design based on quality goals.  
-* (Optional) Practical example: choosing a suitable consistency model based on system requirements such as latency and scalability.  
-* (Optional) Know product examples from different categories (e.g., NoSQL, configuration tools, service discovery).  
+* Explain the CAP theorem: trade-offs between consistency, availability, and partition tolerance.
+* Understand the necessity of partition tolerance.
+* Compare ACID and BASE models: guarantees, compromises, and trade-offs, as well as their resulting applicability in distributed systems.
+* Explain the difference between "consistency" in ACID and BASE using practical examples.
+* (Optional) Provide practical examples of ACID and BASE transactions in distributed systems.
+* Justify CP vs. AP system design based on quality goals.
+* (Optional) Practical example: choosing a suitable consistency model based on system requirements such as latency and scalability.
+* (Optional) Know product examples from different categories (e.g., NoSQL, configuration tools, service discovery).
 
 [[LG-4-4]]
 ==== LG 4-4: Identify and select Resilience Patterns
 
-* (Optional) Messaging Patterns: Request/Reply, Publish/Subscribe, and their resilience properties.  
-* Resilience strategies for decentralized data storage and redundant architecture.  
-* Understand the differences between high availability and resilience and provide practical examples.  
-* (Optional) Use mechanisms like Circuit Breaker, Bulkhead, and Graceful Degradation to ensure availability in scenarios where system components have different availability requirements.  
+* (Optional) Messaging Patterns: Request/Reply, Publish/Subscribe, and their resilience properties.
+* Resilience strategies for decentralized data storage and redundant architecture.
+* Understand the differences between high availability and resilience and provide practical examples.
+* (Optional) Use mechanisms like Circuit Breaker, Bulkhead, and Graceful Degradation to ensure availability in scenarios where system components have different availability requirements.
 * Understand the impact of resilience patterns on well-known operations metrics like MTTR and MTBF and their interdependency with fast delivery of bugfixes/releases.
 
 [[LG-4-5]]
 ==== LG 4-5: Understand and Consider Security Implications of Integration Methods
 
-* (Optional) Compare authentication and authorization mechanisms (e.g., OAuth, Kerberos).  
-* Analyze the impact of synchronous (e.g., RPC) vs. asynchronous integration (e.g., Messaging) on security and data integrity.  
-* Implement secure interfaces and macroarchitecture for distributed systems.  
+* (Optional) Compare authentication and authorization mechanisms (e.g., OAuth, Kerberos).
+* Analyze the impact of synchronous (e.g., RPC) vs. asynchronous integration (e.g., Messaging) on security and data integrity.
+* Implement secure interfaces and macroarchitecture for distributed systems.
 
 [[LG-4-6]]
 ==== LG 4-6: (Optional) Understand and Design Event-Driven Architectures (EDA)
 
-* Introduction to Event-Driven Architectures (EDA): publishing domain events to decouple systems.  
-* Design an EDA with messaging systems like RabbitMQ or Kafka.  
-* Address challenges and solutions for backpressure and decentralized data storage.  
+* Introduction to Event-Driven Architectures (EDA): publishing domain events to decouple systems.
+* Design an EDA with messaging systems like RabbitMQ or Kafka.
+* Address challenges and solutions for backpressure and decentralized data storage.
 
 // end::EN[]

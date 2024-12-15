@@ -7,10 +7,10 @@
 - Erklären, wie Beziehungen zwischen Teams bzw. Organisationseinheiten die Architektur von Systemen beeinflussen und damit Auswirkungen auf Abstimmungsaufwände und Time-to-Market haben
 - Erkennen, wie Conway's Law die Entwicklungsgeschwindigkeit und Änderungsfähigkeit von Systemen beeinflusst
 - Den Zusammenhang zwischen Teamgrenzen und Systemgrenzen analysieren und erklären
-- (OPTIONAL) Die Balance zwischen technischer und organisatorischer Struktur erklären
+- [OPTIONAL] Die Balance zwischen technischer und organisatorischer Struktur erklären
 - Unterschiede von Buildtime- und Runtime-Abhängigkeiten für Softwareentwicklungsprozesse erklären
 - Die Parallelisierbarkeit von Softwareentwicklungsaufgaben als Architekturziel verstehen
-- (OPTIONAL) Darstellen wie organisatorische Änderungen die Software beeinflussen und umgekehrt, um bewusste Entscheidungen für Organisations- und Softwarearchitektur treffen zu können.
+- [OPTIONAL] Darstellen wie organisatorische Änderungen die Software beeinflussen und umgekehrt, um bewusste Entscheidungen für Organisations- und Softwarearchitektur treffen zu können.
 
 [[LZ-3-2]]
 ==== LZ 3-2: Kommunikationsstruktur der Organisation bei Zerlegung berücksichtigen
@@ -21,11 +21,11 @@
 [[LZ-3-3]]
 ==== LZ 3-3: Context Maps für Stakeholder Management nutzen
 
-* Context Maps aus Domain-Driven Design (DDD) einsetzen, um den aktuellen IST-Zustand und einen gewünschten zukünftigen SOLL-Zustand einer Systemlandschaft darzustellen. 
-* (OPTIONAL) Context Maps zielgruppenabhängig (Entwickler vs. Management) als Kommunikations- und Planungswerkzeug verstehen und anwenden.
+* Context Maps aus Domain-Driven Design (DDD) einsetzen, um den aktuellen IST-Zustand und einen gewünschten zukünftigen SOLL-Zustand einer Systemlandschaft darzustellen.
+* [OPTIONAL] Context Maps zielgruppenabhängig (Entwickler vs. Management) als Kommunikations- und Planungswerkzeug verstehen und anwenden.
 
 [[LZ-3-4]]
-==== LZ 3-4: (OPTIONAL) Begriffe wie Teamorganisation und sozio-technische Architekturen sicher verwenden
+==== LZ 3-4: [OPTIONAL] Begriffe wie Teamorganisation und sozio-technische Architekturen sicher verwenden
 
 * Begriffe wie Team-Organisation, sozio-technische Architekturen und ähnliche Konzepte einordnen.
 * Bedeutung im Kontext moderner Softwareentwicklung erklären.
@@ -48,10 +48,10 @@
 * Explain how relationships between teams or organizational units influence the architecture of systems, impacting coordination efforts and time-to-market
 * Recognize how Conway's Law affects the development speed and adaptability of systems
 * Analyze and explain the relationship between team boundaries and system boundaries
-* (OPTIONAL) Explain the balance between technical and organizational structure
+* [OPTIONAL] Explain the balance between technical and organizational structure
 * Explain the differences between build-time and runtime dependencies for software development processes
 * Understand the parallelizability of software development tasks as an architectural goal
-* (OPTIONAL) Describe how organizational changes affect software and vice versa, enabling informed decisions for organizational and software architecture
+* [OPTIONAL] Describe how organizational changes affect software and vice versa, enabling informed decisions for organizational and software architecture
 
 [[LG-3-2]]
 ==== LG 3-2: Consider the organization's communication structure when decomposing
@@ -63,10 +63,10 @@
 ==== LG 3-3: Use context maps for stakeholder management
 
 * Use context maps from Domain-Driven Design (DDD) to represent the  current state (AS-IS) and a desired future state (TO-BE) of a system landscape.
-* (OPTIONAL) Understand and apply context maps as a communication and planning tool depending on the target audience (developers vs. management).
+* [OPTIONAL] Understand and apply context maps as a communication and planning tool depending on the target audience (developers vs. management).
 
 [[LG-3-4]]
-==== LG 3-4: (OPTIONAL) Use terms like team organization and socio-technical architectures confidently
+==== LG 3-4: [OPTIONAL] Use terms like team organization and socio-technical architectures confidently
 
 * Classify terms such as team organization, socio-technical architectures, and similar concepts.
 * Explain their meaning in the context of modern software development.
