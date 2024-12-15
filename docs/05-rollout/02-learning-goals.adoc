@@ -10,7 +10,7 @@
 - Risiken und Vorteile von Continuous Deployment, einschließlich Zero Downtime, im Kontext verschiedener Projekte abwägen.
 
 [[LZ-5-2]]
-==== LZ 5-2: (OPTIONAL) Unterschiede von IaaS, PaaS, CaaS, FaaS erklären und auswählen
+==== LZ 5-2: [OPTIONAL] Unterschiede von IaaS, PaaS, CaaS, FaaS erklären und auswählen
 
 - Die technischen Eigenschaften und Anwendungsbereiche der verschiedenen Plattformansätze (IaaS, PaaS, CaaS, FaaS) erläutern.
 - Kriterien für die Auswahl des passenden Plattformansatzes in Abhängigkeit von Projektanforderungen wie Skalierbarkeit, Flexibilität und Kosten aufstellen.
@@ -30,20 +30,20 @@
 - Abhängigkeiten von Architekturentscheidungen auf den Einsatz von CI/CD-Pipelines beschreiben.
 
 [[LZ-5-5]]
-==== LZ 5-5: (OPTIONAL) Deployment-spezifische Sicherheitsanforderungen benennen
+==== LZ 5-5: [OPTIONAL] Deployment-spezifische Sicherheitsanforderungen benennen
 
 - Anforderungen an den Schutz von Secrets (z. B. API-Keys, Zertifikate) und Sicherheitsrichtlinien im Deployment-Prozess erklären.
 - Konzepte wie Zugriffskontrollen, Verschlüsselung und Compliance-Anforderungen in Deployment-Strategien integrieren.
 - Werkzeuge zur Verwaltung sicherheitsrelevanter Informationen (Secret Store) einsetzen und bewerten.
 
 [[LZ-5-6]]
-==== LZ 5-6: (OPTIONAL) Die Rolle von Observability im Deployment-Prozess erklären
+==== LZ 5-6: [OPTIONAL] Die Rolle von Observability im Deployment-Prozess erklären
 - Anforderungen an ein Monitoring-System und dessen Bedeutung für den Deployment-Erfolg erläutern.
 - Die Rolle von zentralisierten Logging- und Metriksystemen (z. B. Elastic Stack, Prometheus, Grafana) erklären.
 - Strategien entwickeln, um potenzielle Probleme im Deployment-Prozess frühzeitig zu erkennen und zu adressieren.
 
 [[LZ-5-7]]
-==== LZ 5-7: (OPTIONAL) Kosten- und Ressourceneffizienz im Deployment optimieren
+==== LZ 5-7: [OPTIONAL] Kosten- und Ressourceneffizienz im Deployment optimieren
 - Methoden zur Kostenoptimierung im Deployment evaluieren (z. B. Reserved Instances, Spot Instances, Serverless).
 - Auswirkungen der Wahl von Cloud- und Virtualisierungsstrategien auf die Betriebskosten und Ressourcennutzung analysieren.
 - Deployment-Methoden entwickeln, die Skalierbarkeit und Effizienz maximieren.
@@ -60,7 +60,7 @@
 - Assess risks and benefits of Continuous Deployment, including zero downtime, in various project contexts
 
 [[LG-5-2]]
-==== LG 5-2: (OPTIONAL) Explain and select differences between IaaS, PaaS, CaaS, and FaaS
+==== LG 5-2: [OPTIONAL] Explain and select differences between IaaS, PaaS, CaaS, and FaaS
 - Describe technical characteristics and application areas of different platform approaches (IaaS, PaaS, CaaS, FaaS)
 - Establish criteria for selecting appropriate platform approaches based on project requirements like scalability, flexibility, and costs
 - Analyze platform choice impacts on deployment strategy and make decisions regarding containerization (e.g., Docker, Kubernetes) or serverless approaches
@@ -78,19 +78,19 @@
 - Describe how architectural decisions influence CI/CD pipeline implementation
 
 [[LG-5-5]]
-==== LG 5-5: (OPTIONAL) Specify deployment-specific security requirements
+==== LG 5-5: [OPTIONAL] Specify deployment-specific security requirements
 - Explain requirements for protecting secrets (e.g., API keys, certificates) and security policies in the deployment process
 - Integrate concepts like access controls, encryption, and compliance requirements into deployment strategies
 - Implement and evaluate tools for managing security-relevant information
 
 [[LG-5-6]]
-==== LG 5-6: (OPTIONAL) Explain the role of observability in the Deployment Process
+==== LG 5-6: [OPTIONAL] Explain the role of observability in the Deployment Process
 - Explain monitoring system requirements and their importance for deployment success
 - Explain the role of centralized logging and metrics systems (e.g., Elastic Stack, Prometheus, Grafana)
 - Develop strategies to identify and address potential problems in the deployment process early
 
 [[LG-5-7]]
-==== LG 5-7: (OPTIONAL) Shop options to optimize cost and resource efficiency in the deployment process
+==== LG 5-7: [OPTIONAL] Shop options to optimize cost and resource efficiency in the deployment process
 - Evaluate methods for cost optimization in deployment and runtime (e.g., Reserved Instances, Spot Instances, Serverless)
 - Analyze how cloud and virtualization strategy choices impact operational costs and resource utilization
 - Develop deployment methods that maximize scalability and efficiency

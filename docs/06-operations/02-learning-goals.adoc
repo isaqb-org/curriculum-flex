@@ -12,7 +12,7 @@
 
 * MTBF (Mean Time Between Failures) vs. MTTR (Mean Time to Repair):
   ** Bedeutung der beiden Metriken und deren Auswirkung auf Betriebsmodelle und -kultur.
-  ** (OPTIONAL) Strategien zur Optimierung von MTBF und MTTR im Kontext der gewählten Architektur und ihre Auswirkungen auf Continuous Deployment.
+  ** [OPTIONAL] Strategien zur Optimierung von MTBF und MTTR im Kontext der gewählten Architektur und ihre Auswirkungen auf Continuous Deployment.
   ** Zusammenhang zwischen Betriebsmodellen und Qualitätskriterien wie Änderungsfähigkeit, Zuverlässigkeit und Fehlertoleranz.
 
 [[LZ-6-2]]
@@ -58,7 +58,7 @@
   ** Architekturentscheidungen für transparente Fehlermeldung und Fehlerweitergabe.
 
 [[LZ-6-4]]
-==== LZ 6-4: (OPTIONAL) Service Level Objectives (SLOs) aus Qualitätszielen ableiten
+==== LZ 6-4: [OPTIONAL] Service Level Objectives (SLOs) aus Qualitätszielen ableiten
 
 * Definition und Bedeutung von SLOs:
   ** Unterschied zwischen SLOs, SLAs (Service Level Agreements) und SLIs (Service Level Indicators).
@@ -72,7 +72,7 @@
   ** Automatisierte Überwachungs- und Berichtsmechanismen für SLO-Tracking.
 
 [[LZ-6-5]]
-==== LZ 6-5: (OPTIONAL) Mit Architektur das Incident Management und schnelle MTTR unterstützen
+==== LZ 6-5: [OPTIONAL] Mit Architektur das Incident Management und schnelle MTTR unterstützen
 
 * Architekturentscheidungen zur Reduzierung der MTTR:
   ** Einsatz von Self-Healing-Mechanismen und automatisierter Wiederherstellung.
@@ -83,7 +83,7 @@
   ** Einfluss von Deployments und Rollbacks auf die Reaktionszeiten bei Incidents.
 
 [[LZ-6-6]]
-==== LZ 6-6: (OPTIONAL) Durch Architektur zu Disaster Recovery und Business Continuity Management beitragen
+==== LZ 6-6: [OPTIONAL] Durch Architektur zu Disaster Recovery und Business Continuity Management beitragen
 
 * Disaster Recovery Strategien:
   ** Einsatz von Backup- und Wiederherstellungsmechanismen (Snapshots, Datenbank-Replikation).
@@ -97,7 +97,7 @@
   ** Implementierung und Validierung von Recovery-Plänen durch Simulationen und Probeläufe.
 
 [[LZ-6-7]]
-==== LZ 6-7: (OPTIONAL) Chaos Engineering anhand von Qualitätszielen designen und durchführen
+==== LZ 6-7: [OPTIONAL] Chaos Engineering anhand von Qualitätszielen designen und durchführen
 
 * Grundlagen des Chaos Engineering: Zielsetzung und Prinzipien (z. B. "Testen in Produktion" zur Erhöhung der Resilienz).
 
@@ -123,7 +123,7 @@
 
 * MTBF (Mean Time Between Failures) vs. MTTR (Mean Time to Repair):
   ** Importance of both metrics and their impact on operational models and culture.
-  ** (OPTIONAL) Strategies for optimizing MTBF and MTTR in the context of the chosen architecture and their effects on continuous deployment.
+  ** [OPTIONAL] Strategies for optimizing MTBF and MTTR in the context of the chosen architecture and their effects on continuous deployment.
   ** Relationship between operational models and quality criteria like changeability, reliability, and fault tolerance.
 
 [[LG-6-2]]
@@ -169,7 +169,7 @@
   ** Architectural decisions for transparent error reporting and propagation.
 
 [[LG-6-4]]
-==== LG 6-4: (OPTIONAL) Derive Service Level Objectives (SLOs) from quality goals
+==== LG 6-4: [OPTIONAL] Derive Service Level Objectives (SLOs) from quality goals
 
 * Definition and importance of SLOs:
   ** Difference between SLOs, SLAs (Service Level Agreements), and SLIs (Service Level Indicators).
@@ -183,7 +183,7 @@
   ** Automated monitoring and reporting mechanisms for SLO tracking.
 
 [[LG-6-5]]
-==== LG 6-5: (OPTIONAL) Architecture can support incident management and fast MTTR
+==== LG 6-5: [OPTIONAL] Architecture can support incident management and fast MTTR
 
 * Architectural decisions to reduce MTTR:
   ** Use of self-healing mechanisms and automated recovery.
@@ -194,7 +194,7 @@
   ** Influence of deployments and rollbacks on response times during incidents.
 
 [[LG-6-6]]
-==== LG 6-6: (OPTIONAL) Contribution of architecture to disaster recovery and business continuity management
+==== LG 6-6: [OPTIONAL] Contribution of architecture to disaster recovery and business continuity management
 
 * Disaster recovery strategies:
   ** Use of backup and recovery mechanisms (snapshots, database replication).
@@ -208,7 +208,7 @@
   ** Implementation and validation of recovery plans through simulations and drills.
 
 [[LG-6-7]]
-==== LG 6-7: (OPTIONAL) Design and conduct chaos engineering based on quality goals
+==== LG 6-7: [OPTIONAL] Design and conduct chaos engineering based on quality goals
 
 * Basics of chaos engineering: objectives and principles (e.g., "testing in production" to increase resilience).
 
