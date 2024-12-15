@@ -4,6 +4,7 @@
 |===
 
 === Begriffe und Konzepte
+Strategic Design (DDD), Kollaborationsmuster (z. B. Anti-Corruption Layer, Shared Kernel, Customer/Supplier, ...), Frontend Integration, Middle-Tier Integration (REST, RPC, Messaging), Datenbankintegration, Legacy Systeme, CAP Theorem, ACID, BASE, Authentifizierung, Autorisierung, (lose) Kopplung, Skalierbarkeit, Messaging Patterns (Request/Reply, Publish/Subscribe), Domain Events, dezentrale Datenhaltung.
 
 // end::DE[]
 
@@ -13,5 +14,6 @@
 |===
 
 === Terms and Principles
+Strategic design (DDD), collaboration patterns (e.g. anti-corruption layer, shared kernel, customer/supplier, ...), frontend integration, middle-tier integration (REST, RPC, messaging), database integration, legacy systems, CAP theorem, ACID, BASE, authentication, authorisation, (loose) coupling, scalability, messaging patterns (request/reply, publish/subscribe), domain events, decentralised data storage.
 
 // end::EN[]
