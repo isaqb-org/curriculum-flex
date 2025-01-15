@@ -57,14 +57,6 @@
 // end::DE[]
 
 // tag::EN[]
-.Chapter Structure: A Clear Learning Progression
-
-- First, understand the big picture
-- Then, grasp the prerequisites
-- Master the organizational aspects
-- Prepare and evaluate concrete architectural decisions
-- Keep long-term goals in focus
-- Finally, justify decisions with solid reasoning
 
 [[LG-1-1]]
 ==== LG 1-1: Classify Key Topics and Industry Buzzwords
