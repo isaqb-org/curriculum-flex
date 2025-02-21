@@ -47,7 +47,7 @@ Via HTTPS:
 git clone https://github.com/isaqb-org/curriculum-flex.git --recursive
 ----
 --
-2. You can build this repository with gradle via `./gradlew buildDocs`.
+2. You can build this repository with gradle via `./gradle-tools/gradlew buildDocs`.
 3. Look into the file `build.gradle` to see what attributes you may configure. Watch for:
 ** the `language` attribute, either `DE` (German) or `EN` (English);
 ** the output formats called `backends` (pdf and/or html5);
