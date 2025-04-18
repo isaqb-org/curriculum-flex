@@ -2,7 +2,7 @@
 === Was vermittelt das Modul „{curriculum-short}“?
 
 Das Modul {curriculum-name} zeigt, wie man mit modernen Architektur-Ansätzen besonders flexible Systeme umsetzen kann. 
-Hierbei beginnen wir bei Qualitätszielen, die flexible, verteilte Systeme überhaupt motivieren, betrachten Modularisierungs-Optionen und Architektur-Konzepte. Die Teilnehmer:innen lernen wie Kommunikationsstrukturen zwischen Teams und deren Organisation ihre Architekturentscheidungen entscheidend beeinflussen und wie sie diese Macro-Architektur steuern können.
+Hierbei beginnen wir bei Qualitätsanforderungen, die flexible, verteilte Systeme überhaupt motivieren, betrachten Modularisierungs-Optionen und Architektur-Konzepte. Die Teilnehmer:innen lernen wie Kommunikationsstrukturen zwischen Teams und deren Organisation ihre Architekturentscheidungen entscheidend beeinflussen und wie sie diese Makro-Architektur steuern können.
 
 Am Ende des Moduls kennen die Teilnehmer:innen Grundlagen von Microservices und Self-contained Systems und können Systeme auf Basis dieser Architektur-Konzepte entwerfen. Dabei können sie auch eine sinnvolle fachliche Aufteilung vorschlagen, die Erkenntnisse aus Konzepten wie Continuous Delivery und nachhaltigem Service-Betrieb berücksichtigt.
 
@@ -11,7 +11,7 @@ Am Ende des Moduls kennen die Teilnehmer:innen Grundlagen von Microservices und 
 // tag::EN[]
 === What does the module “{curriculum-short}” convey?
 
-The module presents {curriculum-short} to the participants how to build very flexible systems with modern architecture approaches. We start by looking at which quality goals actually motivate a flexible, distributed architecture at all. We also review different options for modularization and the architectural concepts behind them. The participants learn how communication structures between teams and their organisation impacts their architecture decisions and how to organize macro architecture decision making.
+The module presents {curriculum-short} to the participants how to build very flexible systems with modern architecture approaches. We start by looking at which quality requirements actually motivate a flexible, distributed architecture at all. We also review different options for modularization and the architectural concepts behind them. The participants learn how communication structures between teams and their organisation impacts their architecture decisions and how to organize macro architecture decision making.
 
 At the end of the module, the participants know the basics of architecture styles like microservices and self-contained systems and are able to design systems based on these concepts. They will be able to suggest a meaningful business decomposition that includes insights stemming from the concepts of Continuous Delivery and sustainable service operations.
 

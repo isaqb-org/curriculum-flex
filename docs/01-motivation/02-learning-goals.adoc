@@ -8,7 +8,7 @@
 - Erklären, wie sich Architekturstile wie Microservices, Self-contained Systems, Modulithen und Monolithen unterscheiden
 - Die Rolle von DevOps und Continuous Delivery im Kontext flexibler Architekturen verstehen
 - Den Zusammenhang zwischen Cloud Computing und flexiblen Architekturen erkennen
-- Aktuelle Architektur-Trends anhand gegebener Qualitätsziele einschätzen und bewerten
+- Aktuelle Architektur-Trends anhand gegebener Qualitätsanforderungen einschätzen und bewerten
 
 [[LZ-1-2]]
 ==== LZ 1-2: Voraussetzungen für verteilte Systeme verstehen und analysieren
@@ -34,15 +34,15 @@
 
 
 [[LZ-1-4]]
-==== LZ 1-4: Langfristige Qualitätsziele von flexiblen Architekturen benennen
+==== LZ 1-4: Langfristige Qualitätsanforderungen von flexiblen Architekturen benennen
 
 - Zentrale Qualitätsmerkmale flexibler Architekturen kennen
 - Verstehen, warum Flexibilität und schnelles Feedback strategische Ziele sind
 - Erklären, dass die Balance zwischen kurzfristiger und langfristiger Optimierung nicht in jedem Fall ausgewogen ist
-- Methoden zur Messbarkeit von Qualitätszielen erarbeiten
+- Methoden zur Messbarkeit von Qualitätsanforderungen erarbeiten
 - Langfristige Ziele in schrittweise Verbesserungen herunterbrechen und Zusammenhänge darstellen
 - Die Rolle von Reproduzierbarkeit und Vorhersagbarkeit verstehen
-- Automatisierbarkeit als Qualitätsziel erkennen
+- Automatisierbarkeit als Qualitätsanforderung erkennen
 
 [[LZ-1-5]]
 ==== LZ 1-5: Typische Architekturentscheidungen von flexiblen Architekturen erklären und begründen
@@ -64,7 +64,7 @@
 - Explain the differences between architectural styles like microservices, self-contained systems, moduliths, and monoliths
 - Understand the role of DevOps and Continuous Delivery in flexible architectures
 - Recognize the relationship between cloud computing and flexible architectures
-- Evaluate current architectural trends based on specific quality goals
+- Evaluate current architectural trends based on specific quality requirements
 
 [[LG-1-2]]
 ==== LG 1-2: Understand and Analyze Prerequisites for Distributed Systems
@@ -89,15 +89,15 @@
 - Realistically assess costs of distribution and service communication
 
 [[LG-1-4]]
-==== LG 1-4: Define Long-term Quality Goals of Flexible Architectures
+==== LG 1-4: Define Long-term Quality Requirements of Flexible Architectures
 
 - Know core quality characteristics of flexible architectures
 - Understand why flexibility and rapid feedback are strategic goals
 - Explain why the balance between short-term and long-term optimization isn't always 50:50
-- Develop methods to measure quality goals
+- Develop methods to measure quality requirements
 - Break down long-term goals into incremental improvements and show relationships
 - Understand the role of reproducibility and predictability
-- Recognize automation capability as a quality goal
+- Recognize automation capability as a quality requirement
 
 [[LG-1-5]]
 ==== LG 1-5: Explain and justify Typical Architectural Decisions in Flexible Architectures

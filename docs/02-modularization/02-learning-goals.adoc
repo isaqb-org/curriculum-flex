@@ -22,7 +22,7 @@
 
 * Technische Modularisierung: Bewertung von Konzepten wie Dateien, Bibliotheken, Prozesse, Microservices oder Self-contained Systems.
 * Integration und Kopplung: Analyse von Kopplungsebenen (Sourcecode, Kompilate, Netzwerkprotokoll) und deren Auswirkungen.
-* Qualitätsziele berücksichtigen: Auswahl von Modularisierungskonzepten anhand von Anforderungen wie "Parallelisierbarkeit der Entwicklung" oder "unabhängiges Deployment von Modulen".
+* Qualitätsanforderungen berücksichtigen: Auswahl von Modularisierungskonzepten anhand von Anforderungen wie "Parallelisierbarkeit der Entwicklung" oder "unabhängiges Deployment von Modulen".
 
 [[LZ-2-4]]
 ==== LZ 2-4: Modularisierungsstrategien bewerten
@@ -59,7 +59,7 @@
 ==== LG 2-3: Evaluating and selecting modularization concepts
 * Technical modularization: Assessing concepts such as files, libraries, processes, microservices, or self-contained systems.
 * Integration and coupling: Analyzing levels of coupling (source code, compile-time, network protocols) and their implications.
-* Considering quality goals: Selecting modularization concepts based on requirements such as "development parallelization" or "independent module deployment."
+* Considering quality requirements: Selecting modularization concepts based on requirements such as "development parallelization" or "independent module deployment."
 
 [[LG-2-4]]
 ==== LG 2-4: Assessing modularization strategies

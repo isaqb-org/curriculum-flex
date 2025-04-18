@@ -6,12 +6,12 @@
 
 * Strategic Design aus dem Domain-Driven Design (DDD) und dessen Beziehungspatterns (z. B. Anti-Corruption Layer, Shared Kernel, Customer/Supplier) verstehen und erklären.
 * Modulgrenzen eines Systems anhand von "Bounded Context" darstellen, beschreiben und SOLL/IST-Vergleiche anstellen.
-* Anhand der Qualitätsziele begründen welche Patterns aus dem Strategic Design für eine Integration/Schnittstelle verwendet werden können und welche Patterns nicht.
+* Anhand der Qualitätsanforderungen begründen welche Patterns aus dem Strategic Design für eine Integration/Schnittstelle verwendet werden können und welche Patterns nicht.
 
 [[LZ-4-2]]
 ==== LZ 4-2: Technische Integrationsmechanismen auswählen und begründen
 
-* Bewertung der Vor- und Nachteile von technischen Integrationsmechanismen wie Frontend-Integration, Middle-Tier-Integration (REST, RPC, Messaging) oder Datenbankintegration anhand spezifischer Qualitätsziele des System und notwendiger Erfahrung/Skills der betreuenden Entwicklungsteams.
+* Bewertung der Vor- und Nachteile von technischen Integrationsmechanismen wie Frontend-Integration, Middle-Tier-Integration (REST, RPC, Messaging) oder Datenbankintegration anhand spezifischer Qualitätsanforderungen des Systems und notwendiger Erfahrung/Skills der betreuenden Entwicklungsteams.
 * [OPTIONAL] Frontend-Integration (Links, Client-Side Includes, Micro-Frontends, etc.) und Middleware für Legacy-Systeme sowie deren Auswirkungen vergleichen.
 * [OPTIONAL] Praktische Anwendung in brow-field Szenarien: Integration von Legacy-Datenmodellen durch Transformation und Mapping.
 
@@ -23,7 +23,7 @@
 * Vergleich von ACID- und BASE-Modellen: Garantien, Verluste und Tradeoffs sowie daraus resultierende Einsatzmöglichkeiten in verteilten Systemen verstehen.
 * Unterschied zwischen "Consistency" bei ACID und BASE anhand praktischer Beispiele erklären.
 * [OPTIONAL] Praxisbeispiel zu ACID-Transaktionen und BASE-Transaktionen in verteilten Systemen.
-* CP- vs. AP-Systemdesign anhand von Qualitätszielen begründen.
+* CP- vs. AP-Systemdesign anhand von Qualitätsanforderungen begründen.
 * [OPTIONAL] Praxisbeispiel: Wahl eines geeigneten Konsistenzmodells basierend auf Systemanforderungen wie Latenz und Skalierbarkeit.
 * [OPTIONAL] Produktbeispiele aus unterschiedlichen Kategorien (z. B. NoSQL, Konfigurationswerkzeuge, Service Discovery) kennen.
 
@@ -58,12 +58,12 @@
 
 * Understand and explain Strategic Design from Domain-Driven Design (DDD) and its relationship patterns (e.g., Anti-Corruption Layer, Shared Kernel, Customer/Supplier).
 * Represent and describe the module boundaries of a system using "Bounded Context" and perform AS-IS/TO-BE comparisons.
-* Justify which patterns from Strategic Design can or cannot be used for an integration/interface based on quality goals.
+* Justify which patterns from Strategic Design can or cannot be used for an integration/interface based on quality requirements.
 
 [[LG-4-2]]
 ==== LG 4-2: Select and Justify Technical Integration Mechanisms
 
-* Evaluate the advantages and disadvantages of technical integration mechanisms such as frontend integration, middle-tier integration (REST, RPC, Messaging), or database integration based on specific quality goals of the system and the required experience/skills of the development teams.
+* Evaluate the advantages and disadvantages of technical integration mechanisms such as frontend integration, middle-tier integration (REST, RPC, Messaging), or database integration based on specific quality requirements of the system and the required experience/skills of the development teams.
 * (Optional) Compare frontend integration (e.g., links, client-side includes, micro frontends) and middleware for legacy systems and their impacts.
 * (Optional) Practical application in brownfield scenarios: integration of legacy data models through transformation and mapping.
 
@@ -75,7 +75,7 @@
 * Compare ACID and BASE models: guarantees, compromises, and trade-offs, as well as their resulting applicability in distributed systems.
 * Explain the difference between "consistency" in ACID and BASE using practical examples.
 * (Optional) Provide practical examples of ACID and BASE transactions in distributed systems.
-* Justify CP vs. AP system design based on quality goals.
+* Justify CP vs. AP system design based on quality requirements.
 * (Optional) Practical example: choosing a suitable consistency model based on system requirements such as latency and scalability.
 * (Optional) Know product examples from different categories (e.g., NoSQL, configuration tools, service discovery).
 

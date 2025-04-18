@@ -58,7 +58,7 @@
   ** Architekturentscheidungen für transparente Fehlermeldung und Fehlerweitergabe.
 
 [[LZ-6-4]]
-==== LZ 6-4: [OPTIONAL] Service Level Objectives (SLOs) aus Qualitätszielen ableiten
+==== LZ 6-4: [OPTIONAL] Service Level Objectives (SLOs) aus Qualitätsanforderungen ableiten
 
 * Definition und Bedeutung von SLOs:
   ** Unterschied zwischen SLOs, SLAs (Service Level Agreements) und SLIs (Service Level Indicators).
@@ -97,12 +97,12 @@
   ** Implementierung und Validierung von Recovery-Plänen durch Simulationen und Probeläufe.
 
 [[LZ-6-7]]
-==== LZ 6-7: [OPTIONAL] Chaos Engineering anhand von Qualitätszielen designen und durchführen
+==== LZ 6-7: [OPTIONAL] Chaos Engineering anhand von Qualitätsanforderungen designen und durchführen
 
 * Grundlagen des Chaos Engineering: Zielsetzung und Prinzipien (z. B. "Testen in Produktion" zur Erhöhung der Resilienz).
 
 * Design von Chaos-Experimenten:
-  ** Ableitung von Experimenten aus Qualitätszielen wie Verfügbarkeit und Fehlertoleranz.
+  ** Ableitung von Experimenten aus Qualitätsanforderungen wie Verfügbarkeit und Fehlertoleranz.
   ** Identifikation von Schwachstellen und deren Validierung durch gezielte Störungen.
 
 * Architekturunterstützung für Chaos Engineering:
@@ -169,7 +169,7 @@
   ** Architectural decisions for transparent error reporting and propagation.
 
 [[LG-6-4]]
-==== LG 6-4: [OPTIONAL] Derive Service Level Objectives (SLOs) from quality goals
+==== LG 6-4: [OPTIONAL] Derive Service Level Objectives (SLOs) from quality requirements
 
 * Definition and importance of SLOs:
   ** Difference between SLOs, SLAs (Service Level Agreements), and SLIs (Service Level Indicators).
@@ -208,12 +208,12 @@
   ** Implementation and validation of recovery plans through simulations and drills.
 
 [[LG-6-7]]
-==== LG 6-7: [OPTIONAL] Design and conduct chaos engineering based on quality goals
+==== LG 6-7: [OPTIONAL] Design and conduct chaos engineering based on quality requirements
 
 * Basics of chaos engineering: objectives and principles (e.g., "testing in production" to increase resilience).
 
 * Designing chaos experiments:
-  ** Deriving experiments from quality goals like availability and fault tolerance.
+  ** Deriving experiments from quality requirements like availability and fault tolerance.
   ** Identifying weaknesses and validating them through targeted disruptions.
 
 * Architectural support for chaos engineering:

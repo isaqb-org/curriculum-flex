@@ -4,7 +4,7 @@
 [[LZ-5-1]]
 ==== LZ 5-1: Voraussetzungen und Auswirkungen für Continuous Deployment benennen
 
-- Anforderungen an eine CI/CD-Pipeline erklären, einschließlich Automatisierungsgrad, Tests und Infrastrukturintegration.
+- Anforderungen an eine CI/CD-Pipeline anhand von Qualitätsanforderungen erklären, einschließlich Automatisierungsgrad, Tests und Infrastrukturintegration.
 - Die Rolle von DevOps in Continuous Deployment verstehen und organisatorische Implikationen erkennen.
 - Unterschiede zwischen traditionellen und modernen Deployment-Ansätzen, wie Immutable Infrastructure oder Infrastructure as Code, evaluieren.
 - Risiken und Vorteile von Continuous Deployment, einschließlich Zero Downtime, im Kontext verschiedener Projekte abwägen.
@@ -54,7 +54,7 @@
 // tag::EN[]
 [[LG-5-1]]
 ==== LG 5-1: Specify prerequisites and implications for Continuous Deployment
-- Utilize quality goals to explain CI/CD pipeline requirements, including automation levels, testing, and infrastructure integration
+- Utilize quality requirements to explain CI/CD pipeline requirements, including automation levels, testing, and infrastructure integration
 - Understand DevOps' role in Continuous Deployment and recognize organizational implications
 - Evaluate differences between traditional and modern deployment approaches, such as Immutable Infrastructure or Infrastructure as Code
 - Assess risks and benefits of Continuous Deployment, including zero downtime, in various project contexts
@@ -90,7 +90,7 @@
 - Develop strategies to identify and address potential problems in the deployment process early
 
 [[LG-5-7]]
-==== LG 5-7: [OPTIONAL] Shop options to optimize cost and resource efficiency in the deployment process
+==== LG 5-7: [OPTIONAL] Optimize cost and resource efficiency in the deployment process
 - Evaluate methods for cost optimization in deployment and runtime (e.g., Reserved Instances, Spot Instances, Serverless)
 - Analyze how cloud and virtualization strategy choices impact operational costs and resource utilization
 - Develop deployment methods that maximize scalability and efficiency
