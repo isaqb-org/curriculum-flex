@@ -1,19 +1,30 @@
 // tag::DE[]
 === Was vermittelt das Modul „{curriculum-short}“?
 
-Das Modul {curriculum-name} zeigt, wie man mit modernen Architektur-Ansätzen besonders flexible Systeme umsetzen kann. 
-Hierbei beginnen wir bei Qualitätsanforderungen, die flexible, verteilte Systeme überhaupt motivieren, betrachten Modularisierungs-Optionen und Architektur-Konzepte. Die Teilnehmer:innen lernen wie Kommunikationsstrukturen zwischen Teams und deren Organisation ihre Architekturentscheidungen entscheidend beeinflussen und wie sie diese Makro-Architektur steuern können.
+Das Modul {curriculum-name} zeigt, wie Architekt:innen dafür sorgen können, dass Software-Systeme leicht geändert und erweitert werden können.
+Im Fokus stehen Systeme, die über das Internet erreichbar sind und die zu groß sind, als dass sie von einem einzelnen kleinen Team betreut werden können.
+Dafür stellt das Modul {curriculum-name} Techniken zur *Modularisierung* vor, die es erlauben, dass Änderungen in Bausteine des Systems gemacht werden können, ohne die anderen Bausteine zu beinflussen.
+Unter Umständen führt die Modularisierung dazu, dass das System in mehrere Services aufgeteilt wird - sogenannte *Microservices*.  
+Diese erlauben unabhängige Änderungen, erfordern aber Techniken zur Entwicklung und zum Betrieb verteilter Systeme, die dieses Modul ebenfalls behandelt.
 
-Am Ende des Moduls kennen die Teilnehmer:innen Grundlagen von Microservices und Self-contained Systems und können Systeme auf Basis dieser Architektur-Konzepte entwerfen. Dabei können sie auch eine sinnvolle fachliche Aufteilung vorschlagen, die Erkenntnisse aus Konzepten wie Continuous Delivery und nachhaltigem Service-Betrieb berücksichtigt.
+Teilnehmer:innen können aufgrund fachlicher Anforderungen eine sinnvolle Modularisierungs-Strategie auswählen.
+Sie kennen die Tradeoffs unterschiedlicher Strategien und können entscheiden, ob Microservices und Self-contained Systems zum Einsatz kommen sollen.
+Sie können solche Systeme entwerfen und dafür sorgen, dass sie zuverlässig betrieben werden können.
 
 // end::DE[]
 
 // tag::EN[]
 === What does the module “{curriculum-short}” convey?
 
-The module presents {curriculum-short} to the participants how to build very flexible systems with modern architecture approaches. We start by looking at which quality requirements actually motivate a flexible, distributed architecture at all. We also review different options for modularization and the architectural concepts behind them. The participants learn how communication structures between teams and their organisation impacts their architecture decisions and how to organize macro architecture decision making.
+The {curriculum-short} module shows how architects can design software systems to make them easy to change and to extend.
+The focus is on Internet-facing systems that are too large to be managed by a single small team.
+To that end, the {curriculum-short} module presents techniques for *modularization* that allow changing building blocks of the system without affecting other building blocks.
+Occasionally, modularization will lead to the system being split into multiple services - so-called *microservices*.
+These allow independent changes but require techniques for developing and operating distributed systems.
 
-At the end of the module, the participants know the basics of architecture styles like microservices and self-contained systems and are able to design systems based on these concepts. They will be able to suggest a meaningful business decomposition that includes insights stemming from the concepts of Continuous Delivery and sustainable service operations.
+Participants can use business requirements to choose a sensible modularization strategy.
+They know the tradeoffs of various strategies and can decide whether to use microservices and self-contained systems.
+They can design such systems and create the conditions for reliable operation.
 
 // end::EN[]
 
