@@ -52,25 +52,25 @@ Software architects understand the implementation tradeoffs between monolithic a
 
 * compile-time interopability checks
 
-* velocity
+* velocity shipping new features to production
 
-* leverage
+* leverage from re-using code among subsystems
 
-* moving module boundaries
+* difficulty of moving module boundaries
 
 Software architects understand the communication and implementation challenges in distributed systems:
 
-* delivery failure
+* communication delivery failure
 
-* overload
+* overload from divergent processing rates in the overall system
 
-* latency
+* network latency
 
 * security
 
 * observability
 
-* unit testing
+* testing
 
 * fault localization
 
@@ -79,7 +79,7 @@ Software architects understand the communication and implementation challenges i
 
 * Software architects can choose appropriate module boundaries to separate services.
 
-* Software understand understand the tradeoffs of request/response communication vs. fire-and-forget.
+* Software architects understand the tradeoffs of request/response communication vs. fire-and-forget.
 
 * Software architects understand that distributed systems involve both implicit and explicit queues.
 
@@ -94,7 +94,7 @@ Software architects understand the communication and implementation challenges i
 
 * Software architects know mechanisms for communication in a distributed system such as REST, SOAP, GraphQL, gRPC, Thrift, event feeds, and event buses.
 
-* Software architects know languages for interfaces in distributed systems such as WSDL, GraphQL schema, and OpenAPI.
+* Software architects know languages for interfaces in distributed systems such as Protocol, WSDL, JSON schemas, XML schemas, GraphQL schemas, OpenAPI, and AsynAPI.
 
 * Software architects can choose appropriate technologies and conventions for implementing communication in a distributed system.
 
@@ -107,7 +107,7 @@ Software architects understand the communication and implementation challenges i
 
 * Software architects can design an appropriate strategy for maintaining distributed state.
 
-* Software architects understand how difficult ACID is to achieve in a distributed setting.
+* Software architects understand the difficulty of achieving ACID in a distributed setting.
 
 * Software architects understand the tradeoffs implied in the CAP theorem.
 
@@ -118,7 +118,7 @@ Software architects understand the communication and implementation challenges i
 [[LG-3-5]]
 ==== LG 3-5: Distribution and the organization
 
-* Software architects understand the tradeoffs of using common modules across organizational units and "shared nothing" strategies.
+* Software architects understand the tradeoffs between using common modules across organizational units and "shared nothing" strategies.
 
 * Software architects can choose and implement high-leverage abstractions (such as platform, libraries, DSLs) across organizational units.
 

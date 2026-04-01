@@ -45,7 +45,7 @@
 
 * Architects understand the role of information hiding to achieve flexibility, specifically the hiding of decisions that are difficult to make or may change later.
 
-* Architects can use modularization to map conceptual building blocks into (technical) modules.
+* Architects can use modularization to map conceptual building blocks to (technical) modules.
 
 * Architects know the impact on modularization of requirements such as independent deployment, parallelization of work, and replaceability of technologies.
 
@@ -69,9 +69,7 @@
 
 * Architects understand the role of Conway's law in constraining modularization.
 
-* Architects understand the need to decompose a system into coarse-grained building blocks before modules exist.
-
-* Architects can draft a coarse-grained building-block decomposition for a system top-down according to known requirements.
+* Architects understand the need to decompose a system into coarse-grained building blocks before modules exist, and can draft a such a decomposition for a system top-down according to known requirements.
 
 * Architects can apply Context Mapping to design such a decomposition.
 
@@ -90,7 +88,7 @@
 
 * Architects know interface languages and their differences such as Java/C# interfaces, Java modules, and ML-style module signatures, and can leverage them to enforce loose coupling.
 
-* Architects know non-linguistic approaches to enforcing modularization such as creating unit tests that operate on the module dependency graph.
+* Architects know non-linguistic (not built into the programming language) approaches to enforcing modularization such as creating unit tests and using external tools that operate on the module dependency graph.
 
 * Architects understand the relationship between module mechanisms and deployment strategies.
 
@@ -98,6 +96,8 @@
 ==== LG 2-5: Modularization documentation
 
 * Architects understand that architecture documentation and implementation modularization should be aligned.
+
+* Architects can document the principles and rules of the modularization strategy.
 
 * Architects know that architecture documentation can be generated from appropriate modularization mechanisms.
 
