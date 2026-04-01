@@ -3,12 +3,8 @@
 // tag::DE[]
 
 [[LZ-2-1]]
-==== LZ 2-1: Dekomposition in Bausteine anhand der Anforderungen entwerfen
+==== LZ 2-1: FIXME
 
-* Zerlegungsansätze: Erstellung einer Systemzerlegung in Bausteine unter Berücksichtigung fachlicher und technischer Anforderungen.
-* Strategic Design: Einsatz von Domain-Driven Design (DDD) zur Definition von Modulgrenzen anhand fachlicher Domänen (z. B. Bounded Contexts).
-* Hierarchische Strukturen: Berücksichtigung der Hierarchie von Modulen bei der Zerlegung, z. B. Subdomänen und Context-Mapping.
-* Namen mit eindeutiger Semantik: Bausteine benötigen eine Bezeichnung und eine Beschreibung, die keinen Zweifel an ihrem Sinn und Funktion lassen
 
 [[LZ-2-2]]
 ==== LZ 2-2: Unterschiedliche Arten von Bausteinen beschreiben und begründen
@@ -43,44 +39,66 @@
 // tag::EN[]
 
 [[LG-2-1]]
-==== LG 2-1: Designing decomposition into components based on requirements
-* Decomposition approaches: Creating a system decomposition into components while considering functional and technical requirements.
-* Strategic Design: Using Domain-Driven Design (DDD) to define module boundaries based on business domains (e.g., Bounded Contexts).
-* Hierarchical structures: Considering the hierarchy of modules during decomposition, such as subdomains and context mapping.
-* Naming with clear semantics: Components require a name and a description that leave no ambiguity about their purpose and function.
+==== LG 2-1: Goals of modularization
+
+* Architects understand that flexibility in the context of this curriculum means the ability to adapt the system to changing requirements.
+
+* Architects understand the role of information hiding to achieve flexibility, specifically the hiding of decisions that are difficult to make or may change later.
+
+* Architects can use modularization to map conceptual building blocks into (technical) modules.
+
+* Architects know the impact on modularization of requirements such as independent deployment, parallelization of work, and replaceability of technologies.
 
 [[LG-2-2]]
-==== LG 2-2: Describing and justifying different types of components
-* Types of modules: Defining and identifying characteristics of different components, such as microservices, self-contained systems, and deployment monoliths.
-* Lifecycle of components: Explaining how a component is created, integrated, tested, deployed, and scaled.
-* Levels of isolation: Differentiating modular isolation in code, runtime environments, and network interfaces.
+==== LG 2-2: Coupling
+
+* Architects understand that the goal of modularization is to reduce coupling between modules.
+
+* Architects understand possible causes of tight coupling between modules, such as misplaced module boundaries, ill-designed APIs, and over-constrained communication between modules.
+
+* Architects understand the special role of mutable state in tight coupling.
+
+* Architects can design a modularization in a bottom-up fashion that will keep coupling low.
+
+* Architects can decrease coupling by increasing cohesion within modules.
 
 [[LG-2-3]]
-==== LG 2-3: Evaluating and selecting modularization concepts
-* Technical modularization: Assessing concepts such as files, libraries, processes, microservices, or self-contained systems.
-* Integration and coupling: Analyzing levels of coupling (source code, compile-time, network protocols) and their implications.
-* Considering quality requirements: Selecting modularization concepts based on requirements such as "development parallelization" or "independent module deployment."
+==== LG 2-3: Modularization and the organization
+
+* Architects can analyze how module boundary choices affect complexity, coordination effort for changes, and development and maintenance costs.
+
+* Architects understand the role of Conway's law in constraining modularization.
+
+* Architects understand the need to decompose a system into coarse-grained building blocks before modules exist.
+
+* Architects can draft a coarse-grained building-block decomposition for a system top-down according to known requirements.
+
+* Architects can apply Context Mapping to design such a decomposition.
+
+* Architects know alternatives to Context Mapping for coarse-grain system decomposition.
+
+* Architects can identify organizational and technical costs for integrating a modular system.
+
+* Architects understand the different communication challenges in organizations that organize teams by bounded contexts and those that organize them by technical competency.
 
 [[LG-2-4]]
-==== LG 2-4: Assessing modularization strategies
-* Strategies and consequences: Evaluating the impact of different modularization approaches, e.g., monolith vs. distributed modules.
-* Technology dependency: How modularization technologies (e.g., containers or runtime environments) influence strategies.
-* Effort-benefit trade-offs: Weighing organizational and technical efforts against expected benefits.
+==== LG 2-4: Module mechanisms
+
+* Architects understand programming-language mechanisms that relate to modularization such as classes and interfaces in object-oriented languages, namespace mechanisms, and ML-style module languages.
+
+* Architects understand the role of opaque interfaces in enforcing loose coupling.
+
+* Architects know interface languages and their differences such as Java/C# interfaces, Java modules, and ML-style module signatures, and can leverage them to enforce loose coupling.
+
+* Architects know non-linguistic approaches to enforcing modularization such as creating unit tests that operate on the module dependency graph.
+
+* Architects understand the relationship between module mechanisms and deployment strategies.
 
 [[LG-2-5]]
-==== LG 2-5: Contrasting the costs and benefits of modularization strategies
-* Integration vs. decentralization: Identifying organizational and technical costs for integrating modular systems.
-* Expected benefits: Assessing advantages such as independent deployment, parallelization of work, replaceability of technologies, and improved system comprehensibility due to clearly named modules and integration points.
-* Module boundaries and complexity: Analyzing how module boundary choices affect complexity, coordination effort for changes, and development and maintenance costs.
+==== LG 2-5: Modularization documentation
+
+* Architects understand that architecture documentation and implementation modularization should be aligned.
+
+* Architects know that architecture documentation can be generated from appropriate modularization mechanisms.
 
 // end::EN[]
-
-
-
-
-
-·
-
-
-
-

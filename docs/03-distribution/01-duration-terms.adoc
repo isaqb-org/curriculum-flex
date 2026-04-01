@@ -14,5 +14,25 @@ Conway's Law, Kommunikationsstrukturen, Context Mapping, Strategic Design, Stake
 |===
 
 === Terms and Principles
-Conway's Law, Communication structures, Context Mapping, strategic design, stakeholder management, Team Topologies, socio-technical Architectures, teamautonomy, Team and system boundaries, Macro- vs. Micro architecture decisons.
+
+* microservice
+
+* self-contained system
+
+* leverage
+
+* velocity
+
+* queue
+
+* flow control/backpressure
+
+* ACID
+
+* CAP theorem
+
+* BASE
+
+* event sourcing
+
 // end::EN[]

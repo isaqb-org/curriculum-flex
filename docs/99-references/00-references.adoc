@@ -36,6 +36,10 @@ This section contains references that are cited in the curriculum.
 - [[[fowler,Lewis, Fowler, et al. 2013]]] James Lewis, Martin Fowler, et al.: Microservices - http://martinfowler.com/articles/microservices.html, 2013
 - [[[lamport,Lamport 1998]]] Leslie Lamport, The Part-Time Parliament, ACM Transactions on Computer Systems 16, 2 (May 1998), 133-169
 
+**M**
+
+- [[[minskymadhavapeddy, Minsky, Madhavapeddy 2022]]] Yaron Minsky, Anil Madhavapeddy: Real-World OCaml. Cambridge University Press, 2022.
+
 **N**
 
 - [[[newman,Sam Newman 2021]]] Sam Newman: Building Microservices: Designing Fine-Grained Systems, O'Reilly Media, 2nd ed. edition, 2021, ISBN 978-1-49203-402-5

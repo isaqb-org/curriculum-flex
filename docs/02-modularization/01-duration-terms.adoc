@@ -21,12 +21,11 @@
 
 === Terms and Principles
 
-- Motivation for decompositioning into smaller systems
-- Different kinds of modularisation, coupling
-- System limits as a way of isolation
-- Hierarchical structure
-- Application, Self-contained System, Microservice
-- Domain-Driven Design Concepts and "Strategic Design", Bounded Contexts
-
+- Flexibility as the ability to change the system
+- Relationship between modularization, coupling, and cohesion
+- Bottom-up and top-down modularization
+- Module mechanisms
+- Context mapping
+- Modularization and deployment
 
 // end::EN[]

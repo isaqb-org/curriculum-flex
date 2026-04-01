@@ -17,7 +17,7 @@
 :duration-chapter1-practice: 30
 :duration-chapter2-content: 120
 :duration-chapter2-practice: 60
-:duration-chapter3-content: 90
+:duration-chapter3-content: 150
 :duration-chapter3-practice: 60
 :duration-chapter4-content: 150
 :duration-chapter4-practice: 60
@@ -25,8 +25,8 @@
 :duration-chapter5-practice: 90
 :duration-chapter6-content: 90
 :duration-chapter6-practice: 60
-:duration-total-content: 600 (10h)
-:duration-total-practice: 360 (6h)
+:duration-total-content: FIXME
+:duration-total-practice: FIXME
 
 ifeval::["{language}" == "DE"]
 :curriculum-name: Flexible Architekturmodelle - Modularisierung, Integration und Betrieb von modernen Softwaresystemen

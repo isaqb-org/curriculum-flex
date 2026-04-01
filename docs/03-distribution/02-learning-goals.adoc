@@ -42,41 +42,85 @@
 // end::DE[]
 
 // tag::EN[]
-[[LG-3-1]]
-==== LG 3-1: Analyze and name the interaction between architecture types and organization
 
-* Explain how relationships between teams or organizational units influence the architecture of systems, impacting coordination efforts and time-to-market
-* Recognize how Conway's Law affects the development speed and adaptability of systems
-* Analyze and explain the relationship between team boundaries and system boundaries
-* [OPTIONAL] Explain the balance between technical and organizational structure
-* Explain the differences between build-time and runtime dependencies for software development processes
-* Understand the parallelizability of software development tasks as an architectural goal
-* [OPTIONAL] Describe how organizational changes affect software and vice versa, enabling informed decisions for organizational and software architecture
+[[LG-3-1]]
+==== LG 3-1: Distribution tradeoffs and challenges
+
+Software architects understand the implementation tradeoffs between monolithic and distributed systems:
+
+* independent deployment of modules
+
+* compile-time interopability checks
+
+* velocity
+
+* leverage
+
+* moving module boundaries
+
+Software architects understand the communication and implementation challenges in distributed systems:
+
+* delivery failure
+
+* overload
+
+* latency
+
+* security
+
+* observability
+
+* unit testing
+
+* fault localization
 
 [[LG-3-2]]
-==== LG 3-2: Consider the organization's communication structure when decomposing
+==== LG 3-2: Distribution strategy
 
-* Conway's Law: Understand the significance and impact of the organization's communication structure on the choice and design of module boundaries.
-* Autonomy and Collaboration: Ensure development autonomy through modular cuts along business boundaries.
+* Software architects can choose appropriate module boundaries to separate services.
+
+* Software understand understand the tradeoffs of request/response communication vs. fire-and-forget.
+
+* Software architects understand that distributed systems involve both implicit and explicit queues.
+
+* Software architects can design a communication strategy between services in a distributed system.
+
+* Software architects can design an architecture for achieving horizontal scalability using microservices.
+
+* Software architects can implement an appropriate communication strategy for a self-contained systems architecture.
 
 [[LG-3-3]]
-==== LG 3-3: Use context maps for stakeholder management
+==== LG 3-3: Distribution mechanisms
 
-* Use context maps from Domain-Driven Design (DDD) to represent the  current state (AS-IS) and a desired future state (TO-BE) of a system landscape.
-* [OPTIONAL] Understand and apply context maps as a communication and planning tool depending on the target audience (developers vs. management).
+* Software architects know mechanisms for communication in a distributed system such as REST, SOAP, GraphQL, gRPC, Thrift, event feeds, and event buses.
 
-[[LG-3-4]]
-==== LG 3-4: [OPTIONAL] Use terms like team organization and socio-technical architectures confidently
+* Software architects know languages for interfaces in distributed systems such as WSDL, GraphQL schema, and OpenAPI.
 
-* Classify terms such as team organization, socio-technical architectures, and similar concepts.
-* Explain their meaning in the context of modern software development.
-* Develop an understanding of the link between technical and social aspects in architecture design.
+* Software architects can choose appropriate technologies and conventions for implementing communication in a distributed system.
+
+* Software architects can implement flow control/backpressure in a distributed system to ameliorate overload.
+
+* Software architects can design appropriate fault detection and mitigation strategies.
 
 [[LG-3-5]]
-==== LG 3-5: Identify macro-architecture decisions made outside your sphere of influence
+==== LG 3-5: Distributed state
 
-* Understand the difference between micro and macro architecture to identify and proactively address potential constraints and coordination efforts.
-* Understand the distinction between macro and micro architecture to identify potential limitations and opportunities in deployment strategies.
-* Analyze macro-architecture decisions such as communication protocols, operational standards, and platform requirements, and evaluate their impact on deployment and runtime methods.
-* Recognize the importance of central platform standards for the efficiency of communication and deployments/software deliveries.
+* Software architects can design an appropriate strategy for maintaining distributed state.
+
+* Software architects understand how difficult ACID is to achieve in a distributed setting.
+
+* Software architects understand the tradeoffs implied in the CAP theorem.
+
+* Software architects can decide when BASE is an appropriate strategy for maintaining distributed state.
+
+* Software architects can utilize events for maintaining distributed state.
+
+[[LG-3-5]]
+==== LG 3-5: Distribution and the organization
+
+* Software architects understand the tradeoffs of using common modules across organizational units and "shared nothing" strategies.
+
+* Software architects can choose and implement high-leverage abstractions (such as platform, libraries, DSLs) across organizational units.
+
+
 // end::EN[]
