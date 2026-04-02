@@ -92,7 +92,7 @@ Software architects understand the communication and implementation challenges i
 [[LG-3-3]]
 ==== LG 3-3: Distribution mechanisms
 
-* Software architects know mechanisms for communication in a distributed system such as REST, SOAP, GraphQL, gRPC, Thrift, event feeds, and event buses.
+* Software architects know mechanisms for communication in a distributed system such as REST, SOAP, GraphQL, gRPC, Thrift, event feeds, and message-oriented middleware.
 
 * Software architects know languages for interfaces in distributed systems such as Protocol, WSDL, JSON schemas, XML schemas, GraphQL schemas, OpenAPI, and AsynAPI.
 
