@@ -27,5 +27,6 @@
 - Module mechanisms
 - Context mapping
 - Modularization and deployment
+- Inverse-Conway-Maneuver
 
 // end::EN[]

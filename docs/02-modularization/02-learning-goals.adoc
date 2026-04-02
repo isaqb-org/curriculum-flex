@@ -69,6 +69,8 @@
 
 * Architects understand the role of Conway's law in constraining modularization.
 
+* Architects understand the possibility of changing the organization to match the modularization (Inverse-Conway-Maneuver).
+
 * Architects understand the need to decompose a system into coarse-grained building blocks before modules exist, and can draft a such a decomposition for a system top-down according to known requirements.
 
 * Architects can apply Context Mapping to design such a decomposition.
