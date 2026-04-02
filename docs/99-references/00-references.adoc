@@ -51,6 +51,8 @@ This section contains references that are cited in the curriculum.
 
 **P**
 
+- [[[parlog, Parlog 2019]]] Nicolai Parlog, The Java Module System, Manning, 2019.
+
 - [[[parnas,Parnas 1972]]] David Parnas, On the Criteria To Be Used
   in Decomposing Systems into Modules.  Communications of the ACM
   15(12):1053--1058, 1972.
