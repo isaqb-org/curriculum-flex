@@ -3,7 +3,7 @@
 // tag::DE[]
 
 [[LZ-2-1]]
-==== LZ 2-1: FIXME
+==== LZ 2-1: Dekomposition in Bausteine anhand der Anforderungen entwerfen
 
 
 [[LZ-2-2]]
