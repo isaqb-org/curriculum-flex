@@ -118,6 +118,8 @@ Software architects understand the communication and implementation challenges i
 [[LG-3-5]]
 ==== LG 3-5: Distribution and the organization
 
+* Software architects understand the value and tradeoffs of imposing macro-architectural constraints across the organization.
+
 * Software architects understand the tradeoffs between using common modules across organizational units and "shared nothing" strategies.
 
 * Software architects can choose and implement high-leverage abstractions (such as platform, libraries, DSLs) across organizational units.

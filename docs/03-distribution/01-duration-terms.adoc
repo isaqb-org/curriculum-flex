@@ -35,4 +35,6 @@ Conway's Law, Kommunikationsstrukturen, Context Mapping, Strategic Design, Stake
 
 * event sourcing
 
+* macro architecture
+
 // end::EN[]
