@@ -97,7 +97,7 @@
 [[LG-2-5]]
 ==== LG 2-5: Modularization documentation
 
-* Architects understand that architecture documentation and implementation modularization should be aligned.
+* Architects understand that architecture documentation and implementation modularization must be aligned.
 
 * Architects can document the principles and rules of the modularization strategy.
 
