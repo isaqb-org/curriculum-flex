@@ -66,8 +66,6 @@ Software architects understand the communication and implementation challenges i
 
 * network latency
 
-* security
-
 * observability
 
 * testing
