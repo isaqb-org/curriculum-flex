@@ -19,8 +19,6 @@ Conway's Law, Kommunikationsstrukturen, Context Mapping, Strategic Design, Stake
 
 * self-contained system
 
-* leverage
-
 * velocity
 
 * queue
