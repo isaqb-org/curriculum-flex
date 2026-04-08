@@ -94,7 +94,7 @@ Software architects understand the communication and implementation challenges i
 
 * Software architects know mechanisms for communication in a distributed system such as REST, SOAP, GraphQL, gRPC, Thrift, event feeds, and message-oriented middleware.
 
-* Software architects know languages for interfaces in distributed systems such as Protocol, WSDL, JSON schemas, XML schemas, GraphQL schemas, OpenAPI, and AsyncAPI.
+* Software architects know languages for interfaces in distributed systems such as Protocol Buffers, WSDL, JSON schemas, XML schemas, GraphQL schemas, OpenAPI, and AsyncAPI.
 
 * Software architects can choose appropriate technologies and conventions for implementing communication in a distributed system.
 
