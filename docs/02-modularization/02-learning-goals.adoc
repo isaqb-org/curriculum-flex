@@ -73,13 +73,13 @@
 
 * Architects understand the need to decompose a system into coarse-grained building blocks before modules exist, and can draft a such a decomposition for a system top-down according to known requirements.
 
-* Architects can apply Context Mapping to design such a decomposition.
+* Architects can design a coarse-grain system decomposition.
 
-* Architects know alternatives to Context Mapping for coarse-grain system decomposition.
+* Architects can produce an appropriate visualization of the system decomposition.
+
+* Architects know different techniques for coarse-grain system decomposition and their tradeoffs.
 
 * Architects can identify organizational and technical costs for integrating a modular system.
-
-* Architects understand the different communication challenges in organizations that organize teams by bounded contexts and those that organize them by technical competency.
 
 [[LG-2-4]]
 ==== LG 2-4: Module mechanisms

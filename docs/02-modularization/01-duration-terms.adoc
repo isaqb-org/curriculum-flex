@@ -25,7 +25,6 @@
 - Relationship between modularization, coupling, and cohesion
 - Bottom-up and top-down modularization
 - Module mechanisms
-- Context mapping
 - Modularization and deployment
 - Inverse-Conway-Maneuver
 
