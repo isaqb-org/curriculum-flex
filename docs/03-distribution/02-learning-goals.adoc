@@ -96,8 +96,6 @@ Software architects understand the communication and implementation challenges i
 
 * Software architects can choose appropriate technologies and conventions for implementing communication in a distributed system.
 
-* Software architects can implement flow control/backpressure in a distributed system to ameliorate overload.
-
 * Software architects can design appropriate fault detection and mitigation strategies.
 
 [[LG-3-5]]
