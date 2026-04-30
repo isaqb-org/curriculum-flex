@@ -10,6 +10,10 @@ Dieser Abschnitt enthält Quellenangaben, die ganz oder teilweise im Curriculum 
 This section contains references that are cited in the curriculum.
 // end::EN[]
 
+**A**
+
+- [[[architecturetvmanagement, Architektur im Stream]]] Software-Architektur im Stream:Architecture Management https://software-architektur.tv/tags.html#Architecture%20Management
+
 **B**
 
 - [[[baxtersommerville,Baxter, Sommerville 2011]]] Gordon Baxter, Ian Sommerville: Sociotechnical Systems Design: Evolving Theory and Practice, 2011, https://academic.oup.com/iwc/article/23/1/4/693091

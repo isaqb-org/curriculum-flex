@@ -88,9 +88,9 @@
 
 * Architects understand the role of opaque interfaces in enforcing loose coupling.
 
-* Architects know interface languages and their differences such as Java/C# interfaces, Java modules, and ML-style module signatures, and can leverage them to enforce loose coupling.
+* Architects know interface languages and their differences such as Java/C# interfaces, Java packages, .NET namespaces, and ML-style module signatures, and can leverage them to enforce loose coupling.
 
-* Architects know non-linguistic (not built into the programming language) approaches to enforcing modularization such as creating unit tests and using external tools that operate on the module dependency graph.
+* Architects know non-linguistic (not built into the programming language) architecture-management approaches to enforcing modularization such as creating tests and using external tools that operate on the module dependency graph.
 
 * Architects understand the relationship between module mechanisms and deployment strategies.
 

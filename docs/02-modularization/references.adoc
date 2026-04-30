@@ -1,5 +1,6 @@
+
 === {references}
 
-<<evansddd>>, <<fowler>>, <<wolffms>>, <<newman>>, <<parnas>>, <<minskymadhavapeddy>>, <<parlog>>
+<<evansddd>>, <<fowler>>, <<wolffms>>, <<newman>>, <<parnas>>, <<minskymadhavapeddy>>, <<parlog>>, <<architecturetvmanagement>>
 
 
