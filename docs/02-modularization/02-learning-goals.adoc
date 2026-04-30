@@ -69,6 +69,10 @@
 
 * Architects understand the role of Conway's law in constraining modularization.
 
+* Architects understand that software interfaces imply communication between humans.
+
+* Architects understand that, for an external interface to remains useful to many different clients, you need to have a process that governs changes.
+
 * Architects understand the possibility of changing the organization to match the modularization (Inverse-Conway-Maneuver).
 
 * Architects understand the need to decompose a system into coarse-grained building blocks before modules exist, and can draft a such a decomposition for a system top-down according to known requirements.
