@@ -4,7 +4,24 @@
 |===
 
 === Begriffe und Konzepte
-Conway's Law, Kommunikationsstrukturen, Context Mapping, Strategic Design, Stakeholder Management, Team Topologies, Sozio-technische Architektur, Teamautonomie, Team- und Systemgrenzen, Makro- und Mikroarchitektur-Entscheidungen.
+
+* Microservice
+
+* Self-Contained System
+
+* Durchsatz
+
+* Queue
+
+* ACID
+
+* CAP-Theorem
+
+* BASE
+
+* Event-Sourcing
+
+* Makroarchitektur
 
 // end::DE[]
 
@@ -22,8 +39,6 @@ Conway's Law, Kommunikationsstrukturen, Context Mapping, Strategic Design, Stake
 * velocity
 
 * queue
-
-* flow control/backpressure
 
 * ACID
 

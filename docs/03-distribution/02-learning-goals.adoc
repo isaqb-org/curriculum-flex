@@ -2,42 +2,79 @@
 
 // tag::DE[]
 [[LZ-3-1]]
-==== LZ 3-1: Wechselwirkung von Architekturtypen und Organisation analysieren und benennen
+==== LZ 3-1: Tradeoffs und Herausforderungen bei Verteilung
 
-- Erklären, wie Beziehungen zwischen Teams bzw. Organisationseinheiten die Architektur von Systemen beeinflussen und damit Auswirkungen auf Abstimmungsaufwände und Time-to-Market haben
-- Erkennen, wie Conway's Law die Entwicklungsgeschwindigkeit und Änderungsfähigkeit von Systemen beeinflusst
-- Den Zusammenhang zwischen Teamgrenzen und Systemgrenzen analysieren und erklären
-- [OPTIONAL] Die Balance zwischen technischer und organisatorischer Struktur erklären
-- Unterschiede von Buildtime- und Runtime-Abhängigkeiten für Softwareentwicklungsprozesse erklären
-- Die Parallelisierbarkeit von Softwareentwicklungsaufgaben als Architekturziel verstehen
-- [OPTIONAL] Darstellen wie organisatorische Änderungen die Software beeinflussen und umgekehrt, um bewusste Entscheidungen für Organisations- und Softwarearchitektur treffen zu können.
+Software-Architekt:innen verstehen die Implementierungs-Tradeoffs zwischen monolithischen und verteilten Systemen:
+
+* unabhängiges Deployment von Modulen
+
+* Interoperatibilitätsprüfung zur Compilezeit
+
+* Durchsatz beim Ausliefern von neuen Features in Produktion
+
+* Synergie durch das Wiederverwenden von Code zwischen Subsystemen
+
+* Schwierigkeit, Modulgrenzen zu verschieben
+
+Software-Architekt:innen verstehen die Herausforderungen bei Kommunikation und Implementierung in verteilten Systemen:
+
+* Fehler bei der Zustellung von Nachrichten
+
+* Überlastung durch divergierende Verarbeitungsgeschwindigkeiten im Gesamtsystem
+
+* Netzwerk-Latenz
+
+* Observability
+
+* Testen
+
+* Fehler-Lokalisierung
 
 [[LZ-3-2]]
-==== LZ 3-2: Kommunikationsstruktur der Organisation bei Zerlegung berücksichtigen
+==== LZ 3-2: Verteilungsstrategie
 
-* Conway’s Law: Bedeutung verstehen und Auswirkungen der Kommunikationsstruktur der Organisation auf die Wahl und Gestaltung von Modulgrenzen.
-* Autonomie und Zusammenarbeit: Sicherstellung der Entwicklungsautonomie durch modulare Schnitte entlang fachlicher Grenzen.
+* Software-Architekt:innen können angemessene Modulgrenzen bestimmen, um Services zu separieren.
+
+* Software-Architekt:innen verstehen die Tradeoffs zwischen Request-/Response-Kommunikation und Fire-and-Forget.
+
+* Software-Architekt:innen verstehen, dass in verteilten Systeme sowohl implizite als auch explizite Queues wirken.
+
+* Software-Architekt:innen können eine Kommunikationsstrategie zwischen Services in einem verteilten System entwerfen.
+
+* Software-Architekt:innen können eine Architektur entwerfen, die horizontale Skalierbarkeit mit Microservices erreicht.
+
+* Software-Architekt:innen können eine angemessene Kommunikationsstrategie für eine Self-Contained-Systems-Architektur entwerfen.
 
 [[LZ-3-3]]
-==== LZ 3-3: Context Maps für Stakeholder Management nutzen
+==== LZ 3-3: Verteilungsmechanismen
 
-* Context Maps aus Domain-Driven Design (DDD) einsetzen, um den aktuellen IST-Zustand und einen gewünschten zukünftigen SOLL-Zustand einer Systemlandschaft darzustellen.
-* [OPTIONAL] Context Maps zielgruppenabhängig (Entwickler vs. Management) als Kommunikations- und Planungswerkzeug verstehen und anwenden.
+* Software-Architekt:innen kennen Mechanismen für die Kommunuikation in einem verteilten System wie REST, SOAP, GraphQL, gRPC, Thrift, Event-Feeds und Message-Oriented Middleware.
+
+* Software-Architekt:innen kennen Sprachen für Schnittstellen in verteilten Systemen wie Protocol Buffers, WSDL, JSON-Schemata, XML-Schemata, GraphQL-Schemata, OpenAPI und AsyncAPI.
+
+* Software-Architekt:innen können angemessen Technologien und Konventionen auswählen, um Kommunikation in einem verteilten System zu implementieren.
+
+* Software-Architekt:innen können angemessene Fehlererkennungs- und Mitigations-Strategien entwerfen.
 
 [[LZ-3-4]]
-==== LZ 3-4: [OPTIONAL] Begriffe wie Teamorganisation und sozio-technische Architekturen sicher verwenden
+==== LZ 3-4: Verteilter Zustand
 
-* Begriffe wie Team-Organisation, sozio-technische Architekturen und ähnliche Konzepte einordnen.
-* Bedeutung im Kontext moderner Softwareentwicklung erklären.
-* Verständnis für die Verknüpfung technischer und sozialer Aspekte bei der Architekturgestaltung zu entwickeln.
+* Software-Architekt:innen können eine angemessen Strategie entwerfen, um verteilten Zustand zu verwalten.
+
+* Software-Architekt:innen verstehen die Schwierigkeit, ACID in einem verteilten Umfeld zu erreichen.
+
+* Software-Architekt:innen verstehen die Tradeoffs, die das CAP-Theorem impliziert.
+
+* Software-Architekt:innen können entscheiden, wann BASE eine angemessen Strategie ist, um verteilten Zustand zu verwalten.
 
 [[LZ-3-5]]
-==== LZ 3-5: Außerhalb des eigenen Einflussbereiches getroffene Makroarchitekturentscheidungen identifizieren
+==== LZ 3-5: Verteilung und die Organisation
 
-- Unterschied zwischen Mikro- und Makroarchitektur verstehen, um potenzielle Einschränkungen und Abstimmungsaufwände zu identifizieren und proaktiv zu adressieren.
-- Die Abgrenzung zwischen Makro- und Mikroarchitektur verstehen, um potenzielle Einschränkungen und Möglichkeiten bei Deployment-Strategien zu identifizieren.
-- Makroarchitekturentscheidungen wie Kommunikationsprotokolle, Betriebsstandards und Plattformvorgaben analysieren und deren Auswirkungen auf Deployment- und Runtime-Methoden bewerten.
-- Die Bedeutung von zentralen Plattformstandards für die Effizienz von Kommunikation und Deployments/Softwarelieferungen erkennen.
+* Software-Architekt:innen verstehen den Wert und die Tradeoffs beim Auferlegen makroarchitektonischer Einschränkungen über die Organisation hinweg.
+
+* Software-Architekt:innen verstehen die Tradeoffs bei der Verwendung gemeinsamer Module über organisatorische Einheiten hinweg und "Share-Nothing"-Strategien.
+
+* Software-Architekt:innen können Abstraktionen über organisatorische Einheiten hinweg auswählen und implementieren (wie Plattform, Libraries, DSLs).
 
 // end::DE[]
 
@@ -54,13 +91,13 @@ Software architects understand the implementation tradeoffs between monolithic a
 
 * velocity shipping new features to production
 
-* leverage from re-using code among subsystems
+* synergy from re-using code among subsystems
 
 * difficulty of moving module boundaries
 
 Software architects understand the communication and implementation challenges in distributed systems:
 
-* communication delivery failure
+* message delivery failure
 
 * overload from divergent processing rates in the overall system
 
@@ -98,8 +135,8 @@ Software architects understand the communication and implementation challenges i
 
 * Software architects can design appropriate fault detection and mitigation strategies.
 
-[[LG-3-5]]
-==== LG 3-5: Distributed state
+[[LG-3-4]]
+==== LG 3-4: Distributed state
 
 * Software architects can design an appropriate strategy for maintaining distributed state.
 

@@ -3,36 +3,67 @@
 // tag::DE[]
 
 [[LZ-2-1]]
-==== LZ 2-1: Dekomposition in Bausteine anhand der Anforderungen entwerfen
+==== LZ 2-1: Ziele von Modularisierung
 
+* Architekten verstehen, dass Flexibilität im Kontext dieses Curriculums die Fähigkeit bezeichnet, das System an sich ändernde Anforderungen anzupassen.
+
+* Architekturen verstehen die Rolle des Geheimnisprinzips beim Erreichen von Flexibilität, insbesondere dem Verstecken von Entscheidungen, die schwierig zu treffen oder später schwer zu ändern sind.
+
+* Architekt:innen können Modularisierung benutzen, um konzeptuelle Bausteine auf (technische) Module abzubilden.
+
+* Architekt:innen kennen den Einfluss, den Anforderungen wie unabhängige Deployments, Parallelisierung von Arbeit und Ersetzbarkeit von Technologien auf Modularisierung haben.
 
 [[LZ-2-2]]
-==== LZ 2-2: Unterschiedliche Arten von Bausteinen beschreiben und begründen
+==== LZ 2-2: Kopplung
 
-* Arten von Modulen: Definition und Eigenschaften verschiedener Bausteine, wie Microservices, Self-contained Systems und Deployment-Monolithen.
-* Lebenszyklus von Modulen: Beschreibung, wie ein Baustein erstellt, integriert, getestet, deployt und skaliert wird.
-* Isolationsebenen: Unterschiede zwischen modularer Isolation im Code, in der Laufzeitumgebung und bei Netzwerkschnittstellen.
+* Architekt:innen verstehen, dass das Ziel von Modularisierung ist, die Kopplung zwischen Modulen zu reduzieren.
+
+* Architekt:innen verstehen mögliche Ursachen von enger Kopplung zwischen Modulen, wie falsch gesetzte Modulgrenzen, schlecht entworfene APIs und übermäßig eingeschränkte Kommunikation zwischen Modulen.
+
+* Architekt:innen können eine Modularisierung bottom-up entwerfen, die Kopplung niedrig hält.
+
+* Architekt:innen können Kopplung reduzieren, indem sie die Kohäsion innerhalb von Modulen steigern.
 
 [[LZ-2-3]]
-==== LZ 2-3: Modularisierungskonzepte bewerten und auswählen
+==== LZ 2-3: Modularisierung und die Organisation
 
-* Technische Modularisierung: Bewertung von Konzepten wie Dateien, Bibliotheken, Prozesse, Microservices oder Self-contained Systems.
-* Integration und Kopplung: Analyse von Kopplungsebenen (Sourcecode, Kompilate, Netzwerkprotokoll) und deren Auswirkungen.
-* Qualitätsanforderungen berücksichtigen: Auswahl von Modularisierungskonzepten anhand von Anforderungen wie "Parallelisierbarkeit der Entwicklung" oder "unabhängiges Deployment von Modulen".
+* Architekt:innen können analysieren, wie sich Entscheidungen zu Modulgrenzen auf Komplexität, Koordinationsaufwand für Änderungen sowie Entwicklungs- und Wartungskosten auswirken.
+
+* Architekt:innen verstehen die Rolle von Conway's Law bei der Einschränkung von Modularisierung.
+
+* Architekt:innen verstehen, dass Software-Schnittstellen Kommunikation zwischen Menschen implizieren.
+
+* Architekt:innen verstehen, dass, damit eine externe Schnittstelle für viele Abnehmer:innen nützlich ist, ein Prozess benötigt wird, der Änderungen verwaltet.
+
+* Architekt:inne verstehen die Möglichkeit, die Organisation so zu verändern, dass sie zur Modularisierung passt (Inverse-Conway-Manöver).
+
+* Architekt:innen verstehen die Notwendigkeit, ein System in grobgranulare Bausteine zu zerlegen, bevor Module existieren und können eine solche Zerlegung für ein System top-down entsprechend bekannten Anforderungen entwerfen.
+
+* Architekt:innen können eine angemessene Visualisierung einer Systemzerlegung anfertigen.
+
+* Architekt:innen kennen verschiedene Techniken für grobgranulare Systemzerlegung und ihre Tradeoffs.
+
+* Architekt:innen können organisatorische und technische Kosten für die Integration eines modularen Systems identifizieren.
 
 [[LZ-2-4]]
-==== LZ 2-4: Modularisierungsstrategien bewerten
+==== LZ 2-4: Modulmechanismen
 
-* Strategien und Konsequenzen: Bewertung der Auswirkungen verschiedener Modularisierungsansätze, z. B. Monolith vs. verteilte Module.
-* Technologieabhängigkeit: Wie Modularisierungstechnologien (z. B. Container oder Laufzeitumgebungen) Strategien beeinflussen.
-* Aufwands-Nutzen-Abgleich: Abwägung organisatorischer und technischer Aufwände gegen die erwarteten Vorteile.
+* Architekt:innen verstehen Programmiersprachen-Mechanismen, die mit Modularisierung zu tun haben, wie Klassen und Interfaces in objektorientieren Sprachen, Namespace-Mechanismen und ML-artige Modulsprachen.
+
+* Architekt:innen verstehen die Rolle von opaken Schnittstellen bei der Durchsetzung von loser Kopplung.
+
+* Architekt:innen kennen Schnittstellensprachen und ihre Unterschiede wie Java/C#-Interfaces, Java-Packages, .NET-Namespaces und ML-artige Modulsignaturen, und können sie ausnutzen, um lose Kopplung durchzusetzen.
+
+* Architekt:innen kennen nicht-linguistische (nicht in die Programmiersprache eingebaute) Architektur-Management-Ansätze zur Durchsetzung von Modularisierung, wie Tests zu schreiben oder externe Werkzeuge zu benutzen, die auf dem Modul-Abhängigkeitsgraph operieren.
 
 [[LZ-2-5]]
-==== LZ 2-5: Aufwand und Nutzen von Modularisierungsstrategien gegenüberstellen
+==== LZ 2-5: Dokumentation von Modularisierung
 
-* Integration vs. Dezentralisierung: Identifikation von organisatorischen und technischen Aufwänden  für die Integration modularer Systeme.
-* Erwartete Vorteile: Bewertung des Nutzens, wie etwa unabhängiges Deployment, Parallelisierung der Arbeit, Austauschbarkeit von Technologien und verbesserte Verständlichkeit durch klar benannte Module und Integrationspunkte.
-* Modulgrenzen und Komplexität: Analyse, wie die Wahl der Modulgrenzen die Komplexität, den Abstimmungsaufwand bei Änderungen sowie die Entwicklungs- und Wartungskosten beeinflusst.
+* Architekt:innen verstehen, dass Architekturdokumentation und Modularisierungsimplementierung zueinander passen müssen.
+
+* Architekt:innen können die Prinzipien und Regel der Modularisierungsstrategie dokumentieren.
+
+* Architekt:innen wissen, dass Architekturdokumentation aus entsprechenden Modularisierungsmechanismen generiert werden kann.
 
 // end::DE[]
 
@@ -71,13 +102,11 @@
 
 * Architects understand that software interfaces imply communication between humans.
 
-* Architects understand that, for an external interface to remains useful to many different clients, you need to have a process that governs changes.
+* Architects understand that, for an external interface to remain useful to many different clients, a process is required that governs changes.
 
 * Architects understand the possibility of changing the organization to match the modularization (Inverse-Conway-Maneuver).
 
 * Architects understand the need to decompose a system into coarse-grained building blocks before modules exist, and can draft a such a decomposition for a system top-down according to known requirements.
-
-* Architects can design a coarse-grain system decomposition.
 
 * Architects can produce an appropriate visualization of the system decomposition.
 
@@ -101,7 +130,7 @@
 [[LG-2-5]]
 ==== LG 2-5: Modularization documentation
 
-* Architects understand that architecture documentation and implementation modularization must be aligned.
+* Architects understand that architecture documentation and modularization implementation must be aligned.
 
 * Architects can document the principles and rules of the modularization strategy.
 
