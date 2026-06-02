@@ -26,6 +26,6 @@
 - Bottom-up and top-down modularization
 - Module mechanisms
 - Modularization and deployment
-- Inverse-Conway-Maneuver
+- Inverse Conway Maneuver
 
 // end::EN[]
