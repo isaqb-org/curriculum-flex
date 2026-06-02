@@ -104,7 +104,7 @@
 
 * Architects understand that, for an external interface to remain useful to many different clients, a process is required that governs changes.
 
-* Architects understand the possibility of changing the organization to match the modularization (Inverse-Conway-Maneuver).
+* Architects understand the possibility of changing the organization to match the modularization (Inverse Conway Maneuver).
 
 * Architects understand the need to decompose a system into coarse-grained building blocks before modules exist, and can draft a such a decomposition for a system top-down according to known requirements.
 
