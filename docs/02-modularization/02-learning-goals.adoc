@@ -7,6 +7,7 @@
 
 * Architekt:innen verstehen, dass Flexibilität im Kontext dieses Curriculums die Fähigkeit bezeichnet, das System an sich ändernde Anforderungen anpassen zu können.
 
+
 * Architekt:innen verstehen die Rolle des Geheimnisprinzips beim Erreichen von Flexibilität, insbesondere dem Verstecken von Entscheidungen, die schwierig zu treffen oder später schwer zu ändern sind.
 
 * Architekt:innen können Modularisierung benutzen, um konzeptuelle Bausteine auf (technische) Module abzubilden.
@@ -19,6 +20,8 @@
 * Architekt:innen verstehen, dass das Ziel von Modularisierung ist, die Kopplung zwischen Modulen zu reduzieren.
 
 * Architekt:innen verstehen mögliche Ursachen von enger Kopplung zwischen Modulen, wie falsch gesetzte Modulgrenzen, schlecht entworfene APIs und übermäßig eingeschränkte Kommunikation zwischen Modulen.
+
+* Architekt:innen verstehen die besondere Rolle von veränderlichem Zustand bei enger Kopplung.
 
 * Architekt:innen können eine Modularisierung bottom-up entwerfen, die Kopplung niedrig hält.
 
