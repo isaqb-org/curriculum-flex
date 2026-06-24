@@ -1,0 +1,161 @@
+=== {learning-goals}
+
+// tag::DE[]
+[[LZ-3-1]]
+==== LZ 3-1: Tradeoffs und Herausforderungen bei Verteilung
+
+Software-Architekt:innen verstehen die Implementierungs-Tradeoffs zwischen monolithischen und verteilten Systemen:
+
+* unabhängiges Deployment von Modulen
+
+* Interoperatibilitätsprüfung zur Compilezeit
+
+* Durchsatz beim Ausliefern von neuen Features in Produktion
+
+* Synergie durch das Wiederverwenden von Code zwischen Subsystemen
+
+* Schwierigkeit, Modulgrenzen zu verschieben
+
+Software-Architekt:innen verstehen die Herausforderungen bei Kommunikation und Implementierung in verteilten Systemen:
+
+* Fehler bei der Zustellung von Nachrichten
+
+* Überlastung durch divergierende Verarbeitungsgeschwindigkeiten im Gesamtsystem
+
+* Netzwerk-Latenz
+
+* Observability
+
+* Testen
+
+* Fehler-Lokalisierung
+
+[[LZ-3-2]]
+==== LZ 3-2: Verteilungsstrategie
+
+* Software-Architekt:innen können angemessene Modulgrenzen bestimmen, um Services zu separieren.
+
+* Software-Architekt:innen verstehen die Tradeoffs zwischen Request-/Response-Kommunikation und Fire-and-Forget.
+
+* Software-Architekt:innen verstehen, dass in verteilten Systeme sowohl implizite als auch explizite Queues wirken.
+
+* Software-Architekt:innen können eine Kommunikationsstrategie zwischen Services in einem verteilten System entwerfen.
+
+* Software-Architekt:innen können eine Architektur entwerfen, die horizontale Skalierbarkeit mit Microservices erreicht.
+
+* Software-Architekt:innen können eine angemessene Kommunikationsstrategie für eine Self-Contained-Systems-Architektur entwerfen.
+
+[[LZ-3-3]]
+==== LZ 3-3: Verteilungsmechanismen
+
+* Software-Architekt:innen kennen Mechanismen für die Kommunuikation in einem verteilten System wie REST, SOAP, GraphQL, gRPC, Thrift, Event-Feeds und Message-Oriented Middleware.
+
+* Software-Architekt:innen kennen Sprachen für Schnittstellen in verteilten Systemen wie Protocol Buffers, WSDL, JSON-Schemata, XML-Schemata, GraphQL-Schemata, OpenAPI und AsyncAPI.
+
+* Software-Architekt:innen können angemessen Technologien und Konventionen auswählen, um Kommunikation in einem verteilten System zu implementieren.
+
+* Software-Architekt:innen können angemessene Fehlererkennungs- und Mitigations-Strategien entwerfen.
+
+[[LZ-3-4]]
+==== LZ 3-4: Verteilter Zustand
+
+* Software-Architekt:innen können eine angemessen Strategie entwerfen, um verteilten Zustand zu verwalten.
+
+* Software-Architekt:innen verstehen die Schwierigkeit, ACID in einem verteilten Umfeld zu erreichen.
+
+* Software-Architekt:innen verstehen die Tradeoffs, die das CAP-Theorem impliziert.
+
+* Software-Architekt:innen können entscheiden, wann BASE eine angemessen Strategie ist, um verteilten Zustand zu verwalten.
+
+[[LZ-3-5]]
+==== LZ 3-5: Verteilung und die Organisation
+
+* Software-Architekt:innen verstehen den Wert und die Tradeoffs beim Auferlegen makroarchitektonischer Einschränkungen über die Organisation hinweg.
+
+* Software-Architekt:innen verstehen die Tradeoffs bei der Verwendung gemeinsamer Module über organisatorische Einheiten hinweg und "Share-Nothing"-Strategien.
+
+* Software-Architekt:innen können Abstraktionen über organisatorische Einheiten hinweg auswählen und implementieren (wie Plattform, Libraries, DSLs).
+
+// end::DE[]
+
+// tag::EN[]
+
+[[LG-3-1]]
+==== LG 3-1: Distribution tradeoffs and challenges
+
+Software architects understand the implementation tradeoffs between monolithic and distributed systems:
+
+* independent deployment of modules
+
+* compile-time interopability checks
+
+* velocity shipping new features to production
+
+* synergy from re-using code among subsystems
+
+* difficulty of moving module boundaries
+
+Software architects understand the communication and implementation challenges in distributed systems:
+
+* message delivery failure
+
+* overload from divergent processing rates in the overall system
+
+* network latency
+
+* observability
+
+* testing
+
+* fault localization
+
+[[LG-3-2]]
+==== LG 3-2: Distribution strategy
+
+* Software architects can choose appropriate module boundaries to separate services.
+
+* Software architects understand the tradeoffs of request/response communication vs. fire-and-forget.
+
+* Software architects understand that distributed systems involve both implicit and explicit queues.
+
+* Software architects can design a communication strategy between services in a distributed system.
+
+* Software architects can design an architecture for achieving horizontal scalability using microservices.
+
+* Software architects can implement an appropriate communication strategy for a self-contained systems architecture.
+
+[[LG-3-3]]
+==== LG 3-3: Distribution mechanisms
+
+* Software architects know mechanisms for communication in a distributed system such as REST, SOAP, GraphQL, gRPC, Thrift, event feeds, and message-oriented middleware.
+
+* Software architects know languages for interfaces in distributed systems such as Protocol Buffers, WSDL, JSON schemas, XML schemas, GraphQL schemas, OpenAPI, and AsyncAPI.
+
+* Software architects can choose appropriate technologies and conventions for implementing communication in a distributed system.
+
+* Software architects can design appropriate fault detection and mitigation strategies.
+
+[[LG-3-4]]
+==== LG 3-4: Distributed state
+
+* Software architects can design an appropriate strategy for maintaining distributed state.
+
+* Software architects understand the difficulty of achieving ACID in a distributed setting.
+
+* Software architects understand the tradeoffs implied in the CAP theorem.
+
+* Software architects can decide when BASE is an appropriate strategy for maintaining distributed state.
+
+* Software architects can utilize events for maintaining distributed state.
+
+[[LG-3-5]]
+==== LG 3-5: Distribution and the organization
+
+* Software architects understand the value and tradeoffs of imposing macro-architectural constraints across the organization.
+
+* Software architects understand the tradeoffs between using common modules across organizational units and "shared nothing" strategies.
+
+* Software architects can choose and implement abstractions (such as platform, libraries, DSLs) across organizational units.
+
+
+// end::EN[]

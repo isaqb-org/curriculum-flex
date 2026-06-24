@@ -5,12 +5,12 @@
 
 === Begriffe und Konzepte
 
-- Motivation für die Dekomposition in kleinere Systeme
-- Unterschiedliche Arten von Modularisierung, Kopplung
-- Systemgrenzen als Mittel für Isolation
-- Hierarchische Struktur
-- Anwendung, Applikation, Self-contained System, Microservice
-- Domain-Driven Design-Konzepte und „Strategic Design“, Bounded Contexts
+- Flexibilität als Fähigkeit, das System zu ändern
+- Beziehung zwischen Modularisierung, Kopplung und Kohäsion
+- Bottom-up und Top-down-Modularisierung
+- Modulmechanismen
+- Modularisierung und Deployment
+- Inverse-Conway-Manöver
 
 // end::DE[]
 
@@ -21,12 +21,11 @@
 
 === Terms and Principles
 
-- Motivation for decompositioning into smaller systems
-- Different kinds of modularisation, coupling
-- System limits as a way of isolation
-- Hierarchical structure
-- Application, Self-contained System, Microservice
-- Domain-Driven Design Concepts and "Strategic Design", Bounded Contexts
-
+- Flexibility as the ability to change the system
+- Relationship between modularization, coupling, and cohesion
+- Bottom-up and top-down modularization
+- Module mechanisms
+- Modularization and deployment
+- Inverse Conway Maneuver
 
 // end::EN[]

@@ -10,6 +10,10 @@ Dieser Abschnitt enthält Quellenangaben, die ganz oder teilweise im Curriculum 
 This section contains references that are cited in the curriculum.
 // end::EN[]
 
+**A**
+
+- [[[architecturetvmanagement, Architektur im Stream]]] Software-Architektur im Stream:Architecture Management https://software-architektur.tv/tags.html#Architecture%20Management
+
 **B**
 
 - [[[baxtersommerville,Baxter, Sommerville 2011]]] Gordon Baxter, Ian Sommerville: Sociotechnical Systems Design: Evolving Theory and Practice, 2011, https://academic.oup.com/iwc/article/23/1/4/693091
@@ -36,6 +40,10 @@ This section contains references that are cited in the curriculum.
 - [[[fowler,Lewis, Fowler, et al. 2013]]] James Lewis, Martin Fowler, et al.: Microservices - http://martinfowler.com/articles/microservices.html, 2013
 - [[[lamport,Lamport 1998]]] Leslie Lamport, The Part-Time Parliament, ACM Transactions on Computer Systems 16, 2 (May 1998), 133-169
 
+**M**
+
+- [[[minskymadhavapeddy, Minsky, Madhavapeddy 2022]]] Yaron Minsky, Anil Madhavapeddy: Real-World OCaml. Cambridge University Press, 2022.
+
 **N**
 
 - [[[newman,Sam Newman 2021]]] Sam Newman: Building Microservices: Designing Fine-Grained Systems, O'Reilly Media, 2nd ed. edition, 2021, ISBN 978-1-49203-402-5
@@ -46,6 +54,8 @@ This section contains references that are cited in the curriculum.
 - [[[oauth,Parecki et al. 2006]]] Aaron Parecki et al., Explaining OAuth 2.0 http://oauth.net/
 
 **P**
+
+- [[[parlog, Parlog 2019]]] Nicolai Parlog, The Java Module System, Manning, 2019.
 
 - [[[parnas,Parnas 1972]]] David Parnas, On the Criteria To Be Used
   in Decomposing Systems into Modules.  Communications of the ACM
