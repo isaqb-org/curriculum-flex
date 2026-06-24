@@ -5,7 +5,7 @@
 [[LZ-2-1]]
 ==== LZ 2-1: Ziele von Modularisierung
 
-* Architekten verstehen, dass Flexibilität im Kontext dieses Curriculums die Fähigkeit bezeichnet, das System an sich ändernde Anforderungen anzupassen.
+* Architekten verstehen, dass Flexibilität im Kontext dieses Curriculums die Fähigkeit bezeichnet, das System an sich ändernde Anforderungen anpassen zu können.
 
 * Architekturen verstehen die Rolle des Geheimnisprinzips beim Erreichen von Flexibilität, insbesondere dem Verstecken von Entscheidungen, die schwierig zu treffen oder später schwer zu ändern sind.
 
