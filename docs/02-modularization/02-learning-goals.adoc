@@ -5,9 +5,9 @@
 [[LZ-2-1]]
 ==== LZ 2-1: Ziele von Modularisierung
 
-* Architekten verstehen, dass Flexibilität im Kontext dieses Curriculums die Fähigkeit bezeichnet, das System an sich ändernde Anforderungen anpassen zu können.
+* Architekt:innen verstehen, dass Flexibilität im Kontext dieses Curriculums die Fähigkeit bezeichnet, das System an sich ändernde Anforderungen anpassen zu können.
 
-* Architekturen verstehen die Rolle des Geheimnisprinzips beim Erreichen von Flexibilität, insbesondere dem Verstecken von Entscheidungen, die schwierig zu treffen oder später schwer zu ändern sind.
+* Architekt:innen verstehen die Rolle des Geheimnisprinzips beim Erreichen von Flexibilität, insbesondere dem Verstecken von Entscheidungen, die schwierig zu treffen oder später schwer zu ändern sind.
 
 * Architekt:innen können Modularisierung benutzen, um konzeptuelle Bausteine auf (technische) Module abzubilden.
 
@@ -35,7 +35,7 @@
 
 * Architekt:innen verstehen, dass, damit eine externe Schnittstelle für viele Abnehmer:innen nützlich ist, ein Prozess benötigt wird, der Änderungen verwaltet.
 
-* Architekt:inne verstehen die Möglichkeit, die Organisation so zu verändern, dass sie zur Modularisierung passt (Inverse-Conway-Manöver).
+* Architekt:innen verstehen die Möglichkeit, die Organisation so zu verändern, dass sie zur Modularisierung passt (Inverse-Conway-Manöver).
 
 * Architekt:innen verstehen die Notwendigkeit, ein System in grobgranulare Bausteine zu zerlegen, bevor Module existieren und können eine solche Zerlegung für ein System top-down entsprechend bekannten Anforderungen entwerfen.
 
